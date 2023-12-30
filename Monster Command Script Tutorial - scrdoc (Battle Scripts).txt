@@ -1,0 +1,1114 @@
+FF3 Monster Command Script Tutorial
+by Master ZED (masterzed@aol.com)
+
+*if viewing in Notepad maximize so this doesn't look like garbage*
+
+Table of Contents
+
+I. Before anything: What you'll need
+1. Purpose
+2. How to Get Where You're Going in the ROM
+3. Writing a Guard
+4. Items, Targeting, and Other Assorted Mush
+5. Why Does Vargas Only Die Against Pummel?
+6. Variables, Low HP attacks, and All the Rest.
+7. The Leftover Goodies
+A. Lists
+B. Greetz
+
+-------------------------------------------------------------------------------------
+I. Before anything: What you'll need
+-------------------------------------------------------------------------------------
+
+A Hex Editor.
+Don't have one? You can get A.X.E. at some random site.  It's free at least,
+but you won't needanything too advanced for this at any rate so don't worry about getting
+something that costs money unless you plan on going further.
+
+A little knowledge of hexadecimal or a hex calculator.
+This is the number system you'll be using, although you'll be using mainly just commands it
+will help you to be a little familiar with it or to have a hex calculator ready.  The Windows
+Calculator has hex functions (go to View and select Scientific).  You will need it to calculate
+where pointers lead to, but thankfully for the layman to hex that's the most important thing.
+You may need the calculator later for stuff like elemental counters, but if you do enough of
+those you'll eventually learn hex enough to add up to 15, or Fh, which for elemental counters
+is all you need to know anyway.
+Basically: you may need the hex calculator mainly for pointers, but not much else.
+
+A spell, item, and command list.
+These are at the end of this doc.  You basically need these to set attacks up.
+Reader's response: DUH! :)
+
+-------------------------------------------------------------------------------------
+1. Purpose
+-------------------------------------------------------------------------------------
+
+The purpose of this doc is to teach you how to write/modify the monster's command scripts
+in "Everyone's fav RPG for your SNES," Final Fantasy 3/6j.  I would've left it at notes,
+but eventually I felt a tutorial was needed for this (more like "kindly alerted to the fact").
+The stupid things have their own order and stuff, so it's like learning a very simple
+programming language meant for babies.  It may have been a total ^@#$! to decypher for others
+and myself over the course of about over a year and a half, but for you it will take all
+of probably 20 minutes to know how to write Atma better than Square could have ever prayed for.
+
+Good luck, you may need it depending on your IQ. :)
+
+-------------------------------------------------------------------------------------
+2. How to Get Where You're Going in the ROM
+-------------------------------------------------------------------------------------
+
+Short and sweet:
+
+F8600h = beginning of enemy command script pointers.  2 bytes each.
+
+These point to where in the huge script space alloted in the ROM the monster's script starts.
+
+For EXAMPLE - at some random pointer address: 84 03
+
+The address of the pointer itself isn't exactly important.  So exactly *where* does that
+lead?  How can you tell where to go?
+
+F8900h + 384h = F8C84h : where the monster's script begins!
+
+Explanation:
+
+F8900h - This is where the script area begins.  This is always added on to the pointer value.
+
+384h - The pointer value.  It said 84 03 up there, right?  Well, that's because the SNES normally
+reads values big end last, or big-endian.  Since 03 was last, it became 300h.  84h was added on
+to that, so 300h + 84h = 384h.  It's a lousy explanation, yeah, but as long as you get what
+I just said enough to correctly calculate a pointer you'll be fine. :)
+
+F8C84h - the result of the calculation.  This is where you go to see your monster's command
+script!
+
+Got it now?  Good.  If ya don't, reread it, or e-mail me, or preferably post to the GameFAQs 
+SNES FF3 Message board.  I'd much rather respond to something there than an e-mail because
+then you may or may not have to wait on me for your answer.
+
+-------------------------------------------------------------------------------------
+3. Writing a Guard
+-------------------------------------------------------------------------------------
+
+Guard has the simplest command script in the game, and that's also the first script written.
+Let's take a look at it, shall we?
+
+F0 EE EE EF FF FF
+
+"So like, what is it?"
+
+The simplest list in the game.  What you see before you can be divided into 3 parts:
+
+F0 - tells the game the next 3 bytes are spells that it must choose 1 from and use, then move on.
+
+EE EE EF - the 3 spells to choose from.  In case you're wondering, these are the spells
+in Hex and English:
+
+EE     | EE     | EF
+-------------------------
+Battle | Battle | Special
+
+FF FF - ends the list.  There's always 2 of these commands in a script, I will explain why
+                        there are 2 later.
+
+That doesn't look too hard to write out, does it?  I hope not, 'cause we're moving along.
+
+-------------------------------------------------------------------------------------
+4. Items, Targeting, and Other Assorted Mush
+-------------------------------------------------------------------------------------
+
+So now you know how typical spell casting is done.  So what if I wanted to use Potions
+and stuff?  What if I wanted to Jump?  That's what this next section teaches.
+
+First, the command for Items: F6h.  For example:
+
+F6 00 F8 F8
+
+This would allow you to use a Green Cherry.
+Now, say you wanted to throw the Atma Weapon.  Guess how kind Square was to us:
+
+F6 01 1C 1C
+
+Notice the difference in the 2nd byte?  00h tells the game that the next two bytes are to
+be used as items, anything over results in it being thrown.  Which item byte it chooses is
+random.
+
+Now if you used the 2 examples above alone, there may have been something you noticed wrong with
+the Cherry.  Your monster may have used it on the player and not itself!  What gives!?
+The reason for this is because F6 usually targets the enemy automatically, along with pretty
+much every command out there.  So what was a Square programmer to do about this?
+
+Force it into Targeting what he wanted, of course!
+
+This beautiful command is F1h.  For example, let's get our Green Cherry working:
+
+F1 36 F6 00 F8 F8
+
+If you use that, the monster will use Green Cherry only on itself.  As you may have noticed,
+the extra byte (36h) was the only parameter F1 required.  That's because Targeting is all it
+does.  So what are all of the known Targeting values of this command?  I'm so glad you asked!
+
+     0-15 = Actor to target (list of actors at the end of this doc)
+     36 = Self
+     37 = All allies, but not self (if N/A, all enemies)
+     38 = All allies including oneself
+     39 = Single ally
+     3D = Wounded ally (if N/A, targets random ally)
+     43 = All enemies
+     44 = Single enemy
+     47 = Depends on the attack
+     48 = Character #1
+     49 = Character #2
+     4A = Character #3
+     4B = Character #4
+
+So now you know how to target stuff with items, throw things, and now we're going to learn how
+to Jump!  No kidding, you remember the DragoonBoots?  You remember the command it gave you?
+
+Well, monsters too can use some of these wonderful commands.
+The key to them is through F4h.  Let's see an example:
+
+F4 16 16 16
+
+Very simple: F4 followed by 16h 3 times.  16h BTW is Jump.  F4 has 3 parameters and works
+like F0.  Very simple.  But say you wanted to use Health.  That, I will tell you now, will
+target the player, but the monster will not hit itself with it.  Remember the little command
+we used for the Green Cherry?
+
+If you immediately thought F1, you've got the hang of the simple commands!
+
+Before we go on, however, three more commands you need to know:
+
+FD, FE, and FF.
+
+They all have two things in common, they all end F1's influence, and they're used as fillers.
+
+FD is typically used in-between some commands and spells (like F0 D1 D7 DE FD EE for example
+usage).
+
+FE is used to end the influence of FC commands (explained in the next section) and also as
+filler for commands like F0.
+Example: F0 FE FE D1 FD
+This makes an approximately 33.3% chance that the monster will use HyperDrive this turn.
+If it chooses FE, it will do nothing this turn and FD will stall the monster before it can
+continue.
+
+FF ends command lists.  The first FF command used will end your monster's normal and special
+attack list.  The 2nd FF will end the list entirely.  What do you put between FF commands?
+Final attacks and counterattacks!  You will learn about those in the next section as well,
+but it may help you understand FF a little to see an example now:
+
+F0 EE EE EF FF FC 12 06 00 C0 14 FF
+
+The F0 you're already familiar with.  You'll notice after it ends FFh is used.  After this
+a final attack has been implemented.  Finals and counters only work AFTER the first FF.
+Don't worry, if you forget that I'll be repeating it in the next section at least once.
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]
+BUT TAKE NOTE NOW: The command used for boss deaths, F5h, typically looks like this:
+
+F5 0C 01 FF
+
+That FF is part of F5!  This can throw you off when reading the command scripts in pure hex
+and has thrown me off at least twice resulting in major blunders, such as my mistake in reading
+Umaro's Jump as a dummy command.  I read the FF in F5 and thought that's where the list ended.
+This resulted in I missing the Magic counter entirely, where after 3 Magic attacks, a variable
+would be equal to 3, resulting in Jump being triggered in the main list.
+You'll learn all of this in due time, of course. :)
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]
+
+Now let's take a quick look at the rest of this, how to make a good list.
+
+-------------------------------------------------------------------------------------
+5. Why Does Vargas Only Die Against Pummel?
+-------------------------------------------------------------------------------------
+
+With knowledge of some basic commands, you can now learn the most complex, but most valuable
+command: FCh, along with a few others.  This is a plethora of commands in 1, and has a 3 byte
+parameter.
+
+If you thought the rest of this tutorial was pretty basic, it was just a prep for this.
+
+We'll start with a boss death from another command, however, then tie it into FC.
+How does a boss achieve its death?  With F5.
+
+Example: F5 0C 01 FF
+
+Now if you just use the command, the monster will use it and die off.  This is where
+you set it as a final attack.  The command is the *gasp* FC 12 command.
+
+Example for Final: FC 12 00 00 F5 0C 01 FF
+
+When the monster dies, it will die a boss death.  Simple enough, but you can't just put
+this anywhere.  You must set finals and counters AFTER the first FF.
+
+So let's go for a counter, shall we?
+
+There are 6 counters known so far: command, magic spell, item, elemental, attack,
+and everything.  Examples given for the counters in the same order:
+
+FC 01 00 00 F6 01 01 01 - Counters Fight with a thrown MithrilKnife
+FC 02 14 14 D1 D1 D1 D1 - Counters Ultima with 4 HyperDrive spells
+FC 03 FB FB F5 0C 01 FF - Counters Green Cherry with a boss death
+FC 04 01 00 F0 8B 13 14 - Counters Fire attacks with a random spell: Condemned, Meteor, Ultima
+FC 05 00 00 EE EE EE EF - Counters any attack with 3 Battle commands and a Special attack
+FC 10 00 00 EE EE EF E0 - Counters anything by the player with 2 Battle commands,
+                          a Special attack, and Revenger.
+
+*Review*
+
+You have your counters, so let's see a sample of what a GOOD list for blah monster could
+play like, using what we've learned:
+
+F0 D1 D1 A0 FD EE FD F0 35 2F 8C FD F1 36 F6 00 EC EC FF FC 12 00 00 F5 0C 01 FF
+FE FC 01 09 09 F6 01 1B 1B FE FC 04 02 00 17 F4 05 05 05 FF
+
+Can't tell what this list does?  Lemme outline it for ya:
+
+F0 D1 D1 A0 FD EE FD F0 35 2F 8C FD F1 36 F6 00 EC EC FF
+
+The main attack script.
+Random spell: HyperDrive / Quasar | Wait
+Battle | Wait
+Random spell: Life 3 / Cure 3 / Roulette | Wait
+Target Self, Item: Ether | End main script
+
+Begin Counters and Finals -
+
+FC 12 00 00 F5 0C 01 FF FE
+
+Final Attack: Boss death | End influence of FC
+
+FC 01 09 09 F6 01 1B 1B FE
+
+Counter Tools: Throw Ragnarok | End influence of FC
+
+FC 04 02 00 17 F4 05 05 05 FF
+
+Counter Ice-elemental attacks: Merton, Steal | End entire script
+
+*End Review*
+
+So why does Vargas die only against Pummel?
+They used a spell counter and not a command counter.  Their brains were missing that day, huh?
+
+Now, let's get to the remaining stuff.
+
+-------------------------------------------------------------------------------------
+6. Variables, Low HP attacks, and All the Rest.
+-------------------------------------------------------------------------------------
+
+The rest, along with unknown stuff, is right here.  We'll begin with mathematical variables!
+
+These are controlled by F8.  You may be asking yourself, "Why were these put in and what good
+are they?" Good question.  Remember Umaro and his Jump counter I mentioned earlier in my F5
+command Boss death warning?  F8 was used to determine if Magic had struck him 3 times.  Every
+time Magic struck, the following script was used:
+
+FC 01 02 02 F8 24 81 FE
+
+F8 24 81 - Adds 1 to variable 24.
+When variable 24 == 03, Jump would be invoked by this:
+
+FC 0D 24 03 F4 16 16 16 F8 24 00 FE
+
+FC 0D 24 03 - If variable 24 == 3...
+F8 24 00 - Set variable 24 to 0.
+F8 sets up variables.  Any value can be used as a variable (I assume so) and all variables are
+started out at 0.  FC 0D checks a variable to see if it should initialize.
+F8's two parameters are the variable ID and the operand w/ value respectively.  F8's operands
+are as follows:
+
+0? - Set variable to ?
+8? - Add ? to variable
+C? - Subtract ? from variable
+
+It's not known if multiplication and division are there, but they really aren't needed as you
+can only manipulate these with values ranging from 0 to 15 decimal (0-Fh).
+
+Now, sometimes a monster will switch up attacks when they reach under a certain HP rating.
+This is done with the FC command FC 06.  The 1st byte is used for who will be the target.  The
+values for this are the same as F1, which means if Square wanted to they could have had a monster
+scan for your HP rating and unleash a powerful move right when you don't need it!  However,
+most of these if not all were used with 36, which is the value that targets the creature itself.
+The 2nd byte is used for HP rating.  It's only 1 byte, but this byte's value is multiplied by
+128 decimal (80h).  This means you can scan for going under or to 32640 HP or lower.
+
+Example time!
+
+FC 06 36 80 F0 CB CB 8B FE
+
+This, when the monster goes down to or under 16384 HP, will trigger a random spell: Sneeze or
+Condemned.  The switch may be a permanent one, as this comes in the main attack list before the
+regular commands of a monster.
+
+By this time you should pretty much get the order of FC, so I'll list all known functions
+of FC:
+
+     01 = Command Counterattack.
+          Next two are what commands to counter.
+     02 = Spell counter
+          Next two bytes = the spell(s) to counter.
+     03 = Item counter
+          Next two are what items to counter.  
+     04 = Elemental counter
+          Byte 1:
+          1st part: Fire, Ice, Lightning, Poison
+          2nd part: Wind, Pearl, Earth, Water
+          Byte 2 is unknown
+     05 = Begin using attack(s) when damaged
+          Healing and misses will not provoke this "counter."  Ailments untested.
+          This can be used with other FC commands.  Next two unknown.
+     06 = Low HP attack counter
+          1st byte = who has HP rating, 2nd byte = Trigger at this HP rating or below it.
+          HP rating is whatever you put in * 80h (128 decimal)
+     0B = If 0F 00 follow up, means 3 turns have passed.
+     0D = Byte 1 is the variable used, byte 2 is the value it must be equal to or greater
+          than to activate.  The variables are set by F8.
+     10 = Counterattack everything.  Next two unknown.
+     12 = Final attack.
+          Byte 1 = Which monsters in template must be dead to trigger, put 00 to ignore this.
+          Byte 2 unused by any monsters, so it is unknown.
+     13 = Attack(s) if # of monsters are left.
+          Next two bytes = # of monsters left to activate (unknown if multiple #'s
+          can be assigned)
+     1A = Byte 1 is the target, Byte 2 is the element(s) the target is weak against to
+          activate.
+
+Now, the scheme of things:
+
+1. Counters and Finals should be placed after the first FF command.
+2. Low HP attacks are *typically* used before the first FF.
+3. If you don't know how to use a command, the best way to find out is go by Square's examples!
+
+At this point you should understand how to write your own list.  The next section will list
+the remaining known commands so you know what they are and how to use them.
+
+-------------------------------------------------------------------------------------
+7. The Leftover Goodies
+-------------------------------------------------------------------------------------
+
+F2: Replacement template manipulator
+3 byte parameter, byte 1 for method of death, 2 and 3 used as a template pointer.
+Please refer to Kefka's goons for example usage.
+
+F3: Text messages
+2 byte parameter, both bytes used to point to text used.
+Example: F3 4C 00
+004C is CzarDragon's quote.  This example does not exist in the game, BTW.
+
+F7: Battle Events
+1 byte parameter, byte used to point to event used.
+
+F9: Unknown at the current time
+3 byte parameter, refer to ROM for example usage.
+
+FA: Palette manipulation (glow effects and stuff)
+3 byte parameter, refer to ROM for example usage.
+
+FB: Think up your own stupid name for this one. :)
+2 byte parameter, 1st byte determines action, byte 2 depends on byte 1.
+Example: FB 01 36
+01 = invincibility, 2nd byte = aiming in this example.  Used by Guardian.
+
+-------------------------------------------------------------------------------------
+A. Lists
+-------------------------------------------------------------------------------------
+
+Magic list:
+
+00:ºFire**
+01:ºIce***
+02:ºBolt**
+03:ºPoison
+04:ºDrain*
+05:ºFire 2
+06:ºIce 2*
+07:ºBolt 2
+08:ºBio***
+09:ºFire 3
+0A:ºIce 3*
+0B:ºBolt 3
+0C:ºBreak*
+0D:ºDoom**
+0E:ºPearl*
+0F:ºFlare*
+10:ºDemi**
+11:ºQuartr
+12:ºX-Zone
+13:ºMeteor
+14:ºUltima
+15:ºQuake*
+16:ºW Wind
+17:ºMerton
+18:öScan**
+19:öSlow**
+1A:öRasp**
+1B:öMute**
+1C:öSafe**
+1D:öSleep*
+1E:öMuddle
+1F:öHaste*
+20:öStop**
+21:öBserk*
+22:öFloat*
+23:öImp***
+24:öRflect
+25:öShell*
+26:öVanish
+27:öHaste2
+28:öSlow 2
+29:öOsmose
+2A:öWarp**
+2B:öQuick*
+2C:öDispel
+2D:•Cure**
+2E:•Cure 2
+2F:•Cure 3
+30:•Life**
+31:•Life 2
+32:•Antdot
+33:•Remedy
+34:•Regen*
+35:•Life 3
+36:Ramuh***
+37:Ifrit***
+38:Shiva***
+39:Siren***
+3A:Terrato*
+3B:Shoat***
+3C:Maduin**
+3D:Bismark*
+3E:Stray***
+3F:Palidor*
+40:Tritoch*
+41:Odin****
+42:Raiden**
+43:Bahamut*
+44:Alexandr
+45:Crusader
+46:Ragnarok
+47:Kirin***
+48:ZoneSeek
+49:Carbunkl
+4A:Phantom*
+4B:Sraphim*
+4C:Golem***
+4D:Unicorn*
+4E:Fenrir**
+4F:Starlet*
+50:Phoenix*
+51:Fire Skean
+52:Water Edge
+53:Bolt Edge*
+54:Storm*****
+55:Joker Doom(really Dispatch)
+56:**********(really Retort)
+57:**********(really Slash)
+58:**********(really Quadra Slam)
+59:**********(really Empowerer)
+5A:**********(really Stunner)
+5B:**********(really Quadra Slice)
+5C:**********(really Cleave)
+5D:Pummel****
+5E:AuraBolt**
+5F:Suplex****
+60:Fire Dance
+61:Mantra****
+62:Air Blade*
+63:Spiraler**
+64:Bum Rush**
+65:Wind Slash
+66:Sun Bath**
+67:Rage******
+68:Harvester*
+69:Sand Storm
+6A:Antlion***
+6B:Elf Fire**
+6C:Specter***
+6D:Land Slide
+6E:Sonic Boom
+6F:El Nino***
+70:Plasma****
+71:Snare*****
+72:Cave In***
+73:Snowball**
+74:Surge*****
+75:Cokatrice*
+76:Wombat****
+77:Kitty*****
+78:Tapir*****
+79:Whump*****
+7A:Wild Bear*
+7B:Pois. Frog
+7C:Ice Rabbit
+7D:Bio Blast*(Super Ball)
+7E:Flash*****
+7F:Chocobop**
+80:H-Bomb****
+81:7-Flush***
+82:Megahit***(Leo's Shock)
+83:Fire Beam*
+84:Bolt Beam*
+85:Ice Beam**
+86:Bio Blast*
+87:Heal Force
+88:Confuser**
+89:X-fer*****
+8A:TekMissile
+8B:Condemned*
+8C:Roulette**
+8D:CleanSweep
+8E:Aqua Rake*
+8F:Aero******
+90:Blow Fish*
+91:Big Guard*
+92:Revenge***
+93:Pearl Wind
+94:L.5 Doom**
+95:L.4 Flare*
+96:L.3 Muddle
+97:Reflect???
+98:L? Pearl**
+99:Step Mine*
+9A:ForceField
+9B:Dischord**
+9C:Sour Mouth
+9D:Pep Up****
+9E:Rippler***
+9F:Stone*****
+A0:Quasar****
+A1:GrandTrain
+A2:Exploder**
+A3:Imp Song**
+A4:Clear*****
+A5:Virite****
+A6:ChokeSmoke
+A7:Schiller**
+A8:Lullaby***
+A9:Acid Rain*
+AA:Confusion*
+AB:Megazerk**
+AC:Mute******
+AD:Net*******
+AE:Slimer****
+AF:Delta Hit*
+B0:Entwine***
+B1:Blaster***
+B2:Cyclonic**
+B3:Fire Ball*
+B4:Atomic Ray
+B5:Tek Laser*
+B6:Diffuser**
+B7:WaveCannon
+B8:Mega Volt*
+B9:Giga Volt*
+BA:Blizzard**
+BB:Absolute 0
+BC:Magnitude8
+BD:Raid******
+BE:Flash Rain
+BF:TekBarrier
+C0:Fallen One
+C1:WallChange
+C2:Escape****
+C3:50 Gs*****
+C4:Mind Blast
+C5:N. Cross**
+C6:Flare Star
+C7:Love Token
+C8:Seize*****
+C9:R.Polarity
+CA:Targeting
+CB:Sneeze****
+CC:S. Cross**
+CD:Launcher**
+CE:Charm*****
+CF:Cold Dust*
+D0:Tentacle**
+D1:HyperDrive
+D2:Train*****
+D3:Evil Toot*
+D4:Grav Bomb*
+D5:Engulf****
+D6:Disaster**
+D7:Shrapnel**
+D8:Bomblet***
+D9:Heart Burn
+DA:Zinger****
+DB:Discard***
+DC:Overcast**
+DD:Missile***
+DE:Goner*****
+DF:Meteo*****
+E0:Revenger**
+E1:Phantasm**
+E2:Dread*****
+E3:Shock Wave
+E4:Blaze*****
+E5:Soul Out**
+E6:Gale Cut**
+E7:Shimsham**
+E8:Lode Stone
+E9:Scar Beam*
+EA:BabaBreath
+EB:Lifeshaver
+EC:Fire Wall*
+ED:Slide*****
+EE:Battle****
+EF:Special***
+F0:Riot Blade
+F1:Mirager***
+F2:Back Blade
+F3:ShadowFang
+F4:RoyalShock
+F5:TigerBreak
+F6:Spin Edge*
+F7:SabreSoul*
+F8:Star Prism
+F9:Red Card**
+FA:MoogleRush
+FB:X-Meteo***
+FC:Takedown**
+FD:Wild Fang*
+FE:Lagomorph*
+FF:??????????
+
+Item List:
+
+00:Dirk
+01:MithrilKnife
+02:Guardian
+03:Air Lancet
+04:ThiefKnife
+05:Assassin
+06:Man Eater
+07:SwordBreaker
+08:Graedus
+09:ValiantKnife
+0A:MithrilBlade
+0B:Regal Cutlass
+0C:Rune Edge
+0D:Flame Sabre
+0E:Blizzard
+0F:ThunderBlade
+10:Epee
+11:Break Blade
+12:Drainer
+13:Enhancer
+14:Crystal
+15:Falchion
+16:Soul Sabre
+17:Ogre Nix
+18:Excalibur
+19:Scimitar
+1A:Illumina
+1B:Ragnarok
+1C:Atma Weapon
+1D:Mithril Pike
+1E:Trident
+1F:Stout Spear
+20:Partisan
+21:Pearl Lance
+22:Gold Lance
+23:Aura Lance
+24:Imp Halberd
+25:Imperial
+26:Kodachi
+27:Blossom
+28:Hardened
+29:Striker
+2A:Stunner
+2B:Ashura
+2C:Kotetsu
+2D:Forged
+2E:Tempest
+2F:Murasame
+30:Aura
+31:Strato
+32:Sky Render
+33:Heal Rod
+34:Mithril Rod
+35:Fire Rod
+36:Ice Rod
+37:Thunder Rod
+38:Poison Rod
+39:Pearl Rod
+3A:Gravity Rod
+3B:Punisher
+3C:Magus Rod
+3D:Chocobo Brsh
+3E:DaVinci Brsh
+3F:Magical Brsh
+40:Rainbow Brsh
+41:Shuriken
+42:Ninja Star
+43:Tack Star
+44:Flail
+45:Full Moon
+46:Morning Star
+47:Boomerang
+48:Rising Sun
+49:Hawk Eye
+4A:Bone Club
+4B:Sniper
+4C:Wing Edge
+4D:Cards
+4E:Darts
+4F:Doom Darts
+50:Trump
+51:Dice
+52:Fixed Dice
+53:MetalKnuckle
+54:Mithril Claw
+55:Kaiser
+56:Poison Claw
+57:Fire Knuckle
+58:Dragon Claw
+59:Tiger Fangs
+5A:Buckler
+5B:Heavy Shld
+5C:Mithril Shld
+5D:Gold Shld
+5E:Aegis Shld
+5F:Diamond Shld
+60:Flame Shld
+61:Ice Shld
+62:Thunder Shld
+63:Crystal Shld
+64:Genji Shld
+65:TortoiseShld
+66:Cursed Shld
+67:Paladin Shld
+68:Force Shld
+69:Leather Hat
+6A:Hair Band
+6B:Plumed Hat
+6C:Beret
+6D:Magus Hat
+6E:Bandana
+6F:Iron Helmet
+70:Coronet
+71:Bard's Hat
+72:Green Beret
+73:Head Band
+74:Mithril Helm
+75:Tiara
+76:Gold Helmet
+77:Tiger Mask
+78:Red Cap
+79:Mystery Veil
+7A:Circlet
+7B:Regal Crown
+7C:Diamond Helm
+7D:Dark Hood
+7E:Crystal Helm
+7F:Oath Veil
+80:Cat Hood    
+81:Genji Helmet
+82:Thornlet    
+83:Titanium    
+84:LeatherArmor
+85:Cotton Robe 
+86:Kung Fu Suit
+87:Iron Armor  
+88:Silk Robe   
+89:Mithril Vest
+8A:Ninja Gear  
+8B:White Dress 
+8C:Mithril Mail
+8D:Gaia Gear   
+8E:Mirage Vest 
+8F:Gold Armor  
+90:Power Sash  
+91:Light Robe  
+92:Diamond Vest
+93:Red Jacket  
+94:Force Armor 
+95:DiamondArmor
+96:Dark Gear   
+97:Tao Robe    
+98:Crystal Mail
+99:Czarina Gown
+9A:Genji Armor 
+9B:Imp's Armor 
+9C:Minerva     
+9D:Tabby Suit  
+9E:Chocobo Suit
+9F:Moogle Suit 
+A0:Nutkin Suit 
+A1:BehemothSuit
+A2:Snow Muffler
+A3:NoiseBlaster
+A4:Bio Blaster 
+A5:Flash       
+A6:Chain Saw   
+A7:Debilitator 
+A8:Drill       
+A9:Air Anchor  
+AA:AutoCrossbow
+AB:Fire Skean  
+AC:Water Edge  
+AD:Bolt Edge   
+AE:Inviz Edge  
+AF:Shadow Edge 
+B0:Goggles     
+B1:Star Pendant
+B2:Peace Ring  
+B3:Amulet      
+B4:White Cape  
+B5:Jewel Ring  
+B6:Fairy Ring  
+B7:Barrier Ring
+B8:MithrilGlove
+B9:Guard Ring  
+BA:RunningShoes
+BB:Wall Ring   
+BC:Cherub Down 
+BD:Cure Ring   
+BE:True Knight 
+BF:DragoonBoots
+C0:Zephyr Cape 
+C1:Czarina Ring
+C2:Cursed Ring 
+C3:Earrings    
+C4:Atlas Armlet
+C5:Blizzard Orb
+C6:Rage Ring   
+C7:Sneak Ring  
+C8:Pod Bracelet
+C9:Hero Ring   
+CA:Ribbon      
+CB:Muscle Belt 
+CC:Crystal Orb 
+CD:Gold Hairpin
+CE:Economizer  
+CF:Thief Glove 
+D0:Gauntlet    
+D1:Genji Glove 
+D2:Hyper Wrist 
+D3:Offering    
+D4:Beads       
+D5:Black Belt  
+D6:Coin Toss   
+D7:FakeMustache
+D8:Gem Box     
+D9:Dragon Horn 
+DA:Merit Award 
+DB:Memento Ring
+DC:Safety Bit  
+DD:Relic Ring  
+DE:Moogle Charm
+DF:Charm Bangle
+E0:Marvel Shoes
+E1:Back Guard  
+E2:Gale Hairpin
+E3:Sniper Sight
+E4:Exp. Egg    
+E5:Tintinabar  
+E6:Sprint Shoes
+E7:Rename Card 
+E8:Tonic       
+E9:Potion      
+EA:X-Potion    
+EB:Tincture    
+EC:Ether       
+ED:X-Ether     
+EE:Elixir      
+EF:Megalixir   
+F0:Fenix Down  
+F1:Revivify    
+F2:Antidote    
+F3:Eyedrop     
+F4:Soft        
+F5:Remedy      
+F6:Sleeping Bag
+F7:Tent        
+F8:Green Cherry
+F9:Magicite   
+FA:Super Ball 
+FB:Echo Screen
+FC:Smoke Bomb
+FD:Warp Stone
+FE:Dried Meat
+FF:Empty
+
+Targeting list:
+
+0-15 = Actor to target
+36 = Self
+37 = All allies, but not self (if N/A, all enemies)
+38 = All allies including oneself
+39 = Single ally
+3D = Wounded ally (if N/A, targets random ally)
+43 = All enemies
+44 = Single enemy
+47 = Depends on the attack
+48 = Character #1
+49 = Character #2
+4A = Character #3
+4B = Character #4
+
+Player Command list:
+
+00:  Fight    
+01:  Item     
+02:  Magic    
+03:  Morph    
+04:  Revert   
+05:  Steal    
+06:  Capture  
+07:  SwdTech  
+08:  Throw    
+09:  Tools    
+0A:  Blitz    
+0B:  Runic    
+0C:  Lore     
+0D:  Sketch   
+0E:  Control  
+0F:  Slot     
+10:  Rage     
+11:  Leap     
+12:  Mimic    
+13:  Dance    
+14:  Row      	      
+15:  Def      
+16:  Jump     
+17:  X-Magic  
+18:  GP Rain  
+19:  Summon  
+1A:  Health   
+1B:  Shock    
+1C:  Possess 
+1D:  MagiTek 
+1E:  [Blank]
+
+Enemy Command list:
+
+F0 = normal spells/attacks.  3 bytes.
+F1 = forced aiming method
+Has a set length of 1 byte. This effects everything that comes after it until
+a filler F# command (usually FD). The scripts use a different set of aiming
+numbers from anything else in the ROM.
+F2 = replacement template assigner
+Byte 1 = Way enemy dies
+Bytes 2 & 3= Enemy template used
+F3 = Message assigner
+Usage = F3, next 2 bytes = message displayed.
+F4 = Player Command controller
+Set length of 3 bytes. Usage is same as with F0.
+F5 = Enemy/Template manipulator
+Set length of 3 bytes.
+F6 = Item usage
+If following byte == 00, item
+If following byte > 00, throw
+Set length of 3 bytes (1st saying Item or Throw, next two the items).
+F7 = Event selector (Locke stealing clothes, Terra & Tritoch, etc.) 1 byte.
+However, in some cases it will take aditional commands for this to work the way
+you want it to (ex: FB to fade out after Terra & Tritoch scene, FC 01 05 05/06
+to activate after successful theft.)
+F8 = Variable manipulator
+Used to create variables to trigger special attacks. All variables begin at 0.
+Byte 1 = Variable I.D. (in theory, anything you want)
+Byte 2 = what to do with it.
+0? = Set variable to ?
+8? = Add ? to variable
+C? = Subtract ? from variable
+F9 = ???
+FA = Enemy graphics manipulator
+Usage = FA, then value (ex: 0B makes enemy glow yellow, and certain bytes on the
+palette change colors (used on Atma and possibly AtmaWeapon))
+FB = Think up your own stupid name for this one. :)
+Used after some events (Tritoch & Terra in WOB) and for Guardian. Has a set
+length of 2 bytes.
+1st byte = action
+01: Invincibility.
+2nd byte = ? (aiming byte if byte 1 == 01. Refer to F1 for values.)
+FC = Special Circumstance Attacks
+Set length of 3 bytes. The 1st byte tells FC what it will be doing, the next two
+depend on what's been set by the 1st. FE typically ends the command's influence.
+Commands range from 01 thru 1B.
+1st byte:
+01 = Command Counterattack.
+Next two are what commands to counter.
+02 = Spell counter
+Counters a specific Magic/Blitz/Swdtech/etc.
+Next two bytes = the spell(s) to counter.
+03 = Item counter
+Next two are what items to counter.
+04 = Elemental counter Use this to counter a specific element.
+Byte 1: 1st part: Fire, Ice, Lightning, Poison
+        2nd part: Wind, Pearl, Earth, Water
+Byte 2 is unknown
+05 = Begin using attack(s) when damaged?
+Healing and misses will not provoke this "counter." Ailments untested.
+Next two bytes unknown.
+0B = If 0F 00 follow up, means 3 turns have passed.
+0D = Byte 1 is the variable used, byte 2 is the value it must be equal to or
+greater than to activate. The variables are set by F8.
+0F = ??? Byte 1 seems to be targeting, Byte 2 is unknown.
+10 = Counterattack everything. Next two unknown.
+12 = Final attack.
+Byte 1 = Which monsters in template must be dead to trigger(?), 00 for none.
+Byte 2 unknown.
+13 = Attack(s) if # of monsters are left.
+Next two bytes = # of monsters left to activate (unknown if multiple #'s can be
+assigned)
+14 = ??? Found in Vargas' list.
+15 = Found at the beginning of Ultros #1's list.
+1A = Byte 1 is the target, Byte 2 is the element(s) the target is weak against
+to activate.
+1B = ???
+FD = no attack/filler, typically used to end a turn.
+FE = no attack/filler, used in unused slots in lists, and doesn't go back for a
+     list.
+FF = no attack/filler, used at the ends of enemy command scripts. Main attacks
+are set before this command is used once. After the first command, Counters and
+Finals should/can be set. The 2nd FF will always end a list.
+
+-------------------------------------------------------------------------------------
+B. Greetz
+-------------------------------------------------------------------------------------
+
+Cless -
+For requesting my help in deciphering the scripts in the first place.
+If it weren't for that, I would not have gotten as far as I did on this.
+
+Bill - For the help with FC, *big* thanx for F8's functions.
+
+Everyone at the GameFAQs SNES Final Fantasy 3 board -
+For the conversations and the incredible amount of knowledge and new surprises
+shared there.  I thought I knew everything when I began there in February 2000,
+but now all of us are learning something new at least once a week on this game.
+
+Three sites ZED felt you should visit someday:
+
+GameFAQs SNES Final Fantasy 3 board -
+http://cgi.gamefaqs.com/boards/gentopic.asp?board=8998
+
+One of the best message boards on FF3 out there.
+
+Phantasian Productions - 
+http://cless.romhacking.com/
+
+Well, he did start me on the scripts, why not plug his ROM hacking site? :)
+Home of the FF6 ROM Hacking doc and FF6 HardType.
+
+The Unoriginal White Sheet - 
+http://members.aol.com/masterzed/
+
+My site, dedicated to FF3.  Lots of data here, some not found in Cless' doc.
+
+My e-mail -
+masterzed@aol.com
+
+The author of this tutorial.  You might get an answer from this geek.
+No ROM requests, I despise them.  You'll get ignored *permanently* for that
+crap.  I also hate rumors pertaining to FF3, post those to the FF3 board
+mentioned above.
+
+Legalities:
+Any and all material in this tutorial is property of its respective authors.
+Final Fantasy 3 copyright 1994 Squaresoft.
+-------------------------------------------------------------------------------------
+

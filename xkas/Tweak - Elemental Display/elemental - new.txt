@@ -1,0 +1,52 @@
+C3/88CE:	A2CD7B  	LDX #$7B61     (*new* resist display position, doubles up as attack elements display for weapons)
+C3/88D1:	86EB    	STX $EB
+C3/88D3:	A97E    	LDA #$7E
+C3/88D5:	85ED    	STA $ED
+C3/88D7:	4CFE88  	JMP $88FE
+
+C3/88DA:	A2E97B  	LDX #$7BE1     (*new* absorb display position)
+C3/88DD:	86EB    	STX $EB
+C3/88DF:	A97E    	LDA #$7E
+C3/88E1:	85ED    	STA $ED
+C3/88E3:	4CFE88  	JMP $88FE
+
+C3/88E6:	A2CD7C  	LDX #$7C61     (*new* no effect display position)
+C3/88E9:	86EB    	STX $EB
+C3/88EB:	A97E    	LDA #$7E
+C3/88ED:	85ED    	STA $ED
+C3/88EF:	4CFE88  	JMP $88FE
+
+C3/88F2:	A2E97C  	LDX #$7CE1     (*new* weak display position)
+C3/88F5:	86EB    	STX $EB
+C3/88F7:	A97E    	LDA #$7E
+C3/88F9:	85ED    	STA $ED
+C3/88FB:	4CFE88  	JMP $88FE      (jump to the very next byte, yes that's clever)
+
+C3/88FE:	7B      	TDC 
+C3/88FF:	AA      	TAX 
+C3/8900:	7B      	TDC 
+C3/8901:	BF8DAA7E	LDA $7EAA8D,X	(Load inventory, index X)
+C3/8905:	301F    	BMI $8926       (branch if no elements to display?)
+C3/8907:	DA      	PHX 
+C3/8908:	C220    	REP #$20      	(16 bit memory/accum.)
+C3/890A:	0A      	ASL A
+C3/890B:	AA      	TAX 
+C3/890C:	BF2789C3	LDA $C38927,X  (get the VWF icons)
+C3/8910:	85E0    	STA $E0
+C3/8912:	203789  	JSR $8937
+C3/8915:	A5EB    	LDA $EB
+C3/8917:	18      	CLC 
+C3/8918:	690400  	ADC #$0004      (because of the size of the element icons, two spaces must be added)
+C3/891B:	85EB    	STA $EB
+C3/891D:	E220    	SEP #$20      	(8 bit memory/accum.)
+C3/891F:	FA      	PLX 
+C3/8920:	E8      	INX 
+C3/8921:	E00600  	CPX #$0008      (hooray, all 8 elements!)
+C3/8924:	D0DA    	BNE $8900
+C3/8926:	60      	RTS
+
+Data:
+C3/8DF1: 8D 7B B9 B4 CD FF 83 A6 A0 00        (*new* position of, and word "50% Dmg")
+C3/8DFB: 0D 7C 80 9B AC A8 AB 9B FF 87 8F 00  (*new* position of, and word "Absorb HP")
+C3/8E07: 8D 7C 8D A8 FF 84 9F 9F 9E 9C AD 00  (*new* position of, and word "No Effect") 
+C3/8E13: 0D 7D 96 9E 9A A4 FF A9 AD 00        (*new* position of, and word "Weak pt")

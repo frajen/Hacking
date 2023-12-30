@@ -1,0 +1,192 @@
+Changelog
+---------
+
+Version 1.2 (03/14/2020)
+------------------------
+-Added RotDS 2.0 monster sprites (jameswhite89)
+-Added RotDS 2.0 map sprites (see credit.txt for details)
+-Added RotDS 2.0 alternate sprites (jameswhite89)
+-Added RotDS 2.0 alternate portraits (jameswhite89)
+-Updated RotDS 2.0 portraits (jameswhite89)
+-Regenerated Beyond Chaos spritesheets so palettes are now in correct order
+-Added the following individual sprites:
+
+astaroth-dissidia-celes
+hoxnorf-ct-schala
+hoxnorf-dal-tohka
+hoxnorf-ds-lilith
+hoxnorf-fate-illya-3
+hoxnorf-fate-miyu-2
+hoxnorf-fate-sitonai
+hoxnorf-ff2-firion
+hoxnorf-ff2-guy
+hoxnorf-ff2-josef
+hoxnorf-ff2-leila
+hoxnorf-ff2-leon
+hoxnorf-ff2-maria
+hoxnorf-ff2-minwu
+hoxnorf-ff2-ricard
+hoxnorf-ff2-scott
+hoxnorf-ff3-refia
+hoxnorf-ff4-cid
+hoxnorf-ff4-palom-2
+hoxnorf-ff4-porom-2
+hoxnorf-ff5-bartz
+hoxnorf-ff5-faris
+hoxnorf-ff5-lenna-white-mage
+hoxnorf-ff6-relm-amano
+hoxnorf-ff7-aerith
+hoxnorf-ff7-cloud-wall-market
+hoxnorf-ff7-jessie
+hoxnorf-ff9-zidane
+hoxnorf-ff11-shantotto
+hoxnorf-ff15-iris
+hoxnorf-ff-devout
+hoxnorf-ffrk-elarra
+hoxnorf-kirby-ice-kirby
+hoxnorf-kirby-kirby
+hoxnorf-kof-malin
+hoxnorf-lb-akari
+hoxnorf-mario-toadette-2
+hoxnorf-motw-hotaru-4
+hoxnorf-neptunia-adult-neptune
+hoxnorf-neptunia-noire
+hoxnorf-sc-talim
+hoxnorf-ss-nakoruru
+hoxnorf-ss-rera
+hoxnorf-ss-rimururu
+hoxnorf-touhou-marisa
+hoxnorf-touhou-rumia
+hoxnorf-touhou-sakuya
+loneredmage-deltarune-jevil
+loneredmage-ff4-anna
+loneredmage-ff10-seymour
+loneredmage-neptunia-blanc
+loneredmage-nepturia-vert
+loneredmage-other-maria-renard
+loneredmage-other-mona
+loneredmage-other-projared
+loneredmage-other-tinker-knight
+loneredmage-undertale-frisk
+loneredmage-undertale-sans
+
+Version 1.1.1 (06/22/2019)
+--------------------------
+-Reimported all character sprites to fix palette reordering problem
+-Added the following individual sprites:
+
+ctrlxz-ff12-vaan
+ctrlxz-ff4tay-kain
+ctrlxz-ff5-exeath
+ctrlxz-ff5-ninja
+ctrlxz-ff7-barret
+ctrlxz-ff7-zack
+ctrlxz-ff8-edea
+filipinac-ff1-bikke
+filipinac-ff15-noctis
+hoxnorf-ff2-emperor
+hoxnorf-ff2-gordon
+hoxnorf-ff3-luneth
+hoxnorf-ff5-galuf
+hoxnorf-ff5-krile
+hoxnorf-ff7-cloud
+hoxnorf-other-illya
+hoxnorf-other-miyu
+hoxnorf-other-sakura
+hoxnorf-other-tohka
+hoxnorf-touhou-reimu
+
+Version 1.1 (06/16/2019)
+------------------------
+-Removed the Poses folder
+-Added Beyond Chaos sprites and binary files
+-Added monster sprite from Tingle's Rotten FFVI hack (jameswhite89)
+-Added RotDS portraits (jameswhite89)
+-Added the folllowing individual sprites:
+
+crumpledmedal-filena-amanela
+crumpledmedal-filena-nest
+ctrlxz-ff4-rydia
+ctrlxz-ff5-kelgar
+ctrlxz-ff5-mystic-knight
+ctrlxz-ff5-samurai
+ctrlxz-ff7-reno
+ctrlxz-ff7-sephiroth
+ctrlxz-fft-monk
+ctrlxz-fft-orlandu
+ctrlxz-other-galbadian-soldier
+filipinac-ff12-vaan
+filipinac-ff4-dark-knight-cecil
+filipinac-ff4-kain
+filipinac-ff8-seifer
+filipinac-ff8-squall
+filipinac-ff9-trance-eiko
+filipinac-other-ace
+filipinac-other-haurchefant
+filipinac-other-hiryu
+filipinac-other-kelger
+filipinac-other-king
+filipinac-other-machina
+filipinac-other-march
+filipinac-other-nine
+filipinac-other-seven
+filipinac-other-thancred
+filipinac-other-ysayle
+filipinac-other-zero
+hoxnorf-ff4-palom
+hoxnorf-ff4-porom
+hoxnorf-ff4-rydia
+hoxnorf-ff4-rydia-child
+hoxnorf-ff5-lenna
+hoxnorf-ff7-yuffie
+hoxnorf-ff9-freya
+hoxnorf-ff9-garnet
+hoxnorf-other-hinako
+hoxnorf-other-hotaru
+hoxnorf-other-iffy
+hoxnorf-other-Illya
+hoxnorf-other-kumatora
+hoxnorf-other-lauren
+hoxnorf-other-nepgear
+hoxnorf-other-neptune
+hoxnorf-other-ram
+hoxnorf-other-riku
+hoxnorf-other-rom
+hoxnorf-other-toadette
+hoxnorf-other-uni
+hoxnorf-touhou-cirno
+jameswhite89-ff6-interceptor
+jameswhite89-other-death-adder
+jameswhite89-other-ginattak
+jameswhite89-other-lufia
+jameswhite89-other-madsiur
+jameswhite89-sonic-eggman
+jameswhite89-zelda-tingle
+loneredmage-ff1-matoya
+loneredmage-ff13-caius-ballad
+loneredmage-ff3-onion-knight
+loneredmage-ff4-soldier
+loneredmage-ff7-dyne
+loneredmage-ff8-squall
+loneredmage-other-alphys
+loneredmage-other-angel
+loneredmage-other-archangel
+loneredmage-other-earth-chan
+loneredmage-other-evo-gaia
+loneredmage-other-impressario
+loneredmage-other-kirito
+loneredmage-other-papyrus
+loneredmage-pokemon-gardevoir
+scarabenigma-other-elyna
+scarabenigma-other-refia
+spram-other-solaire
+yoshivoodoo-ff6-riona
+yoshivoodoo-fft-agrias
+yoshivoodoo-other-arazia
+yoshivoodoo-other-azura
+yoshivoodoo-other-saber
+yoshivoodoo-other-sierra
+
+Version 1.0 (09/01/2017)
+------------------------
+-initital release

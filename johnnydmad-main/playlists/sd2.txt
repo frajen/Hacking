@@ -1,0 +1,81 @@
+[default]		
+# these songs are not used in FF6WC, so leave them default		
+ff6_celes:  	celes	
+ff6_coin:   	coin	
+ff6_daryl:  	daryl	
+ff6_locke:  	locke	
+ff6_rachel:    	rachel	
+		
+sd2_dwarf:	what, moogles, gogo, spinach	
+sd2_field:  	balance	
+sd2_final:  	floating	
+sd2_flammie:	blackjack	
+sd2_fortress:   ktower		
+sd2_thanatos:  fanatics		
+sd2_matango:  veldt, johnny		
+[legacy]		
+# songs that still use legacy sample set and have not gone through editing to meet EX5 standards		
+sd2_8bells: 	cave, train, owzer	
+sd2_always: 	relm, chocobo	
+sd2_angel:  	omen3, prelude	
+sd2_boss:   	savethem, unforgiven	
+sd2_city:   	martiallaw	
+sd2_desert: 	troops	
+sd2_eternal:	prelude, omen3, empire, catastrophe	
+sd2_forest: 	forest, tomb, dream	
+sd2_forget: 	awakening	
+sd2_hope:   	boss	
+sd2_intruder:   metamorphosis, kefka, ancient, engine, magitek		
+sd2_jema:   	fanfare	
+sd2_legend: 	cyan, shadow	
+sd2_lofty:  	mountain, mount2	
+sd2_mana:   	espers	
+sd2_memories:   gau		
+sd2_morning:	boss	
+sd2_popoi:  	strago	
+sd2_prayer: 	espers, phoenix, gate	
+sd2_prophecy:   grandfinale, falcon		
+sd2_pureland:   espers, phoenix, gate		
+sd2_rose:   	ruintown, awakening	
+sd2_scorpion:   gogo, setzer, what		
+sd2_sea:    	serpent, owzer	
+sd2_spirit: 	awakening	
+sd2_star:   	returners, empire, metamorphosis, catastrophe, assault	
+sd2_steel:  	umaro, battle	
+sd2_tasnica:	figaro	
+sd2_thunder:	zozo	
+sd2_town:   	narshe, town, village	
+sd2_wish:   	ruin	
+[battle]		
+# BATTLE plays in formations through 3 Scenarios / K@N		
+# BAT2 plays in formations through the rest of WoB		
+# BAT3 plays throughout WoR		
+# BAT4 plays in Kefka's Tower and in special event battles 		
+# and MiBs such as Siegfried, Presenter, KatanaSoul		
+sd2_steel:    battle, bat2, bat3		
+sd2_hope:   	bat4	
+sd2_morning:	bat4	
+[boss]		
+# mboss (miniboss) plays in event encounters like Marshal, Leader, Rizopas		
+# boss plays on most bosses		
+# atma plays on Kefka at Narshe, Atma/Weapon, MagiMaster, Goddess/Poltrgeist/Doom, 		
+# the 8 Dragons, Doom Gaze		
+# dmad5 plays on False & Final Kefka		
+sd2_hope:   	boss	
+sd2_morning:	boss	
+sd2_steel:    mboss		
+sd2_final:  	atma, dmad5	
+[victory]		
+sd2_jema: 		 fanfare
+[sleep]		
+sd2_ally:     sleep		
+[death]		
+sd2_death:     death		
+[tierboss]		
+ct:    	 cc_flame, ct_battle2, ct_lavos	
+ff:    	 ff3_eureka, ff5_excastle, ff5_seal, ff7_final_part1, ff8_witches, ff9_blackwaltz, ffmq_boss, ffmq_lava	
+ff6:    	 ff6_fanatics_dm, ff6_tier1_dm, ff6_tier2_dm, ff6_tier3	
+i:    	 iog_whispers	
+chorus:     ff6_fanatics_chorus, ff6_tier1_chorus, ff6_tier2_chorus		
+sd:    	 sd2_thanatos	
+x:    	 xg_weltall	

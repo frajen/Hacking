@@ -1,0 +1,14 @@
+FF6 Warring Triad
+-----------------
+Authors: Kugawattan
+Release date: 12/21/2015
+Forum thread: https://www.ff6hacking.com/forums/thread-3067.html
+
+Notes
+-----
+-Unable to import in FF3usME 6.80
+
+
+Use in personal or public projects allowed with proper credits 
+but do not claim as your own.
+

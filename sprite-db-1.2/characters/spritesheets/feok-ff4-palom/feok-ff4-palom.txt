@@ -1,0 +1,14 @@
+FFIV TAY Palom
+--------------
+Authors: FEOK, Yuke311
+Release date: 09/26/2010
+Forum thread: https://www.ff6hacking.com/forums/thread-662.html
+
+Notes
+-----
+-Death and riding poses missing
+
+
+Use in personal or public projects allowed with proper credits 
+but do not claim as your own.
+

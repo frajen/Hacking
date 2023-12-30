@@ -1,0 +1,148 @@
+
+---------------------------------------------------------------------------------------------------------
+
+
+				HARD-CODED SPELL INDEXES
+
+
+---------------------------------------------------------------------------------------------------------
+	INDEX	HEX	SPELL		NOTES
+---------------------------------------------------------------------------------------------------------
+	000	00	(B)Fire		Start MB range (hard-coded for display ordering)
+        013     0D	(B)Doom		(Condemned status, Roulette effect)
+        023     17	(B)Merton	End MB range
+---------------------------------------------------------------------------------------------------------
+        024     18	(G)Scan		Start MG range (hard-coded for display ordering)
+        035     23	(G)Imp		Won't work out of battle if moved to a new slot
+        036     24	(G)Rflect	Unused "SOS" relic effect points here
+        037     25	(G)Shell	"SOS" relics point here
+        040     28	(G)Safe		"SOS" relics point here
+        042     2A	(G)Warp		Warp Stone effect points here
+        044     2C	(G)Dispel	End MG range
+---------------------------------------------------------------------------------------------------------
+        045     2D	(W)Cure		Start MW range (hard-coded for display ordering)
+        048     30	(W)Life		(Life 3 status)
+        051     33	(W)Remedy	Probably has the same OOB issues as Imp
+        053     35	(W)Life 3	End MW index
+---------------------------------------------------------------------------------------------------------
+        054     36	Ramuh		Start esper range (all are hard-coded)
+        065     41	Odin		Magicite/Bar-Bar-Bar forcefully skips this index
+        066     42	Raiden		Magicite/Bar-Bar-Bar forcefully skips this index
+        067     43	Bahamut		Called by Slots (Megaflare)
+        080     50	Phoenix		End esper range
+---------------------------------------------------------------------------------------------------------
+        081     51	Fire Skean	= Item #171
+        082     52	Water Edge	= Item #172
+        083     53	Bolt Skean	= Item #173
+---------------------------------------------------------------------------------------------------------
+        084     54	Storm		Called by Blizzard Orb
+---------------------------------------------------------------------------------------------------------
+        085     55	(Dispatch)	Start Bushido range (all are hard-coded); 7-7-7 is named here
+        086     56	(Retort)	Hard-coded to special effect 0x3C (you can't just unflag it)
+        092     5C	(Cleave)	End Bushido range
+---------------------------------------------------------------------------------------------------------
+        093     5D	Pummel		Start Blitz range (all are hard-coded)
+        100     64	Bum Rush	End Blitz range
+---------------------------------------------------------------------------------------------------------
+        101     65	Wind Slash	Called by Kazekiri special effect
+---------------------------------------------------------------------------------------------------------
+        125     7D	Bio Blast	= Item #164; animation = Super Ball
+        126     7E	Flash		= Item #165
+        127     7F	Chocobop	Called by Slots
+        128     80	H-Bomb		Called by Slots
+        129     81	Flash		Called by Slots
+        139     8B	Condemned	Start Lore range (hard-coded for "Lore" skill menu)
+        151     97	Lv.5 Doom	Called by 7-7-7 (clears "ignore ID immune" & sets "can't miss")
+        153     99	Step Mine	"Step Mine" effect (0x1E) hard-codes MP cost to this index
+        162     A2	Exploder	End Lore range
+---------------------------------------------------------------------------------------------------------
+        194     C2	Escape		(?)
+        202     CA	Targeting	(?)
+ ---------------------------------------------------------------------------------------------------------
+        238     EE	Battle		(?)
+        239     EF	Special		(?)
+---------------------------------------------------------------------------------------------------------
+        240     F0	Riot Blade	Begin limit break range (all are hard-coded)
+	251     FB	X-Meteo		End limit break range
+---------------------------------------------------------------------------------------------------------
+	252     FC	Takedown	Called by Interceptor (50/50 chance)
+	253     FD	Wild Fang	Called by Interceptor (50/50 chance)
+	254     FE	Lagomorph	Called by Slots
+	255     FF	???????????	Don't fuck with this index
+---------------------------------------------------------------------------------------------------------
+
+
+				HARD-CODED ITEM INDEXES
+
+
+---------------------------------------------------------------------------------------------------------
+	INDEX	ITEM		NOTES
+---------------------------------------------------------------------------------------------------------
+	 18	Drainer		Ignored by optimize
+	 22	Soul Sabre	Ignored by optimize; BatPwr hidden in item menu
+	 27	Ragnarok	Called by event (Narshe Blacksmith)
+	 28	Atma Weapon	Ignored by optimize; BatPwr hidden in item menu
+	 29	Mithril Pike	Begin spear range (hard-coded to jump multiplier of 2 instead of 1)
+	 36	Imp Halberd	Ignored by optimize; end spear range
+	 41	Striker		(?) (Shadow @ Colosseum)
+	 48	Aura		Called by event (Finish Cyan's Nightmare)
+	 51	Heal Rod	Ignored by optimize
+	 81	Dice		BatPwr hidden in item menu
+	 82	Fixed Dice	BatPwr hidden in item menu
+---------------------------------------------------------------------------------------------------------
+	101	TortoiseShld	Ignored by optimize
+	102	Cursed Shld	Called by event (Random dude at Narshe); ignored by optimize
+	103	Paladin Shld	Called by event (Uncurse the above)
+	130	Thornlet	Ignored by optimize
+	131	Titanium	Ignored by optimize
+	155	Imp's Armor	Ignored by optimize
+---------------------------------------------------------------------------------------------------------
+	163	NoiseBlaster	Begin Tools index (all Tools are hard-coded)
+	164	Bio Blaster	= Spell #125
+	165	Flash		= Spell #126
+	170	AutoCrossbow	End Tools index
+---------------------------------------------------------------------------------------------------------
+	171	Fire Skean	= Spell #081
+	172	Water Edge	= Spell #082
+	173	Bolt Edge	= Spell #083
+	174	Inviz Edge	Throw effect is hard-coded
+	175	Shadow Edge	Throw effect is hard-coded
+---------------------------------------------------------------------------------------------------------
+	205	Gold Hairpin	Called by event (Lone Wolf)
+	208	Gauntlet	Called by event (Banon); index is hard-coded to force optimization
+	209	Genji Glove	Called by event (Banon); index is hard-coded to force optimization
+	218	Merit Award	Index opens equipment menu on use
+	223	Charm Bangle	Called by event (Imperial Banquet)
+	229	Tintinabar	Hard-coded for HP/walk effect; events (Mobliz, Imperial Banquet)
+---------------------------------------------------------------------------------------------------------
+	231	Rename Card	Pretty hard-coded, I'd say
+	232	Tonic		Begin consumable range (hard-coded for field use allowance conditions)
+	246	Sleeping Bag	Called by event (beginning of game)
+	247	Tent		Hard-coded to call "Tent Event"
+	251	Echo Screen	(Shouldn't be usable outside of battle since it will always fail)
+	253	Warp Stone	Hard-coded to spell slot...?
+	255	Empty		Do not fuck with this index
+---------------------------------------------------------------------------------------------------------
+
+
+				HARD-CODED ENCOUNTER INDEXES
+
+
+---------------------------------------------------------------------------------------------------------
+	INDEX	ENEMY		NOTES
+---------------------------------------------------------------------------------------------------------
+
+	445	Guardian	No game over on death
+	458	-		(?)
+	463	Doom Gaze	Retains damage on escape
+	471	T1		Final battle
+	485	Soldier		Apply sepia-toned filter (Terra's flashback)
+	502	-		Gau
+	512	T2		Final battle
+	513	T3		Final battle
+	514	Kefka		Final battle
+	575	-		Colosseum
+
+---------------------------------------------------------------------------------------------------------
+
+	I'm afraid that's all we know, gentlemen.

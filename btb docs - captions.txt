@@ -1,0 +1,168 @@
+
+---------------------------------------------------------------------------------------------------------
+
+
+				CAPTIONS (DIALOGUE) MAP
+
+
+---------------------------------------------------------------------------------------------------------
+	   #	DESCRIPTION
+---------------------------------------------------------------------------------------------------------
+	   9	Save point intro (yes = jump to #1747)
+	  30	Name Terra (adds Sleeping Bag x2 to inventory)
+	  31	-
+	  36	-
+	  38	-
+	  67	Name Edgar (adds Auctocrossbow to inventory)
+	  94	-
+	  95	-
+	 121	Kefka approaching Figaro; reused @ Thamasa
+	 183	"Relics are useful!" guy; jumps to #1745
+	 217	Cider man w/ Locke in soldier uniform
+	 244	-
+	 245	M-Tek troop blocking Mt. Koltz/Figaro Cave
+	 246	-
+	 250	-
+	 285	2000 (293) GP @ Owzer's House | @ Grand Plaza
+	 286	Potion (Tonic) @ Owzer's House
+	 287	Ether (Tincture) @ Owzer's House
+	 288	Remedy (Soft) @ Owzer's House | @ Grand Plaza
+	 290	-
+	 298	Paper @ Returner's Hideout (leave or toss)
+	 299	Banon if paper was found and left alone
+	 310	Genji Glove get (from Banon)
+	 314	Gauntlet get (from Banon)
+	 323	-
+	 362	-
+	 363	-
+	 364	-
+	 367	-
+	 428	Old man, Sabin's scenario (2)
+	 429	Sabin, to old man (3)
+	 430	Old man, Sabin's scenario (4; goes to clock)
+	 431	Old man, Sabin's scenario (1)
+	 433	-
+	 434	Old man, Sabin's scenario (6; lawnmower)
+	 435	Old man, Sabin's scenario (5)
+	 436	Old man, Sabin's scenario (9; bed)
+	 437	Old man, Sabin's scenario (7; stove)
+	 438	Old man, Sabin's scenario (8)
+	 439	Old man, after scenario (door)
+	 440	Old man, after Sabin touches stove
+	 441	Sabin touching stove (followed by 440, then 443)
+	 452	Shadow meets Sabin (if unnamed)
+	 453	Shadow meets Sabin (if named)
+	 455	-
+	 479	-
+	 483	-
+	 521	-
+	 575	-
+	 601	Beginner's School NPC (near save point); jumps to #1747
+	 605	Beginner's School NPC; jumps to #1745
+	 645	-
+	 649	Sabin, dining car (subsequent)
+	 652	Sabin, dining car (initial)
+	 901	"Change party?" at Narshe (default is yes)
+	 920	Narshe NPC (pre-IMTRF; post=925)
+	 921	Narshe NPC (pre-IMTRF; post=926)
+	 922	Narshe NPC (pre-IMTRF; post=927)
+	 923	Narshe NPC (pre-IMTRF; post=928)
+	 924	Narshe NPC (pre-IMTRF; post=929)
+	 925	Narshe NPC (post-IMTRF; pre=920)
+	 926	Narshe NPC (post-IMTRF; pre=921)
+	 927	Narshe NPC (post-IMTRF; pre=922)
+	 928	Narshe NPC (post-IMTRF; pre=923)
+	 929	Narshe NPC (post-IMTRF; pre=924)
+	 932	See chocobo controls? (shared caption)
+	1031	Jidoor NPC (outside Auction House), WoB (w/ Celes; other lines are 2622 and 2678)
+	1034	Jidoor NPC (behind Owzer's Mansion), WoB
+	1036	-
+	1038	Auction House NPC; Owzer's Butler (w/out Celes)
+	1039	Auction House NPC (if you have not seen the Edgar/Sabin scene)
+	1059	-
+	1061	Zozo Lube Merchant, after buying lube (or before pigeon)
+	1062	Zozo Lube Merchant, selling lube (calls 1061 first)
+	1092	Shadow @ Ramuh's Room (unassigned for some reason)
+	1153	-
+	1155	Jidoor NPCs (includes Owzer's butler), WoB (w/ Celes)
+	1198	Celes @ Opera House (only if you saw Locke's cutscene)
+	1199	Celes @ Opera House (only if you saw Locke's cutscene)
+	1235	-
+	1240	Ultros, pushing 4T weight (first attempt)
+	1241	Ultros, pushing 4T weight (subsequent attempts)
+	1310	Setzer after banquet, before scene w/ Cid
+	1311	Setzer after banquet, after scene w/ Cid
+	1318	Blackjack helm, Goto FC? (FC is default option; recommend changing)
+	1319	"Change party?" on airships (default is no; recommend changing to be consistent w/ #901)
+	1320	-
+	1411	-
+	1421	-
+	1531	-
+	1532	-
+	1533	-
+	1534	-
+	1535	-
+	1627	-
+	1628	-
+	1629	-
+	1651	-
+	1652	-
+	1654	-
+	1660	-
+	1661	-
+	1667	-
+	1669	-
+	1671	-
+	1693	Inviz Edge get (Grand Plaza)
+	1694	-
+	1695	-
+	1696	-
+	1697	-
+	1698	-
+	1699	Water Skean get (Grand Plaza)
+	1700	-
+	1745	Relic info (shared caption; see #183/#605)
+	1747	Save point info (shared caption; see #9/#601)
+	1748	(Long pause; used for Game Over screen)
+	1756	Pearl Lance get (added via event after defeating White Dragon)
+	2119	-
+	2167	Cid w/ Celes @ Solitary Isle (line is called twice in a row)
+	2345	-
+	2360	-
+	2424	Colosseum dude, WoR (50% chance of being called)
+	2425	Colosseum dude, WoR (50% chance of being called)
+	2487	<C> QSSI / <C> WEHT (line is used, but identical to #2490; recommend merging)
+	2489	<C> ERAU / <C> QSSI (line is used, but identical to #2496; recommend merging)
+	2490	<C> QSSI / <C> WEHT (line is used, but identical to #2487; recommend merging)
+	2492	<C> DLRO / <C> QSSI (line is used, but identical to #2497; recommend merging)
+	2495	<C> DLRO / <C> ERAU (line is used, but identical to #2498; recommend merging)
+	2496	<C> ERAU / <C> QSSI (line is used, but identical to #2489; recommend merging)
+	2497	<C> DLRO / <C> QSSI (line is used, but identical to #2492; recommend merging)
+	2498	<C> DLRO / <C> ERAU (line is used, but identical to #2495; recommend merging)
+	2499	THE WORLD IS SQUARE (line is called twice in a row)
+	2622	Jidoor NPC (outside Auction House), WoR
+	2623	-
+	2645	-
+	2648	-
+	2678	Jidoor NPC (outside Auction House), WoB
+	2688	Gestahl's portrait 1
+	2692	Jidoor NPC (behind Owzer's Mansion), WoR
+	2697	-
+	2703	Gestahl's portrait 2 (duplicate line; recommend merging w/ 2688)
+	2715	-
+	2721	-
+	2723	-
+	2748	-
+	2749	-
+	2750	-
+	2751	-
+	2752	-
+	2819	Locke @ Jidoor (Gau scene; requires showing letter to old man)
+	2824	-
+	2958	Ride a chocobo: 80GP (Bug: Nikeah stable calls this line, but charges 150GP)
+	2959	Ride a chocobo: 150GP (see above)
+	3017	-
+
+---------------------------------------------------------------------------------------------------------
+
+	I'm afraid that's all we know, gentlemen.

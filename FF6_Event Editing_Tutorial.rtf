@@ -1,0 +1,593 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Comic Sans MS;}{\f1\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\sa200\sl276\slmult1\qc\lang9\f0\fs22       \fs56 ADVANCED EVENT EDITING FOR FFVI\f1\fs22\par
+\pard\sa200\sl276\slmult1\par
+\par
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\par
+VERSION 1.0.0\par
+Just made 11/16/10\par
+Rich Text Format\par
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\par
+\par
+\par
+Hello all and welcome to my Advanced Event Editing tutorial. This thread will be pertaining to all things related to editing the many events in the game. \par
+It's reccommended that once you get really comfortable with event editing, you should check this page out:\par
+{\field{\*\fldinst{HYPERLINK "http://www.ff6hacking.com/forums/showthread.php?tid=523"}}{\fldrslt{\ul\cf1 http://www.ff6hacking.com/forums/showthread.php?tid=523}}}\f1\fs22\par
+Now before we get started, if you don't know hexadecimal, it'd be really great to understand, primarily in the essence of parameters, which I'll explain shortly. Also, one thing you'll need to know, all events in the entire game are stored in the bank of C. Perhaps you've heard of the C0, C2, C3 Bank Dissassembly? Well that's sort of how the ROM works. Square organized everything into categories and sections. \par
+Good, organized Square ha.\par
+But anyways now that you know it's stored in the C Bank, you will need to open up WindHex and do these steps:\par
+Options --> Display Offset As --> Snes Hi-ROM\par
+Great job, now the hex editor will display the C bank much better. OK! Now that I'm done saying all the things that Nattak said on his tut (which I reccommend you go and look at) I'll go over exactly what event editing is, atleast the kind we're gonna be doing.\par
+Okay now I've used the term "Event" alot. Well, what exactly is an event?\par
+No, it's not the awesome show, nor the verb xD. \par
+For the sake of what we're doing in this tutorial, it's CUTSCENES, MAP LOADING SEQUENCES, CHARACTERS POSITION ON THE MAP, WHERE CHARACTERS MOVE, GRAPHICAL ACTIONS..AND A BUNCH MORE!\par
+Sorry I had to go all CAPS on you lol just want you to see it!  \par
+We'll be editing all these things and more - you'll learn the parameters for how many tiles they move and where. Not only that, but then we'll do cutscene editing and placing characters at specific spots on the map! Then after all that we'll wrap it up and create a custom event!\par
+Now with all that aside, let's get started!!\par
+\par
+\fs36 Step 1 .\fs22\par
+Okay first of all, if you still haven't done so, open up Windhex --> Display offset as Snes Hi-ROM and (MAKE SURE YOU DO THIS NEXT STEP)either be really awesome and do CTRL + G and then click the Radio Button that says Snes Hi-ROM or click Search -- > Goto Offset and click the Radio Button with Snes Hi-ROM.\par
+Okay, great job! Now, if this is your first time looking at the hex editor, or you have before and it freaks you out, I'll just explain what exactly it is you're looking at!\par
+{\field{\*\fldinst{HYPERLINK "http://yfrog.com/2mwindhexp"}}{\fldrslt{\ul\cf1 http://yfrog.com/2mwindhexp}}}\f1\fs22\par
+\par
+KEY: (don't worry if you don't know what these mean, I'm gonna explain it very soon!)\par
+Blue is the Offset\par
+Red is the Hex\par
+Purple is the String\par
+\par
+Okay now I'm gonna take a break and explain what all these are. If you already know, skip ahead to step ?.\par
+\fs36 Step 2. What these Mean \par
+\fs22 Offset\par
+The offset is basically the ADDRESS of the hex and the string. Without an offset, it'd be nigh impossible to find what you're looking for. In fact, the game wouldn't run without an offset! Lol so yeah it's important to know what is it, and NO you can't edit the offset.\par
+Hex.\par
+Ah yes, the hex. This is the meat of the game, the very essence of the game, (ok the opera wins that seat but whatever :p) everything that makes the game run! If you're gonna be doing any massive event editing, you neeed to know hex and their parameters. \par
+It's basically a new way of counting. You start at 00 and go all the way to FF.  For a more better, detailed explanation, look here:\line{\field{\*\fldinst{HYPERLINK "http://www.romhacking.net/start/#hex"}}{\fldrslt{\ul\cf1 http://www.romhacking.net/start/#hex}}}\f1\fs22\par
+Download all the text files and look over till you got it!\par
+Hex is everything to the game, which is why I'm striving to make you learn it lolz.\par
+String.\par
+The string, in a sense, is a background operator within the hex paramaters. \par
+Head hurting? \par
+Don't worry, it's nothing we'll be fiddling with and for the most part in event editing, it's just this:\par
+ . . . . . . . \par
+In other banks it's ASCII (text) and that's pretty self explanatory.\par
+Got it? Good! Now the last thing you're gonna need is the Event Dump. Without this thing, this thread wouldn't exist lol so yeah it's that important!\par
+Here's the link to the event dump:\par
+{\field{\*\fldinst{HYPERLINK "http://www.angelfire.com/al2/imzogelmo/shared/EventDisasm.zip"}}{\fldrslt{\ul\cf1 http://www.angelfire.com/al2/imzogelmo/shared/EventDisasm.zip}}}\f1\fs22\par
+Now store that text file somewhere safe, it's hard to come by!\par
+OK! Now we're REALLY gonna get started, and I mean it this time!\par
+We're gonna do some simple map-loading excercises. Sound fun? OK bear with me, we can't just hop into the sophisticated stuff. Now, open up that Event Dump and wait the 20 secs it takes for it to load in notepad. Okay this is probably a lot more friendly than the hex editor but it's still easy to mess stuff up if you get the wrong info (which is your fault xD).\par
+Now to find something within the game that you want to edit, it's best to do CTRL + F and search for the text that is near the particular event you're looking for!\par
+We're gonna edit the maps that load in the very beginning of the game, where the text "Long ago starts.\par
+So, if you still haven't, go ahead and click CTRL F and type 'Long ago,' you can just stop typing there and it should find alot of text with "long ago".  The first 1 should NOT be it, it should take six searches of Long Ago for it to find the map loading sequence! \par
+You should see this:\par
+CC/985F: 6B    Load map $0017 (Narshe, mountaintop (WoB / "Long ago, the War of the Magi...")) instantly, (upper bits $2000), place party at (18, 25), facing down\par
+If not, exit out of the file and re-do it all! It's there ha.\par
+Okay now what you're looking at is \b offsets\b0 , \b the 6B\b0  command (loads a map) and then what I call comments (C++ does stuff to ya). \par
+In this case, the comments are "Load map $0017 (Narshe, mountaintop (WoB / "Long ago, the War of the Magi...")) instantly, (upper bits $2000), place party at (18, 25), facing down"\par
+Comments are pretty much the secondary reason this text file was made! It tells you what the hex is doing at that paricular part.\par
+Now let's backtrack to the Offset of this line of text. \par
+CC/985F\par
+This is the location, of course, BUT because Windhex already has the offset displayed as Snes Hi-ROM, the first C doesn't matter. You are NOT to enter in that first 'C' whenever you "search for offset" in Windhex.\par
+Okay, now let's go there. Do CTRL + G in Windhex (search for Offset) and type this, remember, we're leaving out that first C.\par
+C985F\par
+Notice how I took out the '/ 'character. You must do that, it's not a format supported in any aspect of the game, not even ASCII lolz so yeah. That's what it should be. Five digits.\par
+Great, now whenever you clicked Enter, you should see this:\par
+{\field{\*\fldinst{HYPERLINK "http://yfrog.com/73whereyoushouldbep"}}{\fldrslt{\ul\cf1 http://yfrog.com/73whereyoushouldbep}}}\f1\fs22\par
+Forgive my bad 'Paint' skills but if the hex you see is not that, you did something wrong, I'm terribly sorry if that's the case, I'm trying my best to explain it all.\par
+But anyways, for all you observant peeps out there, you might have noticed that the blinking thing in Windhex is on the $31 hex byte. \par
+Wait, didn't the text dump say $6B??\par
+It did, it's just a little problem with the event dump. It's a little off - now you're technically right where that map loads, it's just a few lines down. Of course, I'm not gonna tell you to scroll until you see a 6B lol that'd be evil! Here's the solution, and THANK YOU Gi Nattak for telling me this trick.\par
+Now we're on the 31 byte, with the UP ARROW key, go up two lines. A line is a row basically, like this:\par
+{\field{\*\fldinst{HYPERLINK "http://yfrog.com/g9whatalineisp"}}{\fldrslt{\ul\cf1 http://yfrog.com/g9whatalineisp}}}\f1\fs22\par
+Each different color marks a new line. Just wanting you to get that ha.\par
+Okay, now just go up 2 lines just like I said and then do this:\par
+Do CTRL + H (HEX search) and then freeze!\par
+I want you to get this next step. Look back at the event dump and that sequence that we're looking for in Windhex. We're looking for the 6B byte, so in the Hex Search box, type 6B but don't click enter just yet. Here's another tip that will ENSURE that you get to the part of the event dump. \par
+The event dump is saying to load map 17. So right after the 6B command, type 17. That should be enough bytes for you to be guaranteed that you're at the right spot in the hex editor. \par
+Now this is what you should have in the Hex Search Box:\par
+6B17\par
+No spaces, no nothing, just numbers. :) Click Enter and VOILA, look at where Windhex jumps you to!\par
+{\field{\*\fldinst{HYPERLINK "http://yfrog.com/htloadmapp"}}{\fldrslt{\ul\cf1 http://yfrog.com/htloadmapp}}}\f1\fs22\par
+This is the Load Map command for that spot in the event dump! This is how EVERY event will be when you're looking for it. The reason being, is the event dump was a little off by a few offsets, nothing that major. Atleast we HAVE an event dump. \par
+But let's recap, to find an event you should go into the event dump, search for the text nearest to it, and then copy the offset, paste it in the Hex Search Box minus the first C and omitting the '/'. Then, go up two lines and do a hex search for atleast 2 bytes. In this case - 6B and 17. Or 6B17 when you're searching for it!\par
+Okay so now we're where we need to be! Let's change the game up a little bit. We're gonna make the map a different one. The best way to find a map that you think you'd like is to load up FF6LE and look through all the maps to find one you like. Once you've done that, look at the byte number that tells the game what map that is. \par
+Let's load a different map! \par
+Right after 6B, on top of 17, type D2. \par
+It's Doma Castle! Now something to note whenever you type anything in a hex editor, is that it'll overwrite everything that follows it! So to really hack the game, you'll be OVERWRITING things! Sounds lame? It's not, really, the game will still be awesome!\par
+Okay so in the hex editor, you should have 6B, D2. Case doesn't matter when it comes to hex. :)\par
+Okay now do CTRL + S and it'll save the ROM. Now, let's test it out! Load up you're fav. emulator and watch the beginning sequence.....it should be changed! If not, redo these steps and pay close attention, I assure you, it works. :p\par
+Congrats on you're first event edit! Are we done? Of course not lolz! That was NOTHING compared to what's next. However, I'm not going to be AS descriptive as I was in this scenario. \par
+I wanted you to know how to find stuff in the event dump, go to it in Windhex, use Nattak's method to find it exactly, and then change stuff. I've covered all those clearly, save for changing stuff, which is fixing to get really sophisticated next!\par
+Let's do something fun now that will really stand out.\par
+We're going to change the songs that load in the beginning of the game and then we'll change Biggs, Wedge, and Terra to load on chocobos instead of Magitek Armor! \par
+We'll take it all piece by piece, but once finished it'll have different music playing whenever Terra, Biggs, and Wedge enter Narshe Cliffs and they'll be on chocobos, as well as walking different tiles!\par
+Okay, let's go in the event dump and search for the nearest text to whenever they show up on the cliffs. \par
+The nearest text is, There's the town... So, in the event dump, search for "There's the town"\par
+\b NO \b0 quotes. It should zap you there instantly. However, it's not quite what we're looking for. \par
+We're looking for the music that plays whenever they're about to walk out. It's actually the song called Wind. So go up a little bit in the event dump until you see the Comment saying,\par
+Fade in song 57 (Wind) (high bit clear) with transition time 160. \par
+Now I know it was a little tough finding that, so you have to always keep a sharp eye when looking for things in the event dump file. But now look at the offset:\par
+CC/9909\par
+You know what to do, do CTRL + G, type in C9909, and then you're zapped somewhat near that area. Go up 2 lines, pull up the hex search box and FREEZE! \par
+Lolz sorry but I need to point something out here. The event dump is saying that it's fading in song 57. However, that's not the byte for that song. Here's a list of the bytes for all the songs! \par
+\b Thanks goes to Gi Nattak! :P\par
+\b0 Play Song "$F0 command" List:\par
+00 = silence\par
+01 = prelude\par
+02 = title screen\par
+03 = intro\par
+04 = intro #2 (Magitek walking to Narshe)\par
+05 = Terra\par
+06 = WoB Overwold\par
+07 = Shadow\par
+08 = Thamasa\par
+09 = Gau\par
+10 = Setzer\par
+11 = Daryl\par
+12 = Sad Celes\par
+13 = Chocobo\par
+14 = Decisive Battle\par
+15 = Bar Theme\par
+16 = Kefka\par
+17 = Mines of Narsh\par
+18 = Phantom Forest\par
+19 = Veldt\par
+20 = Train Running\par
+21 = Another World of Beasts\par
+22 = Ultros #2 @ Opera House\par
+23 = Mt. Koltz\par
+24 = Battle Theme\par
+25 = Unused Fanfare\par
+26 = Wedding Waltz 2\par
+27 = Aria di Mezzo Caratte\par
+28 = Serpent Trench\par
+29 = Zozo\par
+30 = Umaro's Cave\par
+31 = Moogles\par
+32 = Tension\par
+33 = Atma\par
+34 = WoR Town\par
+35 = Falcon\par
+36 = Rise of the Floating Continent\par
+37 = WoR Jidoor\par
+38 = Sleep @ Inn\par
+39 = Wind\par
+40 = Train Noises\par
+41 = Wedding Waltz 1\par
+42 = Ohhhhh Mariaaaaa\par
+43 = Wedding Waltz 3\par
+44 = Wedding Waltz interlude\par
+45 = Singing interlude Between Draco & Maria\par
+46 = 5 minutes till ultros drops weight\par
+47 = Magitek Factory\par
+48 = House on fire\par
+49 = Cranes Activated\par
+50 = Dancing Mad\par
+1B = The Empire Gestahl\par
+1F = Metamorphasis\par
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\par
+These are the songs bytes. We're looking for the Wind song's byte, which is 39! \par
+So in the Hex Search box, type this: \par
+F1 (this byte means fade in song) \par
+and 39. \par
+It should look like this:\par
+F139\par
+It's good to just capitalize the F1 even though the hex doesn't really care what the case it. Ha get it, case?? Yup I fail.\par
+Anyways it'll zap you to C9B09, which is the exact offset for the song and there's you're bytes to change! Don't touch F1 of course, ha that's telling the game to fade in the song. Change 39 to whatever you want. Find one you like and overwrite 39 to that byte e.x. 50 Dancing Mad, 1B Empire Gestahl, 37 WoR Jidoor.\par
+Now load the game up and check to see if the song has changed! If so awesome! If not, just redo those steps and make sure you haven't damaged the ROM.\par
+So awesome, isn't it? Not amazed? Just keep reading, we're getting there!\par
+Now we're gonna do a FUN thing - action queues. We're gonna change where Biggs, Wedge, and Terra walk whenever they come out on the cliff.\par
+To find that bit of info, take these cautious steps before you do anything involving action queues!\par
+\b 1. \b0 First of all, know the scene pretty well. If you don't, go on youtube and try finding the scene and watch closely! \par
+\b 2. \b0 In the event dump, make sure you're at the right spot, trust me, action queues are EVERYWHERE! Just always make sure you're at the right spot.\par
+||                                                ||                                 ||                                  ||                                || \par
+OK! Now in the beginning on the cliffs, Vicks and Wedge both come out at the same time, but we're gonna edit Biggs's action queue. His ID is 0E, Wedge is 0F, and Terra's is 00. Okay now let's hop into the event dump. Look at the beginning where the map loads (the cliff) and scroll down until you see Create Object 00, 0E, 0F. If you can't find it, it's at this offset in the Event Dump:\line CC/992C\par
+That's basically creating the character in this particular cutscene. We're not changing any of this though, I just wanted to point it out to you! :D\par
+Okay in the dump, do a CTRL + F for this offset: \par
+CC/9965\par
+This is where Biggs will walk whenever he comes out on the cliff. Don't worry if you don't understand all the commands following yet, I'm fixing to explain. Anyways, look at the comments: \par
+Begin action queue for character $0F (Actor in stot 15), 7 bytes long\par
+Let's go to that offset! I'm gonna get all descriptive on this part, because there's something I learned whenever it comes to action queues. First I want you to learn these 4 things!\par
+\par
+\b 1. What's an Action Queue?\par
+\ul\b0\i An action queue, in short, is commands that tell a specific character, vehicle, or intity WHAT to do.\ulnone\i0\par
+This can range from moving so many tiles, do graphical actions, setting their position to a place on the map, and so much more to be learned! Lolz...but I hope you understood that, I tried giving my best definition.\par
+\b 2. How are Action Queues Executed?\par
+\b0 An action queue is executed rather simple. To begin an action queue, the command is always different. It's gonna be the actor's ID number! So for 0E to move somewhere, the game would read in the hex editor -  0E,xx,xx,xx,xxFF \par
+(FF means end queue, btw)\par
+0E is saying begin action queue for character 0E! Lol, if you wanted Terra to do something, you'd replace 0E,xx,xx,xx,xxFF with 00,xx,xx,xx,xxFF\par
+And all the commands that follow would be executed by Terra! I'm fixing to go over all the commands, but there's two more thing to know!\par
+\b 3. How the game does action queues!\par
+\b0 This is how the game reads action queues in-game. \par
+Look back at the event dump, where I just told you to go via that address. You should see:\par
+"Begin action queue for character 0F (7 Bytes long)" \par
+That right there is the key to finding you're action queues! Whenever you search for the offset, you do your normal thing - go up 2 lines and pull up a HEX search box. This is where things get a little different! \par
+Type 0F (begin action queue for character 0F) and then after that type 07!\par
+It should look like this in the HEX search box:\par
+0F07\par
+The reason we have that 07 is because that's telling the game how many bytes this action queue will last. This action queue is 7 bytes long. If you don't have the exact amount of bytes an action queue is, the game will freeze so don't touch it unless you're doing this advanced technique that's coming up!\par
+Anyways, don't click enter on that HEX search box, I just wanted to show you how you WOULD type it. Exit outta that box lolz\par
+\b 4. How to "Skip" Action Queues!\par
+\b0 Let's say you don't want an action queue to happen. Well there's three methods in going about this! But first lemme build an example. Let's say there's a part in the game where Locke jumps five feet in the air, but you don't want him to! \par
+\b Method Number One:\b0\par
+Just find the action queue in the hex editor, and then you can replace $01 all the way to $FF with FD! FD means do nothing and basically the game will wait for however many bytes long his action queue is! It's good to do if you're dealing with small action queues, but BIG action queues wouldn't be cool b/c the player would be waiting for like 20 bytes long, which is a little long and weird haha. \par
+\b Method Number 2. \par
+\b0 This one is for big action queues! Let's say Edgar walks all the way to the bottom of the screen and then walks all the way to the top! Annoying? Something you don't wanna happen?\par
+Simple fix! (Kind of, just pay close attention whenever you do it)\par
+Let's say the bytes for that super long action queue are this:\par
+04,0D,xx,xx,xx,xx,xx,xx,xx,xx,xx,xx,FF\par
+Huge, right? Lolz I know. Well just a quick note, '04' is Edgar's action queue command to initiate him to do something. The 0D stands for 13. If you know Hex then you already knew that! Remember that 0D is telling the game that is HIS action queue is 13 bytes long. \par
+And of course, the FF means end queue.\par
+Got it? If not re-read that last paragraph till you get it, it's only gonna get harder from here on out. But you can do it! :D\par
+So what we're gonna do is this. Let's say that Terra and Locke are both in the room with Edgar during the cutscene. Well let's disect this action queue to something else, so that Edgar doesn't walk up and down the room. Now you can do anything right here, it's all you! But before you start telling characters where to go, please go to my table at the bottom of the file. Use CTRL + F and Search Action Queue Table List. That table holds all the bytes for how many tiles to move. Like 87 means move left 2 tiles, etc. That sort of thing! It's good to know a good bit of them.\par
+I'm going to replace that last action queue to this! But remember, never go over the FF! You have 13 digits at your disposal to change it all up but no more, less you might bork your ROM. :(\par
+04,05,80,CE,FF,01,06,87,82,CC,FF,FD,FD\par
+This is what I changed it to. And no, the original was not stuffed with 'xx' I was just using that as a variable :p\par
+OK! This IS 13 digits that I've edited to replace that massive action queue where Edgar goes to the top of the map and back down. What's gonna happen is this!\par
+Edgar will move up 1 tile (80), and then he'll look down (CE). End Queue for him (FF)\par
+Then, without a moment's breath, Locke will move left 2 tile (87) and then go right 2 tiles (82), and then face up (CC). End Queue (FF). Now note those last two bytes. \par
+I couldn't place another action queue because an action queue requires atleast 4 digits of space to work and not freeze, so I filled those last 2 digits with FD, which means "Do nothing",\par
+So the cutscene will basically be Edgar moving up  a tile and then looking down. Locke will move left 2 tiles and then look up. The game will pause for 2 bytes (.04 secs) and then resume with everything else! This is the best method to me, to make a big action queue whatever you want. You'll find that once you get really into making new levels, that the original action queues will sometimes make you collide with a newly drawn object that you made in FF6LE. So this is a good solution to it! And if all else fails, FD it all to death. Won't look professional though! XD\par
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\par
+\par
+Okay now that that's outta of the way, let's go back to that action queue where Biggs comes out! Let's make him go all the way to the edge of the cliff! So, in WINDHEX (putting it in CAPS so you know we're not in the event dump) go to this offset.\par
+C9565\par
+I already did the going-up-two lines- work for you :) \par
+This is what the hex editor will show:\par
+0E,09,E0,04,9C,C1,80,83,E0,10,FF\par
+So you're already at the action queue. This is basically what's gonna happen, written in easier terms:\par
+He'll pause for 16 Frames (E0,04)\par
+He'll move up 8 tiles (9C)\par
+The game will set his speed to slow (C1)\par
+He'll move up 1 tile (80)\par
+He'll move left 1 tile (83)\par
+He'll pause for 64 frames (E0,16) \par
+FF (End Queue)\par
+Let's patch this up a bit.\par
+This is what I scripted. I know there's a better way to do this but I want to show you what to do if something like this happens.\par
+Replace the following with this in Windhex:\par
+0E,09,E0,04,9C,84,A2,CF,E0,10,FF\par
+This is my script. Okay after you get done overwriting that action queue, load up zsnes, make a save right before they walk out (just so you don't have to keep constantly reloading the game) and then watch and see the changes.\par
+If Biggs walked over the edge right after he went to the top of the cliff, GREAT JOB! You did it!\par
+But wait, xJCSx! Biggs went OVER the cliff! LOLZ, I know, I want to show you what you should do to patch it up. \par
+Whenever Biggs walked over the cliff, that was another action queue starting for him. It's very minor so you could FD it to death, OR just replace everything after 0E,0F, with CF until you come to FF. That would actually do the same thing as FD but CF makes the character/entity TURN left. Biggs is already turned left so he'll just sit tight.\par
+Either way do something lolz. The scene should play out as Biggs pauses for 7 bytes and then resumes as normal. Now I'm going to offer a challenge, and no I don't have typewriter's laziness but I want to see if YOU can find the action queues that follow that are still kinda messing up the scene and try fixing them! The first two consist of just changing the direction Biggs turns! The last one, the one before he says, "We'll approach from the east, move out!" can be fixed by just using some commands at the bottom of this tutorial and see if it works! It will, I've already patched mine. If you seriously can't however, then this might not be for you. Or you can replace the ID for his action queue to like Wedge and make Wedge move left, but then you'll have to FD Wedge's upcoming action queue. So I mean, there's really MANY ways to patch this. You can do it!\par
+It's really simple, just replace the "moving bytes" (I call bytes that tell a character where to move a "moving byte") with something like A2 which tells the character to go down left/down 1x1 tiles! That way he won't collide with Wedge. Just experiment until the Narshe scene is fixed.\par
+Eight times outta ten whenever you change one thing in an action queue, you'll have to change a bunch more to get it all settled. Kind of like lying - one lie always requires another xD\par
+\pard\sa200\sl240\slmult1 Oh and another thing that should be noted about action queues. You can make whoever you want do a graphical action. Like jumping, waving theor arms, kneeling, etc. As long as you know the byte values which are in my table at the bottom! As a side note, you can also FLIP actions if you know there bytes! Unfortunately I don't have the bytes flipped in Nattak's table at the bottom, sorry! I'll look for them and update this file every once in awhile!\par
+\pard\sa200\sl276\slmult1 Now there's just one thing to know about graphical actions - if you tell a specific character to do an action and he/she doens't have that action in it's sprite sheet, the game WILL crash, so always make sure you know if they have said action.\par
+\par
+Okay now that's  all very cool and nifty to know - let's do a recap!\par
+Action Queues are executed by the character's ID and followed by the amount of bytes it holds. To add new character ID's to an existing action queue, you musn't go over the original, and have atleast 4 bytes at your disposal. There are four methods in patching up a messed up action queue. The FD command should only be used with short action queues :) You can execute graphical actions via an action queue and even flip them in different directions!\par
+And that's about it for character moving! As long as whenever you search for an action queue, you remember to place the amount of bytes the action queue holds right after it in the HEX search box, you'll always find it! ;)\par
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\par
+OK! Now let's move on to a command that will really be cool when we get to custom events! \par
+The $44 command. This command is basically a place character command. It can place a character on any vehicle. As long as you know the vehicles byte. Here I'll give an example of whenever you might want to use the 44 command.\par
+In the beginning where Biggs, Wedge, and Terra walk out on the cliff, they come out on the Magitek Vehicle. Don't like that vehicle? Let's change it! First let's look at what it says in the event dump.\par
+Go to CC/9948 in the event dump, of course. We'll be look at CC/9948 through CC/994E.\par
+CC/9948: 44    Place character $00 (Actor in stot 0) on vehicle $40 (Magitek Armor) (Character is shown)\par
+CC/994B: 44    Place character $0E (Actor in stot 14) on vehicle $40 (Magitek Armor) (Character is shown)\par
+CC/994E: 44    Place character $0F (Actor in stot 15) on vehicle $40 (Magitek Armor) (Character is shown)\par
+And this is what Windhex reads:\par
+44,00,C0,440E,C0,44,0F,C0\par
+Wanna make them on chocobos? Sounds like a plan to me! The chocobo ID is AB. Magitek's is C0. Let's replace all the C0's with AB. Once you get that done, it should look like this...\par
+44,00,AB,44,0E,AB,44,0F,AB\par
+Load up your emulator and voila, they're on chocobos! For a full list of all the vehicles ID's, consult my table at the bottom of the tut. Oh and btw, the no-vehicle ID is 00 :)\par
+Now note that whenever the game proceeds to Narshe in the beginning, they'll be back on Magitek Armor. The 44 command will only stay active until another map is loaded. So you need to go into the Dump and look for the 44 command that places them BACK on Magitek Armor before Narshe loads if you want them back on chocobos or on foot.\par
+That's pretty much the $44 command!\par
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\par
+                                                             *CUSTOM EVENTS*\par
+\par
+Ah yes, custom events. Something that really needs to incorporated in FFVI ROM hacks nowadays but sadly isn't, save for Pandora's Box. But anyways, I'm going to teach you how I do them! I'd be really great for people to attempt these, they always make the game feel fresh and new!\par
+Okay, let's edit the guard event whenever you come into Narshe for the first time. You know how there's two guards, one on the left and one on the right? Good, we're gonna change them!\par
+First we need to learn a new command (Yay) D5! D5 is basically "set character's position to...."\par
+After that, the following bytes are the corresponding hex values for the map. It sets that character/entitity to that spot! Definitely a good skill to have in custom events!\par
+Okay well let's first go into the Dump! (Lol)\par
+Search for the text, "Imperial Magitek Armor?"\par
+No quotes and end it right there. It should zap you right to the event. OK! Now scroll up until you see this:\par
+CC/9B71: C0    If ($1E80($128) [$1EA5, bit 0] is set), branch to $CA5EB3 (simply returns)\par
+While it's not neccessary to learn, it's basically checking to see if the event square(which I'm gonna explain soon) has been set. What does this all mean?\par
+Well basically an event square is a square, that if stepped on, initiates a cutscene, or event. \par
+If you want, you can go into FF6LE and go to Narshe, Outside Beginning (WOB) and make sure it's the bottom portion of Narshe. Then just click the Green button that displays Events and you should see this:\par
+{\field{\*\fldinst{HYPERLINK "http://yfrog.com/4oeventsquarep"}}{\fldrslt{\ul\cf1 http://yfrog.com/4oeventsquarep}}}\f1\fs22\par
+I circled it just in case you didn't see it. \par
+Now we're gonna edit that event square. Sorry you can't do that in any program as of today except for Windhex so yeah sorry peeps lol. \par
+But okay, with FF6LE aside, let's go back to the dump. That line of text was checking to see if it that event square was stepped on(set) and then if so, it would branch and itinitiate these commands:\par
+CC/9B77: 3D    Create object $10\par
+CC/9B79: 3D    Create object $11\par
+CC/9B7B: 10    Begin action queue for character $10 (NPC $10), 4 bytes long (Wait until complete)\par
+CC/9B7D: D5        Set vehicle/entity's position to (37, 32)\par
+CC/9B80: FF        End queue\par
+CC/9B81: 11    Begin action queue for character $11 (NPC $11), 4 bytes long (Wait until complete)\par
+CC/9B83: D5        Set vehicle/entity's position to (39, 32)\par
+CC/9B86: FF        End queue\par
+CC/9B87: 41    Show object $10\par
+CC/9B89: 41    Show object $11\par
+CC/9B8B: 45    Refresh objects\par
+CC/9B8C: 10    Begin action queue for character $10 (NPC $10), 2 bytes long \par
+CC/9B8E: 8A        Move vehicle/entity down 3 tiles\par
+CC/9B8F: FF        End queue\par
+CC/9B90: 11    Begin action queue for character $11 (NPC $11), 2 bytes long (Wait until complete)\par
+CC/9B92: 8A        Move vehicle/entity down 3 tiles\par
+CC/9B93: FF        End queue\par
+CC/9B94: 4B    Display dialogue message $000D, wait for button press (At bottom of screen)\par
+               GUARD: Imperial Magitek Armor?\par
+               Not even Narshe's safe anymore!\par
+CC/9B97: 10    Begin action queue for character $10 (NPC $10), 3 bytes long \par
+CC/9B99: 8A        Move vehicle/entity down 3 tiles\par
+CC/9B9A: CD        Turn vehicle/entity right\par
+CC/9B9B: FF        End queue\par
+CC/9B9C: 11    Begin action queue for character $11 (NPC $11), 3 bytes long (Wait until complete)\par
+CC/9B9E: 8A        Move vehicle/entity down 3 tiles\par
+CC/9B9F: CF        Turn vehicle/entity left\par
+CC/9BA0: FF        End queue\par
+CC/9BA1: 4D    Invoke battle, enemy set $01, background $3F (Default for this area), (mosaic effect enabled), (swoosh sound enabled)\par
+CC/9BA4: B2    Call subroutine $CA5EA9\par
+CC/9BA8: 42    Hide object $10\par
+CC/9BAA: 42    Hide object $11\par
+CC/9BAC: 45    Refresh objects\par
+CC/9BAD: 96    Restore screen from fade\par
+CC/9BAE: 5C    Pause execution until fade in or fade out is complete\par
+CC/9BAF: D2    Set event bit $1E80($128) [$1EA5, bit 0]\par
+CC/9BB1: 3A    Enable player to move while event commands execute\par
+CC/9BB2: FE    Return\par
+\par
+We're not gonna edit all this, lol just about 50% of it. We're gonna place the guards at a different spot on the map. So look where it says:\par
+CC/9B81: 11    Begin action queue for character $11 (NPC $11), 4 bytes long (Wait until complete)\par
+And we'll change guard number 11's action queue to this:\line 11,84,D5,26,2A,FF\par
+Now notice that the D5 command is placing him at a different point on the map. In this case, 26,2A.\par
+Anyways, let's do some forward thinking here and change Guard 10's location to directly above you, instead of to your right. :)\par
+Go here in Windhex exactly:\par
+C9D7B\par
+Now just change it all to this:\par
+10,84,D5,26,20,FF\par
+Great, now the guards will corner you - one from the top and one from the bottom!\par
+Now you may be wondering how I knew where the coordinate was stored on the map. Well the only method I know of now to find the hex values of specific places on a map is to use Sleepydude's Map editor. For some reason FF6LE was programmed to show the locations in regular numbers. So yeah you'll need to use that unfortunately. The only reason I say unfortunately is b/c the maps are named! :( But I eventually found the map and the coordinates I wanted. \par
+However, we aren't done yet! You must remember the action queues that are coming UP for Guard 11.\par
+The game is gonna make him go DOWN because that's how it was originally programmed due to this original position being above you. Make sense? Just read that sentence slow lol.\par
+So what's the answer to this problem? \par
+Congrats! You go it - action queue editing! We need to make him move up instead of down now! He's below us now!\par
+Here I'll go ahead and be generous and give you the EXACT offset for that action queue, I've already done it 3 times now xD but if you were doing it by yourself you would know what to do, right? \par
+Just find the action queue in the event dump, go to it in Windhex, go up twice and then type 1002 in the HEX Search box. \par
+Atleast I hope you know that, I'm doing my best to explain this xD\par
+Anyways, here's the exact offset:\par
+C9D90\par
+Okay so now just change the action queue to this:\par
+11,82,80,FF\par
+So this reads as:\par
+|||||||||||||||||||||||||||||||||||||||||||||||||||\par
+Begin action queue for character 11, two bytes long (11,82)\par
+Move character  up 1 tile (80)\par
+End Queue (FF)\par
+|||||||||||||||||||||||||||||||||||||||||||||||||||\par
+Great job!\par
+Now load up ZSNES and watch the scene. It should be one guard from the top and another from the bottom, coming and cornering you! If not, repeat these steps again. I assure you, it works :p\par
+Well guys, I'm thinking this is about all I feel needs to be taught about Event Editing! You've learned about action queues, how to patch them, place character commands, and basic custom events. There's also a bunch more I hope atleast. \par
+I really encourage everyone to incorporate event editing in their game. You CAN do it, and I seriously hope this tutorial has aided you somewhat. If you need any help or have questions and comments, just email me at \par
+jshows96@gmail.com\par
+Thannks SOO much for reading this! And good luck event editing, but you won't need luck xD\par
+\par
+\par
+\par
+////////////////////////////////////////////////////////////////////////////////////////////////  \par
+                                                             ACTION QUEUE TABLE LIST\par
+\par
+The following are a list of commands that Gi Nattak has posted online.\par
+Nattaks:\par
+\par
+Index of Event Hex Commands $00 - $FF: (List Incomplete/Under Construction)\par
+\par
+00 = begin action queue for character $00\par
+05 = begin action queue for character $05\par
+21 = begin action queue for character $21\par
+22 = do vehicle/entity graphical action $22\par
+24 = do vehicle/entity graphical action $24\par
+26 = begin action queue for character $26\par
+27 = begin action queue for character $27\par
+28 = begin action queue for character $28\par
+29 = begin action queue for character $29\par
+30 = begin action queue for character $30\par
+31 = begin action queue for character $31\par
+32 = begin action queue for character $32\par
+33 = begin action queue for character $33\par
+34 = begin action queue for character $34\par
+38 = hold screen\par
+39 = free screen\par
+3D = create object\par
+3E = delete object\par
+3F = assign character $XX (Actor in stot 1) to party 1\par
+41 = show object\par
+42 = hide object\par
+43 = assign palette $XX, to character\par
+45 = refresh objects\par
+47 = make character in slot 0 the lead character\par
+4B = display dialogue message\par
+4D = invoke battle, enemy set\par
+50 = tint screen (cumulative) with color\par
+52 = tint characters (cumulative) with color\par
+53 = modify object color range from XX (color), XX (intensity)\par
+55 = flash screen with color component(s) (corresponding colors: 2 = red, 5 = green, 6 = yellow, 8 = blue, 12 or C = cyan, 10 or A = magenta, E-F = white)\par
+Note: Sometimes a byte can have 2 parts to it, for instance $55. The 1st part would be the color, and the second part of the byte would be the intensity. EX: $55, $20 = flash screen with red at low intensity. So keep that in mind for other similar bytes.\par
+\par
+58 = shake screen\par
+59 = unfade screen at speed\par
+5A = fade screen at speed\par
+5C = pause execution until fade in or fade out is complete\par
+60 = change background layer $XX to palette $XX\par
+61 = colorize color range [$XX, $XX] to color [$XX] $03 = Flashback color\par
+62 = mosaic screen\par
+6B = load map\par
+74 = replace current map's Layer 2 at\par
+75 = refresh map after alteration\par
+77 = perform level averaging on character $XX, and calculate new maximum HP/MP\par
+78 = enable ability to pass through other objects for object\par
+80 = move vehicle/entity up 1 tile\par
+81 = move vehicle/entity right 1 tile\par
+82 = move vehicle/entity down 1 tile\par
+83 =\par
+84 =\par
+85 =\par
+86 = give esper $XX to party\par
+87 = move vehicle/entity left 2 tiles\par
+\par
+88 = remove the following status ailments from character $XX (Actor in stot XX): Float, Dog Block, Hide, Chant (Casting Spell), Morph (Esper-form), Instant Death Protection, Frozen, Rage, Death (Wound), Petrify (Stone), Imp, Vanish (Clear), M-Tek, Poison, Zombie, Dark\par
+\par
+89 = inflict the following status ailments on character\par
+90 = move vehicle/entity up 5 tiles\par
+8F = unlocks all of Cyans Sword Techs\par
+91 = pause for 15 units\par
+92 = pause for 30 units\par
+93 = pause for 45 units or... move vehicle/entity left 5 tiles\par
+94 = pause for 60 units\par
+95 = pause for 120 units\par
+96 = move vehicle/entity down 6 tiles or... restore screen from fade\par
+97 = fade screen to black or... move vehicle/entity left 6 tiles\par
+98 = move vehicle/entity up 7 tiles\par
+99 = invoke party selection screen\par
+9A = move vehicle/entity down 7 tiles\par
+9B = move vehicle/entity left 7 tiles\par
+9C = move vehicle/entity up 8 tiles\par
+A0 = move vehicle/entity right/up 1x1 tiles\par
+A1 = reset timer 0\par
+A2 = move vehicle/entity left/down 1x1 tiles\par
+A9 = show title screen\par
+AA = show intro with Magitek Armor walking through snowfields\par
+AB = invoke game loading screen\par
+DC = make vehicle/entity jump (low)\par
+DD = hide mini-map\par
+CE = turn vehicle/entity down\par
+B1 = end block of repeating commands\par
+B2 = call subroutine\par
+B4 = pause for 8 units\par
+B5 = pause for 15 * 5 (75) units\par
+C0 = if ($x($x) [$x, bit 3] is set), branch to $x\par
+C1 = If ($x($x) [$x, bit 0] is clear) or ($x($x) [$x, bit 4] is clear), branch to $x\par
+or...\par
+C1 = set vehicle's facing direction to\par
+C2 = set vehicle/entity's event speed to normal\par
+C3 = set vehicle/entity's event speed to fast\par
+C4 =\par
+C5 =\par
+C6 =\par
+C7 = place airship at position $XX, $XX (overworld map coordinates) or... set vehicle/entity to stay still when moving\par
+C8 = set object layering priority to 2 (low nibble 2)\par
+C9 =\par
+CA =\par
+CB =\par
+CC = turn vehicle/entity up\par
+CD = turn vehicle/entity right\par
+CE = turn vehicle/entity down\par
+CF = turn vehicle/entity left\par
+D1 = hide vehicle\par
+D4 = set event bit\par
+D5 = set vehicle/entity's position to\par
+DA = set event bit\par
+DD = clear event bit\par
+E0 = pause for 4 * 4 (16) frames\par
+EA = non operation code (skips to next command)\par
+F0 = play song\par
+F1 = fade in song\par
+FA = stop temporarily played song\par
+F4 = play sound effect\par
+FE = return\par
+FF = end queue\par
+\par
+Vehicle/entity graphical actions:\par
+\par
+14 = wink\par
+16 = both arms raised in air\par
+18 = mad/embarrassed\par
+20 = nod head\par
+22 = dodge/stabbed\par
+23 = look to the right\par
+24 = the "oh no you didn't pose"\par
+25 = part 2 of ^\par
+28 = knocked down pose #2\par
+3B = "Ready to go stance"\par
+1A = right arm wave\par
+1D = laughing part 1\par
+1E = laughing part 2\par
+1F = shocked\par
+DC = jump low\par
+DD = jump high\par
+84 = move finger back and forth\par
+\par
+Play Song "$F0 command" List:\par
+00 = silence\par
+01 = prelude\par
+02 = title screen\par
+03 = intro\par
+04 = intro #2 (Magitek walking to Narshe)\par
+05 = Terra\par
+06 = WoB Overwold\par
+07 = Shadow\par
+08 = Thamasa\par
+09 = Gau\par
+10 = Setzer\par
+11 = Daryl\par
+12 = Sad Celes\par
+13 = Chocobo\par
+14 = Decisive Battle\par
+15 = Bar Theme\par
+16 = Kefka\par
+17 = Mines of Narsh\par
+18 = Phantom Forest\par
+19 = Veldt\par
+20 = Train Running\par
+21 = Another World of Beasts\par
+22 = Ultros #2 @ Opera House\par
+23 = Mt. Koltz\par
+24 = Battle Theme\par
+25 = Unused Fanfare\par
+26 = Wedding Waltz 2\par
+27 = Aria di Mezzo Caratte\par
+28 = Serpent Trench\par
+29 = Zozo\par
+30 = Umaro's Cave\par
+31 = Moogles\par
+32 = Tension\par
+33 = Atma\par
+34 = WoR Town\par
+35 = Falcon\par
+36 = Rise of the Floating Continent\par
+37 = WoR Jidoor\par
+38 = Sleep @ Inn\par
+39 = Wind\par
+40 = Train Noises\par
+41 = Wedding Waltz 1\par
+42 = Ohhhhh Mariaaaaa\par
+43 = Wedding Waltz 3\par
+44 = Wedding Waltz interlude\par
+45 = Singing interlude Between Draco & Maria\par
+46 = 5 minutes till ultros drops weight\par
+47 = Magitek Factory\par
+48 = House on fire\par
+49 = Cranes Activated\par
+50 = Dancing Mad\par
+1B = The Empire Gestahl\par
+1F = Metamorphasis\par
+_ _ _\par
+\par
+\par
+\par
+\par
+                                     \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+}
+ 

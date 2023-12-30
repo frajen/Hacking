@@ -1,0 +1,148 @@
+Unique Item	Count
+Empty	852
+Tonic	107
+Potion	78
+Fenix Down	30
+Tincture	23
+Elixir	21
+Warp Stone	20
+Antidote	18
+Remedy	16
+Revivify	13
+Green Cherry	13
+X-Potion	12
+Soft	8
+Tent	7
+Ether	6
+Amulet	5
+Shuriken	5
+Eyedrop	5
+Magicite	5
+Megalixir	5
+Bolt Edge	4
+Echo Screen	4
+Debilitator	4
+Dried Meat	4
+BehemothSuit	4
+Bio Blaster	4
+Dragon Claw	4
+Crystal Orb	4
+Bandana	3
+Mithril Claw	3
+Hyper Wrist	3
+MithrilKnife	3
+Pod Bracelet	3
+Ribbon	3
+Sleeping Bag	3
+Tack Star	3
+Drainer	3
+Green Beret	3
+DragoonBoots	3
+Super Ball	3
+Murasame	3
+Poison Rod	3
+Peace Ring	3
+Fire Skean	3
+Hardened	3
+Tiger Fangs	3
+White Cape	3
+Muscle Belt	3
+Minerva	3
+Force Armor	3
+Strato	3
+Ninja Star	2
+Water Edge	2
+Moogle Suit	2
+Sneak Ring	2
+Gaia Gear	2
+Guardian	2
+Economizer	2
+Imp's Armor	2
+Imp Halberd	2
+AutoCrossbow	2
+Smoke Bomb	2
+Mithril Vest	2
+Earrings	2
+Goggles	2
+ThiefKnife	2
+Diamond Vest	2
+MithrilBlade	2
+Head Band	2
+Flash	2
+Genji Glove	2
+TortoiseShld	2
+Ice Rod	2
+Air Lancet	2
+Gold Shld	2
+SwordBreaker	2
+NoiseBlaster	2
+Dirk	2
+Flame Sabre	2
+Czarina Ring	2
+Offering	2
+Sky Render	2
+Excalibur	2
+Aura Lance	2
+Graedus	2
+Flame Shld	2
+Force Shld	2
+Magus Rod	2
+Scimitar	2
+Cherub Down	1
+Aura	1
+Cure Ring	1
+Crystal	1
+Thunder Shld	1
+Gold Armor	1
+RunningShoes	1
+Pearl Lance	1
+Poison Claw	1
+Nutkin Suit	1
+Titanium	1
+Barrier Ring	1
+FakeMustache	1
+Atlas Armlet	1
+Tintinabar	1
+Mithril Shld	1
+Ashura	1
+Mithril Rod	1
+MithrilGlove	1
+Tabby Suit	1
+Tiger Mask	1
+Flail	1
+Gold Lance	1
+Partisan	1
+Stout Spear	1
+Iron Helmet	1
+Air Anchor	1
+Back Guard	1
+Buckler	1
+Dark Hood	1
+Break Blade	1
+Thunder Rod	1
+Fire Rod	1
+Thief Glove	1
+Chocobo Suit	1
+Full Moon	1
+Diamond Helm	1
+Chain Saw	1
+Soul Sabre	1
+Rising Sun	1
+Bone Club	1
+Drill	1
+Imperial	1
+Jewel Ring	1
+Rune Edge	1
+Blizzard	1
+Tempest	1
+Ice Shld	1
+Memento Ring	1
+Thornlet	1
+Safety Bit	1
+Red Jacket	1
+Plumed Hat	1
+X-Ether	1
+Black Belt	1
+Ragnarok	1
+Atma Weapon	1
+Mithril Mail	1

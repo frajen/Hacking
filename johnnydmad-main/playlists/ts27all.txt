@@ -1,0 +1,237 @@
+[towns]
+# narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+ct_600ad:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+ct_fair:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+ct_schala:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+ct_town: 	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+ct_zeal:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+ff6_balance:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+ff6_celes:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+ff7_pizza: 	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+iog_village:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+met3_plants:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+mg64_menu: 	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+sd2_always:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+sd2_city:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+sd2_desert:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+sd2_forest:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+sd2_lofty:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+sd2_matango:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+sd2_popoi:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+sd2_rose:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+sd2_thunder: 	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+sd2_town:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+sd2_wish:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+smrpg_road:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+smrpg_road2:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+
+
+[dungeons]
+# cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+ct_factory:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+ct_forest:	cave, empire, troops, train, mountain, serpent, gogo, umaro, forest, tomb, dream, ancient, phoenix, gate, mount2
+ct_mountain:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+ct_omen:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+ct_revolution:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+ct_robo: 	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+ct_schala:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+ct_silent:	cave, train, mountain, serpent, gogo, umaro, fanatics, forest, tomb, dream, ancient, phoenix, gate, mount2
+ct_theme:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+ct_tyran:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+ct_undersea:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+ct_zeal:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+ff6_balance:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+ff6_fanatics:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+ff7_pizza: 	cave, train, mountain, serpent, gogo, umaro, forest, tomb, dream, ancient, phoenix, gate, mount2
+fz_port: 	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+iog_ankor:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+iog_larai:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+met3_crateria:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+met3_plants:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+mmx_prologue:	empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+sd2_8bells:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+sd2_desert:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+sd2_fortress:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+sd2_hope:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+sd2_intruder:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+sd2_legend: 	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+sd2_star:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+sd2_thanatos:	empire, troops, train, fanatics, ktower, tomb, dream
+smrpg_road2:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2, wed_rafters
+smw_castle:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+zlttp_darkworld: cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+zlttp_dungeon:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+
+
+[fights]
+# boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+cc_flame:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+ct_battle:	savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, metamorphosis, wed_rafters
+ct_battle2:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, metamorphosis, wed_rafters
+ct_boss:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+ct_boss2:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+ct_final:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+ct_frog:	savethem, battle, unforgiven, bat2, bat3, bat4, grandfinale, metamorphosis, wed_rafters
+ct_magus:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+ct_revolution:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+ct_tylair:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+ct_theme:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+doom_e1m1:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+ff4_boss: 	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+ff6_atma:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+ff6_boss: 	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+ff6_battle:	savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, metamorphosis, wed_rafters
+ff7_battle:	savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, metamorphosis, wed_rafters
+ff7_boss:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+ffmq_final:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+iog_boss:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+mmx3_seahorse:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+mmx3_zero: 	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+sd2_boss:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+sd2_final:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+sd2_hope:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+sd2_morning:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+sd2_steel: 	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale,  metamorphosis, wed_rafters
+sf2_guile:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+sf2_ken:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+smrpg_battle:	savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, metamorphosis, wed_rafters
+totr_spirit:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+
+[cutscenes/areas]
+# prelude, omen3, awakening, balance, chocobo, johnny, veldt, espers, what, blackjack, catastrophe, spinach, falcon, engine, assault, 
+# gau, figaro, cyan, rachel, relm, setzer, celes, kefka, moogles
+ct_ayla:	gau, figaro, cyan, relm, setzer, kefka, moogles
+ct_bike:	gau, figaro, cyan, relm, setzer, kefka, moogles
+ct_bobonga:	balance, chocobo, johnny, veldt, what, spinach, engine, assault
+ct_epoch:	prelude, omen3, balance, chocobo, johnny, blackjack, falcon, engine, assault
+ct_factory:	engine, assault
+ct_forest:	prelude, omen3, balance, chocobo, veldt, spinach, assault
+ct_frog:	gau, figaro, cyan, relm, setzer, kefka, moogles
+ct_inn: 	sleep
+ct_lavos: 	omen1, dmad4, empire, troops, espers, catastrophe, assault
+ct_magusintro:	omen1, dmad4
+ct_mountain:	chocobo, veldt, empire, troops, spinach, engine, assault
+ct_night:	prelude, omen3, awakening, espers, assault, rachel, celes
+ct_omen:	catastrophe, engine, assault
+ct_prayer: 	sleep
+ct_robo:	gau, figaro, cyan, relm, setzer, kefka, moogles
+ct_rhythm:	prelude, omen3, chocobo, veldt, what
+ct_schala:	prelude, chocobo, awakening, espers, gau, figaro, cyan, rachel, relm, setzer, celes, kefka, moogles
+ct_seal:	omen3, awakening, espers, assault, rachel, celes
+ct_sewer:	what, gau, kefka, moogles
+ct_spekkio:	prelude, omen3, chocobo, johnny, veldt, what, spinach, assault
+ct_tension:	espers, what, catastrophe, spinach, assault, kefka, moogles
+ct_trial:	espers, what, spinach, assault
+ct_truth:	prelude, omen3, empire, troops, espers, what, catastrophe, spinach, assault
+#dkc_gameover:	death
+ff6_awakening:	prelude, omen3, awakening, espers, rachel, celes
+ff6_balance:	prelude, omen3, balance, chocobo, johnny, blackjack, falcon, engine, assault
+ff6_catastrophe: balance, chocobo, johnny, veldt, spinach, gau, relm, setzer, moogles
+ff6_celes:	omen3, awakening, espers, assault, rachel, celes, coin
+ff6_coin: 	omen3, awakening, espers, assault, rachel, celes, coin
+ff6_cyan:	cyan, returners, setzer, moogles, gau, figaro, blackjack, engine, falcon, blackjack
+ff6_daryl:     	daryl
+ff6_empire:	omen1, empire, troops, espers, catastrophe, assault
+ff6_espers:	omen3, espers, gate, ancient, dream, phoenix
+ff6_falcon:	setzer, blackjack, falcon, mount2, serpent
+ff6_fanatics:   catastrophe, train, fanatics, what
+ff6_figaro:     cyan, figaro, returners
+ff6_locke:      locke
+ff7_death: 	death
+ff7_fanfare:    fanfare
+iog_ankor:	veldt, what, catastrophe, spinach, engine, assault
+iog_larai:	veldt, what, catastrophe, spinach, engine, assault
+iog_womb:	awakening, espers, what
+iog_village:	awakening, espers, what, rachel, celes
+met3_crateria:	catastrophe, engine, gau, relm, setzer, moogles
+met3_surface:	veldt, empire, troops, catastrophe, omen1, dmad4
+mg64_menu: 	balance, chocobo, johnny, veldt, spinach, gau, relm, setzer, moogles
+mmx3_zero: 	gau, cyan, relm, setzer, kefka, moogles
+sd2_ally: 	sleep
+sd2_always:	gau, relm
+sd2_angel:	prelude, omen3, awakening, espers, rachel, celes
+sd2_boss:	catastrophe
+sd2_death: 	death
+sd2_dwarf:	chocobo, johnny, veldt, what, spinach, moogles
+sd2_eternal:	prelude, omen3, awakening, empire, espers
+sd2_field:	balance, veldt, blackjack, falcon
+sd2_flammie:	balance, chocobo, veldt, blackjack, falcon, engine, assault
+sd2_forest:	balance, chocobo
+sd2_forget:	awakening, espers, rachel, celes
+sd2_jema:	fanfare, gau, relm, moogles
+sd2_legend:	figaro, cyan, relm, setzer, moogles
+sd2_lofty:	balance, chocobo, veldt, blackjack, falcon
+sd2_mana:	prelude, omen3, awakening, espers, rachel, celes
+sd2_matango:	chocobo, gau, kefka, moogles
+sd2_memories:	prelude, omen3, awakening, espers, rachel, celes
+sd2_popoi:	gau, relm, setzer, kefka, moogles
+sd2_prayer:	prelude, omen3, awakening, espers, rachel, celes
+sd2_prophecy:	prelude, omen3, balance, empire, troops, espers, blackjack, falcon, kefka
+sd2_pureland: 	prelude, omen3, awakening, espers, rachel, celes
+sd2_rose:	prelude, omen3, awakening, espers, rachel, celes
+sd2_scorpion:	gau, figaro, relm, setzer, kefka, moogles
+sd2_sea:	balance, veldt, blackjack, falcon
+sd2_spirit:	prelude, omen3, awakening, espers, rachel, celes
+sd2_star:	prelude, omen3, empire, troops, assault
+sd2_steel:	figaro
+sd2_tasnica:	figaro, cyan, empire, troops
+sf2_balrog:	gau, figaro, cyan, relm, setzer, kefka, moogles
+sf2_guile:	gau, figaro, cyan, relm, setzer, kefka, moogles
+sf2_ken:	gau, figaro, cyan, relm, setzer, kefka, moogles
+sth1_spring:	chocobo, johnny, empire, troops, spinach, engine, assault
+smw_castle:	empire, troops, catastrophe
+smb2_select:	johnny, veldt, spinach, gau, relm, kefka, moogles
+zlttp_dungeon:	veldt, blackjack, catastrophe, spinach, falcon, engine, figaro, kefka
+
+[tierboss]
+ct: cc_flame, ct_battle2, ct_lavos
+ff6: ff6_tier1_dm, ff6_tier2_dm, ff6_tier3, ff4_fiend
+#i: iog_whispers
+#chorus: ff6_fanatics_chorus, ff6_tier1_chorus, ff6_tier2_chorus
+sd: sd2_thanatos
+
+
+
+[ff6 stuff]
+ff6_dmad:           catastrophe, grandfinale, floating, fanatics, ktower*2
+ff6_dmad_start2:    grandfinale, fanatics*2, ktower
+ff6_dmad_start3:    fanatics, grandfinale
+ff6_final:          grandfinale, floating, fanatics, ktower
+ff6_floating:       train, gate, floating*2, phoenix
+ff6_forest:         espers, mountain, cave*2, forest, tomb, ancient, dream
+ff6_gau:            daryl, relm, gau*2, village, ruintown
+ff6_gogo:           moogles, gogo*2, spinach
+ff6_grandfinale:    grandfinale
+ff6_johnny:         grandfinale, johnny*2, spinach
+ff6_kefka:          kefka*2, grandfinale, gogo
+ff6_ktower:         magitek, floating, ktower*2
+ff6_locke:          cyan, setzer, locke*2, savethem
+ff6_magitek:        magitek*2, engine, ktower
+ff6_martiallaw:     shadow, zozo, martiallaw*2, ruintown
+ff6_metamorphosis:  metamorphosis*2, catastrophe, grandfinale, unforgiven
+ff6_moogles:        what, moogles*2, gogo
+ff6_mountain:       umaro, veldt, mountain*2, mount2
+ff6_narshe:         shadow, umaro, zozo, narshe*2, martiallaw
+ff6_omen3:          omen3, cyan, ruin, balance*2
+ff6_owzer:          zozo, owzer*2, strago, dream
+ff6_prelude:        prelude
+ff6_prelude_nointro: prelude, celes, rachel, awakening, forest, tomb
+ff6_rachel:         celes, daryl, coin, rachel*2, ruintown
+ff6_relm:           rachel, relm*2, awakening, village
+ff6_returners:      cyan, figaro, returners*2, troops, engine
+ff6_ruin:           omen3, zozo, ruin*2, forest, train, tomb, dream
+ff6_ruintown:       awakening, martiallaw, ruintown*2
+ff6_serpent:        serpent*2, cave, ancient
+ff6_setzer:         cyan, setzer*2, locke, figaro
+ff6_shadow:         shadow*2, gau, martiallaw
+ff6_spinach:        grandfinale, johnny, spinach*2, what
+ff6_strago:         what, moogles, strago*2, village
+ff6_town:           relm, village, town*2
+ff6_train:          umaro, zozo, train*2, tomb
+ff6_troops:         empire, returners, troops*2
+ff6_umaro:          what, gogo, umaro*2, veldt
+ff6_unforgiven:     metamorphosis, grandfinale, unforgiven*2, assault, savethem
+ff6_veldt:          umaro, veldt*2
+ff6_what:           what*2
+ff6_zozo:           shadow, zozo*2, narshe, martiallaw, train
+ff6_zozo_orig:      zozo

@@ -1,0 +1,49 @@
+** FF3usME Version 6.8 Log **
+
+RC1: 2017-02-05
+* Exp. Management: Resolved a ROM corruption that would happen when you would cancel on a specific dialog after having expanded data; now, if you expand any kind of data, you will have to save the ROM before being able to edit the data
+
+BETA 2: 2017-01-06
+* renamed "Small / Big Quotes" tabs to  "Small / Big Captions"
+* Exp. Management: added Small and Big Battle Captions expansion
+* Exp. Management: changed the way most expanded data is displayed, now in the format <start hex. SNES addr.>-<end hex. SNES addr.>, <size used>/<size avail.>
+
+BETA 1: 2011-11-25 / 2013-08-06
+* Gfx Editor: fixed 2nd godess feet (sprite index 162)
+* Zoning Editor: fixed encounter rate selection boxes when changing world
+* Exp. Management: Fixed Mini-Map location report, when it was actually not using expanded part of the ROM, it would still claim that it would occupy expanded part of the ROM
+* Battle Editor, MagiTek pannel: fixed M-Tek problem where the ??????? selection are actually blank entries in the game
+* GUI: Removed "Save" button from toolbar, when no ROM has been loaded
+* Battle Editor, Dance pannel: removed the FF3usME background selection
+
+Known issues with this version:
+* Animation Editor: tabs may flicker
+* Animation Editor: icon animation makes char table of Big Font Renamer go down in the z-order (eg Esper long description.)
+* Text Editor: warning about 31 chars. only pops up when given a line-feed
+* BRR Editor: Windows 7 and above, Play and FF buttons are screwed up
+
+Known issues from previous versions:
+* Big Battle Quotes Editor: text not shown in red when using the <F> opcode (since 6.6)
+* Big Battle Quotes Editor: item/battle-command/spell opcode not displayed (since 6.6)
+
+Annoyances:
+* Esper Editor: when having less than 5 spells to learn, the spell name is "???" and the rate is 0
+* General: text overlapping controls (e.g. Item Description)
+* Interoperability with FF3Edit is limited (there is a bug with the way FF3Edit interprets the last caption, I can't do anything about that).
+* Town Dialogs Editor: word wrap captions may not be 100% pixel accurate (currently wraps after 226 pixels, guestimated)
+* Town Dialogs Editor, Location Names Editor: Optimize button do not implement the MTE for FF6j
+* UI: Windows 7 and above, some checkbox list may now have scroll bars
+* UI: Windows 7 and above, magnetized dialogs (Evolution Wizard, Text Editor char table) will overlap / underlap the main dialog
+* need new binding table for J Sw. Tech. (only BK3 is used)
+* Exp. Management: unaltered original FF3us Small Battle Window captions will say to occupy $0FE3E0-$0FF657 while in reality it is $0FE3E0-$0FF64F, this is due to a wild pointer used in the original Square code for Siegfried's dialog
+
+TODO:
+* Monster ed: Attack Script: Need counter attack hack when dealing with moved scripts (since 6.4)
+* Improve Spell Animation Struct/Script Editor
+* Make an Event Editor, much like the Battle Script Editor
+* Incorporate Celes natural magic bug fix
+* Dance Editor: add the "stumble data" that was sent to me a few years ago, got to find this in my archive...
+* BRR Editor: edit loop points
+* Bitmap Editor: an undo buffer
+
+Lord J

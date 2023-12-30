@@ -1,0 +1,14 @@
+FFV Exdeath
+------------
+Authors: Astaroth
+Release date: 10/01/2012
+Forum thread: https://www.ff6hacking.com/forums/thread-1828.html
+
+Notes
+-----
+-Four sprites are same model, #1 and #4 should be considered the most final
+
+
+Use in personal or public projects allowed with proper credits 
+but do not claim as your own.
+

@@ -1,0 +1,24 @@
+FF6LE Rogue CE 0.7.4 ROM Map
+
+DESCRIPTION     TYPE    OLD LOCATION    NEW LOCATION    
+-----------     ----    -------------   -------------   
+Events          PTR     C40000-C40341   C40000-C40401   
+Events          DATA    C40342-C41A0F   C40402-C44401   
+NPCs            PTR     C41A10-C41D51   YY0000-YY0401   
+NPCs            DATA    C41D52-C46ABF   YY0402-YY8FFF   
+Exits (small)   PTR     DFBB00-DFBF01   YY9000-YY9401   
+Exits (small)   DATA    DFBF02-DFD9FF   YY9402-YYCFFF   
+Exits (long)    PTR     EDF480-EDF881   YYD000-YYD401   
+Exits (long)    DATA    EDF882-EDFDFF   YYD402-YYDFFF   
+Treasures       PTR     ED82F4-ED8633   YYE000-YYE3FF   
+Treasures       DATA    ED8634-ED8E5A   YYE400-YYF3FF   
+Free Space      ----    -------------   YYF400-YYFFFF
+Tilemaps        PTR     D9CD90-D9D1AF   D9CD90-D9D38D   
+Tilemaps        DATA    D9D1B0-DDFFFF   XX0000-ZZFFFF   
+Map Properties  DATA    ED8F00-EDC47F   DA0000-DA41DE   
+Map Names       PTR     E68400-E6877F   DA4200-DA43FF
+Map Names       DATA    CEF100-CEF5FF   DA4400-DA68FF
+
+YY = Expanded Data bank
+XX = Expanded Tilemaps starting bank
+ZZ = XX + number of Expanded Tilemaps banks

@@ -1,0 +1,105 @@
+Major changes/additions are indicated by ***
+
+v3.18.4 (2013-08-26)
+--------------------------------------
+Additions:
+*Can now import world map data from a fresh ROM
+
+Changes:
+*Image drawing code now safer and much faster
+*Locations: world maps draw yet another 2x faster than before!
+
+Fixes:
+*Never removed header after save b/c romLength not being updated
+*Some problems with new history logging format, dragging objects
+*Locations: shouldn't be asking to save if already saved
+*Locations: changing world map's tile properties not updating tilemap
+
+
+v3.18.3 (2013-08-16)
+--------------------------------------
+Changes:
+*History logging now more practical, loading times now faster
+*Locations: locations now draw 2x faster, world maps 4x faster!
+*Locations: raised maximum exits per location to 64
+
+Fixes:
+*Event Scripts: fixed and updated command $A0 (countdown timer)
+*Locations: crash if try to drag bars in palette editor
+*Locations: tilemaps and tilesets were not clearing if all set to 0
+*Locations: shouldn't be checking if 0 tilemap for world maps
+*Locations: crashes sometimes drawing if layers different sizes
+
+
+v3.18.2 (2013-08-06)
+--------------------------------------
+Fixes:
+*Graphics Editor: crash when making selection < 4 pixels wide/high
+*Graphics Editor: not nulling selection when delselecting
+*Locations: sizing image when updating tilemap was ignoring zoom factor
+*Locations: assembler code for solidity set still had bugs, now perfect
+
+
+v3.18.1 (2013-07-30)
+--------------------------------------
+Additions:
+*Locations: gave several unknown values descriptive labels/controls
+*Locations: architecture importing/exporting added
+
+Changes:
+*Now recalculates checksum when saving a modified ROM
+*Locations: long exits can be click/dragged anywhere on the field
+*Locations: tags containing script stubs now more offset precise
+
+Fixes:
+*Restore elements storing location map data to tilemaps, corrupting them
+*Graphics Editor: wrong picture size for world map graphics
+*Event Scripts: crash when update offsets if on very last script
+*Locations: finally got layer 3 drawing correctly, colors and all
+*Locations: adding new exits, events, NPCs, etc. not enabling groupboxes
+*Locations: changing exit destination not updating tag
+*Locations: crash closing tile editor b/c solidity tiles bad assembler
+*Locations: world map tile editor not redrawing in world map format
+*Locations: tile editor loading tile 0 if doing auto-update
+*Locations: changing destination of exit casting as byte and not short
+*Locations: minimaps not saving b/c never actually decompressing first
+*Locations: crash when close locations if a subwindow still open
+*Locations: ignores/won't load long exits if no short exits in location
+*Locations: not calculating free short exit space correctly
+*Locations: couldn't draw tiles to lower part of tilemaps
+*Locations: crash if try to draw tile beyond boundaries of tilemap
+*Locations: never was actually saving the graphics!
+*Locations: undo not being set to manual count on load/reload
+*Locations: BG color should always be filled with solid black
+*Locations: NPCs not redrawing when sprite # changed
+*Previewer: not using correct sprites for characters in save state
+
+
+v3.18.0 (2013-07-21)
+--------------------------------------
+Changes:
+*Updated the GUI and code to reflect most recent build of Lazy Shell
+
+
+v2.0
+--------------------------------------
+Additions:
+***Scripts editor allows user to modify event scripts***
+
+Fixes:
+*Checksum calculation wasn't dividing into 4Mbit chunks
+*Levels: should load levels faster b/c it now uses Array.Clear()
+
+
+v1.2
+--------------------------------------
+Additions:
+*Levels: level information (ie. offsets) viewer
+
+Fixes:
+*Levels: changing short to long exit wasn't updating bytes free
+*Levels: changing focus resets autoscrollposition of tilemap panel
+*Levels: space analyzer wasn't working at all
+
+Changes:
+*Main: auto-load last ROM now disabled by default b/c first load of FF6LE.exe showed prompt

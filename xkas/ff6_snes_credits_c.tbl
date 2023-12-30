@@ -1,0 +1,31 @@
+# ROM (header)  CPU address
+# 2A1A1-2A4FF   C29FA1-C2A2FF  Closing credits presented in a larger font
+
+
+00=<end>
+40=A
+42=B
+44=C
+46=D
+48=E
+4A=F
+4C=G
+4E=H
+60=I
+62=J
+64=K
+66=L
+68=M
+6A=N
+6C=O
+6E=P
+80=Q
+82=R
+84=S
+86=T
+88=U
+8A=V
+8C=W
+8E=X
+A0=Y
+A2=Z

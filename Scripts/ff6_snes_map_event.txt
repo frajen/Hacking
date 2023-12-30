@@ -1,0 +1,3082 @@
+VICKS: There’s the town… WEDGE: Hard to believe an Esper’s been found intact there, 1000 years after the War of the Magi…
+VICKS: Think it’s still alive? WEDGE: Probably… …judging from the urgency of our orders. 
+VICKS: And this woman, this…sorcerer. Why’s she here? I heard she fried 50 of our Magitek Armored soldiers in under 3 minutes.
+WEDGE: Not to worry. The Slave Crown on her head robs her of all conscious thought. She’ll follow orders.
+WEDGE: We’ll approach from the east. Move out!
+ Long ago, the War of the Magi      reduced the world to a scorched wasteland, and magic      simply ceased to exist. 
+1000 years have passed… Iron, gunpowder, and steam engines   have been rediscovered, and      high technology reigns… 
+    But there are some who   would enslave the world by reviving the dread destructive     force known as “magic.” 
+        Can it be that those   in power are on the verge of        repeating a senseless         and deadly mistake? 
+An eerie glow surrounds you. Want info about Save Points?  <Choice> Yes  <Choice> No
+WEDGE: Let’s put her on point. No sense taking any risks. Forward!
+WEDGE: The Esper’s gotta be in here. Move out!
+GUARD: Imperial Magitek Armor? Not even Narshe’s safe anymore!
+GUARD: Machine-riding, self-important swine! Take this!
+GUARD: Narshe’s freedom depends on us!
+WEDGE: According to our source, the frozen Esper was found in a new mine shaft. …Maybe this one…
+VICKS: I’ll handle this. Stand back!
+GUARD: We’ve got ’em trapped, now!
+GUARD: We must defend the mines!
+Locked.
+GIRL: Where am I…?
+OLD MAN: Whoa! And I only just removed the crown!  GIRL: …head…hurts…
+OLD MAN: Easy! This is a Slave Crown. The others had complete control over you while you were wearing it.
+GIRL: I can’t remember a thing… OLD MAN: Don’t worry. It’ll all come back to you…in time, that is. ………
+My name… …is…TERRA… OLD MAN: Impressive! I’ve never heard of anyone recovering this fast…!
+SOLDIER: Open up! Give us back the girl and the Empire’s Magitek Armor!!
+SOLDIER: Open this door! We want that girl! She’s an officer of the Empire!
+TERRA: Empire…? Magitek Armor…?
+OLD MAN: Look, I have to get you out of here! I don’t have time to explain!
+OLD MAN: Over here!
+A mysterious young woman, controlled by the Empire, and born with the gift of magic……
+ Please enter a name.
+OLD MAN: Make your way out through the mines! I’ll keep these brutes occupied!
+Got her!
+She’s up there!
+KEFKA: My sweet little magic  user…! Uweee, he, he! With this Slave Crown I’ll practically OWN you!!
+TERRA: No! Get away from me!
+GESTAHL: We stand on the brink of a major breakthrough! In the days to come, we’ll witness a total revival of magic! GESTAHL: It is our destiny, and ours alone, to take this mystic force and claim what is rightfully ours!
+CID: This is my finest work. These Magitek converters combine the power of magic with machines…
+GESTAHL: With our new-found power, nothing can stand in our way! Hurrah!!! Long live Emperor Gestahl!!!
+OLD MAN: Took you long enough! How goes the robbing and plundering trade?
+LOCKE: I PREFER the term treasure hunting! OLD MAN: Ha! Semantic nonsense! LOCKE: There’s a HUGE difference!
+LOCKE: Anyway, were you the one who sent for me? OLD MAN: Yeah. There’s a girl I’d like you to meet.
+LOCKE: ……!? This better not have anything to do with that Magitek-riding, imperial…witch!!!
+OLD MAN: Imperial troops are pursuing her even as we speak. This town is no match for the Empire. Our independence can only be assured if we join forces with the Returners, an underground resistance movement. That girl wasn’t responsible for her actions. We must get her to understand our dilemma!
+LOCKE: All right… I think we’d better help her…
+OLD MAN: Agreed. Make your way first to Figaro, and talk to the king.
+Treasure hunter and trail-worn traveler, searching the world over for relics of the past…
+GUARD: Now we gotcha!
+LOCKE: Wonderful… There’s a whole bunch of ’em…
+                Kupo…
+LOCKE: Moogles…! Are you saying you want to help me?
+Kupo!!!
+MOOGLE: Use us to save TERRA from the guards! Need more information? <Choice> Yes <Choice> No
+You’ll fight using 3 different groups. Press the Y Button to switch between them. Your job is to defeat the commander of the guards before his men reach TERRA. Save her, or else…
+TERRA: Unh…
+LOCKE: Thanks, Moogles! We’re in your debt!
+LOCKE: I think this switch’ll…
+LOCKE: Eh? You back with us now?!
+TERRA: You…saved me? LOCKE: Save your thanks for the Moogles!
+TERRA: Uhh…I can’t remember anything…past or present…
+LOCKE: You have amnesia?!
+TERRA: A man said my memory would come back… LOCKE: Give it time. You’re safe with me! I give you my word! TERRA: ??? LOCKE: I won’t leave you until your memory returns!! By the way, this secret entrance might be useful some day. Don’t forget about it!
+MAN: You mean, THIS young woman…?!
+TERRA: Who do you think you are?
+MAN: Oh…sorry!
+MAN: How rude of me to turn my back to a lady!
+The young king of Figaro Castle, ally to the Empire, and a master designer of machinery…
+EDGAR: I am EDGAR, King of Figaro.
+LOCKE: Surprised someone like me knows a king?
+LOCKE: Talk to you later!
+EDGAR: So…you’re an Imperial soldier! No problem. Figaro and the Empire are allies! Please, relax while you’re here. It’s not in my blood to harm a lady.
+TERRA: Look, why are you helping me? Is it because of my…abilities?
+EDGAR: I’ll give you 3 reasons: First of all, your beauty has captivated me! Second…I’m dying to know if I’m your type…
+I guess your…abilities…would be a distant 3rd.
+TERRA: ……?  What’s with you, anyway?
+EDGAR: Guess my technique’s getting a bit rusty…
+EDGAR: Come find me when you feel rested.
+TERRA: Hmm…I suppose a normal girl would have found him dashing.  But I’m hardly…normal…
+Feel free to wander about.
+Go see the King!
+Weapons and items manufactured here are sent to South Figaro.
+Long ago, a force called “magic” existed. People who used magic were called “Mage Knights.”
+Scholars the world over are doing research on magic. Silly people, scholars…
+Ancient texts I’m studying speak of a “1000 year-old city beneath the sand.” I wonder what this means,  “…when the queen stands and takes 5 steps…”
+I heard the Empire is using something called “magic”…
+The Empire has smashed the 3 cities on the southern continent. Just a matter of time ’til they come up here…
+Gestahl has harnessed the power of magic. Who can stop him now?!
+Though EDGAR showers his attentions on women, most are too smart to pay any attention to him.
+His highness said he’d marry me when I get older!
+I wanna marry the king!
+He recently tried to hit on the high priestess… Surely, he’s…talked to you?
+TERRA: ……
+Ah! King EDGAR!
+“……”
+Error. Contact a supervisor. From: Development Team.
+These thieves have been terrorizing the vicinity. Stay away from ’em!
+I demand to see EDGAR! How dare they keep us in this stinking pit!
+Hey! Let us outta here!
+Relax, they’re just blowing off steam. But I’m telling you, there’s no sense keeping us here! We’re just small potatos compared to the real threat lurking out there! And King EDGAR knows it!
+I’m Lone Wolf, the pickpocket!
+MATRON: EDGAR’s at it again!? He hits on anything that moves!
+MATRON: EDGAR has a twin brother. He was such a nice boy…
+YOUTH: Brother, What’s wrong with father? What’s all this talk of his successor? EDGAR: Are you blind? Look how thin his face has become!
+YOUTH: ?……What is it?
+YOUTH: Brother!
+YOUTH: Tears……?!
+EDGAR’s twin brother, who traded the throne for his own freedom…
+MATRON: Yes… His name is SABIN. Oh, he looked so like his father! When he ran away, he was a sweet little child. I wonder what he’s like now?
+CHANCELLOR: The whole business of the succession was so repugnant to SABIN, the King’s brother, that…… ……he fled the castle forever. The succession was settled with a coin toss…
+MERCHANT: I can’t take money from the King! EDGAR: Look, don’t you have a family? Just shut up and take it.
+MERCHANT: Sir SABIN, I can’t take your money! SABIN: Take it! Haven’t you heard? My brother says I’m a notorious spendthrift!
+EDGAR: You’ve been busy down south! Looking for more cities to destroy? TROOPER: That’s for us to know!
+Sir Kefka!? What on earth do… KEFKA: Outta my way!
+EDGAR: Well? How do you like my castle?
+King EDGAR! Someone from the Empire to see you!
+EDGAR: Probably Kefka!
+KEFKA: Phooey! Emperor Gestahl’s stupid orders!
+KEFKA: EDGAR, you pinhead! Why do you have to live in the middle of nowhere? These recon jobs are the pits!
+KEFKA: Ahem…there’s SAND on my boots!
+SOLDIERS: Yes, Sir! All set, Sir!
+KEFKA: Idiots!
+EDGAR: I thought we were allies! What are you doing in my domain?<Accidentally dummy: TROOPER: Allies? The Empire and this back-water, two-bit kingdom?!>
+EDGAR: What brings Kefka, humble servant of Emperor Gestahl, into our lowly presence? KEFKA: A girl of no importance recently escaped from us. We heard she found refuge here…
+EDGAR: Hmm…this wouldn’t have anything to do with this “witch” everyone’s been whispering about, would it? KEFKA: Lies! She…merely stole something of minor value. Is she here?
+EDGAR: That’s a tough one!
+EDGAR: You see, there’re more girls here than grains of sand out there. I can’t keep track of ’em all! KEFKA: I’d hate to be you if we find out you’re lying… Mwa, ha!
+KEFKA: I truly hope nothing happens to your precious Figaro…!
+LOCKE: I’d say that guy’s missing a few buttons… EDGAR: … Where’s TERRA?
+EDGAR: Take her to her room…
+EDGAR: I’d love to chat with you, but the Chancellor and I must plan our strategy. Sometimes I hate being a king! If you’ll excuse me.
+LOCKE: Follow me.
+LOCKE: Don’t you worry ’bout a thing! I’ll… TERRA: You’re LOCKE, right? EDGAR told me about you. Is it true you’re a thief?
+LOCKE: That’s TREASURE HUNTER!
+LOCKE: On the surface, EDGAR pretends to support the Empire. The truth is, he’s collaborating with the Returners, an organization opposed to the Empire. I am his contact with that group…
+LOCKE: The old man you met in Narshe is one of us. TERRA: Empire…but I’m a soldier of the Empire…!
+LOCKE: That’s not true! They were using you! Things are different now.
+TERRA: I don’t understand… What should I do?
+LOCKE: I can’t tell you what to do. You don’t have to decide right now. You’ll soon find your way…
+TERRA: But how will I know which way is right…
+EDGAR: …? What the…?!
+EDGAR: What’s happening? SOLDIER: It’s the Empire! It’s Kefka!
+EDGAR: What are you doing?
+KEFKA: Bring me the girl. Now! EDGAR: I don’t know what you’re talking about! KEFKA: Then… welcome to my barbecue!! Uwa ha ha ha!
+FIRE!!!
+Fire! Fire! Heh, heh heh…
+EDGAR: Get ready…! SOLDIER: Yes, Sir!
+KEFKA: Changed your mind…?
+EDGAR: I guess I have no choice…
+EDGAR: Or maybe I do!
+KEFKA: Ackk! Shameful that a king should flee, leaving his people behind! How utterly delightful!
+EDGAR: Jump! 
+LOCKE: Yahoooo!
+EDGAR: OK! Dive now!!!
+SOLDIER: Figaro Submerge Mode engaged! 
+CHANCELLOR: No one can touch the people of Figaro!
+EDGAR: Bravo, Figaro!!! 
+KEFKA: Go!! GET THEM!
+KEFKA: Son of a submariner! They’ll pay for this…
+LOCKE: This is great! 
+TERRA: Was that a bad person?  I… I’m scared…
+EDGAR: TERRA, there’s someone I’d like you to meet…!
+LOCKE: We’re members of the Returners. EDGAR: Our mentor, Banon, would certainly like to meet you. “Magic” is going to be the key to winning this war.
+TERRA: “Magic”…
+EDGAR: TERRA has magical powers. That Esper seemed to…react to her. Can there be some connection? TERRA: I haven’t the foggiest! It just seems natural to me that I have the use of this power…
+EDGAR: But no HUMAN is born with the powers you seem to have, and…
+EDGAR: I apologize. TERRA: What should I do…? EDGAR: I’m sure the Empire is going to come after you… If they get their hands on you again, the world’s finished… TERRA, you want to understand your own powers, right?
+EDGAR: Then I think we need to consult with Banon. TERRA: ……
+LOCKE: Please…
+EDGAR: OK! To the south there’s a cave that leads to South Figaro.
+This cave leads to South Figaro. It’s closed now due to construction.
+SOLDIER: King EDGAR! Where are you headed? EDGAR: Through the cave, and eastward to South Figaro. EDGAR: Return to the castle, and tell the others we’re safe. SOLDIER: Yes, Sir! Take care!
+Zzz…zzz…
+There’s a clock key in his pocket… <Choice>(Take it.) <Choice>(Stealing is wrong.)
+<Choice>(Wind the clock?) <Choice>(Leave it.)
+An old clock… It’s not ticking…
+An old clock… It’s ticking…
+Took the Clock Key!
+Welcome to South Figaro!
+You’ll find lots of excellent weapons, armor and relics in our shops.
+Did you hear? Figaro Castle sank into the sand! You couldn’t find it even if you knew where to look!
+Mt. Kolts is to the east.
+Beyond Mt. Kolts you’ll find the Sabil mountain range.
+Equip relics to gain a variety of abilities! These double my walking speed!
+My husband, Duncan, is a world-famous martial artist! He’s taking his disciples to Mt. Kolts for meditation and training.
+SABIN, where’s Vargas? Where’s my husband?
+SABIN: Master was… Vargas…
+DUNCAN’S WIFE: I’ll never understand Vargas… Fortunately, my husband taught his most secret techniques to you.
+SABIN: For 10 years you’ve treated me like a son. I am eternally grateful!
+….
+LOCKE: At the very least you could give me a response…
+EDGAR: Stand back! He seems vaguely familiar… Wait a minute…!
+He owes allegiance to no one,  and will do anything for money. He comes and goes like the wind…
+EDGAR: That’s SHADOW…! He’d slit his mama’s throat for a nickel!
+LOCKE: Better steer clear of him, I guess.
+SHADOW: Leave us. The dog eats strangers…
+The guy at the counter… He’s kinda creepy…
+That guy at the counter…HEY! Where’d he go?
+Duncan’s students have no peers!
+I’m so sorry to hear about Duncan.
+Duncan made his son, Vargas, practice a strict martial arts lifestyle. Vargas resented it.
+The house in the northern part of town belongs to our wealthiest citizen.
+The Empire’s been invading one town after the next. We’re not safe here!
+The Empire attacked Figaro Castle?! Now we’ll all be drawn into the battle!
+I can’t believe it! The Empire’ll smash us!
+This town’ll go down fighting! Even with their Magitek Armor, we’ll make it tough on ’em!
+Attack from the east. That way, ……?! Hey! Whaddaya think you’re doin’? Barging in here while I’m trying to write a letter! Harumph!
+Oh, uh, sorry… Even a millionaire can be… startled.
+Oh, what have I done?! I betrayed the town, and I didn’t even need the money!
+Chung chung… Chung chung… Magitek Armor!!!!
+My Dad’s VERY important! Why, not so long ago he even dined with General Leo… … Uh, I, uh, just made that up!
+Wind the clock! Wind the clock! Uh, that was just a jump-rope rhyme!
+Has war really begun? I’d better return home…
+The Imperial Troops have turned this house into their headquarters.
+There’s always a nasty draft in this room. Where’s it coming from?
+I don’t like strangers. Bring me some cider, and maybe I’ll talk to you.
+What?! No cider?!
+Hurumph…DOG!
+Ah! Cider! Glug, glug, … Huh? Secret passage? Well, there is one that leads to the rich man’s house.
+Go downstairs and give my grandson the password. It’s…uh, umm… I forget!
+My grandfather was a servant for the richest man in town.
+Only people dressed as merchants may pass through.
+Merchant, right? You may proceed.
+The password is… <Choice>“Rose bud” <Choice>“Courage” <Choice>“Failure”
+You’re an Imperial spy! Can’t fool me!
+Secret entrance.
+Good luck!
+Outta the way! I gotta get this cider over to the old man! That’s my job! Now scram!
+I’m off work. Get lost!
+Are kids allowed in here? ……What do you think? Oh, all right…
+Hey you! Come to steal my cider?
+You thief!
+Took the old man’s cider!
+The ship isn’t going anywhere.
+Imperial troops are milling about. Gotta jam without being seen!
+Use caution.
+     EDGAR: Hm… What’s that smell…?
+EDGAR: Flowers… His favorite…
+EDGAR: And this… His favorite tea…
+EDGAR: These dishes! They were his favorite!
+EDGAR: SABIN…he was…here?!
+EDGAR: What the…
+EDGAR: You know this guy?
+MAN: Of course. He left a couple of days ago after he heard Master Duncan was slain. He headed into the mountains. I heard Duncan’s son, Vargas, is missing as well. I have a bad feeling about this…
+EDGAR: He must have gone to pay his respects to his mentor, Duncan…
+     Scum! You’re Returners!
+What about SABIN?
+VARGAS: SABIN sent you, right?
+LOCKE: Who’re YOU?
+LOCKE: You were shadowing us earlier, right? VARGAS: Brilliant!
+TERRA: YOU! You’re the coward who murdered Master Duncan!
+VARGAS: And how unlucky it is that you have run into me…!
+EDGAR: SABIN? Is he here?
+EDGAR: SABIN!!!
+SABIN: Big brother?
+LOCKE: The brothers are reunited!
+TERRA: Younger… “brother”? At first glance I thought he was some bodybuilder who had strayed from his gym…
+SABIN: Bodybuilder?!
+SABIN: I’ll…take that as a compliment…
+SABIN: Anyway, brother, what are you doing here? EDGAR: We’re on the way to the Sabil mountains. SABIN: To the Returner hideout, no doubt?
+SABIN: I’ve been watching from afar, hoping that the world might regain some sanity… At this rate, Figaro will be reduced to a puppet state.
+EDGAR: Our time to strike back has arrived. The Empire’s going to pay for what it has done…
+SABIN: Think a “bear” like me could help you in your fight?
+EDGAR: You’d…join us? SABIN…!!
+SABIN: I think Duncan would rest easier if he knew his disciple played a part in bringing peace to the world.
+LOCKE: Let’s get going!
+King EDGAR! This way, please!
+Did you speak with Banon?
+Not even the Empire’d think of looking here for us!
+Aha!
+Welcome!
+Thank you!
+Take a nap? <Choice> Yes <Choice> No
+250 GP per night. Lights out? <Choice> Yes <Choice> No
+250 GP for a Chocobo ride! Well? <Choice> Yes <Choice> No
+BANON: Is she the girl who can talk to Espers…?! TERRA: Espers…? EDGAR: Seemed the Empire had complete control over her.
+BANON: Carrier pigeons brought word that she wiped out 50 of the Empire’s best soldiers in a few minutes.
+TERRA: That’s a lie!!!
+LOCKE: TERRA! EDGAR: Banon! She doesn’t remember ANYTHING!
+BANON: Stay where you are!
+EDGAR: Banon! We brought the girl with us.
+BANON: Perhaps you’ve heard this story? Once, when people were pure and innocent, there was a box they were told never to open. But one man went and opened it anyway. He unleashed all the evils of the world: envy… greed… pride… violence… control… All that was left in the box was a single ray of light: Hope.
+TERRA: …… BANON: We now confront those evils… And you are that last ray of light, our only hope…
+EDGAR: Banon!
+BANON: I’m so tired… Let me rest a while.
+         2000 GP inside!
+         Found Potion!
+         Found Ether!
+         Found Remedy!
+We’re a small organization now, but our membership is starting to soar.
+BANON: TERRA… Talk to everyone here, heed their advice.
+Banon? He went outside a moment ago.
+Welcome back! Glad you’re okay.
+Welcome back!
+Is Banon well?
+My wounds are healing.
+The Empire is arresting Returners everywhere. We have to discover some means of fighting back, or…
+LOCKE: Someone important to me was jailed by the Empire. I’ve hated the Empire ever since… I joined the Returners when I realized the Empire was rotten to the core. I wanted to make a difference.
+Someone dropped a scrap of paper… <Choice> Toss it in the trash. <Choice> Leave it there.
+BANON: Who did this? Who left this piece of paper here?
+TERRA: But…I have no significant “other” in my life… LOCKE: That’s not entirely true. Besides, I’m sure there are people who feel YOU’RE important to them! They are counting on you…
+EDGAR: It’s gonna be tough to talk you into helping us… If we push you too hard, we’re no different than the Empire… So we want you to make up your own mind.
+SABIN: The only thing I can add is that you can trust my brother implicitly. He’s always been fair with me. You can trust him, TERRA…
+But don’t you DARE tell him I said that!
+BANON: Have you made a decision? Will you become our last ray of hope? <Choice> Yes <Choice> No
+BANON: You will? Really!!
+TERRA: But…  I’m scared…
+BANON: I see…
+BANON: I thought as much…
+BANON: You’re sure about this?
+I understand your unease. But even as we speak, innocent lives are being lost… Please. We need your abilities. This relic will keep you safe.       Received “Genji Glove”!
+We truly need your help!
+Please join us in our battle!
+BANON: The person who possesses this relic need not fear harm.
+BANON: Please, TERRA… I’d like you to take it with you.
+TERRA: What is this??? 
+BANON: If everyone works together we’ll be successful. Never give up hope!
+BANON: A lucky charm. Take it!       Received “Gauntlet”!
+BANON: I have a plan! Please get everyone together!
+TERRA: Hope… How can anyone put their hope in me?
+S…South Figaro…
+What? WHAT IS IT?
+BANON: What’s going on? What happened?
+TERRA: He’s badly wounded!
+BANON: Someone did a number on him…
+E…Empire…took Figaro… Coming…this way…unnnh…
+BANON: They’ve found us… We haven’t a moment to lose!
+EDGAR: LOCKE! LOCKE: I know… “Someone” has to sneak into South Figaro and slow the Empire down, right? EDGAR: This’s right up your alley! Good luck!
+LOCKE: TERRA… Please wait for me… And…please… …don’t let a lecherous young king, who shall remain nameless, near you! EDGAR: LOCKE!!!
+SABIN: Big brother… Aren’t you EVER going to grow up?
+BANON: What’re we going to do? EDGAR: We’ll escape down the Lete River, and make our way to Narshe. I want to see that Esper for myself… BANON: Right. There’s a raft by the back entrance. It’s a gamble, but we’re fresh out of options…
+EDGAR: You’re in danger here. Come with us to Narshe. You’ll probably even gain some understanding of your own abilities…
+BANON: We’ve no time to dilly-dally. Let’s make for Narshe!
+We’ll handle things here… Please leave for Narshe!
+Give our regards to Banon.
+The Lete River runs through some underground caverns.
+BANON: We all know that the Empire is using Magitek power in battle. The point is, how has the Emperor created it?
+EDGAR: I had LOCKE look into the rumor that the Empire is forcing the world’s finest scholars to study Espers.
+LOCKE: All the trouble in Narshe is over an Esper, too…
+BANON: Right…
+TERRA: You mean there’s some connection between Espers and Magitek? BANON: I can only recall one thing linking Espers with Magitek power…
+EDGAR: You don’t mean… BANON: Indeed! The ancient War of the Magi…
+“No!” “It can’t be!”
+LOCKE: My Grandma used to tell me stories about magical machines… Could they have been true?
+EDGAR: Could that ancient tragedy be playing out once again… BANON: It’s just speculation… But historical studies have provided a number of conflicting and frightening theories… According to one theory, humans and machines were imbued with powers drained from Espers…
+TERRA: That could explain Magitek power…
+EDGAR: We can only fight Magitek enemies with Magitek weapons…<Accidentally dummy: BANON: Fool! That’s how the Magi Wars are said to have started! EDGAR: Then what do we do? BANON: We have to communicate with an Esper… LOCKE: With an Esper!?>
+BANON: It’s risky, but if we have TERRA…speak with that Esper, it might just wake up… EDGAR: I wonder if that’s wise…?
+BANON: Who can say? Regardless, we need TERRA’s help.
+LOCKE: TERRA…
+TERRA: I’ll do it! SABIN: What nonsense! You sound as if you’re enjoying this!
+Emergency! Sir Banon…
+BANON: What?  What’s that noise?
+Uwaaaa! The Empire’s invading!
+Urgh…uhnn…
+!
+What the…? Sleep talking?
+Here we go! This raft’ll take us to Narshe!
+Hop aboard the raft? <Choice> Yes <Choice> No
+Fleeing the Empire’s troops, Banon, EDGAR and TERRA ride the rapids toward Narshe. But the going won’t be easy…
+Head toward Narshe, but protect Banon at all costs. If Banon is put out of commission, your journey’s over.
+Which way?     <Choice> (Straight)   <Choice> (Left)      <Choice> (Right)
+Now which way???    <Choice> (Left)      <Choice> (Right)
+
+
+Hey, which way?          <Choice>  (Up)   <Choice> (Left)
+EDGAR and TERRA race toward Narshe while protecting Banon… …but what about SABIN, who was swallowed by the raging waters…? And… …how is LOCKE faring, after having penetrated the Empire’s defenses in South Figaro… Is all going according to plan…?
+ (Please choose a scenario.) <Choice> Banon and Co. <Choice> SABIN <Choice> LOCKE
+SABIN!!!
+LOCKE: Nuts! Gotta get to Narshe on the fly…
+LOCKE has worked hard to stymie the efforts of the Imperial troops. But now he desperately needs to escape…
+Halt!
+LOCKE: Ouch!! I gotta steal me some new clothes, fast!!
+Back inside!
+Gotta get moving! The attack on Narshe is imminent. Who knows what’s going to happen next?
+Imperial soldiers are pigs! Green Suits live to brawl…
+LOCKE: I’ve seen her before… Of course! She’s one of the Empire’s generals!
+Product of genetic engineering, battle-hardened Magitek Knight, with a spirit as pure as snow…
+ GUARD: This’s what happens to traitors!
+GUARD: So, the mighty CELES has fallen!
+CELES: How can you serve those cowards… GUARD: Hold your tongue!
+CELES: Isn’t it true Kefka’s going to poison the people of Doma, to the east? GUARD: Shuddap!
+GUARD: I’d hate to be in your shoes tomorrow!
+Keep a close eye on her!
+Yes, Sir! I can go for days without sleep!
+<Choice> (Remove her chains?) <Choice> (Wait a few minutes.)
+CELES: You’re awfully short for a soldier. LOCKE: Oh, I forgot I was wearing a uniform!
+CELES: What do you hope to peddle down here? LOCKE: Oops! Forgot I was wearing these clothes.
+CELES: And you are…
+LOCKE: I’m with the Returners. Name’s LOCKE. CELES: Returners!!! I used to be General CELES… Now I’m just a common traitor…
+LOCKE: Let’s go! CELES: !? You’d take me along?
+CELES: Thanks, but no thanks. I can barely walk…
+CELES: I’m grateful, but… Even if you got me out, you’d never be able to protect me. No, I think I’m better off here.
+LOCKE: I’ll protect you!
+LOCKE: Trust me! You’ll be fine!
+LOCKE: Let’s go!
+SOLDIER: …more soup…’n…
+SOLDIER: …’n some bread, too… Mumble  Mumble…
+CELES: Wait.
+CELES: This soldier has something important on him…
+CELES: Why are you helping me? LOCKE: You remind me of someone…
+LOCKE: But what’s it matter, anyway? I just want to, okay?!
+CELES: This passage leads out.
+LOCKE: Huh? CELES: Something’s coming outta the wall!!
+LOCKE: Whew!!! Looks like we’re in the clear!
+LOCKE: What IS that noise?
+I heard they grabbed a famous general who turned traitor! She’s locked up somewhere in this town.
+Never a dull moment… Time to guard the passage under the big mansion… Oh, well. Life is tough…
+I heard there are 2 secret tunnels under the rich man’s house. One leads out of town, the other to one of these houses…
+Thanks to our informer, this town fell instantly!
+Rascals! Knock it off!
+<Choice>(Change clothes?) <Choice>(These are fine.)
+Lower ranking soldiers like to brawl. Try humiliating them by stealing their clothes!
+Uh huh!
+Avoid the armored soldiers! They have no sense of humor!
+Hey, lady…didn’t you just bust in here wearing Magitek armor?
+BANON: Wait a sec!
+Get out of here! If you don’t…
+EDGAR: Hold on. I’m King EDGAR of Figaro… GUARD: Liar!!!
+BANON: Aye yai yai… EDGAR: That kind of attitude is deadly! He won’t even listen! TERRA: It’s all my fault…
+ARVIS: Banon! King EDGAR! …and TERRA!!!
+BANON: Arvis! What’s happening here in Narshe? ARVIS: The town’s neutral. I’ve tried to get the people to side with the Returners, but… Anyway, why on earth have you come here?
+EDGAR: First, how are your people doing? ARVIS: They all went…slightly berserk when the Esper was discovered.
+BANON: We believe this young woman is our only hope of reaching out to that Esper. ARVIS: My people are dying to know what the Esper looks like. Maybe TERRA can help restore some order to our town…?
+EDGAR: That Esper is either going to save us…or dig us an early grave…
+TERRA: When LOCKE first helped me, he fiddled with somethihg right around here.
+EDGAR: Knowing him there’s probably some secret switch in this rock wall…
+EDGAR: Goodness… TERRA: What’s that…? EDGAR: I think this’s a security check point. If we follow the light exactly, we’ll probably be okay. If we make a mistake, the light’ll surround us. To proceed safely we must “tag” the glimmering light.
+AGED MAN: You the clock maker? I been waitin’ for ages!
+Uh…no. I’m not the clock maker.
+AGED MAN: There it is, on the wall. Ain’t been tickin’ for 1, 5, shucks, maybe even 10 years!
+AGED MAN: Hey!!?
+What dire fate has befallen SABIN, who fell from the raft after the fight with Ultros?…
+Come to think of it…  I saw some total geek when I last went south, to the Veldt. Watch yourselves in those parts!
+AGED MAN: Lawnmower repairman, eh? Couldn’t provide worse service! Grass’s 25 feet high out back!
+AGED MAN: Got it!
+AGED MAN: You’re here to fix my bed! It’s squeakin’ like all git-out!
+AGED MAN: No more lip, repairman! Fix that stove, on the double!!!
+AGED MAN: Goodness!  Then you must be…
+AGED MAN: You’ve come to fix the door!?
+Phew! No child could be this mischievious!
+Yaaaouch!!!!
+Take a nap? <Choice> (Snooze) <Choice> (No thanks)
+AGED MAN: Child…? Ain’t no child ’round here! Bolderdash! I’m ready for you to leave! Go on, git! I’m tossin’ ya out onta the Veldt! ??? I’d rather take a stick in the eye than deal with that guy again…
+MERCHANT: Welcome! Need anything? <Choice> What have you? <Choice> No thanks.
+MERCHANT: See you around.
+Who’re you?
+MERCHANT: Howdy. I own the dry goods business out here!
+MERCHANT: You’re…not from these parts, huh?
+MERCHANT: We’ll, no matter! <Choice> See the goods <Choice> Not interested
+MERCHANT: Good day. Need anything? <Choice> See the goods <Choice> Not interested
+SABIN: You…on a journey? I got separated from my friends. Say, can you tell me how to get to Narshe?
+MAN: The Empire has set up a base somewhere beyond the forest, and to the east. SABIN: …Empire!? MAN: They seem to have their sights set on Doma Castle. SABIN: Doma, huh? I have to reach Narshe immediately! MAN: Your only chance is through Doma. I’ll show you the way. Just know that I may take off at any time, if I feel like it.
+SHADOW: Imperial soldiers have built a base somewhere beyond the forest. SABIN: …Already!? SHADOW: They seem to have their sights set on Doma Castle. SABIN: So Doma’s next, huh? I have to reach Narshe immediately! SHADOW: Your only hope is through Doma. I’ll show you the way. Just know that I may take off at any time, if I feel like it.
+Whoa… The dog just can’t stand strangers.
+SABIN: The going is bound to be…pretty rough…
+SHADOW: The Reaper is always just a step behind me…
+Welcome a partner? <Choice> Yes <Choice> No
+BARAM: Clyde…I’m… done for… F…find me here… Please, Clyde… 
+BARAM: Yahoooo! We did it, Clyde! CLYDE: A million GP! What a blast! I love this!
+BARAM: Guess it’s time to change our name. CLYDE: Our name? BARAM: We need something more…appropriate. BARAM: Such as…? BARAM: … SHADOW! Not bad, huh?
+CLYDE: Great train robbers of the century… SHADOW…?
+CLYDE: Open your eyes! BARAM: I’m scared…hack, cough… Is…is this MY blood…? CLYDE: You’re gonna be okay!
+BARAM: I’ve let you down… I’m sorry… CLYDE: Save your strength. We’re almost to a town. BARAM: You don’t have to pretend. I know. I’ve lost…too much blood.
+BARAM: Get going! I’m gonna slow you down. CLYDE: But…! BARAM: You wanna get caught?
+BARAM: Before you go… You have to use your knife…
+CLYDE: WHAT!!!! BARAM: Think what they’ll do to me if I get caught. I don’t want to go through that. Do me this favor.
+BARAM: Are you…shaking? I can’t believe it! You’re acting like a coward! Come on, you weakling! Grab a knife and… CLYDE: I CAN’T!
+BARAM: Clyde!!!
+CLYDE: I’m sorry…
+BARAM: Clyde! How dare you!?
+Hey…HEY! Stay with me now!
+CLYDE: Where…am…? A small village called Thama… Hang in there!
+Shriek!!! Help…HELP!!! Talk to the Impresario!
+Thank goodness!
+A dragon is sitting smack in the middle of the stage!
+               Surprise!
+Looks like we’re gonna have to save the day once again!
+There’s something odd about this stratum… It’s as if we’ve bumped into something… <Choice> (Continue journey) <Choice> (Stop and explore)
+SOLDIER: Who in blazes’re YOU?
+SOLDIER A: Shhhh! Do I always have to tell you to keep it down?! You’re hopeless…! SOLDIER A: I hate that weirdo, Kefka. I don’t even think he’s human, not like General Leo… SOLDIER B: Agreed.
+SABIN: What the…? Where’d these soldiers come from?
+COMMANDER: You two! We’re about to storm Doma Castle… You will join the assault team!
+
+SOLDIER: Rogue!!!
+This’s an Imperial base. Too many soldiers…
+SOLDIER A: Hey, have you heard? SOLDIER B: Oh, you mean… SOLDIER A: Shhh! Quiet down. If Kefka catches us, we’re toast.
+SOLDIER A: If he drives General Leo out of our battalion, he’ll probably become the next general! SOLDIER B: Don’t make me laugh! If someone like him becomes a general, I’ll go home!
+SOLDIER A: Shhhhh! What if he hears you? You’ll be jailed! SOLDIER B: Alright, alright!
+SOLDIER B: Uh, oh… Here he comes… Back to the waiting zone!
+KEFKA: Hey, you! You keeping a sharp lookout? SOLDIER A: Yes, Sir. You’re Kefka, correct? How are you, Sir? KEFKA: Please! Save your petty small talk! Just do your job!
+SOLDIER B: Phew…! Someone’s gotta put that guy away! SOLDIER B: I’d like to tell him to his face he’s no General Leo!
+SOLDIER: General Leo. The citizens of Doma seem to be playing a waiting game… LEO: So, that’s their strategy.
+SOLDIER: General. We’re ready to take the castle. Just give the order… LEO: Patience! If we attack now, we’ll have to sacrifice too many lives.
+SOLDIER: But, General! I’m ready to lay my life down at any time for the Empire!
+LEO: You’re from Maranda, right? SOLDIER: Y…yes Sir. Why?
+LEO: And your family lives there? Fall in battle, and I’ll have to deliver the bad news… What shall I say to them? You have a life to go back to someday. Don’t throw it all away for nothing. Emperor Gestahl wouldn’t want that.
+SOLDIER: Yes, Sir!
+SOLDIER: General Leo!
+SOLDIER: Hey! What are you doing?
+SOLDIER: A carrier pigeon from Emperor Gestahl.
+LEO: What…?
+LEO: The Emperor summons me. I must return immediately.
+SOLDIER: I understand, Sir.
+LEO: Right. I’ll leave Doma in your hands. SOLDIER: Yes, Sir. LEO: Okay… Just don’t jump the gun. Please…
+SOLDIER: Sir! Leave it to us, Sir!
+LEO: Right.
+So that’s General Leo… He could be my friend, if he weren’t my enemy…
+That was too close…!
+Urrgh! The top won’t open. Right… <Choice> (Kick it) <Choice> (Hit it) <Choice> (Leave it)
+Yeeeouch!
+No! A sentry!
+SOLDIER: Who goes there?
+SOLDIER: …??? I knew I heard something… Meoooow SOLDIER: Just a lousy cat…
+KEFKA: Now that Leo’s gone, I’ll turn this water into a flowing river of poison!
+LEO: The Emperor has ordered  me to return home. I don’t want any trouble here! KEFKA: You loser! I’ll take care of this situation in no time!
+LEO: Don’t be pompous! And DON’T forget that they are PEOPLE, just like you and me. KEFKA: We need not spare those lands that gave rise to the Returners!
+KEFKA: You just go and be a good little boy…!
+KEFKA: Is the poison ready? SOLDIER: But, General Leo said… KEFKA: He’s no longer here! I’m in charge now. Pour it! SOLDIER: Some of our people are prisoners inside the castle! If we poison the river… KEFKA: Do it! Take ’em all out!
+That’s inhuman!
+KEFKA: Unh? Silence! You’re history, bub…
+KEFKA: What an oaf! When I get my hands on him…
+KEFKA: Ha, ha, ha! …What a toad!
+KEFKA: Huh!? How long do you expect me to put up with you? Next time, you’re a goner.
+Wait!!!
+KEFKA: Oh, gripe! Hey! If you know what’s good for you…
+NO!! Unless we act now, Kefka’ll use the poison to…
+KEFKA: Hee, hee! Nothing can beat the music of hundreds of voices screaming in unison! Uwa, ha, ha!
+COMMANDER: Attack!
+DOMA SENTRY: It’s hopeless. We can’t keep them out.
+DOMA SENTRY: So, it’s finally happening…
+A moment, Sir!
+Allow me the honor!
+CYAN: If we can fell their commander, they’ll surely give up.
+CYAN: Let us give it a try.
+CYAN: Thou musn’t give up the fight!
+DOMA SENTRY: Sir CYAN! Let their commander have it!
+DOMA SENTRY: Sir CYAN!
+CYAN: I am CYAN, retainer to the King of Doma. I am your worst nightmare…
+CYAN: Huh? The water looks odd…
+TROOPER: The general’s been defeated! Run!!!
+CYAN: This is… POISON!
+CYAN: Your Highness! Fear not! KING DOMA: Who’s there?
+CYAN: CYAN, Excellency. KING DOMA: Indeed! My sight is going fast… Can’t see a thing… CYAN: Excellency! Hang on! KING DOMA: CYAN… You have defended the realm since my father’s days…hack, cough… Thank you… It’s over… Our kingdom is through.
+CYAN: Not yet, Highness! KING DOMA: I fear for your family. Uhh…chest is on f…fire… CYAN: Save your strength! Don’t talk! KING DOMA: Go…run to your family…hack… gasp… …… CYAN: Highness!!
+CYAN: Elayne! Elayne! Wake up!
+CYAN: This… This…can’t be happening!
+CYAN: ! Owain… NOT YOU TOO! Son…you can’t BOTH leave me!
+Faithful retainer to his family’s liege, with the courage and strength of a hundred men…
+The Empire’s base is bustling with activity. Something must be up!
+DOMA SENTRY: What lowdown, contemptible…!
+CYAN: Guard our liege!
+CYAN: Walled up in there, we can wait out our enemy!
+CYAN: D… Dear me…
+DOMA SENTRY: We’re through.
+DOMA SENTRY: To the King, on the double!
+CYAN: Right! The King’s room is near!
+CYAN: Highness…
+CYAN: There have to be some survivors in the castle! DOMA SENTRY: Let’s split up…
+CYAN: Here, too…
+CYAN: I…impossible! Idiotic!!!
+We can’t forgive this!  The Empire must pay!
+TROOPER: This is off limits.
+WARRIOR: I am CYAN, retainer to King Doma!
+CYAN: Ohhh! This is too much! 
+CYAN: Urgh!!! Who released this poison?  
+SOLDIER: The enemy! Get ready, everyone!
+SABIN: That guy’s a sitting duck! Gotta help him, fast!
+SABIN: Uwaaa! It’s that poison! This isn’t gonna be easy…
+SABIN: May I give you a hand?!
+CYAN: Thank you… whomever you are.
+SABIN: Let me have at it!
+CYAN: What a mess!! Be careful, Sir!!
+Look…we’re gonna have to do this together!
+CYAN: The thought had occurred to me as well!
+SABIN: I’m SABIN, from Figaro. I’ll explain more later. First, let’s finish this!
+CYAN: Thank you, kind sir!
+CYAN: Eeoooa! Be you friend or enemy?!
+SABIN: Ouuuch! …didn’t MEAN to step in there…
+SABIN: ! 
+SABIN: Allow me to thank you! I am SABIN, from Figaro. Now, let’s scram!
+CYAN: But what of my home, my family…my friends? SABIN: Look… If we stick around any longer we’ll have a regiment of troops down our throats.
+CYAN: Sir SABIN!! It is I who is in your debt!
+SABIN: Forget it. Now, come on!
+CYAN: Aaahhh! We can’t stop now!  
+SABIN: Then let’s just bust through!
+End of the line!
+There’s nowhere to run!
+Who said anything about running?!
+SABIN: Can’t believe we’ve made it this far… Say, how do we get to Narshe from here? CYAN: Narshe, eh? Only one route, through the forest to the south.
+SABIN: All right! It’s decided. Let’s get going!
+SABIN: Nothing but poison this way!
+SOLDIER: Got ’em! Over here!
+SABIN: Hoo, boy… SABIN: I have a great idea… Come over here.
+CYAN: Sir SABIN! What on earth are these?
+SABIN: I’ll explain later! Relax. Just climb in!
+CYAN: Sir SABIN! How might these abominations be manipulated?
+SABIN: I’m getting sick of this! Thou art such a pain in the…! Confound it all! I’m starting to talk like you! SABIN: Now listen! Just use those levers located by your hands.
+This is a classroom for the beginner. Here we answer your questions about the world. Think of us as your advisors…
+Welcome to this classroom. We’ll be here for you even if the world should crumble.
+This is water from a recovery spring. It’ll restore your HP and MP. Such springs are located throughout the world.
+This is a Save Point.
+Valuables are often hidden in pots such as this one.
+Use curative items to restore your HP. Staying at an Inn will revive your party in full.
+Ha! Sometimes monsters lurk inside of treasure chests!
+Heard about Relics?
+Choose with the A Button. Cancel a choice with the B Button. View the Main Menu with the X Button.
+When buying armor and weapons you’ll see some symbols next to your characters: Triangles pointing up indicate increasing battle power. Triangles pointing down indicate decreasing battle power. “=” indicates no change in battle power. “E” means the item is already equipped on that character. A symbol under a character means that person is now in your party.
+If you select the “Wait” Battle Mode from the Config Menu… You can take all the time you need to select spells or items without being attacked.
+Run from some battles by pressing (and holding) both the L and R Buttons.
+A full meter in the lower right means that character will be next to accept battle commands. Press the X or Y button to pass that character’s battle opportunity to the next character.
+When selecting a spell, press the L or R Button to select multiple targets.
+During a battle, press left or right on the control pad to select “Row” or “Defense.” “Defense” cuts received damage in half, and works until your next command input.
+Damage is more severe when caught in a pincer attack! Use care when running!
+White numerals appearing during battle are damage points. Green numerals are recovery points.
+In the back row, damage and attack power are halved. Change rows using the Main Menu: press left on the Control Pad, then press the A Button.
+Need status info? <Choice> Yes <Choice> No
+“Clear” Enemy can’t strike you, but you’re an easy target for spells. You’ll revert to normal if a spell hits you. “Imp” Lose use of spells and commands. “Zombie” HP drops to 0, and you attack party members. Use “Revivify” to reverse. For “Muddled” and “Psyche” You’ll revert to normal when struck by a weapon.
+Use a curative spell or item on an undead creature for maximum damage.
+“Life 3” Automatically brought back even if status is affected. “Regen” HP gradually come back.
+3-way attack indicates a fire, ice and lightning attack.
+“Rflect” spells will fade over time, and can’t block certain magic attacks.
+“Runic” Turns many magic attacks into MP! Can be used repeatedly. “Morph” Increases Attack and Magic power. Duration increases with battles fought. “Dance” and “Rage” Once selected, will continue until the battle is over.
+When multiple images of your characters flash on the screen, weapons won’t touch you.
+Might want to go out and get some experience in the world before coming in here!
+Near-fatal status can result in special hidden skills. See what happens if you select command “Fight”…
+Seems you have a piece of Magicite. Want to learn more about Espers? <Choice> Yes <Choice> No
+To use an Esper it must be equipped. Choose “Skills” from the menu, then select “Espers.” During battle, select Magic, and press up on the Control Pad. Press the A Button to use the Esper. Remember, an Esper can only be used once per battle.           Learning Magic Learn new spells by equipping Espers. Switch Espers to learn different sets of spells. The higher the “Learning Speed” the faster a spell is learned. When equipped, some Espers will raise qualities (Strength, HP, MP etc.) to their maximum limits at the next “level up.”
+Each SwdTech sword has its own unique name. You’ll gain more SwdTech skills over time.
+“About Rflect” “Rflect” doesn’t block spells that have been “Rflected” off others. Enemy protected by Rflect? Try bouncing an attack off a Rflect-protected individual in your party!
+Color changes indicate changes in status.
+Blue = Rflect  Spells are reflected. 
+Yellow = “Safe”  Defense up! 
+Green = “Shell”  Magic defense up! 
+Red = “Haste”  Speed up! 
+White = “Slow”  Speed way down! 
+Pink = “Stop”  Time stops! 
+LOCKE: I think I’m gonna…
+LOCKE: Ooh… Ohhhhhhh…
+Stay clear of the engine room. It’s dangerous.
+We’re almost to Crescent Island.
+The Magitek Armor’s being refurbished.
+CELES: Hey…LOCKE…
+Rumor has it that the power of magic still exists on Crescent Island.
+Once we find an Esper, we’ll be able to restore peace!
+TERRA: … Where’s GAU…?  LOCKE: He hates ships. We must…leave him behind!
+SOLDIER: All systems A-O-K.
+LOCKE: Urgh… Uooh… Argh…
+WAITER: Please order at the table…
+SABIN: Food! Chop! Let’s go slop the hogs!
+Can’t leave the train now!
+WAITER: Care for something? <Choice>(Yes, please!) <Choice>(No, thanks)
+SABIN: Food! Food! Bring me everything ya got!
+SABIN: Worried? Can’t wage war on an empty stomach!
+CYAN: Hummm… Sir! I won’t hear any more of this kind of talk!
+SABIN: Well! I’ve stuffed down all I can… Let’s go!
+WAITER: One moment, please.
+CYAN: A…are you going to be okay if you eat THIS?
+SHADOW: …… Interceptor…are you hungry?
+Gobble… snarf… snap…
+IMPRESARIO: Wanna stop the train? Just use the controls in the engineer’s compartment!
+IMPRESARIO: I manage this train! What business have you here? Hmmm… <Choice>(Tell us about the train.) <Choice>(How do we stop it?) <Choice>(Leave us in peace.)
+IMPRESARIO: This train ferries the dear departed to the “other side.” There they can take their eternal rest.
+Can’t follow us now.
+CYAN: Be these time schedules? SABIN: Hmmm… They’re all blank!
+IMPRESARIO: The Phantom Train guides “the departed ones” to the spirit world. They have no need of schedules!
+SABIN: What’s this? Let me just give it a…
+CYAN: Sir SABIN! Maybe we shouldn’t fumble with that!
+SABIN: CYAN… You’re not…scared, are you!?
+SABIN: Gave it my best shot.
+CYAN: How could you…
+CYAN: How can you…!?
+CYAN: How dare you?! Just because I respect other beings’ property doesn’t mean I’m not mechanically minded!
+SABIN: CYAN… You’re a total klutz when it comes to machines.
+CYAN: SILENCE…! H…how could you tell?
+CYAN: A train’s there!? But I thought Doma’s railway had been destroyed…? SABIN: May be survivors inside. Let’s take a look.
+CYAN: Sir SABIN!
+SABIN: We can’t just wander around out here! We have to go on board!
+SABIN: What on earth…?
+CYAN: Let me off! This train’s haunted!
+CYAN: Gulp…where are we?
+SABIN: Hoo, boy! Finally got off…
+SABIN: Hey! We can get in right here!
+Ha, ha ha… What ever did you think you were doing?
+Huh!?
+        N.o…e.s.c.a.p.e…!
+Who’s there!?
+It came from this direction.
+Whoa! They’re coming…!
+This way too!
+   You can’t escape…       Nowhere to run…         Nowhere to hide…
+Bloody persistent…!
+CYAN: I believe we’re stuck!
+SABIN: I know! CYAN: You have an idea?
+SABIN: Okay… The time has come to see if all my training has paid off. Come, CYAN!
+SABIN: Yahoooo!!
+Hey…  Uh, oh…?
+VOICE: Stop where you are!
+MAN: I am Ziegfried, the world’s greatest swordsman! That treasure chest is mine. If I were you, Ox, I’d grab grandpa, here, and run!
+SABIN: You look more like a manicurist. Now SCRAM!!! ZIEGFRIED: Aha! The ox bellows! Allow me to introduce my blade!
+“What a bag of wind…”
+SIGFRIED: Impossible! I…I’m the greatest… But I’ll still laugh last!
+SIGFRIED: Uwa, ha, ha! This treasure is mine! Ta ta, cretins!
+We have to detach the rear train cars!
+This is the engineer’s room. Gotta stop this thing…!
+Something’s written here! What? What?  To stop the train, shut the first and third pressure valves, and operate the switch outside, near the smoke stack.
+Press this switch and the train’ll stop.
+Just throw this switch, and… Huh? Nothing’s happening!
+SABIN: Won’t open!
+CYAN: We’re too late.
+SABIN: What’s with this train?
+CYAN: This is the Phantom Train… It carries the departed to…the other side.
+SABIN: Wait a sec… I don’t want to go THERE! CYAN: We all have to go sometime…
+SABIN: I have things to do HERE. We have to stop this thing. Let’s make for the engine.
+Look out!
+SABIN: What is it? CYAN: Seems to want to come with us. Bring it along? <Choice>(Sure) <Choice>(No way)
+SABIN: But… The greater our number, the slower we can move. Forget it!
+Shall we be off?
+Guess we’re on our own now…
+Howdy, folks. I have some great, value-priced items! <Choice>(Shop) <Choice>(Don’t shop)
+SABIN: I…it’s moving! CYAN: If we don’t get off now…
+SABIN: Don’t worry!
+PHANTOM TRAIN: So! You’ve been slowing my progress!
+PHANTOM TRAIN: I will let you go… …but first there is something I must do…
+CYAN: Elayne! 
+Departing?!
+SABIN: CYAN! Is that your wife and child?
+CYAN: No!!! Elayne! Owain!!
+CYAN: Please, wait! 
+SABIN: We shouldn’t be here. Let’s go NOW!
+CYAN: Owain… 
+My love… You made me so happy. Don’t forget me… 
+Dad! I’ll make sure Mom’s all right! 
+SHADOW: Leave ’em alone.
+CYAN: ……
+SABIN: This must be Baren Falls.
+CYAN: To the south is the Veldt. Dangerous creatures there. SABIN: And the Empire’s right on our tails. CYAN: If we can slip through the Veldt, we can reach the town of Mobliz, to the east…
+SABIN: SHADOW!
+SABIN: Thanks for your help! Let’s join ranks again some time!
+SHADOW: I have served my purpose…
+Jump? <Choice>(Why not?) <Choice>(You crazy?)
+Draped in monster hides, eyes shining with intelligence. A youth surviving against all odds…
+And you are?
+You came via Baren Falls? Unbelievable! It’s flowing like there’s no tomorrow…!
+Only carrier pigeons link our village to the outside.
+Letters tell us that war has broken out!
+Duane and Katrin are both 16 and in love!
+KATARIN: ……
+DUANE: ……
+You stop by the house up in the far north? The guy there’s a tad psycho. Threw his own kid out, thinking it was a monster!
+This region’s called the Veldt. Monsters from all over the world migrate here.
+Out hunting, I noticed a kid running with a herd of beasts! His parents know where he is?
+Strong currents run through the Serpent Trench. Heard about it? <Choice> Yes <Choice> No
+If you had a helmet you could make it to Nikeah.
+Hop into the current, and you’ll be swept to Nikeah! Too bad our under water breathing device was stolen!
+Some soldier wandered here. Busted up pretty bad, too. It doesn’t look good… Only the letters coming from the town of Maranda are keeping him going…
+The soldier in here is hurt pretty bad.
+Keep your voices down!
+I threw some “Dried Meat” into a herd of hungry animals, and some kid emerged and grabbed it!
+I am at your service. I send things all over the world.
+The entrance to the Serpent Trench is south of Crescent Mountain.
+INJURED LAD: I’m from Maranda. The Empire invaded, and made me join their army. I fled when I heard we were making for Doma. They caught me…and did this… Now I can’t even move.  I’ll never see Lola again… On the desk is a letter. Will you please read it?
+I can’t get used to Imperial troopers walking the streets of Maranda, but otherwise things are okay. Flowers are blooming in the garden, telling me spring is here. How are you doing? I’m so worried. I wish I could fly to your side! Rest, and know that I think about you constantly. Come back to me.                       Lola
+I’d like to write her back, but I can’t even pick up a pen.
+Postage to Maranda is 500 GP. Gonna send a letter for that soldier, right? <Choice> (Send it) <Choice> (Forget it)
+I want to get better! I want to see Lola…
+Another letter has arrived. Could you read it?
+I can’t find your favorite record… I thought I’d play it and you’d be with me, but…
+For 500 GP you can send a record. <Choice> (Send it) <Choice> (Forget it)
+Mother’s taken ill. We can’t afford medicine. If only we had some Tonic…
+For 500 GP you can send Tonic. <Choice> (Send it) <Choice> (Forget it)
+I haven’t heard from you. I’m so worried…
+For 500 GP you can send a letter. <Choice> (Send it) <Choice> (Forget it)
+You said you were reading a book. If only I could read it, too…
+For 500 GP you can send a book. <Choice> (Send it) <Choice> (Forget it)
+A letter came from him! He’s all right!
+He sent me a record! I’m so happy!
+He sent some Tonic for Mom! He’s so kind!
+He sent that book! I’ll read it every evening, before bed!
+My love hasn’t sent me back any letters since he’s been gone. I’m sick with worry…
+I’d give Lola everything… If only I could move…
+I heard… In my name you send Lola many things… I wish to thank you. Please accept this as a token of my appreciation.       Received “Tintinabar.”
+GAU: Treasure…yesss… CYAN: Looks like glass… SABIN: Looks like it just might fit…
+SABIN: Hummm… Is this of any use?
+SABIN: Will this really let us breathe underwater?
+SABIN: CYAN! The shiny thing GAU spoke of is in here.
+CYAN: Uh, Sir GAU, where exactly is it?
+GAU: GAU…forget!!
+SABIN: Shall we look around? CYAN: Indeed!
+SABIN: Not over here…
+SABIN: Tonic…
+CYAN: T…this is Sir GAU’s treasure?!
+SABIN: Hey, GAU. What’s wrong?
+GAU: GAU!!
+SABIN: G’uh! My pouch! There was 500 GP in it…!
+CYAN: Current’s…fast. SABIN: No kidding. SABIN: But unless we hop in, we won’t see our friends again…
+SABIN: GAU…YOU!
+CYAN: Oh, dear. Sir SABIN, let me handle this.
+CYAN: Sir SABIN… Recall that you had me hold onto your pouch. Here.
+SABIN: Urggggh!
+CYAN: Is this it? GAU’s “treasure”?
+SABIN: Let’s go!
+This is Nikeah, one of the world’s few port towns.
+We used to be a trading town, but the Empire shut us down.
+ The land to the east, Doma, fell to the Empire.
+Move along, now. You’re in the way!
+No one can reach Nikeah unless they have a ship!
+A rock slide has blocked the path leading north.
+The path leading north is now clear.
+South Figaro-bound ferry. <Choice> (Still need to shop.) <Choice> (Hop aboard?)
+The Empire has overrun our destination.
+Nikeah-bound ferry. <Choice> (Still need to shop.) <Choice> (Hop aboard?)
+There used to be ships sailing to the southern continent. Tzen, Albrook, Maranda… They’ve all been smashed.
+Ya met that odd man, lives near the Lete River? His wife bore ’im a son 13 years ago. It was a problem birth, and the woman passed away. The man totally lost it. He thought the newborn was a monster. Wonder what happened to the poor little baby?
+DANCER: Yoo hoo! You handsome thing. How ’bout joining me? Tee hee!
+CYAN: H…how dare you… you licentious howler!
+DANCER: Geez, don’t blow an artery, baby!
+CYAN: B…baby?!
+SABIN: CYAN… Don’t let it get to you. CYAN: I’m not like that!
+SABIN: No one thinks you are. Just let it go.
+DANCER: Stop whispering! My ears are burnin’, baby!
+CYAN: Enough! Have you no shame? I’ll have you know…etc…etc.
+Goodness!
+You took one look at me and thought I was a loser, right? You’re obligated to buy from me, now!
+Looks like junk, but…
+Have any imported goods?
+CYAN: Narshe is just a stone’s throw away!
+SABIN: I hope the others arrived safely!
+CYAN: I’m sure they did.
+GAU: Me hope so, too…
+AGED MAN: Go, unless you’re a repair person!
+GAU: W…what…?
+AGED MAN: Haven’t seen any skilled repair people in ages…
+AGED MAN: Oh, hello again! Yep, you were tops! SABIN: That’s why we… AGED MAN: Quick! Fix that chair! Then you can use it to reach the roof.
+SABIN: You don’t suppose… Can this be GAU’s father?
+GAU: …fffatherr…?
+ELDER: I understand all of it… Except… How can WE be encouraging bloodshed? ARVIS: I never said…that! ELDER: Something like it.
+BANON: Ha! He’s right you know!
+ARVIS: Banon! BANON: Our blood will spill because of you.
+BANON: Emperor Gestahl’s racing to acquire Magitek power. He’s set his sights on the Esper that was found here! The increased use of magitek power’ll surely lead to global destruction…
+ELDER: The War of the Magi…
+The mythical battle that set mankind back a thousand years… Can this really be happening? ELDER: People will never learn…
+CYAN: I’m CYAN, retainer to the lord of Doma!
+GAU: GAU…GAU!
+SABIN: The people of Doma were wiped out by the Empire…
+CYAN: Kefka poisoned…everyone…
+ELDER: Barbaric!
+BANON: Elder! ELDER: But…that was only because Doma was collaborating with the Returners! If we make that mistake…
+LOCKE: That’s nonsense!!
+TERRA: LOCKE! LOCKE: The Empire’s poised to attack Narshe right now! EDGAR: What?!
+BANON: LOCKE. Where’d you hear that? LOCKE: CELES, here, was one of the Empire’s generals…
+CYAN: Grrr! I knew she seemed familiar. Sir GAU, out of my way!
+CYAN: This’s General CELES! She torched Maranda! She’s an Imperial spy! Now, stand aside!
+LOCKE: WAIT! CELES has joined the Returners! She’s fighting with us, now! CYAN: But…! LOCKE: I promised I’d protect her. I WILL NOT back out on my word.
+EDGAR: LOCKE… Are you still thinking about… that?
+TERRA: I was also an Imperial soldier. CYAN: WHAT!!
+EDGAR: The Empire’s evil. But not ALL of its citizens are!
+Emergency!! The Empire cometh!!
+KEFKA: I don’t care what you do here, JUST GET ME THAT ESPER!!
+SOLDIER: Lord Kefka! There’re civilians here…! KEFKA: Exterminate everyone! SOLDIER: But Narshe is neutral… KEFKA: Idiot!!
+KEFKA: Read my lips!! Dispose of any who oppose us! March!
+ELDER: We really have no choice. Let’s make ready for war!
+BANON: They’re after the Esper. ELDER: We moved it into the hills.
+EDGAR: Then we’re going up after it!
+EDGAR: LOCKE has a complicated past. I wouldn’t go thinking he’s fallen for you or something! 
+CELES: I’m a soldier, not some love-starved twit! EDGAR: Cold as ice…… 
+CELES: So, you were born with the power of magic!? Isn’t it a lovely gift… TERRA: You…can use magic, too?  CELES: When I was a baby I was artificially infused with magic, and raised as a Magitek Knight. TERRA: Have you…loved anyone? CELES: ??? What’s that supposed to mean?!
+CYAN: Don’t think for a moment I trust you! CELES: Fine. Use your own eyes, then decide.
+SABIN: Brother!
+EDGAR: SABIN! You’re all right!
+EDGAR: Who’s with you?
+SABIN: Oh, this is…
+BANON: They’re coming!
+BANON: Prepared? <Choice> Yes <Choice> No
+KEFKA: Oho!! It’s General CELES, the traitor! How delightful! This’ll be fun!
+KEFKA: Go!! Get those vile insects!
+Save the Esper from Kefka! Need some info? <Choice> Yes <Choice> No
+You’ll fight in 3 groups. Use the Y Button to switch between them. Defeat Kefka before his men reach Banon. Otherwise, you lose!
+TERRA: Kefka… He stuck that crown on me?
+LOCKE: Bloody Empire!! We are your worst enemy!
+CELES: I’m free… The Empire can’t control me!
+EDGAR: Kefka…grr… What’s he up to…?
+SABIN: Master Duncan’s techniques mustn’t fail me.
+CYAN: I will avenge the people of Doma!!
+GAU: GAU hit hard!!!
+BANON: We’re history if they reach me! Good luck!
+KEFKA: Aack!! I won’t forget this!
+EDGAR: Where’s the Esper? LOCKE: Is it okay?
+EDGAR: That was a close call! CYAN: Can it still be alive? SABIN: Impossible…right?!
+LOCKE: TERRA!! What is it!?
+TERRA: Nooo!!
+SABIN: TERRA ’n the Esper… EDGAR: There’s…some kinda reaction!
+LOCKE: Unhh… CELES: You’re awake?
+LOCKE: … Where’s TERRA?!
+CELES: She changed into a…something, and…took off. She looked like…
+CELES: She looked like… an Esper…
+EDGAR: LOCKE! You okay?
+EDGAR: Something happened to TERRA… There seems to be some connection between Espers and her… Anyway, we need to find her. Witnesses saw her screaming across the sky to the west.
+LOCKE: Let’s go! I promised her I’d…
+CELES: LOCKE… EDGAR: Think, people! The Empire still wants that Esper. SABIN: Banon needs our help, too…
+EDGAR: Let’s split up. Those who aren’t searching for TERRA will stay and guard Narshe. Figaro Castle can shuttle us to the western province. Then we’ll make for Kohlingen or Jidoor.
+Change group members? <Choice> Yes <Choice> No
+CYAN: A former Imperial soldier… But we’ve no choice. We must help her!
+LOCKE: I promised TERRA I’d…keep her safe…
+CELES: She ripped outta here! Looked just like…an Esper…
+CYAN: We have to help her!
+EDGAR: Find TERRA!
+SABIN: I’ll watch over Narshe! Go quickly!
+GAU: GAU… GAU do his best!
+CYAN: Can we just march right into the Empire?
+EDGAR: The Empire’s Magitek Research Facility… Could the secret lie therein?
+SABIN: Leave Narshe to me!
+GAU: GAU… GAU do his best!
+BANON: Go find TERRA! She holds the future to our survival.
+ARVIS: Heard TERRA turned into light and streaked away toward the west. Make your way to Figaro Castle. Maybe they can help you, there.
+ELDER: I’m troubled… I want to avoid fighting… But…
+Moogles live deep within the mines!
+We follow our Elder’s advice!
+So…magic really DOES exist!?
+Magic?! Pshaw! What nonsense!
+Narshe is a neutral city. We want no war here. But that #@%!* Empire won’t listen…
+Figaro Castle can burrow under the desert, and take you to Kohlingen!
+The house to the far right contains the treasures I’ve collected! Take them, before the Empire does! Only one of them is locked. Now what do ya suppose is inside…?!
+A glowing form soared off toward Figaro Castle. It seemed almost…human.
+Curse the day we dug up that Esper! That’s what brought the Empire here!
+Looks like war’s a’comin’!
+There’s a sasquatch that lives inside the mine…or so I heard.
+Lone Wolf, the infamous thief, has been sighted here. Are my treasures safe?
+Weapon and Armor shops are selling some new stuff for the coming war.
+Can we harness the Esper’s power? I think not…!
+I saw some Moogles walkin’ with a sasquatch.
+Geothermal devices keep this town warm!
+Wanna know how to ride a chocobo?
+Press the A Button, or up on the Control Pad, to go forward. Steer with the Control Pad. Press the B Button to dismount. Careful! Once you get off, the bird’ll return to its pen!
+Chocobo ride, 100 GP! How about it? <Choice> Yes <Choice> No
+King EDGAR! Welcome back!
+We sighted Kefka in the area.
+That girl… wrapped in a fireball… Headed off to the west…
+Who’d have thought a person could fly over a mountain range?
+Submerged, this castle could even travel under a mountain range!
+Wanna get past the mountains? This castle can’t fly, but it can submerge! Find the person in charge of the Engine Room!
+The Empire is no longer our ally!
+You must be tired! How about a rest?
+EDGAR: If only SABIN were here…
+SABIN: This’s like old times! I have to wander around for a while!
+SABIN: Hey! Wait. I’m going too!
+MATRON: SABIN… Every bit an adult, now… I remember that time so vividly. I was so angry… I learned something important on that day…
+CHANCELLOR: Welcome back, King EDGAR!
+CHANCELLOR: Huh!? SABIN… What a splendid young man you’ve become!
+CHANCELLOR: Make yourselves at home here.
+SABIN: Hmm… Castle hasn’t changed much…
+SABIN: And yet it’s all different… Mom and Dad are gone… Everyone’s gone… Since that day…
+…tonight… …took a turn for the worse… …there’s a chance he might… 
+Nooo…! Y…you’re wrong…! This can’t be… 
+Matron… …The King…he’s… 
+…SABIN… …SABIN!!!!! 
+…My father… …I don’t believe this… 
+SABIN: B…brother… Waa, ahhh, ahhh… EDGAR: So… They went and told you…
+MATRON: EDGAR! Here you are…
+MATRON: Your father… He just uttered his last wish that Figaro be divided between you…
+SABIN: This is NONSENSE!! Everyone’s saying that the Empire poisoned Dad… And the only thing on your minds is “Who’s going to be the next king?!” You’re all pathetic!
+SABIN: No one cared when Mom passed away, either… MATRON: That’s not…
+SABIN: You were as bad as any of ’em! EDGAR: SABIN… SABIN: Empire of murderers… They won’t get away with this!
+SABIN: I’m outta here! I’m forsaking this war-sick realm for my dignity and freedom. SABIN: You said you were sick of it too, right?! EDGAR: …freedom…
+EDGAR: Matron… Please leave us…
+EDGAR: What’ll happen to this realm if we both leave? And what would Dad say…?
+EDGAR: SABIN, let’s settle this with a toss of a coin.
+EDGAR: If it’s heads, you win. We’ll choose whichever path we want, without any regrets. Okay?
+EDGAR: This is for Dad!
+EDGAR: And then, you opted for your freedom.
+EDGAR: It’s been…10 years. The little shrimp’s grown into a whopping lobster! SABIN: And you’re a king crab!
+EDGAR: SABIN… I often wonder if he’d be proud of me…
+SABIN: Don’t you ever doubt that!
+EDGAR: 10 years… SABIN: Where has the time gone…?
+EDGAR: Here’s to a couple of confused grownups!
+EDGAR: Here’s to Dad…
+SABIN: …to Mom… …and to Figaro.
+Lots of requests this month! If it’s your wish, I’ll take you beyond the mountains.
+<Choice> (Go to Figaro?) <Choice> (Stop?)
+<Choice> (Go to Kohlingen?) <Choice> (Stop?)
+Beyond is the Figaro Castle Engine Room. We’re ready to leave at a moment’s notice!
+That’s dangerous!
+Urgggh!
+Next stop, Kohlingen! Watch your step!
+Next stop, South Figaro. Watch your step!
+Oh…!  It came to my house! A monster of light… Looked somehow human!
+Everyone was scared when the glowing creature stopped here. It left to the south, toward Jidoor.
+That shining creature! So frightening to us all! But I found it… beautiful!
+My dream is to see an opera at the opera house south of Jidoor. I’d wear a sequined dress… And bring a handsome escort…!
+Hey, ’zat you, LOCKE? Have you stopped to see Rachel?
+You a friend of LOCKE’s? He always stops by Rachel’s house when he comes here!
+Best stay away from the house on the eastern edge of town. The old coot there spends his days mixing curious herbs. I heard he keeps ghosts under his house!
+My brother’s a bit…touched. Lives alone to the north, and dreams of building a colosseum!
+Was it really a ghost? It stopped right in front of me. I could see it had gentle eyes…
+SHADOW: We meet again…
+I’ve forsaken the world. Some people call me…
+SHADOW: Leave me alone…
+People call me… SHADOW…
+SHADOW: Just need ’nough to feed my dog. Say, oh…3000 GP. Buy SHADOW’s help?  <Choice> Yes  <Choice> No
+LOCKE: …wasn’t able to…  save her when she needed me…
+RACHEL: LOCKE! What are we off to find today?
+LOCKE: Soon, you’ll…
+LOCKE: You’re not going to believe what awaits us up here! Come on, it’s worth a fortune!
+RACHEL: LOCKE! Look out!
+LOCKE: RACHEL!!
+LOCKE: Rachel! Are you awake?
+RACHEL: …  ……?  I…  I can’t remember anything…
+RACHEL’S DAD: Get outta here! It’s your fault she’s lost her memory! LOCKE: Wait a minute! She said “Yes!” We were gonna…
+RACHEL: Go! I don’t know who you are, but ever since you came here my parents have been upset!
+You’d best leave Rachel alone. She’s going to have to make a new start of it. LOCKE… Your being here doesn’t help.
+A year passed… When I returned here, I learned that Rachel had perished in an Imperial attack. Her memory returned just before she passed away. The last thing she uttered was… my name… I should never have left her side. I…  I failed her…
+A girl named Rachel used to live in that house. Now it’s deserted.
+Rachel’s…  …memory returned just before she passed away. She said, “If a man named LOCKE returns, please tell him I love him…”
+Stay away from that guy. He’s an assasin!
+I never want to return to Zozo! Phew!
+Some pretty bad sorts come in here. That guy’s an assasin!
+’Till a moment ago, an assasin sat over there!
+Oh! Is that you, LOCKE? It’s been a while! Uh? Oh, that?! Worry not! Your treasure’s quite safe! Uwa, ha, ha!
+Are we through here? All done? Finished? Mwa, ha, ha!
+LOCKE: Rachel…
+I used some herbs to put her into suspended animation. She won’t age a day! Uwaa, ha! That’s what you wanted, right? Had to use my herbs, I did!
+LOCKE: You mean those herbs have actually saved her?
+Of course! The love of your life will sleep here like this forever. Kwa, ha, ha!
+LOCKE: What if there were some way to…call her back?
+If you could call her back… …she’d come back! Wah, ha, ha! I’m sure you’ll find something that’ll bring her around! Kuha, ha, ha!!
+I…  failed her…
+CELES: LOCKE…
+That? Oh, that’s LOCKE’s… Dear, me! Almost spilled the beans! Kwa, ha!
+This is Jidoor, the western most town on the world map!
+This region is very class-conscious. In the south part of town live the middle classes. The rich folks live to the north.
+The poor people have all left here for the mountains to the north. There they’ve built a town.
+Maria, the opera singer, is gorgeous!
+I wanna be an opera singer when I grow up! Opera house? It’s far to the south.
+A girl wrapped in fire sped off to the north, into the mountains.
+To the north is the town of Zozo. Watch out for the people there.
+Bunch o’ liars up in Zozo! Never can trust ’em.
+Oops! Sorry.
+Once in a while one of the idiots from Zozo’ll wander down here, lookin’ for an easy mark. Watch your wallet!
+Hey…you’re not from around here! You look…ah…dorky!
+You like art? No?! Philistines!
+You can get some priceless things at this auction. Whether you can appreciate them or not, who knows!
+I need something that will bring back wayward spirits. I heard only in the Imperial capital of Vector does such a thing exist.
+Zozo!? Never heard of it.
+Great people, here!
+Beautiful weather!
+It’s now 2:00.
+Time? It’s 4:00.
+You can trust me! It’s 8:00.
+10:00! Time to go home!
+It’s already 12:00.
+Girl? Haven’t seen any girls here. Might wanna check the top of this building.
+It’s safe here!
+Clock’s hands have stopped. Please reset the hour. <Choice> (2:00)   <Choice> (4:00) <Choice> (6:00)   <Choice> (8:00) <Choice> (10:00)  <Choice> (12:00)
+Phew…! How long we gonna have ta do this!?
+Clock’s hands have stopped. Please reset the minute. <Choice> (0:10)   <Choice> (0:20) <Choice> (0:30)   <Choice> (0:40) <Choice> (0:50)
+Clock’s hands have stopped. Please reset the second. <Choice> (0:00:10)   <Choice> (0:00:20) <Choice> (0:00:30)   <Choice> (0:00:40) <Choice> (0:00:50)
+Clock’s second hand’s pointin’ at 30.
+That clock has no minute hand. It’s never pointing to the right time anyway!
+The seconds? They’re divisible by 20!
+“Some woman flew up to the top floor!” “Did you say…“flew…”? That must be TERRA!!!!” Creepy monster’s live up there. Look out fer ’em!
+The second hand of my watch is pointing at four.
+Climb the stairs of the building with the CAFE sign on it, and you can find a path leading to Mt. Zozo.
+With this Rust-Rid you can open that door. Yours for 1000 GP! <Choice> Yes <Choice> No
+Purchased Rust-Rid!
+This place is dangerous! And don’t you dare think about jumping between buildings!
+Hand’s pointin’ at the two.
+     Didn’t reset clock…
+Get in line!
+Good day, gentle folks. Can I be of service? I hate fighting, so I’d better let you pass!
+Rusted shut.
+Rust dissolved.
+Oooooh…gurururu…
+TERRA?
+RAMUH: She’s scared, you know.
+Who’re you?
+RAMUH: This girl is your friend?
+Is TERRA all right?
+CYAN: Is Miss TERRA okay?
+CELES: Is TERRA okay?
+GAU: TERRA…she ok?
+RAMUH: You call her TERRA… …TERRA?? How odd…
+RAMUH: She is undamaged. But I fear she can’t understand you. As for me, I am Ramuh. The Esper, Ramuh.
+ESPER!?
+“But don’t Espers live in another world?”
+CELES: But don’t Espers live in another world?
+GAU: Espers…from other world?
+RAMUH: That doesn’t mean we don’t live here, too. Espers take a variety of forms. Sometimes we live here, taking the shape of humans. You have nothing to fear from us.
+“Why do you hide the fact that you’re Espers?”
+GAU: Why hide fact you Esper?
+RAMUH: Humans and Espers can’t survive together.
+LOCKE: But my grandma told me that Espers and people once lived side by side! Was that just a fairy tale?
+“But grandmother once told me that Espers and people once lived side by side. Was that just a fairy tale?”
+I heard that Espers and people once lived side by side. Was that just a fairy tale…?
+GAU: GAU hear fairy tale. People…Esper once live together peacefully…
+RAMUH: No, that was no fairy tale. That was true. We started out as friends. Then along came the War of the Magi…
+War of the Magi…
+RAMUH: It took place…long ago. Espers fought humans who were infused with magical power extracted from Espers…
+Fearing our magical powers would once again become a target, we fashioned a new realm, and moved there.
+About 20 years ago, humans stumbled upon it…humans who knew about Espers, and the secret to Magitek power. 
+Thus began a hunt for Espers. Only in this way could Emperor Gestahl create his invincible army. 
+In response to this, we erected a doorway, and threw the humans out.
+RAMUH: Even as we speak, many of my kind are trapped in the Empire’s Magitek Research Facility, being… …drained of their powers… I fled here to avoid a similar fate.
+RAMUH: That’s right, relax.
+RAMUH: I sensed that TERRA was in trouble. My magic…summoned her here.
+“TERRA’s…an Esper?”
+RAMUH: No, she’s actually quite different.
+“TERRA looks like she’s in pain.” RAMUH: Her very existence strikes fear into her own heart.
+“How can we help her?”
+RAMUH: When she accepts this aspect of herself, I think she’ll be all right.
+“We have to do something!” RAMUH: Then free those of my kind imprisoned in Gestahl’s Magitek Research Facility. One of them can surely help her.
+“If we find the Magitek Research Facility, you’re sure we’ll find your people?”
+CELES: The Magitek Research Facility…? Your people are still there?!
+GAU: Magitek Research Facility…? There…your people?
+CELES: Magitek Research Facility… Your people are…
+RAMUH: Like a coward, I escaped leaving the others there. It’ll be the end of them…
+“What do you mean?”
+RAMUH: Gestahl’s methods are incorrect. You can’t drain a live Esper of all its power. It is only when we are reduced to Magicite that our abilities can be transferred in total…
+“Pardon?!” RAMUH: When we transform into Magicite, our power can be relocated. “Magicite…?!” RAMUH: That’s what’s left of us when we…pass away.
+RAMUH: These are my comrades who fell while escaping the Empire. And I will give you my power, as well…
+“Why are you doing this…?”
+RAMUH: We few can help save many. The War of the Magi must not be repeated…
+“Old man…” Are you really gone…?
+SHADOW: You old fool… Why throw it all away?
+CYAN: He’s…gone…
+CELES: Ramuh… Why…?
+GAU: R.a.m.u.h… You leave…?
+Magicite…?
+He traded his power, so that others might live…
+CYAN: He traded his power, so that others might live…
+CELES: He traded his power, so that others might live…
+GAU: Awoooo…!
+TERRA…wait for us. We’ll be back!
+      Received the Magicite               “Ramuh.”
+      Received the Magicite               “Siren.”
+      Received the Magicite               “Kirin.”
+      Received the Magicite               “Stray.”
+Everyone here? I was thinking, … EDGAR: Let’s talk on the way!
+EDGAR: The Empire’s trying to drain magic from Espers… 
+SABIN: This can’t be true… CELES…? 
+CELES: I don’t remember because I was asleep when they…augmented me. But I’ve heard rumors to that effect.
+CYAN: Then we’re going in… EDGAR: We’d best split into 2 groups. We still need to beef up our defenses in Narshe.
+CYAN: Indeed.
+CELES: I’ll go to the Empire. I know it well… SABIN: But alone…?
+LOCKE: Don’t worry, I’ll go with her.
+CELES: LOCKE!
+CYAN: You need a hand?
+LOCKE: Please wait for us in Narshe. We’ll find our way back safely. “If you wish to change group members, head for Narshe.”
+SHADOW: There’s no need for me to remain with you.
+CELES: So…how we gonna get there? The Empire’s on the continent to the south. No boats go there… LOCKE: The people of Jidoor, a town to the south, can probably help us.
+CELES: LOCKE. LOCKE: Yes? CELES: Why are you coming with me?
+LOCKE: Well… There’re bound to be treasures there. And besides, I’ve always wanted an inside look at the Empire!
+Ain’t no easy way to make the Imperial lands…!
+Only way to reach the Empire’s by air. Of course you realize you’d need an airship!
+There’s only one airship in the world. It’s owned by a gambler, or should I say pirate…?
+The gambler likes flashy shows. He’s always at the opera. I think he likes the beautiful divas…
+You’re the spittin’ image of Maria! Huh? Haven’t heard of her? She’s a famous opera singer!
+IMPRESARIO: Maria!?
+CELES: Are you talking to me?
+IMPRESARIO: Sorry…my mistake. Wow, you could pass for Maria in a heartbeat! Hoo boy, now I really am in trouble…
+CELES looks just like Maria…?
+That PERSON dropped it off.
+MASTER: He’s the director of the operas here. Everyone just calls him “Impresario.” He’s been in a tizzy ever since that letter arrived.
+LOCKE: Who’s this “Wandering…”? what’s-his-name? MASTER: You born on a farm, son?
+That’s SETZER, owner of the world’s only airship.
+A blackjack-playing, world-traveling, casino-dwelling free spirit…
+My Dear Maria, I want you for my wife. I’m coming for you…       The Wandering Gambler
+CELES: If we could get that airship, we’d make the Empire in no time. LOCKE: Let’s set up a meeting…with SETZER…
+The Opera House’s closed.
+Performance underway.
+IMPRESARIO: Ah! You again!
+LOCKE: I read that letter. SETZER’s coming to steal her… IMPRESARIO: He’ll probably appear right at the climax of Scene 1. He loves an entrance…
+LOCKE: Right! If we could only grab him then…!
+IMPRESARIO: Dear me, NO! You’ll ruin the performance! I’ll lose my job!
+CELES: Then you’re history! IMPRESARIO: This is simply horrid! I want the performance to be a success! But I don’t want Maria to be abducted…!
+LOCKE: We’ll let him grab her…
+LOCKE: We’ll use CELES as a decoy. After she’s abducted, I’ll follow ’em right to his airship!
+IMPRESARIO: Are you mad?!! If something should happen to Maria…
+LOCKE: That’s why the decoy! We’ll hide Maria somewhere safe! IMPRESARIO: Come again?
+LOCKE: You said SHE looks like Maria, right?
+CELES: Now just a minute…
+LOCKE: CELES will be our Maria! She’ll lead us to the airship!
+IMPRESARIO: Brilliant!
+CELES: W…wait! I’m a GENERAL, not some opera floozy!
+Mii… Mii…  Do, re, mi… Faa…hack, cough…   Maa… rii aaaa
+LOCKE: Not bad, CELES!
+ULTROS: Mwa, ha, ha! I’ll pretend to be SETZER and foil their little plan!
+LOCKE: Let’s get ready! CELES, it’s show time!
+ULTROS: D’haaaaa! Come on! Read it…!
+The West and East  were waging war…   Draco, the West’s great hero,  thinks of his love, Maria.  Is she safe? Is she waiting? 
+<Musical note> Oh Maria     Oh Maria     Please, hear my voice!     How I long to be with you! <Musical note> 
+LOCKE: I’m going to the dressing room.
+EDGAR: Go right ahead.
+SABIN: Uh? Why’s everyone singing?
+CYAN: Going somewhere? I’m going to relax!
+GAU: Pretty song!
+IMPRESARIO: Is everything okay?
+IMPRESARIO: Your friend left. Said he’d have fallen asleep in another 5 minutes…
+LOCKE: Aye yai yai! Izzat…you!?
+CELES: LOCKE. Why did you help me escape back there? LOCKE: I…once abandoned someone when she needed me…
+CELES: Somewhere inside you were saving…her, weren’t you…?
+LOCKE: That ribbon suits you.
+CELES: On with the show! This is a big scene in which Maria senses that something’s happened to Draco!
+LOCKE: Don’t make any more mistakes!
+LOCKE: You’d better check the score one last time.
+Read the score? <Choice> (Yes) <Choice> (No)
+Scene 1 Oh my hero, so far away now. Will I ever see your smile? Love goes away, like night into day. It’s just a fading dream… I’m the darkness, you’re the stars. Our love is brighter than the sun. For eternity, for me there can be, only you, my chosen one… Must I forget you? Our solemn promise? Will autumn take the place of spring? What shall I do? I’m lost without you. Speak to me once more! …here you pick up the flowers. Climb the stairs to the balcony high atop the castle. Raise the flowers to the stars. (Hurry! You have just moments before Scene 2 starts!        The Impresario) Scene 2 …………………………
+LOCKE: Good luck…!
+The forces of the West fell, and Maria’s castle was taken.  Prince Ralse, of the East, took her hand by force. But she never stopped yearning for Draco… 
+The next line is…?    <Choice>(Oh my hero…)    <Choice>(Alas, Draco…)
+<Musical note> Oh my hero,     so far away now.     Will I ever see your smile?  <Musical note> Love goes away,     like night into day.  <Musical note> It’s just a fading dream… <Musical note>     <Choice>(I wish I…)    <Choice>(I’m the darkness) 
+<Musical note> Alas, Draco!    You’re outta here! 
+Something’s wrong…eh? Oops…sorry!
+<Musical note> I’m the darkness,     you’re the stars.     Our love is brighter than    the sun.  <Musical note> For eternity,     for me there can be,  <Musical note> only you, my chosen one… <Musical note>     <Choice>(Must I…)    <Choice>(Prince Ralse…)
+<Musical note> I wish I…uh? 
+<Musical note> Must I forget you?     Our solemn promise?     Will autumn take the place    of spring?  <Musical note> What shall I do?     I’m lost without you.     Speak to me once more! <Musical note> 
+<Musical note> Prince Ralse…yeah, so?    I hate him! Everyone does. 
+Uhnn…not in time… We messed up.
+<Musical note> We must part now.     My life goes on.     But my heart won’t give    you up.  <Musical note> Ere I walk away,     let me hear you say.     I meant as much to you… <Musical note> 
+<Musical note> So gently,     you touched my heart.     I will be forever yours.  <Musical note> Come what may,     I won’t age a day,     I’ll wait for you, always… <Musical note> 
+DRACO: Come, Maria! Follow my lead…
+DRACO: Ha, ha, ha…
+CHANCELLOR: Prince Ralse is looking for a dance partner.  Leave the past behind! Our kingdom is adopting the spirit of the East…! 
+LOCKE: Well done, CELES.
+I owe you one, so I’m gonna jam up your opera!                      Ultros
+LOCKE: Uh oh… Better tell the Impresario!
+LOCKE: Again!
+IMPRESARIO: What!!!?
+“The survivors of the West attack!” RALSE: Impossible! 
+       Attack!! 
+       Wait!! 
+<Musical note> Maria 
+<Musical note> Draco,     I’ve waited so long.     I knew you’d come. <Musical note> 
+<Musical note> Maria will finally     have to become my queen! <Musical note> 
+<Musical note> For the rest of my life     I’ll keep you near… <Musical note> 
+  It’s a duel! <Musical note> 
+LOCKE: Impresario, what’s up above the stage?
+IMPRESARIO: But how might he disrupt the opera? …With that?!
+LOCKE: That has to be a joke!
+ULTROS: Mwa ha ha! Let’s see if Maria can shrug THIS off!
+LOCKE: We haven’t a second to lose! IMPRESARIO: Talk to the man in the room to the far right! He’ll help you get up there! LOCKE: It’s as good as done!
+ULTROS: N’ghaaa! This is heavier than I thought! It’ll take me 5 minutes to drop it!
+ULTROS: N’ghooo! And it only weighs 4 tons…!
+ULTROS: Phew! Rats!
+IMPRESARIO: Disaster! If the two heroes are flattened, the opera’s over! Then who’ll win the girl?!
+LOCKE: Neither Draco nor Ralse will save CELES!
+LOCKE: I, LOCKE, the world’s premier adventurer, will save her!
+IMPRESARIO: Aya… What awful acting!
+ULTROS: Silence! You are in the presence of octopus royalty! A lowborn thug like you could never defeat me!
+IMPRESARIO: Hmm… Might as well make the most of this. MUSIC!!
+Just a darn minute!
+What a performance!!
+IMPRESARIO: SETZER! SETZER: I’m a man of my word, music man!
+CELES: That’s HIM…?!
+IMPRESARIO: What a reversal! Thinking she’s LOCKE’s new queen, Maria is instead nabbed by SETZER! What fate lies in store for her? Stay tuned for Part 2!
+IMPRESARIO: Sorry, but yesterday’s performance was awful! I’ll give you just 3 more chances!
+IMPRESARIO: You have 2 more chances.
+IMPRESARIO: You have 1 more chance.
+IMPRESARIO: We’re all in this together!
+You don’t have enough acting ability to convince your own mama!
+STAGE MASTER: Off limits! Please turn around.
+STAGE MASTER: The Impresario asked me to have you press the far right switch.
+STAGE MASTER: Don’t press the wrong switch, or…
+STAGE MASTER: Enter the room to the far left of the stage, then make for the framework above the stage.
+ULTROS: N’ghaa, ha, ha! Whooooopie!!
+SETZER: I’ll deal with you in a minute!
+LOCKE: What a performance! CELES: Enough already!
+LOCKE: But this is the tough one! Part 2 begins now!
+LOCKE: … Where’s SETZER?
+CELES: He’s coming.
+SETZER: W…who’re YOU? You’re not Maria!
+CELES: SETZER, we need your help. We have to go to Vector. We need this ship to get there.
+SETZER: Look, if you’re not Maria, I don’t want you aboard.
+CELES: Wait!  We were told your ship is the finest vessel in the world.
+LOCKE: And that you were the world’s most notorious gambler…
+EDGAR: I’m the King of Figaro. If you cooperate, you’ll be well rewarded…
+SABIN: My brother’s the King of Figaro. Cooperate, and you’ll be well rewarded!
+CYAN: I’m one of Doma’s Knights. Please, help us.
+SETZER: Come here.
+CELES: Yeah…  SETZER: Don’t misunderstand me. I’m still not sure if I’m going to help you.
+SETZER: Phew… The Empire’s made me a rich man.
+CELES: Stop thinking of yourself. Many towns and villages have been smashed by the Empire.
+LOCKE: The Empire’s also totally rotten! It’s using magic to enslave the world.
+EDGAR: The Empire and my realm were allies… until recently.
+SABIN: The Empire’ll end up owning you!
+CYAN: …I lost my friends… and my family.
+SETZER: The Empire …evil…?
+CELES: We all hate the Empire for the same reasons. That’s why… SETZER: You know…you’re even more stunning than Maria. CELES: ????
+SETZER: Enough! If you… If CELES becomes my wife, I’ll help. Otherwise…
+LOCKE: WHAT! Are you stupid!?
+CELES: We haven’t any choice.
+SETZER: Yes! It’s settled!
+CELES: But I have conditions…
+We’ll decide with a coin toss. If it’s heads, you’ll help us. If it’s tails, I’ll go with you. Well, Mr. Gambler…?
+SETZER: Oho! Fine! I accept!
+LOCKE: Listen to yourself! CELES…you can’t become his wife! You just can’t!
+CYAN: That man uses people…
+CELES: Ready?
+CELES: I win! Now, honor your part of the bargain!
+SETZER: How…unusual! A coin with identical sides…!
+CELES: I think you’ve been hustled, Mr. Gambler.
+SETZER: Ha! How low can you get?! I love it! All right, I’ll help you. Nothing to lose but my life…
+My life is a chip in your pile! Ante up!
+G’ho! Customers! Need any refreshment? <Choice> Yes <Choice> No
+     Locked…
+ Can’t open or shut during flight
+SABIN: That coin…!?  BIG BROTHER!!! Don’t tell me…!
+LOCKE: This unwieldy-looking ship really moves! Could it crash?
+SETZER: When things fall, they fall! It’s all a matter of fate…
+LOCKE: This ship’s going to stick out like a sore thumb. Better land some distance away. SETZER: Right. I’ll wait on board in case of an emergency.
+SETZER: What’s going on? The Empire’s becoming paranoid!
+SETZER: I’ll have to repair the air ship. Go scout around and let me know what’s happening.
+SETZER: Repairs aren’t finished yet. You’d better take the boat from Albrook.
+SETZER: By all means!  Take a turn at the wheel!
+Operating instructions:
+Control Pad: L/R = direction Up/down = Altitude Press the A Button to move forward. Press the X Button to go amidships. There you can change your party, or purchase items. Press the B Button to land. Press the A Button to lift off.
+All right? <Choice> Yes <Choice> No
+Shall I teach you a technique, too? <Choice> Yes <Choice> No
+Press the Start Button to view the world map. Hold the Y Button down and use the Control Pad to move in all directions. Use the L and R Buttons with the Control Pad for high speed turns.
+<Choice> (Find the Floating Continent) <Choice> (Lift-off) <Choice> (Not just yet)
+Change party members? <Choice> No <Choice> Yes
+    Only 3 members, please.
+<Choice>(Lift-off) <Choice>(Not just yet)
+LOCKE: Let’s not overstay our visit. We’re outta here on the double!
+SETZER: Right.  Speaking of which… Maybe we should be leaving.
+CYAN: Whoa! What IS that?!
+EDGAR: Something horrible’s coming!!
+SABIN: Uwaaoo! What in the…?
+GAU: Gau! GAU go!!
+Ugly brute… Better make tracks!
+Pledge your allegiance to the Empire? <Choice> Yes <Choice> No
+What!!
+Fine.
+Magitek Research Facility. No Entry!
+Cid, the director of Magitek research, is a genius! He gave my child the gift of cure magic!
+Hey, YOU! … …  You’re Returners!!
+Peaceful times are here…
+And…CURE!!!
+General Leo’s a good man. Compared to him, Kefka’s a…  Oh! What am I saying?!
+Tzen…Maranda…Albrook… They’re all controlled by the Empire. It’s all because of the Returners…
+You’re Returners?
+Not a problem by me. Shall I tell you something neat? <Choice> Yes <Choice> No
+All the soldiers in the Magitek Research Facility can use magic! That Prof. Cid is truly a genius!
+Here’s one for you…  That guy Kefka? He was Cid’s first experimental Magitek Knight. But the process wasn’t perfected yet. Something in Kefka’s mind snapped that day…!
+General Leo refused a Magitek infusion! He’s a warrior’s warrior!
+General CELES turned traitor! Why? The other side’s sure to lose!
+Your friends… They’re in the cafe.
+BANON: What ARE you talking about…?! ……!! Talking with…Espers…?
+ARVIS: It was like this when we got here.
+RETURNER: What on earth…
+BANON: Could Gestahl have meant such a thing? Team up with the Empire to track down an Esper…  Hmm…
+ARVIS: Makes sense. Can’t just forget about Espers…
+RETURNER: The war… It’s over…right?
+NARSHE GUARD: We didn’t have to do a thing! The Empire’s troops just ran away in terror!
+NARSHE GUARD: What’s going on?
+Is it true they extract magic from monsters inside the facility?
+Shh! I’m a Returner sympathizer! I’ve heard of you!
+While I distract the soldiers, climb onto the steel tower from this box, and enter the facility!
+All ready? <Choice> Yes <Choice> No
+Who goes there?! This is off-limits!
+MAN: I…I’m gonna be sick! SOLDIER: Get outta here!
+MAN: Urghh… Gonna toss it all…  SOLDIER: Hey…
+Phew!
+Right… I’m sure you can do it!
+Young people… Hang in there!
+Danger…danger…
+SOLDIER: Returner scum!
+Guess I’ll stay here and volunteer to be a soldier…
+In the army that destroyed our village??? What about your promise to begin anew in Maranda?
+It’s on the house. Have a snooze! <Choice> Yes <Choice> No
+1000 GP stolen!
+Nee, hee, hee, hee, hee!
+KEFKA: I’m all-powerful! Hee, hee, haw! I’m collecting Espers! I’m extracting magic! And… … …  I’ll restore the…Statues!
+KEFKA: You’ve been completely drained of your powers! Now you’re useless to me!
+KEFKA: And you! Take a hike!
+IFRIT: Hmmm… SHIVA: Well, Ramuh DID entrust them with his power.
+IFRIT: Gestahl has grabbed our friends and is trying to drain them of their power. I, too, suffered my turn in one of the glass tubes…
+SHIVA: They drained our powers, then threw us away to… We haven’t long to live…
+We will follow Ramuh’s lead, and give to you our power…
+Our friends are all gone… We haven’t much time left… No choice but to entrust you with our essences…
+      Received the Magicite               “Ifrit.”
+      Received the Magicite               “Shiva.”
+ESPER: You want to help me… But… I haven’t long to live. Just as Ifrit did before me, I’ll give to you my power…
+CID: What are you doing there?
+CID: W…what’s this!?
+CID: So…Esper magical power can only truly be transferred when one of them passes away…
+      Received Magicite!
+CELES: Professor Cid. CID: General CELES! And who might these dubious characters be? Your troops?
+CELES: No… You see, … CID: Can it be true that you came here as a spy, seeking to cause an uprising?!
+KEFKA: CELES! W…what are you doing? Stop it!!!
+LOCKE: !? CELES…?
+KEFKA: So that’s it! Magicite… Cid, you miserable blockhead! Now…
+KEFKA: General CELES!!  The game’s over. Bring me those Magicite shards!
+LOCKE: CELES! You…deceived me?! CELES: Of course not! Have a little faith!
+CYAN: See! I knew she couldn’t be trusted!
+KEFKA: G’hee, hee, hee! She has tricked you all! CELES, that’s so…YOU!
+CELES: LOCKE… Please believe me… LOCKE: I… … …
+KEFKA: NOW!!
+KEFKA: Exterminate all of them!
+CELES: LOCKE…  Let me protect you for once…  Maybe now…  Now you’ll believe me…
+LOCKE: CELES…
+CID: Ooh, ooh… What happened?
+CID: This is a disaster! Your fighting has caused the capsules to rupture! Their contents are spilling out!
+CID: Quick! Over here!
+CID: Kefka has used me… used the Empire. What have I done…?
+CID: The life-energy of those Espers…
+CID: You’ve helped me come to a decision. I’m going to talk to the Emperor and have this stupid war stopped!
+CID: CELES… I’ve known her since she was a baby. I raised her as if she was my own daughter! But she was forced to become a Magitek Knight, and has done some awful things. If I could only talk to her… I’d apologize for the way her life has turned out.
+CID: No! It’s Kefka!
+CID: GO!!
+SETZER: I was starting to worry…
+SETZER: ? What’s up with CELES? LOCKE: ……
+SETZER: Huh?
+KEFKA: Crud! What a mess!!
+SETZER: We’ll talk later. Let’s get outta here!
+KEFKA: I don’t think so…! You won’t get away!
+LOCKE: I’m worried about TERRA. Let’s return to Zozo.
+SETZER: TERRA? Who’s that? LOCKE: I’ll explain on the way… …about TERRA…Espers…the Returners…
+TERRA: Father…?
+We’re all here…
+LOCKE: TERRA…
+LOCKE: Magicite!!
+<I have inserted this line to ensure that each line number matches the corresponding dialogue index number.>
+TERRA: I remember it all… I was raised in the Esper’s world.
+       The Esper World… 
+MADUIN: Listen well, and think clearly! What will you do? <Choice>(Return together?) <Choice>(Leave her here?)
+She’s pretty weak. Better let her rest for a moment.
+ELDER: Did I hear there was a human here? MADUIN: Probably… …wandered in here by mistake.
+ELDER: This evening is an ill omen…
+You okay, Maduin?
+You’d better do away with it. Humans and Espers are incompatible…
+You’re the Gate Keeper, Maduin?
+Everyone here’s feeling uneasy.
+You just want to peer into the human realm beyond the north gate, eh, Maduin?
+Why’d you bring that thing here?
+Strong winds… Be careful, Maduin.
+The link between worlds has surely weakened over the past 1000 years.
+You okay Maduin?
+Do you even know what you’ve done?
+Elder’s orders… No one passes through the gate.
+Emergency! Something’s coming through the gate!
+They say a human girl’s here…
+……
+……
+MADUIN: Did I awaken you?
+GIRL: You’re…an Esper? What’s that pendant for?
+ MADUIN: It’s…yours now! It helps protect the Esper World. GIRL: Esper World… Boy, did I take the low road or what? MADUIN: The Esper folk are pretty upset, you being a human and all… GIRL: You the one who…saved me?
+ESPER: I am Maduin. I tired living in the human world… That world is filled with desire, greed and loathing. It’s highly infectious…
+MADUIN: Are humans and Espers truly…so different?
+MADONNA: So…I’m an example of the evil in this world, huh? MADUIN: No, I mean…
+MADONNA: I’ll return to my world tomorrow! MADUIN: You’ll need a guide.
+ELDER: Everything all right? WHAT? The human’s gone?
+If this generation of humans knew about our abilities… And decided they wanted to utilize our powers… It would be a total disaster!
+A human girl made it all the way to the gate!
+Why has this happened now after all these years?
+YOUTH: What’s wrong, Maduin?
+MADUIN: If you don’t want to return to your world, you may stay here. MADONNA: But humans and Espers can never coexist…!
+MADUIN: How do we know for sure unless we observe for ourselves?
+     How do we know…
+         unless we…
+    observe for ourselves…?
+MADUIN: We’ve given her a name… MADONNA: What? MADUIN: It’s TERRA. Not bad, huh?
+       2 years later…
+Humans!!!!! The nexus between our worlds has opened again!! The wind… so odd…just like 2 years ago…
+But something’s different now… Troops have come seeking our magical power.
+Blast it! They’ve made it as far as the Elder’s house!
+GESTAHL: Aha! We’ve finally found it! Those ancient writings told us of this world, and described the awesome magical properties of these beasts!
+GESTAHL: Grab them! Riches to any man who captures an Esper! GO!
+ELDER: We’ve no choice… We must do what we’ve been avoiding… MADUIN: You mean… the magic barrier?
+It’s dangerous out there!
+Soon the humans will arrive!
+MADONNA: TERRA’s all right.
+ELDER: Here’s the plan. We’ll cause a tempest that’ll sweep all the nasty creatures out of our realm. Then we’ll seal the gate… I am the last of our kind able to cast this magical seal.
+MADUIN: But in your state, you might just… ELDER: Pass away… but at least we will finally be safe. MADUIN: Madonna……
+MADONNA: I, for one, will not miss the other side…
+ELDER: Let’s do it. We have no other choice.
+ESPER: This is all because of that human girl! MADUIN: Nonsense! ESPER: I’m sure she helped the others find us!
+MADUIN: Get a grip on yourself! ESPER: No! She’s one of them! Soon she’ll be wearing our hide!
+MADUIN: Urghhh!
+Madonna took TERRA to the gate!
+ELDER: Where are you going?! D’ goh! MADUIN: Madonna’s getting drawn into the next world…! ELDER: Impossible! It’s too late! I’ve already begun casting the barrier. There’s no turning back! MADUIN: That fool…
+MADUIN: Madonna!!
+TERRA!!!
+MADONNA: Maduin… I’m not their friend… MADUIN: I understand that! MADONNA: Thank you… MADUIN: Can you make it back here? MADONNA: Sure…
+GESTAHL: Shriek!!! Just when we were in reach of a veritable bonanza…!
+SOLDIER: Look what popped out!
+GESTAHL: A…human girl? Wh… Who is she?
+MADONNA: Please… take care…of my baby… GESTAHL: YOUR girl!? Eh!? Hmmm…Then she’s half human and half… How absolutely fascinating! GESTAHL: Mwa, ha, ha… She will help us realize our dream faster than we ever imagined!
+MADONNA: N…noooo!!! GESTAHL: Quiet, my dear!!
+GESTAHL: We will own this world! Ha, ha, ha…
+MADUIN: Maadoonaaa!!
+TERRA: That was my father…?
+TERRA: I’m the product of an Esper and a human… That’s where I got my powers… Now I understand… I finally feel I can begin to control this power of mine…
+EDGAR: So Gestahl must’ve known the secret of the Espers’ power back then. LOCKE: And those Espers at the facility were grabbed during that expedition! That means CELES’s power came…… at the expense of an Esper…
+SABIN: They can’t get away with this! We have to strike back!
+TERRA: What’s happening in Narshe? LOCKE: Hmm… Maybe we should head back that way.
+SETZER: The airship’s ready!
+TERRA: Come on!
+       7 dragons left.
+       6 dragons left.
+       5 dragons left.
+       4 dragons left.
+       3 dragons left.
+       2 dragons left.
+       1 dragon left.
+  Defeated all 8 dragons…     Dragon Seal broken!!
+      Received the Magicite               “Crusader”!!
+DUNCAN: Look out! Move! Cough…wheeze… Darn this old body… Hey…you deaf?
+SABIN: Duncan!!
+DUNCAN: Wa, ha, ha… Why the surprised face? Did you think I’d…gone?
+SABIN: Duncan… I’m so glad you’re safe!!!
+DUNCAN: Whoa?! SABIN, this can’t be… Tears??
+DUNCAN: Wa, ha, ha… Nothing happened to me! The earth yawned right open to take me but I scrambled to safety!
+DUNCAN: SABIN!! It is now time to complete your training. Use these new skills to smash Kefka!
+Put ’em up!
+I call this the “Bum Rush”!!
+DUNCAN: Go! Give Kefka the boot!
+I’ve been waiting for you!  I wanted to give you this.
+DUNCAN: Cough…wheeze…  Don’t worry about me! Go! Destroy Kefka!
+I ran a Weapon Shop for 70 years! This stone gives off an eerie aura! If I melted it, and forged a sword, it’d be powerful! Well? Make this stone into a sword? <Choice> Leave it the stone “Ragnarok” <Choice> Make it the sword “Ragnarok”
+Right.
+I’ll stay here. This is my home.
+Cough… Take…this…
+“Cursed Shld”… If we could break its curse… Imagine its defensive power!
+What’s with this carving? Looks like bone… Something…in that eye… … Magicite?!
+Remove the Magicite from the eye of the carving? <Choice> Yes <Choice> No
+      Received the Magicite               “Terrato”
+Ooh…
+MOG: I’m your boss, kupo! You’re gonna join us, kupo!!!
+Admirer of bone-carvings,  as strong as a gigas,  a sasquatch pal with muscle!
+Ooh…me UMARO… Yes, boss… Me join you! MOG: UMARO! No slouching, now!
+Ooo…me wait for you in big airship!
+This Magicite can be yours for 10000 GP. <Choice> (Buy it.) <Choice> (Don’t want it.)
+This Magicite can be yours for 50000 GP. <Choice> (Buy it.) <Choice> (Don’t want it.)
+      Received the Magicite               “Palidor.”
+      Received the Magicite               “Terrato.”
+
+Say, you wanna get hitched?
+Aishya, no!!
+You should hear the gossip floating around here!
+Phew!
+My dog’s the fiercest!
+Place all bets here!
+Scram!!
+This is our only means of recreation.
+Maranda used to be this continent’s most beautiful town! Look what the Empire’s done to it!
+My son’s being forced to serve in the Empire’s army.
+These troopers are crazy! How long can things keep going on like this?
+Tzen and Albrook, too, fell to the Empire.
+200 GP per night! Need a rest? <Choice> Sure <Choice> Nope
+Hee, hee… This town is ours to play with!
+We must begin to rebuild!
+That boy made to serve as a soldier has returned!
+When peace was reached, the soldiers left our town.
+The Imperial troopers are gone! Let’s dance! Let’s sing!
+I was forced into the Empire’s army. They made me do some awful things…
+I feel a little down…
+Most of the town’s youths were led off to serve as Imperial troopers.
+Our poor kids’ll be back soon, won’t they?
+I heard there’s a huge gate deep inside a cave to the east.
+Time to put Tzen back together!
+Our royal family was slaughtered by the Empire.
+Thanks to you people peace has been achieved!
+Some friendly advice! There’s a weapon called the Guardian. It can’t move, but it’s very powerful. Run, if you meet it!
+The world seems to be getting back to normal…
+I said it’s dangerous outside, so you can’t go out!
+Waaah! I wanna play outside!
+Our kid’s still not home. Even though we said it was dangerous outside!
+The Imperial troopers are gone. Now we can live in peace.
+Oh, NO!  Whew…don’t SCARE people like that! I thought you were a trooper! A while ago someone broke into the Magitek Research Facility, and raised a ruckus! I took the opportunity to grab this. For 3000 GP this glowing stone’s yours. <Choice> Yes <Choice> No
+The world’s going to heck in a hand basket…just look at this weird stone! If you want it, just give me 10 GP. <Choice> Yes <Choice> No
+Got any juicy gossip?!
+      Received the Magicite               “Sraphim.”
+The Empire strings up anyone who opposes it.
+3 cheers for the Empire!
+You’re in the way! Git!
+Everything belongs to the Empire!
+Mess with the Empire and…!
+350 GP per night! Rest a while? <Choice> Yes <Choice> No
+This is Albrook, the occupied city…
+Business is picking up in the port! Maybe economy will make a recovery!
+How could an island float in the sky?!
+They say there’s something valuable to the east… The Empire built a base there, and no one may enter.
+I heard some Espers flew outta the mountains near the base and thrashed the troopers there!
+Yeah, thanks to that flying island, this town was shrouded in darkness!
+We have to bribe the troopers to do business here…
+And they’re such TIGHTWADS! They’re raking in the cash!
+Wouldn’t want to be in their shoes, though!
+People’re disappearing, islands are flying… I have a bad feeling about this…
+Vector, capital of the Empire, is at the center of this continent.
+You’ll find some good weapons and items in Tzen and Maranda.
+Some strange guy’s tryin’ to sell glowing stones… When I wouldn’t take one, he said he was going to Tzen.
+I’m a scholar of magic. Monsters on this continent have only weak magical power.
+I found this in a 1000 year-old text: 8 dragons seal away this awesome beast. Its name is Crusader… Defeat these dragons, and its power can be released…
+I’m a scholar of weapons. 1000 years ago, during the War of the Magi, 2 so-called Atma Weapons existed. One changed a person’s power into a sword, the other was an monster, bred for mass destruction.
+No entry into the port!
+Ah…welcome!
+Hey…you’re not of the Empire! Get outta here!
+In any case, you’re probably broke!
+Ahaaa!! Whooopie!
+Look out if you’re caught working with the Returners.
+Now maybe we can get on with our lives.
+I heard that Espers attacked the Empire…
+All’s well!
+Is the war really over…?
+Nuts! These soldiers are absolutely insane!
+This cafe is like an Imperial soldiers’ dormitory!
+Since the soldiers are leaving, business is bound to pick up. Oops…better keep my mouth shut.
+Sure! No problem!
+300 GP if you wanna stay. How ’bout it? <Choice> Yes <Choice> No
+General Leo told us about you. By all means…
+You look tired! 100 GP for a snooze. <Choice> Yes <Choice> No
+We’ve been waiting for you. This way, please…
+BANON: Oh, you’re here! The people of Narshe have finally decided to battle the Empire. How did it go at Vector…?
+ARVIS: I see… Your plan would combine Narshe’s money with Figaro’s machinery to storm the Empire… not enough manpower, though…
+BANON: We have to open the sealed gate…
+TERRA: To the Esper World…?
+ARVIS: We’ll never beat the Empire without them.
+BANON: When the gate has been opened, the Espers can attack from the east. We’ll storm in at the same time, from the north.
+BANON: We MUST get the Espers to understand. We have to establish a bond of trust between humans and Espers. Only one person can do this…
+Half human, half Esper… My existence is proof that such a bond CAN exist…
+TERRA…
+TERRA: I’ll do it. I’m the only one who can!
+TERRA!?
+No way around it.
+NARSHE’S ELDER: Our battle lies before us. We must make ourselves ready.
+BANON: Get the Espers to understand, and we can bring this war to a screeching halt. TERRA… I know you can do this…
+ARVIS: The sealed gate stands at the eastern edge of the Empire. There’s a base there, but somehow we’ll have to slip through…
+LOCKE: The sealed gate… Can you sense anything, TERRA?
+TERRA: ……
+LOCKE: TERRA…
+The Espers wouldn’t give us the time of day without… TERRA…
+TERRA: I can do it… But why do I feel so wretched?
+That’s odd… No Imperial soldiers…
+       Chucked out…!
+TERRA: Let’s get this over with.
+TERRA: ……
+This is the sealed gate…
+LOCKE: Beyond is the Esper World…
+CYAN: What an eerie place…
+EDGAR: From here on, it’s all up to TERRA…
+SABIN: We’re counting on you, TERRA…
+SETZER: Why’d you bring me to such an awful place!?
+TERRA: Espers… Please heed my call…
+Uwa ha! So, it’s true!
+KEFKA: Emperor Gestahl was right!
+TERRA!  …the gate…quickly!
+What the!!!
+Espers?
+Hey! The gate!!!
+What about those Espers…?
+TERRA: Look, let’s return to the airship.
+KEFKA: D… Drat it all!! I won’t forget this!
+“Something happened…” “I’m not sure…”
+Anyway, let’s return to the airship.
+<I have inserted this line to ensure that each line number matches the corresponding dialogue index number.>
+TERRA: I’m all right. I’m sure peace is within our grasp!
+LOCKE: I can’t believe we played a major role in it all!
+LOCKE: I’m sure the Espers were headed for Vector…
+CYAN: The Empire deserves the worst!
+CYAN: I could feel the warrior spirits of those Espers!
+SHADOW: …… Why am I here…?  For the money, I guess.
+SHADOW: I think Kefka’s out for General Leo’s hide!
+EDGAR: We can’t be smug. We must be thinking of our strategy.
+EDGAR: Somehow we need to tap in to the power of those Espers…
+SABIN: Let me at the Empire!
+SABIN: Let’s see what’s become of the Empire! Hurry!
+CELES: I was one of the Empire’s generals, but I still know evil when I see it.
+CELES: Kefka’s sure to come up with another demented plan. We need to do something FAST!
+STRAGO: In all my travels, and in all my years…
+STRAGO: …I’ve never seen anyone so sleazy as Kefka.
+RELM: I know. Let me draw their portraits!
+RELM: I’m sure those Espers are all very kind!
+SETZER: What’s the most important thing in life? Being free of obligations! Otherwise, you lose the ability to gamble…
+SETZER: Urghh! For the time being, I don’t own the skies…
+MOG: Kupoppo!!
+MOG: …puuh…
+GAU: GAU become stronger on the Veldt.
+GAU: …ooh… GAU…high place… Not good…don’t like…
+GOGO: ……
+UMARO: Uhhhh…
+TERRA: …the Espers… Something happened…
+What happened?
+The Espers flew off together…
+Then, the Empire’s citizens ran off, as though they were terrified.
+Which way did the Espers go?
+Toward the capital…
+ There’s something under the ground…
+Vector…
+SETZER: We’re almost at Vector.
+There! What’s that?
+There’s a switch inside. What will you do? <Choice> (Flick the switch.) <Choice> (Leave it alone.)
+     Heard a distant sound…
+N…nuts!!! I thought I had the monopoly on the stuff buried in the plaza beneath the grand stairway…
+         Got “Inviz Edge.”
+         Got “Super Ball.”
+       Something’s buried…
+         Got “Bolt Edge.”
+Got “?????.”
+         Got “Fire Skean.”
+         Got “Water Skean.”
+         Got “Shadow Edge.”
+The Emperor’s expecting you. This way…
+Emperor Gestahl waits inside.
+The Espers that emerged from the gate are terrifying the Empire!
+We’ve lost our will to fight.
+Kefka’s been imprisoned for unspeakable war crimes. He’s on his last legs…
+The war’s over…
+The power of the Espers… Phenomenal…
+The Espers surely came to free their friends…
+Peace at last…
+The Magitek Research Facility’s been dismantled.
+You!? How’d you get in here?
+The Empire’s talking peace now!
+When the Emperor learned that Kefka used poison in battle, he imprisoned the fiend!
+Kefka! Using poison… how low can you get?! I’ve always hated you!
+KEFKA: Grrr! How DARE they put me in a place like this!
+KEFKA: I don’t believe this!
+KEFKA: What a bore.
+Kefka’s scum… It serves him right!
+My whole family was lost in the war…
+The war ended before we could use this machine…
+Kefka’s in jail!
+GESTAHL: I’ve lost my will to fight…
+CID: The Emperor’s had a change of heart…
+Cid!!
+CID: The Espers came to save their friends. When they learned the others had perished, they went berserk, and trashed the town… Never will I forget their shrieks of rage…
+SENTRY: We’re hanging up our weapons and armor for good.
+GESTAHL: The power of those Espers… I had no idea… They’ll shred the world…! We must get them to understand that we are no longer at war.
+CID: No human’s going to make them sit down and listen…
+GESTAHL: But for now my friends… Let us feast and rejoice!
+CID: There’re some people here who’d prefer to keep fighting. Please, before we dine, talk to as many soldiers as you can! Make them understand!
+Dinner preparations underway. One moment, please.
+TROOPER: Please talk to as many soldiers as you can. You have 4 minutes until dinner.
+Only the chest in the back is locked. Can it be opened…?
+G’whoa! I’ve been made!
+I am Lone Wolf, the pickpocket! I wanted that treasure!
+G’heh!
+Persistent, aren’t you!
+Halt! Don’t move or this one’s dust…!
+Kupo!!
+G’heh! Got a wild one, here…! Uwaaa!
+Took the treasure from Lone Wolf, the pickpocket!        Got “Gold Hairpin”!
+   Kupo…
+LOCKE: Couldn’t hold out…?! Uh oh…
+BANON: Couldn’t hold out!? I have a bad feeling about this…
+Relics give your party members a variety of abilities. For example… “Sprint Shoes” double your speed. “True Knight” lets you shield others during battle. “Dragoon Boots” add the “Jump” command to your battle list. “Gauntlet” allows you to hold a sword with both hands. Use the Main Menu to equip up to 2 relics per person.
+SHADOW: I’ve worn out my welcome…
+At Save Points you can use a “Sleeping Bag” or “Tent”, and also save a game. If you should perish, you’ll automatically be able to play from your last save. Though any GP, treasures, etc. you found will have to be found again, your Level and Exp. data will be retained. You can save a game anywhere on the world map.
+
+Emperor Gestahl himself asked me to do his portrait… What if he doesn’t like it…?
+I finished the Emperor’s portrait. It was a true representation of the Emperor… but he hated it. I ended selling it to Owzer, a rich man who lives in Jidoor.
+The Chocobo is the noblest of creatures!
+WOLF: Hmmm…if this is how it’s gonna be then…take this!
+Look out! Get outta the way!
+Defeat the Statues, and magical power will not disappear… Kefka drained the Statues’ power, the source of magic…?
+Unequip some party members? <Choice> Those not now in your party. <Choice> All members. <Choice> Don’t do a thing!
+       Got “Pearl Lance”!
+Thankupo!
+Can you talk?!
+Human-loving, fast-talking, street-smart, SLAM-dancing… Moogle…
+That old psycho, Ramuh, came to me in a dream and told me to be expectin’ you! And now…  I’m…  gonna join your party!
+I’ll wait in the airship, kupo!
+Kupo!
+Locked…
+      Grrrr…      You’ll never get this      “Gold Hairpin”!
+Kupo…  …  po!
+ That evening, the banquet with the Emperor took place…
+TROOPER: This way, please.
+CID: You can count me in as a Returner!
+GESTAHL: Imagine! All of us here together, sharing a meal! First we must have a toast!
+<Choice> To the Empire… <Choice> To the Returners… <Choice> To our hometowns…
+GESTAHL: Well then… To our hometowns!
+GESTAHL: Well then… To the Empire!
+GESTAHL: Well then… To the Returners!
+GESTAHL: As you know, Kefka’s in jail for war crimes. What shall we do with him?
+<Choice> Leave him in jail… <Choice> Pardon him… <Choice> Execute him…
+EDGAR: Albrook’s a port to the south of the Empire. A Magitek Armor hauling ship plies the waters between…… ……there and Crescent Island… We’ll penetrate the Imperial base. You deal with the Espers!
+SABIN: Can we really trust the Empire?! I have an awful feeling about this…
+CYAN: Never will I be able to forgive Kefka…
+GAU: Smells like parents’ house here…why so familiar?
+MOG: Kupo!
+MAJESTY: General Leo’s waiting in Albrook. Please head for Crescent Island and look for the Espers…
+GESTAHL: Hmm… Well, let’s let him stew in his cell for a while. Then we’ll decide what to do.
+<Choice> Why’d you start the war? <Choice> Why do you want peace now? <Choice> Why’d we have to talk to        your men?
+GESTAHL: My desire for power got the best of me. Now I’ve come to my senses.
+GESTAHL: I feel we need each other’s help at this time…
+GESTAHL: Some of my men refuse to embrace peace. I felt they’d understand if they actually met you face to face.
+GESTAHL: With your permission, I’d like to talk about the Espers…
+<Choice> One more question please! <Choice> Okay.
+<Choice> One more question please! <Choice> Let’s talk about Espers…
+GESTAHL: I assure you, I have answered your questions truthfully.
+GESTAHL: My Empire’s been decimated by the Espers that emerged from the sealed gate. They’re acting spiteful. Unless they’re stopped, they’ll rip the world asunder!
+<Choice> Yes, the Espers have gone      too far. <Choice> But you unleashed their      power!!
+GESTAHL: After the Espers went on their rampage, I knew I couldn’t go on with my war. I asked myself why I had started it in the first place. By the way… About those questions you asked me… which did you ask first?
+GESTAHL: Right. Anyway, more than anything I want peace. That’s my true dream. I want you to understand that!
+CID: You seem a bit tired. Care for a rest break?
+<Choice> Yes, let’s take a break. <Choice> Let’s keep talking.
+Shall we begin again? <Choice> Yes <Choice> No
+GESTAHL: Is there anything you wish to hear me say?
+<Choice> That all you really want      is peace. <Choice> That your war’s truly over. <Choice> That you’re sorry…
+GESTAHL: ……
+CID: All will be put right if we can achieve peace…!
+TROOPERS: We want to test your strength! Won’t you fight with us for a couple of minutes? <Choice> Sure <Choice> Sorry
+TROOPER: Just as we thought…
+GESTAHL: I understand. My only dream in life is…peace! Now I must ask for a favor…
+GESTAHL: I understand. I’ve ordered this war to be over! Now I must ask for a favor…
+GESTAHL: I understand. I’m truly sorry for what I’ve done! Now I must ask for a favor…
+GESTAHL: After they devastated my Empire, the Espers headed northward, toward Crescent Island. They must be found…! We must tell them we’re no longer their enemy. After all that I have put them through, it is up to me to set things right. That is why…  I need to borrow TERRA’s power.
+Only TERRA can bridge the gap between Esper and human.
+GESTAHL: We must make for Crescent Island aboard the freighter from Albrook. Will you accompany me? <Choice> Yes <Choice> No
+GESTAHL: We cannot simply ignore the Espers!! Please…come with me! <Choice> Yes <Choice> No
+GESTAHL: I’ll have my finest warrior accompany us! General Leo!
+LEO: I’m General Leo Nice to meet you.
+SABIN: Didn’t I see you at Doma? …I’m SURE I did… So that was General Leo…
+LEO: You! You’re CYAN, liege to the king of Doma! Please forgive me for not being there to stop Kefka… CYAN: …… That wasn’t your fault.
+LEO: I’ll be waiting for you in Albrook.
+GESTAHL: We must find the Espers and come to terms with them! You are our last hope!
+LOCKE: If TERRA goes, I’ll go.
+TERRA: LOCKE… Thank you…
+LOCKE: The rest of you wait here. I smell a rat…
+EDGAR: Agreed… It’s hard to trust the Emperor just like that…
+CYAN: We’ll stay here and investigate.
+LOCKE: Please do. Leave no stone unturned!
+EDGAR: Right. And you be careful!
+GESTAHL: I truly apologize about the poisoning of Doma. No one dreamed Kefka would use poison.
+<Choice> What’s done is done… <Choice> That was inexcusable. <Choice> Apologize again!!
+GESTAHL: I’m so terribly sorry! Kefka’s being severely punished, and we’re cleaning up the poison.
+GESTAHL: By the way… With regard to General CELES…
+<Choice> Was she an Imperial spy? <Choice> CELES is one of us! <Choice> We trust CELES!
+GESTAHL: Kefka was lying. General CELES realized the war was stupid before anyone else. That’s why she joined the returners. Any other questions for me?
+         1 person
+         2 people
+         3 people
+         4 people
+         5 people
+         6 people
+         7 people
+         8 people
+         9 people
+         10 people
+         11 people
+         12 people
+         13 people
+         14 people
+         15 people
+         16 people
+         17 people
+         18 people
+         19 people
+         20 people
+         21 people
+         22 people
+         23 people
+         24 people
+I’ve slain too many people. I’ll never live a normal life.
+You’re not wanted!
+I oppose peace!
+Some people fight harder after they’re cast down!
+The Empire’ll never die!
+You deserve a thrashing!
+You’re strong… Maybe you really CAN defeat the Espers…
+Espers… Who’d have dreamed they were that powerful…
+We’ll never knuckle under…
+I heard you’re the strongest of the Returners…so just how strong are you…?
+Not bad…pretty strong!
+Someone outta thrash ya!
+Phepppp. Returner scum!
+Hm. Not bad!
+Everything’ll be settled after the banquet…
+A message from the Emperor… Because you were able to talk to so many soldiers, you are to be rewarded as follows.
+Imperial troops have withdrawn from South Figaro.
+In addition, our troops have also pulled out of Doma.
+We hereby give you the right to take any weapons you desire from the Imperial base to the east, near the sealed gate.
+And this is from the Emperor himself…       Received “Tintinabar.”
+CID: Wow, what a ship! SETZER: That landing really messed up the engine. It’ll take a while to fix…
+Your behavior at the banquet was impeccable. Please take this as well!       Received “Charm Bangle.”
+CID: I’ll help. No machine can stump me!
+Well…
+SETZER: Don’t touch anything!
+CID: Go kill time in the casino! I can speed this crate up!
+SETZER: …… You little…!! Get outta my sight!
+CID: But I could really make this thing hum…!
+TERRA: You love this ship, more than anything, huh? SETZER: Actually, when I was young there was something I was mad about…
+TERRA: …huh?
+SETZER: In my youth I dreamed of having the world’s fastest airship.
+TERRA: You mean…… SETZER: At that time there was a young girl who piloted the Falcon, the fastest vessel ever made. Sometimes we were the worst of rivals…but other times we were the best of friends. We always egged each other on to go faster and higher. When she disappeared along with her ship… I felt like I lost my spirit.
+SETZER: … Poor Daryl…
+LEO: There you are. Another of the Empire’s generals, and a person I hired in town will be traveling with us.
+LEO: We should arrive tomorrow morning. Why not rest until then?
+TERRA: CELES…  CELES: ……
+LOCKE: CELES…
+LEO: Right…let’s go.
+SHADOW: I’m working for the Empire. But don’t worry… I’m not going to garrote you!
+General Leo’s waiting for you.
+General Leo’s holding a meeting.
+LEO: Let me introduce… General CELES…and SHADOW.
+LEO: Is something wrong?  LOCKE: No…
+LEO: Our departure isn’t till tomorrow. I’ve arranged some lodging for you.
+LEO: Please, get some rest.
+SHADOW: You kids stay out of trouble now, you hear?
+LOCKE: Not a word of this to anyone else, o shrouded one…
+LOCKE: Come on…!  Why won’t you speak to me?
+LOCKE: CELES…
+LOCKE: Even if it was only a little… I doubted you…  But I’m still your friend…
+LOCKE: CELES!
+LEO: You all right?
+LEO: Looks like you’re feeling better…
+TERRA: Funny, isn’t it… I was used by the Empire… even had my thoughts ripped from me… But here I am cooperating with the “enemy”…
+LEO: People are people. Not all of us are like Kefka.
+TERRA: What… what’s with you?
+LEO: I knew you were being used as a kind of biological weapon… And because I didn’t do anything about it, I’m no different than Kefka…
+TERRA: I’m the product of a human and an Esper… Will I ever be able to love someone?
+LEO: Of course!
+TERRA: But… I haven’t felt that way yet…
+LEO: You’re just young. …but I understand what you mean. I understand only too well…
+TERRA: But… I want to know what love is… now!
+TERRA: Who is it?
+SHADOW: Thought I’d sleep out under the stars.
+TERRA: Did you hear… …what we were just talking about?
+TERRA: Umm…
+SHADOW: I can’t help you. You must look within for answers.
+SHADOW: I didn’t mean to overhear anything.
+SHADOW: TERRA.
+SHADOW: In this world are many like me who’ve killed their emotions. Don’t forget that.
+LEO: We’re almost at Crescent Island. When we disembark, we’ll split into two groups. CELES and I will form one group. TERRA, you go with LOCKE and SHADOW. If you spot the Espers, report at once!
+LEO: TERRA, we’ll continue yesterday’s conversation later…
+LOCKE: Let’s go.
+CELES: Um, I…
+LOCKE: Come on.
+Oh, wow!!! Strangers!!
+MAYOR: Welcome, welcome! Magic…? What is this “magic”?
+MAYOR: No one is to divulge that we are able to use magic!
+Use rods as items during battle for some amazing results! Only problem is they break after being used once!
+Have you talked to old man STRAGO? Do so, and the inn keeper may be more reasonable.
+For some reason the inn keeper doesn’t like strangers!
+You’re strangers… 1500 GP if you wanna stay. <Choice> (Well, okay.) <Choice> (No way!)
+Espers? What in blazes are they? If they’re animals, talk to the old guy that lives on the edge of town.
+Ha! No admittance!
+Old man STRAGO looks like he’s on his last legs, but he used to be a powerful warrior.
+Have you met little RELM? She loves to paint pictures! Wonder if she’d do my portrait?
+Actually, RELM isn’t STRAGO’s real grandchild. I heard she’s his friend’s daughter.
+STRAGO is a Blue Mage by training. He can memorize the attacks of monsters he has fought…
+Listen, I have to tell you…  Naaah…never mind.
+My house burned down!
+Get outta the way!
+I’ve never seen you before.
+…… Right!
+And who might YOU be?
+1 GP per night. Why not relax for a spell? <Choice> Yes <Choice> No
+Whatcha want with me?
+An elderly gentleman, pure of heart, and learned in the ways of monsters…
+FIRE!!
+Uh?! What was that?
+N’ga! Oh no!
+Mama…it hurts…
+Oh all right. Cure…
+…medicine…where is my cure medicine?!
+Mama! Please use cure on me!
+STRAGO: Espers? Espers…Hmm… Not really familiar with that word. LOCKE: But you’ve heard it before?
+STRAGO: Nope, uhn uhn… Can’t say I have. Honestly can’t say I have! 
+Grandpa!
+STRAGO: Hey…HEY!
+STRAGO: What in blazes… What’re you doing?
+In her pictures she captures everything: forests, water, light… the very essence of life…
+That’s odd…
+RELM: Grandpa. Who are these people? Friends? Can they use magic, too? STRAGO: Yaa! Hush!
+RELM: What a cute doggy! SHADOW: Get away. He bites.
+STRAGO: Go to your room! RELM: I will not! What a fussy old man!
+STRAGO: Please…leave us! RELM: Well…all right…
+RELM: What a sweet puppy!
+STRAGO: Hoo boy… Seems to like your dog…
+STRAGO: This is terrible…
+STRAGO: Sorry. SHADOW: No problem. The dog usually doesn’t like people, though…
+STRAGO: Please excuse her. She’s just young. LOCKE: Hmmm… STRAGO: This is just a back-water village. We can tell you nothing about your Espers…
+LOCKE: I see… There’s something wrong here… TERRA: Let’s have a look around.
+LOCKE: Thanks for your time! STRAGO: Sorry I couldn’t have been more helpful!
+SHADOW: Interceptor! Come!
+RELM: Oh, all right…
+STRAGO: What a beautiful day.
+RELM: Interceptor, please come back again and play!
+STRAGO: This is awful! RELM…she’s…
+TERRA: RELM’s in danger? STRAGO: Yes! She was at a neighbor’s house when a fire broke out. I won’t be able to stand it if something happens to her!
+STRAGO: Please! Won’t you help?!
+LOCKE: SHADOW!
+SHADOW: Interceptor… Where are you?!
+Waaah…my beautiful house…!
+STRAGO: RELM’s inside that house!
+FIRE!!
+STRAGO: RELM!!!!!
+LOCKE: What’re you doing?
+Flames be GONE!!! 
+MAYOR: Magic is forbidden! TERRA: Magic…?!
+STRAGO: I don’t care! RELM’s inside!!!
+Mayor!!
+MAYOR: All right. We really have no choice.
+MAYOR: Stand back.
+STRAGO: It’s no use. The fire’s too strong! MAYOR: I think that’s because they keep so many Fire Rods in here…
+STRAGO: I’m going in!
+TERRA: Wait…I’m going too. LOCKE: Count me in. You’d better stay out here, gramps. STRAGO: Fool! I may be old, but I’m not powerless!
+Quickly!
+Is this the source of our blaze…?
+LOCKE: Try to avoid the flames. TERRA: Easier said than done. STRAGO: Hurry! We have to find RELM!
+Uwaaa!! Too late! 
+Huh!? 
+STRAGO: RELM!!! Where are you?!
+SHADOW: Let’s get outta here! I’ll use a Smoke Bomb!!
+STRAGO: Are you okay? RELM: Yes. Thanks, Grandpa!
+STRAGO: Save your thanks for these people. RELM: Thank you…
+STRAGO: I guess our town’s little secret is out now…
+LOCKE: Can everyone here use magic? What’s going on here?
+STRAGO: This is… …the village of the Mage Warriors…
+STRAGO: Long ago humans used Magicite to gain magical powers. They came to be known as Mage Warriors.
+LOCKE: But I thought they perished centuries ago…
+STRAGO: After the War of the Magi, the Espers fled to their new world behind the sealed gate. They wished to live peacefully, without fear of being used by humans. They left us here to fend for ourselves… But we were despised by normal people. Everyone felt we had begun that war…
+STRAGO: They sent people to hunt us down like animals. There weren’t even any trials… TERRA: Even though the only difference was that you could use magic…?
+STRAGO: A few Mage Warriors escaped and found their way here. They were our ancestors. Our powers have weakened over time, but some of it remains.
+TERRA: Look, if you’re up to it, we could use your help.  STRAGO: So, you’re after the Espers, eh…?
+STRAGO: Well, I owe you for saving RELM. I’ll help you find your Espers.
+RELM: Me too!  STRAGO: I don’t think so.
+RELM: What a fuddy duddy…
+LOCKE: But…where do we start looking? STRAGO: Hmm… If they’re here, they must be  hiding in the mountains to the west.
+LOCKE: Why there? STRAGO: Those mountains have powerful magical properties. They say the Espers were created there…
+TERRA: Maybe they’re drawn to that place?
+LOCKE: I think it’s worth a look.
+SHADOW: Don’t misunderstand me. I just wanted my dog back.
+LOCKE: Going somewhere? SHADOW: I’ll search for the Espers in my own way.
+ULTROS: G’heh, heh…these shiny statues are all mine! These’ll get Ziegfried’s attention!
+ULTROS: Oh! They’re glowing!! They’re…beautiful!
+LOCKE: Hey, squidball! Don’t you ever learn? ULTROS: Uh, well they always said I was a slow learner… but I eat FAST!!
+RELM: Hey! Did you see me? I was awesome! Wouldn’t I be more helpful than Gramps? STRAGO: G…GRAMPS!!?
+TERRA: I suppose it wouldn’t hurt to have you along…
+STRAGO: I can’t believe it… The Statues…! TERRA: “The” Statues?!
+The birth of magic… 3 goddesses were banished here. In time they began quarreling, which led to all-out war. Those unlucky humans who got in the way were transformed into Espers, and used as living war machines…
+LOCKE: Some faint letters are carved on the back of the stone figures…
+LOCKE: Say, old man, what else can you tell us about these goddesses?
+STRAGO: They quite literally created magic, as we know it. LOCKE: So, they’re the goddesses of magic, then? STRAGO: You could say that.
+TERRA: I can feel their power… STRAGO: The Statues are the source of all magic. It’s said the Espers made these images, and put them in a very special place. These represent power beyond all comprehension…
+TERRA: Our Espers no doubt came to this island to bask in all this magical power!
+The goddesses finally realized that they were being laughed at by those who had banished them here. In a rare moment of mutual clarity, they agreed to seal themselves away from the world. With their last ounce of energy they gave the Espers back their own free will, and then transformed themselves… …into stone. Their only request was that the Espers keep them sealed away for all eternity.
+The Espers created these statues as a symbol of their vow to let the goddesses sleep in peace. The Espers have sworn to keep the goddesses’ power from being abused.
+LOCKE: Phew…what a story. TERRA: If the Espers were attracted here by these statues, they must be around here somewhere!
+LOCKE: Say, old timer, what happened to the stone goddesses? STRAGO: Legend has it that they’re hidden somewhere beyond the reach of humans. I’d say they’re beyond the sealed gate…
+TERRA: I wonder if the barrier that protects that place is generated by those stone goddesses?
+RELM: Are these…Espers?!
+TERRA: I didn’t think they’d look so…  LOCKE: Gramps, take RELM and clear outta here!
+STRAGO: What about you?
+YURA: Halt!
+RELM: What is it? STRAGO: I sense some immense magical power in TERRA… It…frightens me…
+LOCKE: I wonder if she’s gonna go ballistic again?!
+YURA: You’re somehow different… I sense a familiar power radiating from you… TERRA: Yes.
+STRAGO: You’re the Espers that fled through the sealed gate? YURA: As a rule, we are not allowed to visit to your world. We few had gathered near the gate, and were wondering how we could save the Espers that had been kidnapped. It was just a coincidence that TERRA appeared when she did…
+TERRA: I felt… your presence… through the gate. YURA: We bolted the moment TERRA opened the gate. But once in your world, we lost control of our powers.
+YURA: We completely leveled a city…and took some innocent lives…
+TERRA: That’s what happened to me! I lost all control of my power…
+STRAGO: There must be something in your world that allows you to focus your power differently. You must use caution while in our world…
+YURA: We are deeply sorry to have caused you humans such suffering and pain.
+LOCKE: The past is history. The Empire seems to want to talk peace with you. Why not come with us? YURA: They would forgive us so easily?
+LOCKE: Let’s go to Thamasa and talk with General Leo. TERRA: Right!
+LOCKE: General Leo. LEO: LOCKE…you’re back! And you’ve made the Espers understand our desire for peace!
+LEO: I am General Leo. May I have your name, please? YURA: I am called Yura.
+YURA: We have done something inexcusable to your people. YURA: This probably isn’t the time or place to ask for your forgiveness, but…
+LEO: Speak no further. It is we who owe you an apology. We hungered for your power… How close we came to reenacting the War of the Magi!!! YURA: We must put this all behind us.
+KEFKA: I don’t care for the appearance of this pitiful little hamlet… So burn it!!
+LOCKE: I believe our job is finally over! I, for one, could use some peace and quiet… CELES: Let’s return to Vector.
+CELES: Please, not another word.
+RELM: I’m too hot, Grandpa. STRAGO: Kids!!
+LEO: Kefka! What ARE you doing?! KEFKA: G’ha, ha, ha! Emperor’s orders! I’m to bring the Magicite remains of these Espers to his excellency! Behold! A Magicite mother lode!!
+LEO: Kefka! No!
+KEFKA: Shut up!
+M.TEK TROOPER: General Leo, prepare yourself!
+LEO: No. I won’t let this happen!
+LEO: Kefka! Your behavior is dishonorable! I can’t allow this!
+KEFKA: Hee, hee…! How ’bout a little Magitek mayhem!
+KEFKA: Now for a little Magicite hocus-pocus…!
+KEFKA: Whoa! Yes, I feel some incredible magic power here, today! Wave after wave of pure, magical energy…
+KEFKA: I’d say you’re all charged up, boys and girls…or whatever… Say, remind me to show you my Magicite collection someday! You might see a few familiar faces!!!
+KEFKA: First, let’s neutralize your abilities.
+KEFKA: Now, little Espers… Let’s see whatcha got!
+KEFKA: This is ridiculous! I had no idea you were such wimps! Time to put a stop to all of this.
+KEFKA: Eh?! You wanna take me on? Fine. Here I am…
+KEFKA: Phew… I think I have plenty of Magicite for the time being… that is, until I make my way through your precious sealed gate!!
+It hurts…
+Curse the Empire…Curse Kefka!
+The Espers…are they all…?
+MAYOR: I can only take some comfort in the fact that there were so few casualties.
+TERRA: General Leo…
+TERRA: People only seem to want power. Do they really want to be like me?
+TERRA: I…I wanted to learn so much more from you…
+Interceptor!? That’s a nasty wound!
+LOCKE: We not only lost Leo, but SHADOW, too… Curse the Empire!
+LOCKE: This’ll have to do…
+CELES: He was so gentle…
+RELM: I’ll go with you.
+LOCKE: Now I’m worried about EDGAR and the others… TERRA: I wish I could say they were safe…
+SETZER: We’ve been had!! The Emperor is a liar!
+CYAN: Thanks to EDGAR, we escaped before anything bad happened…
+LOCKE: Way to go, EDGAR!
+EDGAR: I got to know the gal who brought us tea. After a while, she just blurted out the whole crooked plan.
+SABIN: So…you finally hit pay dirt, eh?
+EDGAR: Watch your mouth! There’re ladies present! I was a perfect gentleman.
+LOCKE: General Leo’s gone… Kefka did him in… 
+CYAN: Sir Leo?! Gone?! What a waste… He was their finest soldier…
+EDGAR: We need to rethink our plans. Let’s return to the airship.
+STRAGO: May I accompany you?
+EDGAR: Who’re you?
+LOCKE: He’s one of this town’s citizens.
+TERRA: He’s descended from the Mage Warriors of yore… I think he can be a big help.
+STRAGO: We must expect the Empire to flex its new-found muscle soon.
+RELM: I’m coming along, too.
+SABIN: Yeah, right kid!
+RELM: What? Who is this puffed up aerobics instructor, anyway? SABIN: Kid’s got quite a lip!
+RELM: Aaack! I’m gonna paint your portrait!
+Uwaaa! S…stop!
+STRAGO: All right all ready! If you insist… RELM: That’s better!
+RELM: What’s wrong, lover boy? EDGAR: How old are you? RELM: 10…why?
+EDGAR: You’ve grown up entirely too fast! Lighten up, okay?!
+General Leo…
+GESTAHL: Fuwa, ha, ha! Now THIS is power! This, and my Magicite… now nothing can stop me!
+STRAGO: The beginning of all magic… TERRA: Those? STRAGO: It is said that they somehow neutralized each other’s power, then sealed themselves away… STRAGO: If the 3 statues should ever be moved out of alignment, the resulting inbalance of power would… …rearrange the face of our planet… TERRA: What?!
+Quick! Back to the airship!!
+SETZER: The Empire’s after the sealed gate! They’re looking for some statues or something. STRAGO: No!!!
+CELES: What’s wrong, TERRA? TERRA: The island… The world is groaning in pain…
+GESTAHL: Oh, those silly Espers! To think they opened the gate themselves! The Statues should be just ahead. If we can just get our hands on them, we’ll have everything we ever dreamed of!
+GESTAHL: Come quickly!
+SETZER: Quick! Let’s jump onto that thing! Only 3 allowed in your party. The others must stay on board.
+Uh, oh!!! The Imperial Airforce (IAF)! We’re surrounded! Let’s give ’em a bloody lip!
+Something… curious…approaches!!
+Kefka, Gestahl…and the Statues are just ahead.
+SHADOW: Down with the Empire! Once I outlived my usefulness, they tried to off me! “We thought you were a goner!”
+SHADOW: Is Interceptor all right? “He’s fine. Come on, let’s go!”
+SHADOW: Forget about me. “We can’t just leave you!”
+SHADOW: I sold my skills to the Empire… I have no right to fight together with you.
+SHADOW: We meet again.
+The airship’s below! Do you wish to return? <Choice> (No) <Choice> (Yes)
+GESTAHL: Well, well…
+CELES!! Welcome back! CELES: I came to stop you!
+GESTAHL: Fwa, ha, ha… Then you’re just in time to perish. Behold! The Statues!!
+GESTAHL: Ooh! I’ve got goose bumps! What power… CELES: Emperor Gestahl! Please, stop this madness!
+GESTAHL: CELES… Come to me, my pretty! You and Kefka were given life to serve me!! It is your birthright to rule the world with me!!
+KEFKA: Kill the others and we’ll overlook your treachery!
+KEFKA: Take this sword! Take care of them. Immediately!!
+GESTAHL: CELES…together we can rule an entire world! Think of it…!
+CELES: Power only breeds war… I wish I’d never been…born.
+KEFKA: Ouch!!
+KEFKA: B…blood!?
+KEFKA: You…vicious brat!
+Grrr… Aargh…
+I hate hate hate hate hate hate… hate hate hate hate hate hate hate hate hate hate        HATE YOU! Grrr…
+KEFKA: Goddesses…you were born only to fight. I implore you…show me your power!!
+KEFKA: I command you! Give me your power! Arrrgh! Curses!
+KEFKA: Listen to me, or you’ll regret it! Give me…POWER!
+GESTAHL: Kefka, stop it! Revive those statues, and you’ll destroy the very world we’re trying to possess! KEFKA: Shuddap!
+GESTAHL: There’ll be no one to worship us…
+CELES: Snap out of it, Kefka!
+CELES: Oh, that’s really smart, Kefka! Disturb their delicate balance, and they’ll go haywire…!
+KEFKA: Who’re you?!
+KEFKA: Noooo!
+SHADOW: Go! There are people counting on you!
+SHADOW…… Get outta here on the double!
+SHADOW: Don’t worry about me! Run!! I can’t stop this chain reaction! I’ll see you again. Count on it! KEFKA: You can’t escape me!!
+The airship’s below. <Choice> (Jump!!) <Choice> (Wait!!)
+<Choice> (Jump!!) <Choice> (Gotta wait for SHADOW…)
+“SHADOW!!” SHADOW: I’ll be blown to bits before I can even collect my pay…
+Can’t you diffuse the statues?!
+SETZER: Hang on!
+      On that day, the world      was changed forever… 
+CID: CELES…at last…!
+CID: You’re finally awake! CELES: I…feel like I’ve been sleeping for ever… CID: For one year, actually… I thought you were out for good. CELES: A whole year… You’ve watched over me the whole time?
+CID: Yes, and I’m about out of energy.
+CID: We’re on a tiny, deserted island. After the world crumbled, I awoke to find us here together with… …a few strangers. CELES: The world…! So, it wasn’t just a dream.
+CELES: Where are my friends? Where’s LOCKE…? CID: I don’t know. I only know we’re here… Maybe we’re the only people left alive… CID: Since that day, the world’s continued its slide into ruin. Animals and plants are dying… The few others who washed up here with us passed away of boredom and despair.
+CELES: My friends… they’re probably all gone…
+CID: CELES…you’re the closest thing to family that I have…we could just live out our lives here peacefully… CELES: I suppose so, Cid… Or should I say, Granddad?! May I call you that? CID: Gramps, eh? I’m overwhelmed! All of a sudden I have a granddaughter! Cough… Wheeze… CELES: My long-lost Granddad…
+CID: Ha, ha…hack…cough! CELES: Hey, are you hungry? CID: I…haven’t eaten in 3 or so days, ever since I became ill. CELES: What would you like? CID: Well, unless I ask for fish, I won’t get anything! That’s all there is here! CELES: I’ll go catch some.
+CID: I feel much better! Thanks, CELES!
+CID: My dear, I…feel I’m not going to be around much longer…
+CID: CELES, thanks for all you’ve done for me!
+CID: Hackack!! I feel a little better!
+CID: Cough…wheeze… I can’t bear this any longer…
+CID: I…I’m not long for this cruel new world…
+CID: My worst nightmare is to think of you alone here on this wretched island…hack…wheeze!!
+CID: Cough…hack…ACK!! While I can still talk, I…wheeze…pant…want to thank you…cough!
+CID: Good-bye…
+……
+CELES: Granddad, here’s a fish! Eat up! CID: Oh! Yum… Chomp, munch, chew…
+CELES: What’s up? CID: CELES…the project that kept me going over the past year is down below. Go have a look at it!
+CELES: Granddad. You have to eat, or else… W…what’s the matter?
+CELES: Cid…
+CELES: No…NO!! You promised you’d stay here with me!!
+CELES: Granddad, ANSWER ME! Tell me you’re just joking!
+CELES: Cid…Granddad…!
+CELES: Granddad. CID: CELES… You must leave this place. You have to find your friends! CELES: I know… But I’ll bring ’em all back to meet you! CID: That LOCKE fellow, too, no doubt…
+CELES: I’ll make you proud of me…Granddad…
+CID: Those others who were here… when they were feeling down they’d take a leap of faith from the cliffs up north…perked ’em right up!
+CELES: Everyone’s gone… Even LOCKE, who promised to watch over me… The world’s slowly ebbing away…
+CELES: Phew… Why did you nurse me back to health? Did I ever ask you to help me?!
+CELES: A bandana??? No…it can’t be… CELES: Hey, you! Where’d you get this?! Is the person who healed you still alive? Answer me!
+CELES: He’s alive… LOCKE’s still alive!!!
+You need to leave! The others are surely waiting for you! Find the stairs next to the stove. Down them lies your road to freedom.            Love, Granddad
+Thanks for saving the child!
+I was on lookout duty for Kefka… But I lost my nerve…
+Anyone who opposes Kefka is doomed. He uses his “Light of Judgment” from high atop his tower to burn whole towns.
+I saw it! Kefka used a light beam to burn the village of Mobliz, to the east. Most of the adults there perished trying to save their children…
+The “Serpent Trench” used to be deep under water. Now it’s above sea level. Some “Cult of Kefka” members have built a tower there…
+Many monsters nowadays attack with “Zombie”, “Petrify” and the like. Have you equipped suitable Relics?
+To the east you’ll find the “Serpent Trench.” Further east you’ll find the village of Mobliz. Boy, the Light of Judgment really fried that town…
+Head north on the Serpent Trench and you’ll reach Nikeah. Ships still sail from there.
+Heeeeee… I’ve never been more frightened!
+My child’s inside! Do something!
+Must have irritated Kefka…
+There are monsters inside! They keep petrifying everyone who goes in to help. You using suitable Relics?
+We resisted Kefka, so he unleashed his Light of Judgment on us!
+Hurry, or the house’ll collapse!
+CELES: SABIN! SABIN: Hey! CELES! CELES: Let’s head in! SABIN: Wait!!
+“SABIN!!” SABIN: Hey! You’re alive!!! Get in there, quick!
+SABIN: If I move… The whole house’ll collapse. First… save the child that’s in there… I can’t hold this up forever, so… Get out on the hum…urgh…
+SABIN: I…I… I’m losing my grip… Keep up the fight, brother!
+SABIN: Wait!
+CELES: SABIN! You’re alive!
+SABIN! You’re alive!
+SABIN: But of course! You think a minor thing like the end of the world was gonna do me in?
+CELES: I thought everyone was gone… I had given up all hope… But… fortunately, I was wrong! Now I know they’re all alive! We need to find everyone! Then…
+We thought everyone was gone… We’d given up all hope… But… fortunately, I was wrong! Now I know they’re all alive! We need to find everyone! Then…
+SABIN: I know, I know… We smash Kefka, and deliver peace unto the world…
+Come on!! Please help!
+All I can do now is restore your health. Please…go back inside and save that child!!
+“I’m scared…!” “Don’t worry, you’re safe now.”
+Did you see that tower…?
+Kefka’s up there, ’n he’s using the power of the Statues… He’s like a god…
+Everything changed on that day…
+Anyone who opposes Kefka gets his or her town fried by the “Light of Judgment.”
+On THAT day, debris from all over the world floated eerily to the center of this land mass, and formed that tower…
+How can ya make a GP in a world like this?
+When the world was ripped apart, many long-sealed monsters were released… Phunbaba…Doom Gaze… And the 8 Dragons…
+I saw Doom Gaze soaring through the sky! I’d rather take an acid bath than fight that thing!
+Uh? You again…? Oh, sorry. You look just like a man who was here searching for his friends… He said he was going north, to Tzen.
+You…the sparkle in your eye… You’re the spittin’ image of a man who came through here recently.
+Oh…I think back on how nice the world used to be…
+…and realize it’ll never be the same again…
+RELM: You!! You old fool!!! You’re still standing?!
+STRAGO: RELM! Is that you, my dear? You’re alive!!
+RELM: Idiot! Of course I’m all right! STRAGO: Oh… I’m so happy… RELM: Did you think I was gonna check out before you, old man?! Ah, ha, ha…
+STRAGO: You’re as foul-mouthed as ever, bless your heart! RELM: Come along now… We’re all glad to see you!
+STRAGO: Whoa! Well I’ll be… All right, make room for me!
+The members of the “Cult of Kefka” live in this tower. There’s something wondrous atop it! You can only use magic attacks inside, so unless your magic’s strong, you’ll never make it to the top!
+Treasure…treasure…
+For 100000 GP I’ll tell ya ’bout a secret treasure! <Choice> (Hand over 100000 GP!) <Choice> (No way!)
+Hooey!!!!  Right, here’s the scoop: Beneath the Desert of Figaro lies an ancient castle… …loaded with treasure. By the way, an old man who lives in the Weapon Shop in Narshe is looking for you…
+No use talking to them. They’ve sold their hearts to Kefka. All they do is mope around, thinking of him…
+   Master Kefka’s treasure…       Return it…   Now…!
+Uwaaa! Someone’s coming!!
+You’re gonna have to fight your way in here, chumps!!
+                Wait!
+TERRA!!
+Mama! Are these your friends?!
+TERRA: Oh! I’m so glad to see that you’re safe! I’ve missed you!
+“TERRA…come one, let’s go! Unless we stop Kefka, all’s lost…” TERRA: I…
+TERRA: That is I… um… I can’t fight any longer…
+TERRA: The very day the world fell, Kefka turned some kind of beam on this town. Almost all of the adults perished trying to save their children…
+TERRA: There were only children here…  The moment I arrived, I felt needed…
+DUANE: You can’t take TERRA away!
+KATARIN: Duane…  Please excuse him. It’s just that if TERRA goes, she takes with her the very spirit of our survival…
+TERRA: I don’t know why these kids need me… But they’ve made me feel things I’ve never felt before. The moment I sensed this, I lost my will to fight.
+TERRA: I can honestly say I don’t know what’s going on inside of me… And the more I try to understand it, the less inclined I am to fight.
+Help!!! Run!!! Phunbaba’s coming!!
+TERRA: Phunbaba’s an ancient demon who was released when the world was undone.
+TERRA!! Wake up! Uh, oh…here it comes!!
+TERRA: I’ve really lost it… My fighting edge…
+Mama! Are you okay?!
+TERRA: I’m staying here. As you can see, I can’t be of any help to you. And besides, the children really need me. “But TERRA…!”
+TERRA: Maybe after a little more time passes… I need to understand what’s happening to me…
+Thanks for scaring Phunbaba away! In his haste, he dropped this. Here!       Received the Magicite               “Fenrir.”
+Mama…are you all right?
+You can’t take Mama away!
+I’ll have you if something happens to Mama!!
+TERRA: I’m sorry… I’m staying! The children need me.
+Katarin’s gone…
+Duane was being mean to her, so Katarin took off!
+Katarin’s belly’s growing bigger!
+I know! Katarin’s gonna have a baby! My Mom looked like that before my brother appeared!
+DUANE: I…don’t know what to do. Katarin’s pregnant…
+TERRA: Hey you guys!
+TERRA: Katarin’s having a baby.
+KATARIN: I’m so happy to have had a child… But Duane seems miserable…
+DUANE: Katarin… …  I’m sorry. I didn’t know how to handle this. I’ve been an awful husband… But I’m learning. Please, come back with me.
+Waaaaa! Phunbaba’s back again!
+TERRA: Please! Save this village! I simply can’t fight…
+DUANE: I’ll keep Katarin safe.
+KATARIN: I feel safe when Duane’s around.
+Please!! Rid us of Phunbaba once and for all!
+Monster again… I’m afraid… I’m always afraid…
+Mama…  It is you, isn’t it!  I can tell…
+Huh? Mama? TERRA?
+Mama!! TERRA!!!
+TERRA: I…I can fight!
+TERRA: Finally… I understand that feeling… Even though I kept it buried for so long. I’m sure it’s called… …… ……  “Love!” I now realize that we must fight for the future of our children.
+TERRA: Duane… Katarin needs your help… so does your new baby. Listen children, your “Mama” has to go away for a while. I’ll return when I feel your future’s guaranteed!
+“Mama… I’m not gonna cry!” “Me either!” TERRA: I’ll be back. I promise! Till then…you behave!
+TERRA: Thank you… You helped me to understand a part of myself. Now I must go to war. We must all believe we have a future. We must fight for those who aren’t even born yet!
+Our papas and mamas are gone…
+But we’ll be happy, if TERRA’ll come back to us!
+A badly wounded soldier passed away here in Mobliz.
+Everyone here calls TERRA, “Mama.”
+Duane and Katarin are the oldest ones here.
+I saw Duane kissing Katarin!
+You’re not gonna take TERRA away, are you?
+The light took everyone… …everyone… …  Dad…Mom…
+DUANE: This is our village. You can’t just waltz in here and start barking out orders!
+KATARIN: TERRA’s helped us all to survive. Ever since she’s been here, we’ve felt hopeful for the future.
+I wanna see Katarin’s baby!
+We’ll be okay ’till mama comes back!
+Mama… Don’t feel sad. We’ll be okay.
+Duane and Katarin’ll take good care of us.
+I’m not gonna cry. If I do, TERRA’ll feel sad…
+The baby in Katarin’s belly is kicking!
+See! It just did it again!
+Say, Katarin. What’re you gonna name the baby?
+DUANE: A new life… I’ve got to do my best to help make the world a safer place…
+KATARIN: We’ll be okay. Just make sure these kids’ll have a world to grow up in!
+It’s heading this way! Protect the kids!!!
+      Papa!!       Mama!!!
+I’m hiding away from Kefka.
+The ship to South Figaro’s about to leave.
+This ship belongs to the Crimson Robbers.
+The thieves are hanging out at the coffee shop. They all escaped from Figaro Castle.
+The road you followed here used to be under water.
+After the end of the world, I awoke all alone in Doma Castle. When I would try to sleep there, demons would come for me… Oh! I don’t want to remember that!
+While traveling under the desert, Figaro Castle hit an obstacle and came to a halt.
+      Received the Magicite               “Palidor”!
+There’s an eerie tower at the end of the Serpents Trench.
+What’re ya doin’? Get away!
+GERAD: Oh, yeah, you know how to get into Figaro Castle, don’t you?! HENCHMAN: G’ho ho, do we ever!
+GERAD: Yeah, You lead the way since it’s buried.
+I understand they escaped from Figaro Castle’s prison.
+From out of nowhere a bunch of huge sandworms burrowed into the prison! We followed their tunnels back to the surface and escaped.
+Our last boss perished that day. We met up with Gerad in this town.
+The boss wants to sneak into Figaro Castle. He wants to get our booty back from the storage room there.
+We’ll enter da castle through a secret cave dat only we knows about!
+I’ve been chatting with the boss of this gang, Gerad. He’s kinda handsome!
+All right, let’s go!
+GERAD: What’s your problem? CELES: Y… you’re EDGAR, aren’t you?!
+CELES: EDGAR? GERAD: Enough of this nonsense! I have things to do.
+GERAD: I’ll be busy getting ready for our departure to Figaro. CELES: Don’t play possum with me! EDGAR? Or have you somehow lost your memory?
+GERAD: Listen, my lady, I’ve been “Gerad” all my life!
+SABIN: What’s going on, here? Brother!!
+CELES: Only EDGAR would say, “my lady.”
+GERAD: What’s all the bloomin’ fuss about? The words, “my lady” are used the world over!
+Figaro Castle disappeared the day the world became… unzipped…
+Figaro Castle had an accident under the desert. Don’t know what happened to its people…
+That sweet little girl stopped coming around right after the world ended…
+I’m so relieved the Empire’s finally outta here!
+Now all these thieves are demanding all our time. Phew…I’m exhausted.
+There’s nothing left of my home town.
+Jump on the turtle. Oh, jump on the turtle… Oops…never mind.
+Just when we thought the Empire was gone…heeeeeres Kefka!
+I’m so relieved to know my grandchild’s alive!
+DUNCAN’S WIFE: No, dear! Duncan’s still alive and well! He’s meditating just north of Narshe.
+Gerad’s a boss we can trust! But he looks awfully familiar…
+Souvenir of the Empire, anyone?!
+GERAD: You still here?!
+We’re storming Figaro Castle! That treasure’s rightfully ours!
+We won’t stop ’till we get our treasure back!
+We mustn’t rest now! We have to start rebuilding!
+We may be thieves, but at least we have goals in life!
+For each life lost, a new one arrives to fill the void! Okay! Nothing’s gonna stop us!
+Oh…! That person!
+Whoa! Am I dizzy!
+If the “Light of Judgment” should burn our town down 100 times, we’ll rebuild it 100 times!
+Did you hear that Duncan’s alive? His wife said so!
+Some guy came through here a little while ago looking for some secret treasure.
+The boss of these thieves is on the second floor.
+The thieves have all left town!
+GERAD: Let’s go help ’em… Hang on a sec…  ……? Are you people STILL here? CELES: Be polite now… EDGAR!
+Boss, everything’s ready. Let’s go! GERAD: Case of mistaken identity, my dear. Give it up!
+GERAD: Now, where were we…?
+Here, boy… Here’s some nice food for you!
+Presto! GERAD: Good Job! I used to have a turtle…!
+SIGFRIED: Pretty dangerous from here on. I’ll go in first and clear out all the monsters. Wait here.
+     On the hum, let’s go!!!! 
+GERAD: You all right? You were almost a goner.
+I…it was awful…
+GERAD: Here’s the problem… What a mess… Boss! What’re we gonna do? Our treasure’s stored in the room back there!
+GERAD: You guys get in there while I keep this thing busy! “But boss! That’s dangerous!” GERAD: Get going!
+CELES: EDGAR!
+EDGAR: What’re ya waiting for, CELES? Give me a hand!! CELES: EDGAR! It IS you!
+CELES: Why the stupid farce? EDGAR: Well, I heard that Figaro had had an accident. I wanted to help, but didn’t know where to look. Then I heard that those idiots had escaped from the prison. CELES: You needed to use them… EDGAR: Bingo. I had to wait until they led me to their secret cave. CELES: Amazing, considering that you threw most of ’em in jail to begin with!
+SABIN: Don’t treat us like strangers anymore!
+EDGAR: Uh, oh…! Let’s hide!
+Boss! ……? Boss?
+Must have been eaten by that thing…
+It wasn’t even much of a monster… Well, let’s go…
+“You don’t want that treasure back…?” EDGAR: It’s completely worthless. Besides, Kefka’s the one we need to worry about. Those guys haven’t committed any serious crimes… CELES: Come on, let’s go…
+SABIN: There’s only one little problem, eh, brother!
+Nonsense! It’s been fixed! Next stop, the surface!
+Who’d have thought air could be so precious!
+Several of the castle’s citizens left to join the Cult of Kefka. If a loved one should call out a cult member’s name, however…
+Magicite gives humans magical powers? Amazing!
+Has magic really made a comeback…
+Kefka’s “one shy of a six pack!”
+I know someone who deserves to be locked up in here!
+You found an ancient text at the library, right?
+No more Returners…no more Empire. Now who am I gonna side with?
+What the…?
+It’s an Esper attack! Let’s show him some of OUR Esper magic!
+A 1000 years in the past, a battle was waged here…
+“Only Odin is here!” “Are your wounds healed?”
+We’re fresh outta options. We’ll have to leave this battle in Odin’s hands…
+A city, ruined during the War of the Magi…
+ODIN: Don’t do it… You can’t turn me into Magicite…
+There’s an ancient legend… It tells of a battle between Odin and a powerful sorcerer that took place in a great hall of the castle…
+A book, with a gem- encrusted cover… “Queen’s Diary” I realize, now, that I am in love with Odin… This…breaks every rule of our society. But my heart longs for this noble, elegant man. How could anyone blame me? After the fighting is over I’m going to bare my soul to him…
+TERRA: Love between a human and an Esper…
+Even the Queen was turned to stone…
+A tear comes… From the stone…?
+    The Magicite “Odin” gains               a level…     and becomes the Magicite               “Raiden!”
+        Odin turned into a          Magicite shard…
+           Atom Edge! 
+400 GP per night. Wanna rest? <Choice> Yes <Choice> No
+Care to fight in the colosseum? <Choice>(With pleasure.) <Choice>(No thanks.) <Choice>(Explanation, please!)
+Creatures from all over the world come here to compete.
+Get a load of the crowds!
+There’s some guy here who’s dressed all in black! He’s looking for a blade known as the Striker…
+We can’t let the world become too peaceful! People are at their best when they’re at war… My colosseum will be a monument to war! If I can ever get the help I need to finish it, that is!
+This is my colosseum. Finally, the whole world is at war! I’m so happy! And I owe it all to Kefka!
+Ultros is your receptionist? He couldn’t pay his debt, so I put him to work! I figure he’ll be here about another 100 years.
+ULTROS: Look at me! I’m a receptionist! G’fa, ha, ha! Now, you’d better watch what ya bet, or master Chupon’ll just come and take it from ya!
+We fight for items, etc. here. First choose the thing you want to wager. Next, your opponent will appear. Choose someone from your party to fight this opponent. A one-on-one auto-battle will then take place. The item you wagered covers your participation fee. If you win, you’ll be rewarded with an even better item! That’s all there is to it!
+The more precious the item wagered, the better your prize will be!
+Battles at the colosseum are one-on-one.
+SIGFRIED: Someone’s been pretending to be me! Don’t be fooled!
+This is Dragon’s Neck Colosseum. Champions from all over the world come here to fight for prizes.
+“What’re you doing here?” SHADOW: The only thing I know how to do is fight…
+“Why not come with us?” SHADOW: Well…
+SHADOW: First I need to see how far I can get here…
+Huh?! LOCKE? He must be searching the world over for that fabled treasure… Find the treasure, and you’ll find LOCKE!
+Those beautiful days will never return…
+Narshe is filled with monsters. I don’t have any place to go home to…
+But I refuse to give up! I’m going back to Narshe. There’s that frozen Esper… With you guys along, we’ll be able to wake that thing up!
+LOCKE just left here a while ago. He was happy… …saying something about learning where some mystic treasure was…
+CELES: LOCKE… He’s alive!!
+We planted some seeds, but nothing’s growing…
+It’s as if the plants have lost their will to live…
+There’s a real mean guy fighting at the colosseum. Seems he’s looking for a weapon called the “Striker”…
+Unless life begins to flourish again, it doesn’t matter how beautifully we restore our village.
+A handsome man with a quaint way of talking visited our village recently. He kept saying, “Thou” to everyone!
+CELES: SETZER! SETZER: You’re alive!?
+CELES: Come along with us! We’re after Kefka! SETZER: Phew… I don’t know if I have it in me anymore… CELES: What are you saying?! SETZER: I’m just a gambler… I just want to be left alone… This world is too chaotic for me. What’s worse, I’ve lost my wings…
+CELES: But before the world collapsed, you fought with all your heart! You were absolutely fearless… SETZER: That was then… We can never have that world back! CELES: You want to live in this world as it is? No? Then do something about it!
+SETZER: Mwa ha! All right…you win! I’m starting to feel lucky!!
+SETZER: Thanks… I needed that. Now, let’s go visit Daryl’s Tomb.
+SETZER: …… We’re gonna get us another one…  Airship, that is…!
+There’re still some people with vision, even in this world. Like my brother up north.
+Don’t step there! Give the seedlings a chance!
+Cough… This world’s already on the heap!
+I overheard your conversation… I, too, still have faith in this world!
+Hope…
+Hope… We must never give up hope!
+CELES: This person… She was your friend? SETZER: Yeah. She was a piece of work. Nothing scared her…
+SETZER: Could be anything lurking down here, so keep your eyes peeled!
+DARYL: This experimental airship is probably a bit unstable…
+SETZER: This brings back a lot of memories.
+SETZER: Watch your step.
+       DARYL SLEEPS HERE
+SETZER: You can’t be serious! What are you trying to prove?!
+DARYL: If something should happen to me, the Falcon’s yours!
+SETZER: Nonsense! I’ll win the Falcon from you when I whip you in a race! SETZER: You’d better clear outta my way! DARYL: Big talk, buster!
+SETZER: There’s nothing like flying!
+SETZER: I put it in storage. I couldn’t bear to look at it. But now it just may save us…            The Falcon.
+DARYL: Come on! Stop lagging back there!
+DARYL: Or do you like chewing on my wake!
+SETZER: Listen to you!
+DARYL: This time’s for real. I’m going to break every record! I’ll be known as the woman who flew closest to the stars!
+SETZER: Be back before sunset! I’ll be waiting for you on our hill.
+   The wreck of the Falcon was     found a full year later,       in a distant land…
+SETZER: I restored the craft, and then put it to rest down here.
+EDGAR: This is THE Falcon?
+EDGAR: I finally think we’re gonna pull this off! CELES: We can attack Kefka’s tower from the air! EDGAR: The Falcon’s going to give us one last chance at that guy…
+SETZER: But first we need to find our friends!
+EDGAR: Right. First things first. For once I feel hopeful!
+CELES: Hey! A bird!
+CELES: SETZER! Follow that bird! SETZER: But why? CELES: I…don’t know…! Something inside just tells me it’s important…
+<Choice> DLRO <Choice> ERAU <Choice> QSSI <Choice> WEHT
+<Choice> ERAU <Choice> QSSI <Choice> WEHT
+<Choice> DLRO <Choice> QSSI <Choice> WEHT
+<Choice> DLRO <Choice> ERAU <Choice> WEHT
+<Choice> DLRO <Choice> ERAU <Choice> QSSI
+ <Choice> QSSI <Choice> WEHT
+ <Choice> ERAU <Choice> WEHT
+ <Choice> ERAU <Choice> QSSI
+ <Choice> QSSI <Choice> WEHT
+ <Choice> DLRO <Choice> WEHT
+ <Choice> DLRO <Choice> QSSI
+ <Choice> ERAU <Choice> WEHT
+ <Choice> DLRO <Choice> WEHT
+ <Choice> DLRO <Choice> ERAU
+ <Choice> ERAU <Choice> QSSI
+ <Choice> DLRO <Choice> QSSI
+ <Choice> DLRO <Choice> ERAU
+ ERAUQS SI DLROW EHT
+ QSSI ERAUDL ROWEHT
+ QSSIRO DLERAUWEHT
+ DLROQSSIAU ERWEHT
+ DLROERAU QSSIWEHT
+ AUERDLRO QSSIWEHT
+ QSSIAU ERWEHTDLRO
+ ERAUQSSIWEHTDLRO
+ QSSIWEHT ERAUDLRO
+ WEHTQSSI ERAUDLRO
+ WEHT ERAUQSSIRO DL
+ ERAUWEHT QSSIRO DL
+ ERAUDLROHT WEQSSI
+ DLRO ERAUHT WEQSSI
+ DLROWEHT ERAUQSSI
+ WEHTDLRO ERAUQSSI
+ WEHTERAUDLROQSSI
+ ERAUWEHTDLROQSSI
+ QSSIDLROWEHTERAU
+ DLROQSSIWEHTERAU
+ DLROWEHTQSSIERAU
+ WEHTDLROQSSIERAU
+ WEHTQSSIDLROERAU
+ QSSIWEHTDLROERAU
+The tombstone is blank. Carve something? <Choice>  Yes  <Choice>  No
+Nothing appropriate comes to mind…
+Letters have been carved here…
+ DLRO
+ ERAU
+ QSSI
+ WEHT
+   Find the “Exp. Egg” hidden           in a back room      in the 3rd basement…
+A Knight came through here recently… He was amazing! But his heart was full of chaos… When he can cope with his pain, he’ll be the mightiest warrior alive.
+I used to be a thief. But one day I uncovered a secret so awesome, I had to run and hide!
+I’m a former thief. My old accomplice used to mumble this in his sleep, “To the right of the treasure chest…”
+I used to be a thief. I climbed the tower of Kefka’s followers, in spite of the danger. But I got hurt, and had to turn back after the first treasure room…
+A spell ago, some oddball came strolling through here. Kept callin’ people “thou.”
+I’ve learned a lot about our new world from the thieves and travelers that have come through here. What shall I talk about? <Choice> (Narshe) <Choice> (The Veldt) <Choice> (Doma Castle) <Choice> (Nothing, thanks!)
+You know that guy in Zozo who says, “This place is dangerous!”? He’s the only one guy in that town who tells the truth. Maybe he can help you.
+Your own past can be your worst enemy. Friends…family…gotta let ’em all go…
+Could that have been you, CYAN…? You look so confused, maybe you’d better go back home.
+Recently Lola has been receiving a lot of letters. Must be from that guy in Mobliz…?
+LOLA: Look! My boyfriend in Mobliz sent me all these flowers! They’re all hand-made of silk. And these are letters he has written to me…
+??? But wasn’t Mobliz demolished by Kefka? Somebody else must have written these…
+Read the letter? <Choice> Yes <Choice> No
+My beloved Lola, We’re still busy trying to rebuild this town… If all goes well I’ll be able to come home to you soon…
+…this handwriting… It looks a lot like CYAN’s… But where is he mailing them from?
+LOLA: Could you please attach this reply to a carrier pigeon? Do this favor for Lola? <Choice> Yes <Choice> No
+LOLA: Thank you.
+LOLA: I hope his reply comes soon!
+Silk flowers… Beautifully made, too…
+LOLA: I knew that these flowers and letters weren’t sent by my boyfriend. I just didn’t want to admit it. I was lying to myself… But I’m all right now. As I read those letters… …the pain I felt in my heart became bearable… I’m sure whoever wrote them has suffered greatly…  I wish I could meet him…
+Actually, …
+CYAN: Look to the future… We have a lot of life left to live…
+I feel like I have a future now! I’ll take your words to heart…  I’ll be okay.
+CYAN exchanged the letters…
+   The world before the fall… Delightful is the light of dawn…   Noble is the heart of man… 
+CYAN!!
+CYAN: Hey!! You’re alive!?
+CYAN…
+CYAN: I shall go with you! I shan’t leave the world as it is! But how did you find me?  W…wait! Tell me you didn’t read my letters…!!
+CYAN: These…  they’re… um…  Merely a diversion of mine…
+CYAN. These flowers are gorgeous!
+CYAN: Mm…m…!? This is an outrage…!
+CYAN: Seriously?
+CYAN: I learned of that poor girl when I passed through Maranda. When I heard that she sent a letter each day, but never received any replies… Something inside me snapped…
+CYAN: As I wrote to that girl, I realized I was very much like her. I was looking behind…full of despair. My eyes were closed… And then something changed…
+I bumped into Sir GAU in Maranda. He said he had to become stronger if he was to face Kefka. He probably returned to the Veldt.
+Dear Lola, I am writing to beg for your forgiveness. I am guilty of perpetuating a terrible lie… I have only now realized the error of my ways. I hope I can correct a great wrong. Your boyfriend, who you thought was in Mobliz, passed away some time ago. I have been writing in his stead… We humans tend to allow the past to destroy our lives. I implore you not to let this happen. It is time to look forward, to rediscover love, and embrace the beauty of life. You have so much of life left to live…             CYAN
+Locked!
+W…why… A child could use this machine! This is a joke! I’ll never be afraid of machines again! Found “Machinery Manual” ……and……  “Book of Secrets.”
+CYAN: No! That’s mine!!!
+Found the key to CYAN’s treasure chest.
+Shrouded in odd clothing, …is this a man…? …a woman…? …or should we ask…?
+CREATURE: I am GOGO, master of the simulacrum… My miming skills will astonish you.
+GOGO: Yes…I have been idle for too long. If I deem you worthy, I’ll mime your actions in battle. But first you must tell me what you’re doing here.
+GOGO: What an unusual tale… But I sense that you’re trying to help make things right again. This should be fun. When do we leave?
+You’re…coming with us?
+Look at those wounds…
+We can’t do anything for her here. Let’s take her back to Thamasa using the airship.
+You were having a nightmare…
+Let’s rest here for a moment.
+……
+Are you okay?
+RELM: I’m still a bit groggy… But I’m okay. Interceptor always makes me happy!
+SHADOW: No need to worry. It’s just a scratch. Also, he’s gonna stand guard, so you just relax.
+We 3 recently went hunting on the Veldt. We saw some weird kid there dressed all in hides…
+You came to fetch me… But I won’t be coming back… I want you, and the girl, to live in a peaceful world…
+Papa…? Where’d he go? Is he ever coming back?
+For some reason he never came near when all 4 of us were together.
+Reduce the number of people in your party if you want him to approach you.
+In a forest north of the Veldt dwells a frightful dragon. I suppose no human could ever defeat it…but oh, how free we would be if someone could…
+LOCKE!!
+LOCKE: You’re all safe!  Behold… A legendary relic that can restore life…
+That looks like…  Magicite… LOCKE: Correct! Legend has it that ages ago the Phoenix was turned to stone… And many legends are based on facts… This has some major cracks in it though… I fear it may have lost its power over time…
+CELES: LOCKE… That’s for Rachel, isn’t it…?
+LOCKE: I wasn’t able to save Rachel… I’ve lost all sense of purpose… My life will have no meaning until I can right this terrible wrong…
+Will you come with us? Only as far as Kohlingen…
+      The village of Kohlingen… 
+PATRIARCH: If only the Magicite didn’t bear those deep cracks… I think you’ve been wasting your time, young man!
+LOCKE: Rachel!!!
+PATRIARCH: Uwaaaaaa! The Magicite’s gonna shatter!
+RACHEL: LOCKE…
+I’m an Imperial Trooper!  Probably, the last of ’em… I have some valuable information for you! “Talk to the Emperor twice.” Use this when you’ve found the place where the Emperor hid a secret treasure.
+RACHEL: LOCKE… I’ve dreamed of seeing you. I wanted to hear your voice. LOCKE: Rachel… RACHEL: The Phoenix has given me so little time… I have to leave again soon… But I have something I must tell you…
+LOCKE: …… RACHEL: LOCKE… …  With you I was so happy… In the instant that the accident occurred, I thought only of you…  And about the joy you brought me. Thank you, LOCKE… I’ll never forget you… 
+LOCKE: RACHEL!!!! RACHEL: I have to go now…  …I’ll always love you… You must now cast off the anguish you’ve been harboring inside for so long… Today I set your heart free. You must learn to love yourself again, and regain your self respect. …… Phoenix! Be reborn again!! And give your power…to LOCKE!!
+LOCKE: Rachel!!!!
+CELES: LOCKE…
+LOCKE: Thanks, I’m okay…  I feel lighter than air… From here on…  I’ll be all right. Let’s go! We have work to do!!
+CELES: What’s up?
+         “X-Potion”!          “Fenix Down”!          “X-Ether”!          “Elixir”!          “Flame Shld”!          “ValiantKnife”!
+LOCKE: The treasures of the Phoenix Cave!
+LOCKE: Right, let’s move out! We have an appointment with Kefka!
+Have you heard of something called the Exp. Egg? Huh? Have ya? Long ago it was buried in a tomb to the west.
+Split up into 2 parties. Use the Y Button to switch between groups.
+PICKPOCKET: Eh!? What’re you doing here?  Doesn’t matter, really… nothing left anyway… There’s only one Moogle still around, and only a treasure hunter could pick that lock…
+ESPER: You HUMANS freed me from that prison of ice? You possess Magicite?! Who are you?! I sense war and destruction… Could that stupid war possibly have lasted a thousand years? I can tell that you want to put a stop to the madness… Let’s see if you are worthy!
+      Received the Magicite               “Tritoch!”
+There’s an opening in the cliff. Hop into it? <Choice> Yes <Choice> No
+MOG: Kupoppo! You’re alive! I thought you were all feeding the worms, kupo! Kupohoho! Let’s go!
+MOG: Say, we could use some sasquatch muscle!! Besides, he’d be helpless here without me! He’s somewhere in the mines. Once we find him, I’ll order him to join us!
+Kupo!!! Don’t scare me like that!
+Art that evokes the end of the world is popular now.
+Say…you look like… …aren’t you…Maria?!  Sorry, my mistake…
+See anything you want? The auction’s about to start! <Choice> (Bid on items!) <Choice> (Another time.)
+If you want to participate in the bidding, talk to the man near the entrance.
+Didn’t get anything today, eh?!
+Here’s a splendid chest. Inside is…
+     Some “Cherub Down”!  Do I hear 500 GP?!
+  Bought some “Cherub Down”!
+         A “Cure Ring”!  Do I hear 1500 GP?!
+     Bought a “Cure Ring”!
+         A “Hero Ring”!  Do I hear 3000 GP?!
+     Bought a “Hero Ring”!
+         A “Zephyr Cape”!  Do I hear 3000 GP?!
+Bought a “Zephyr Cape”!
+Today’s auction is over.
+Well, how ’bout it?
+<Choice> Buy it for 3000 GP. <Choice> I’ll pass…
+Ho, ho, ho… There’s nothing I can’t buy!
+<Choice> Buy it for 5000 GP. <Choice> I’ll pass…
+<Choice> Buy it for 30000 GP. <Choice> I’ll pass…
+<Choice> Buy it for 40000 GP. <Choice> I’ll pass…
+<Choice> Buy it for 60000 GP. <Choice> I’ll pass…
+<Choice> Buy it for 7000 GP. <Choice> I’ll pass…
+<Choice> Buy it for 8000 GP. <Choice> I’ll pass…
+<Choice> Buy it for 12000 GP. <Choice> I’ll pass…
+<Choice> Buy it for 15000 GP. <Choice> I’ll pass…
+<Choice> Buy it for 18000 GP. <Choice> I’ll pass…
+Arrrgh! I HATE it when that happens!
+<Choice> Buy it for 10000 GP. <Choice> I’ll pass…
+<Choice> Buy it for 50000 GP. <Choice> I’ll pass…
+Are there any more bids?
+<Choice> Buy it for 20000 GP. <Choice> I’ll pass…
+         8000 GP!
+         12000 GP!
+         15000 GP!
+         18000 GP!
+         10000 GP!
+         30000 GP!
+         40000 GP!
+         60000 GP!
+         20000 GP!
+         50000 GP!
+         70000 GP!
+     How about 100000 GP?!
+         10 GP!
+         50 GP!
+         100 GP!
+         500 GP!
+         1000 GP!
+         1500 GP!
+         2000 GP!
+         3000 GP!
+         4000 GP!
+         5000 GP!
+         7000 GP!
+In a world like this you have to keep an open mind.
+This is the Auction House. Bunch of rich yokels inside…
+Yes! Now I’ll be able to go play at the art-lover’s house again!
+Every once in a while something very rare is sold here…
+The house to the north belongs to Owzer. He’s a collector of fine paintings.
+     A still-life of flowers.      They almost look alive…
+     Picture of an old urn.
+   Looks like a treasure chest.
+         A lamp, maybe?
+      This looks ancient…
+       Ah! Some armor.
+   Emperor Gestahl’s portrait.
+    Picture of a lovely lady.
+Owzer sought out a highly skilled artist to come and paint for him.
+I saw the Emperor recently!  A painting of him, that is… It’s in Owzer’s house.
+The people here love the opera!
+Lately I’ve seen a lot of carrier pigeons flying towards Maranda. Who can be sending all the letters?
+The other day I read Owzer’s diary. It was just laying there!
+A while ago a little girl entered the art-collector’s house…
+T…that was a spirit!
+I went up to talk to Owzer, but he’s nowhere to be found.
+The world’s so different now…
+           Received the       “Emperor’s Letter.”  The letter reads as follows:  The treasure is hidden where the mountains form a star…
+RELM: The stone…! Won’t you take the stone?!
+    Looks awfully familiar…
+         Stay…away… 
+   Emperor Gestahl’s portrait.
+It’s Owzer’s diary… Read it? <Choice> Yes <Choice> No
+<Choice> (Read the next page.) <Choice> (Read it later.)
+Just spent an absolute fortune. It’s my largest painting yet, so I won’t be able to put it with the others. I’ll decide later where to display it.
+An artist came from Zozo today. He wanted me to see his work. What a waste of time.
+Bought a new stairway lamp at the Item Shop. Expensive, but one flip of the switch and everything’s bright and cheery.
+I invited over an artist from Kohlingen. About as talented as a bucket…
+Something’s happening to me. It started when I had that picture painted… And I’ve started hearing odd noises coming from downstairs.
+     The diary ends here…
+OWZER: RELM… Please, come back soon… cough…wheeze.
+OWZER: P…please…  Help that painting!! “The painting!?” OWZER: It’s…there’s a monster hiding in my prized painting of a goddess… “A monster?!” OWZER: Yes… And now it’s nearly impossible to get it to show itself…
+CHADARNOOK: G’fu, fu, fu…  Who’re these numbskulls? No one…NO ONE…is going to remove me from this fine new painting!!
+OWZER: No! Noooo! You can’t ruin this painting of my revered goddess! Aim only for the monster!!
+RELM: Ahhhhh!! OWZER: RELM! We can’t attack this masterpiece! It would be inexcusable!
+RELM: Hey! Relax! The monster croaked!
+OWZER: Thanks for saving the day! This picture’s more precious to me than my own life! RELM: Huh?! What are you talking about?
+“Now…what was a monster doing in that picture?!” OWZER: It all started when I bought a stone at the Auction House. I took one look at it and suddenly felt I needed a portrait of Starlet. I asked several artists, but none could muster enough skill. It was then that I heard about RELM’s amazing ability. I brought her here, and put her to work. But while she was painting, that thing came along…  It must have been enticed here by that stone.
+Where is the stone…? OWZER: The stone?  Over on that bookshelf.
+OWZER: Hey, not that. That’s priceless!! But…seeing as you saved my hide, I’ll give it to you as well.
+“This is Magicite…” OWZER: Phew. I don’t need any more bad luck. Just take it and go!
+OWZER: The stone in question is in the middle of the shelf.
+You’re gonna love this! Doom Gaze can’t restore his HP after battle! Just keep fighting him, and in time you’ll defeat him!
+First time I’ve been here… This ain’t the kinda place a poor person usually comes!
+Okay!  Here’s our next item!
+    The Magicite, “ZoneSeek”!  Who’ll give me 500 GP?
+     The Magicite, “Golem”!  Who’ll give me 1000 GP?
+This is astounding! A real, talking Chocobo!!  Do I hear 1000 GP?
+     1/1200 of an airship!  Do I hear 5000 GP?
+You’re not gonna believe this! Quality, high-tech merchandise! An “Imp Robot”!!  Do I hear 5 GP?
+      Received the Magicite               “Starlet.”
+CHILD: Papa!! I want that! Please!
+PAPA: No, you don’t! Now, pipe down!
+CHILD: I want it…I want it! Buy it! Pretty please!!
+PAPA: Ho, ho, ho…All right! But just this once! And… …  Keep it a secret from Mama!
+CHILD: Yahoo!!! Thanks, Papa! Yahoo!
+PAPA: 500000 GP!
+G’huh?! 500000 GP?!
+PAPA: 1000000 GP!
+WHAT?! 1000000 GP?!
+Sold, to this lucky person. Take it away, please!
+PAPA: Well, we have our treat for the day. Let’s go home! CHILD: Yahoo! Yippy!!!!
+Well, that’s all for today! Come back again real soon!
+Papa! Let’s buy lot’s of stuff today, too!
+Oh, how could I refuse those cute little eyes?! Ho, ho, ho…
+     Not enough money…
+OWZER:  What a tremendous gift! This young lady’s pictures just might help salvage this rotting world of ours! “We need to take RELM with us!” She might just be our only chance to restore the sunny days of our not-too-distant past!
+OWZER: Cough…hack… RELM: Old man!  Are you all right?! OWZER: You think things will ever be as they were? “…We don’t know…” but if we don’t try… OWZER: We’ll lose everything… “We haven’t much time. We need RELM’s help now…”
+OWZER: Let me at least hug her one last time…
+OWZER: RELM… Cough…Hackack… Will you come back some day? And paint me another of your masterpieces?
+RELM: I’ll come back. OWZER: Thank you… Such a nice girl!
+RELM: I have to go! But fear not, I’ll be back to finish this painting! OWZER: I’ll be waiting for you!
+      Received the Magicite               “ZoneSeek.”
+      Received the Magicite               “Golem.”
+ My beloved… We’ll always be together… 
+I’m Curley!
+I’m Larry.
+I’m Moe!
+We’re the 3 Dream Stooges!
+This man’s soul is ours!
+Today we dine well!!!
+“WAIT!!!”
+Back off! I’m not gonna mess with ya unless my brothers are here! See ya!
+Good, everyone’s here! Let’s rumble!
+ Please… Save my husband… Save CYAN…
+Where are we?!
+ We’re inside… CYAN’s soul…
+ My husband… CYAN continues to torture himself…  He failed to defend Doma… The world’s slowly dying… and then there’s his family…
+ A beast known as Wrexsoul is taking advantage of him.
+Wrexsoul is a composite monster, made up of wretched spirits who were dispatched in meaningless wars.
+ They’re wreaking havoc on Papa! Please help him!!
+ Please… help CYAN…  Papa doesn’t deserve this…!
+Papa…fishing is boring! 
+This is part of your training. We must all learn patience. 
+I love fishing! 
+Excellent concentration! With a little more practice, you’ll be Doma’s best fencer! 
+Yippee! Papa praised me! I’m gonna go tell Mama! 
+Sweetheart…… Do you love me? 
+What do you want from me? A soldier doesn’t say things like that! 
+I……I…loveth you. …More than anything… 
+I heard that! Yipee! “I loveth you…I loveth you…” Papa loves Mama! 
+Owain!! Hush!! 
+You must be Wrexsoul! We want CYAN back!!
+I heard that! 
+You’re too late!  His pain has reached critical mass! Nothing can stop his feelings of rage and despair! I grow stronger now, with his anger, hatred and guilt! And I hunger for… you!
+CYAN: Thanks be to you.
+CYAN: I heard my wife and children calling out to me! Their voices finally gave me the strength and courage to come to grips with my own suffering.
+ Thank you, my love… 
+ Papa’s strong!!! 
+CYAN: No… I didn’t do anything… then… and I can’t now…  I’m a man with no honor…
+ No! You have entirely too much… 
+ Papa… We love you! 
+ We’ll always be at your side… 
+CYAN: Elayne and Owain live on in my heart. I must leave the past behind. I have much to live for…
+ CYAN’s soul cleared itself of all doubt and confusion.
+ CYAN’s swordsmanship attained its peak level of skill.
+      Received the Magicite               “Alexandr.”
+Memorize the positions. This knowledge might save you.
+     Received “Lump of Metal.”
+SABIN: You don’t suppose… GAU, could this be your father? GAU: Uooo…
+SABIN: Come on, GAU. It’s true, right? GAU: …fffatherrr…? SABIN: Yes. This is definitely your father. GAU: ……??? …GAU’s…father?! Oooogauooooo!
+SABIN: Right!! Let’s go tell your father the news! He needs to know you’re his son!
+SABIN: Just a minute… We can’t just go there with you looking like this. SABIN: I know! Let’s go to Jidoor and give you a make-over!
+SABIN: No, GAU! Don’t eat with your fingers!
+GAU: Yaoooo…
+SABIN: Don’t say “Yaoooo” when you mean “Yes!”
+GAU: Ho!
+SABIN: ……
+TERRA: How do you like these? Wait! What about those? Hm…oh well…
+TERRA: Did you say something? “N…no! Nothing… …Uh huh…”
+CELES: Which is it gonna be? Oh! This is nice…but… Do you think it becomes GAU? Well…
+CELES: What?! “…Nothing…”
+CYAN: What a jaunty hat! “Not at…”
+CYAN: Wait a minute! Where’s the hat? “……”
+SABIN: This is it! Me go to funeral? SABIN: Perfect! Functional yet sporty! Done! “I don’t think…”
+SETZER: Phew! Completely lacking in fashion… SETZER: Excuse me, sir. Could you order some clothes like the ones I’m wearing? Impossible! SETZER! How dare you think of sticking him in that kinda getup?!
+EDGAR: I got it! A tuxedo, silk hat…and… …a rose in his teeth!
+LOCKE: I think that’s overdoing it just a bit… He should have a bandana on his head!
+EDGAR: What’s so great about a bandana? Most of the time I see ’em tied around dogs at the beach!
+LOCKE: HEY! What do you mean by that?
+SABIN: Okay, GAU? Now, any father’d be glad to have a son like you! GAU: Hooo…
+SABIN: Excuse me, Sir. AGED MAN: Who’n blazes ’r you?  Oh! The repairman! SABIN: Sir… You…had a son, right? You with me!?
+SABIN: Now, Sir…  AGED MAN: Oh! Yes! I’d like you to make those repairs on the double! SABIN: Sir… You…had a son, right? You with me!?
+AGED MAN: …son? SABIN: Right. The truth is, he’s alive! Come here, GAU!
+GAU: Fffatherrr…
+AGED MAN: What is this?! What’s with this “son” business? I never had a son!
+AGED MAN: But now that you mention it, I once had a terrible dream.  In it, a demon-child was born! I grabbed the creature, and rushed off to the Veldt with it… It was crying like crazy when I arrived on the Veldt. SABIN: But, Sir…!
+AGED MAN: I left the child there…  And without looking back, I turned and started to run. SABIN: I’m trying to tell you…
+AGED MAN: Suddenly the crying stopped. I turned around and saw a frightful monster… Hideous! Still gives me the shakes. SABIN: I give up…
+AGED MAN: But you, young man, your parents must be proud of you! I still have dreams of that demon child… Frightening…
+SABIN: Why! You old… He’s completely lost his mind! GAU, I’m gonna clobber him!!
+GAU: Uwaooo…ooooo…
+AGED MAN: Eh? Say, is everything fixed yet?
+AGED MAN: The repairman, at last! “Uh, no. I was wondering if you knew anything about Emperor Gestahl’s map…” AGED MAN: Map…?!  Everyone’s askin’ ’bout that map! Pardon?! AGED MAN: Little while ago, some guy wearin’ a bandana asked for the map. So I told him! W…where is it?
+AGED MAN: It’s where the mountains form a star-shape! You should have just come out and asked me. No need to be shy!
+AGED MAN: Got it?! Where the mountains form the shape of a star!
+SABIN: I…I’m sorry…
+GAU: Fffatherrr…alive… H… a… p… p… y…
+……Not enough money.
+HP and MP recovered, and status ailments, like Poison, cured!
+First time I’ve been back in a while, and the village looks trashed. What on earth happened?
+I am Gungho. Warrior extraordinaire from the town of Thamasa.
+STRAGO: G…Gungho?!
+If you’re looking for the man dressed all in black, he left for the colosseum.
+One day, a man working for an aristocrat in Jidoor came and took that young woman back with him!
+I saw a monster floating in the sky! It looked just like a fish.
+All the fun places are gone now.
+For the first time in 50 years, Ebot’s Rock is above water! Head north of town if you want to see it.
+GUNGHO: Is that you, STRAGO? Have you come back to hunt Hidon?
+I’ve got STRAGO on my side now, but what a monumental bag of hot air!
+GUNGHO: He’ll never change. That’s who he is!
+When you were younger you hunted Hidon, the legendary monster. But you quit before you found it…
+STRAGO: I didn’t really quit! It’s just that, well, the monster lives only on Ebot’s Rock, which has been submerged for some time. GUNGHO: You never could give me an honest answer.
+GUNGHO: What a buffoon!!
+MAYOR: It’s only been a year since the world changed… But it feels like forever.
+RELM: Yea!! We’re back! It’s like old times!
+STRAGO: Time to relax! Home sweet home!
+RELM: This is terrible! Gungho’s hurt!
+STRAGO: Gungho, wake up!
+STRAGO: Who did this to you? GUNGHO: It was…Hidon, the beast you and I used to hunt. I almost had it…
+GUNGHO: Oooh…cough, cough…
+GUNGHO: STRAGO… Please…you must avenge me…
+STRAGO: You took on Hidon…?
+RELM: Gramps! Why are you hesitating!
+STRAGO: Well… I spent my youth chasing that creature. To do it again at this age is more than I bargained for.
+STRAGO: Gungho… rest easy, I’ll do it for you!
+RELM: Just a minute! You don’t think you’re going alone, do you?
+STRAGO: I spent too many years of my life hunting that thing. It is my obsession, not yours.
+RELM: But Grandpa! This “obsession” of yours could easily slay you! You’re my Grandfather. I can’t just sit idly by and watch you go.
+STRAGO: Sorry, RELM. I’m so grateful that you care! But as its name implies, the Hidon is extremely difficult to find. Unless I go alone, it will not show itself.
+STRAGO: Next stop, Ebot’s Rock.
+RELM: Phew…
+TREASURE: I’m hungry! Hungry hungry hungry hungry hungry hungry hungry hungry hungry hungry hungry hungry!! Feed me!  Otherwise, I won’t let you by!
+Skinflint! Git outta here!
+You must have more than one of those!
+I’m not happy unless I have plenty to eat!
+Munch munch munch  Muurp…that was great.  Bring me some more!!
+Munch munch munch  G’nnnaa! What a feast! I’m stuffed. Completely full!
+I like to eat “Coral”! Have any? Hand over some “Coral”? <Choice>(Sure.) <Choice>(I don’t think so.)
+   Received a piece of “Coral.”
+   Received 2 pieces of “Coral.”
+   Received 3 pieces of “Coral.”
+   Received 5 pieces of “Coral.”
+TREASURE: Bluuurp! Whew!
+TREASURE: Oh, yeah, you wanna pass through here, right?
+TREASURE: Eh!! What the…!
+STRAGO: That’s Hidon!
+STRAGO: I did it! I…I… I actually beat Hidon!
+STRAGO: I have to tell Gungho he is avenged!
+STRAGO: Gungho…!
+GUNGHO: What’s all the hullabaloo?! STRAGO: Listen to me! I DEFEATED Hidon!
+GUNGHO: You WHAT?! You b…beat Hidon?! You’re lying! LYING!
+RELM: No, he’s not! He really defeated Hidon.
+STRAGO: Ho, ho, ho! If I didn’t know better, I’d say that Hidon wasn’t my only enemy!
+GUNGHO: I don’t believe this. This has to be a joke! STRAGO: Ho, ho, ho!! STRAGO: …by the way, how are your wounds healing, Gungho?
+GUNGHO: Eh? Oh, they’re fine…
+          That evening……
+STRAGO: There I was, in a cave that seemed endless. Then, before I knew it, Hidon appeared!
+STRAGO: I stared Hidon straight in the eye, lifted my staff, and let him have it!     G’Pow!!     Thwack!!     Crash!!
+STRAGO: I wanted to show my enemy the true meaning of the word, “hero”!
+STRAGO: And then…… 
+RELM: What happened to Grandpa? GUNGHO: Huh? Finally! He nodded off.
+GUNGHO: However…  Let’s let him be! He’s nice and…quiet… Now, about my “wounds”…
+RELM: Wait! First let me thank you. You gave Grandpa a reason to go and defeat something that had tormented him for decades! Even if YOU were faking, that creature meant business!
+GUNGHO: What a granddaughter he’s raised! Amazing! RELM: And what a terrible actor you are!
+RELM: Only STRAGO could have been taken in by that performance!
+GUNGHO: Everything okay?
+GUNGHO: Hidon’s appeared at Ebot’s Rock again!
+During the past year I’ve traveled the world over. Wanna hear some of my stories? <Choice> Yes <Choice> No
+North of the Veldt is a small, triangular island.
+The island is home to a monster that could suck up an entire ocean. What do you suppose might happen if it sucked you inside? That much I don’t know!
+GUNGHO: What the…!
+This is Figaro, the desert castle.
+Wait!
+Hey! Oh, it’s you. Proceed.
+Figaro and the Empire are allies!
+Figaro Castle is the most modern structure in the world!
+It doesn’t look like it, but this castle incorporates some of the most high-tech devices in existence. For example, …
+Oops…they’re all top-secret!
+You’ve seen it, haven’t you?
+Eh?…… Who might you be?
+LOCKE: This is the pits. We’d better hightail it southward, to Figaro.
+This is the frozen Esper…
+GUARD: We won’t hand over the Esper!!
+GUARD: Whelk! Get them!
+Scram, you blockhead.
+Back to your post.
+Time’s up? Good! I’ll take a break!
+I’m not buying anything!
+The Empire has taken possession here.
+A detached force is making its way toward Narshe. We’ll link up with them soon.
+That clown, Kefka, is on the verge of invading Narshe.
+DUNCAN’S WIFE: I’m sure there’s a hidden passage under the rich man’s house. Find the room that’s drafty.
+MERCHANT: You’re that thief, LOCKE, aren’t you? LOCKE: Hey! Call me a treasure hunter, or I’ll rip your lungs out!
+MERCHANT: Sorry!
+MERCHANT: Look! As luck would have it, I’m fresh out of merchandise! <Choice>(I’m gonna pound your face!) <Choice>(Guess I’m out of luck!)
+MERCHANT: Thanks to the Empire, my business is up!
+Peace has been restored, but my husband never returned.
+You say peace is really here to stay?
+There’s nothing like being free!
+Now I can relax and drink my cider.
+Need a rest? <Choice>(Yes) <Choice>(No)
+Kue!!
+<Choice>(Ride a chocobo?) <Choice>(Not yet.)
+Recovery spring
+ The three have reached Narshe, and a decisive battle is about to take place…
+      Received “<Item>”!
+      Learned “<Skill>”!
+      Found <GP> GP!
+              Empty!
+80 GP per night! Well? <Choice> Yes <Choice> No
+Good mattress for 150 GP! Stay a while? <Choice> Yes <Choice> No
+You can stay for 250 GP. Well? <Choice> Yes <Choice> No
+    Choose a scenario…kupo!
+Right. We’re going in!
+Chocobo ride for 80 GP. Hop aboard? <Choice> Yes <Choice> No
+Chocobo ride for 150 GP. Hop aboard? <Choice> Yes <Choice> No
+      Monster-in-a-box! 
+Use the crane to go down? <Choice> Yes <Choice> No
+The Statues are up ahead…
+   Divide into 3 groups.    Use the Y Button to switch    between them.
+TERRA: General Leo… I believe I understand what you’re trying to say.
+LOCKE: As long as there’re people who need to be protected, I’ll fight!
+CYAN: What an amazing device!
+SHADOW: ……
+EDGAR: If something happens to me, all the world’s women will grieve!
+SABIN: Riiiiiight!
+CELES: I’m glad I made it this far…I feel I have a lot to live for…
+STRAGO: Hey everyone! Let me see the light in your eyes! The old man, here, hasn’t given up yet!
+RELM: Let’s do it! Let’s go get that madman!
+SETZER: Something good will come of it all!
+A piece of Magicite popped out of Doom Gaze’s mouth!
+      Received the Magicite               “Bahamut.”
+EDGAR: It’s time to break into Kefka’s domain!
+SETZER: What’s wrong? CELES……
+CELES: The Statues give the Espers the magical energy they need to live. If we destroy the Statues…
+EDGAR: What’ll happen?
+CELES: I’m really not sure, but…
+CELES: The Espers, and magic, too, will cease to exist.
+STRAGO: The Espers…and magic, too, will most definitely disappear from this world.
+EDGAR: And then…
+CELES: What will happen to … TERRA…?
+        Welcome, friends!
+I knew you’d make it here, so I’ve prepared some suitable entertainment for you!
+How long are you going to let the destruction continue? KEFKA: I’ve tapped into the ultimate power. Observe…!
+KEFKA: Such magnificent power! You are like insects to me!
+KEFKA: I will exterminate everyone, and everything!
+People will keep rebuilding the things you take from them!
+KEFKA: Then I’ll destroy those too. Why do people rebuild things they know are going to be destroyed? Why do people cling to life when they know they can’t live forever? Think how meaningless each of your lives is!
+It’s not the net result of one’s life that’s important! It’s the day-to-day concerns, the personal victories, and the celebration of life…and love!
+It’s enough if people are able to experience the joy that each day can bring!
+KEFKA: And have you found your “joy”, in this nearly dead world of ours?
+Yes!
+TERRA: I know what love is…!
+LOCKE: And I have learned to celebrate life…and the living.
+CYAN: My family lives on inside of me.
+SHADOW: I know what friendship is… and family…
+EDGAR: It is my dream to build a kingdom in which I can guarantee freedom, and dignity.
+SABIN: I have come to experience anew the love of my brother!
+CELES: I’ve met someone who can accept me for what I am.
+STRAGO: I have a special little Granddaughter!
+RELM: And I have a brave Grandpa who’ll stand by me through it all.
+SETZER: My friend’s airship… and her love!
+MOG: I have my friends here!
+GAU: You my friends! Me uwaooo all of you!
+KEFKA: This is sickening… You sound like chapters from a self-help booklet! Prepare yourselves!
+KEFKA: Now, for my next trick, I will make you all…disappear!
+Kefka, you don’t know what you’re doing! Stop!
+KEFKA: I command the greatest power in the universe! You are all helpless before me!
+KEFKA: I will destroy everything… I will create a monument to non-existence!
+Life will go on! There will always be people, and dreams!
+KEFKA: No! I will hunt them down. I will destroy it all! Destroy! Destroy! Destroy!!
+We will not allow you to harm another living thing.
+KEFKA: Hee, hee, hee!! But what fun is destruction if no “precious” lives are lost!
+It’s over, Kefka!
+KEFKA: Oh! But it hasn’t yet begun! And I’m giving you a front-row seat!
+It’s breaking up!
+There’s no time to lose! Airship’s just ahead.
+CELES: TERRA! What’s wrong?
+EDGAR: The Espers… They no longer exist…
+TERRA: Come with me. I can lead you out with my last ounce of strength.
+CELES: Come on, everybody! We have to work together!
+The Magicite… Magic is disappearing from this world…
+CELES: You mean TERRA too?
+TERRA!!!!
+TERRA: Everyone’s calling me.
+CELES: TERRA! You’re back!
+TERRA: Come with me! 
+EDGAR: The last piece of Magicite! 
+CELES: TERRA! It’s okay! Your power! It’s fading… 
+CELES: TERRA, your strength is going! 
+EDGAR: Follow her! 
+SETZER: Leave it to me! 
+       Do it right, Katarin…! 
+       Gotta hang in there… 
+      …for a while longer… 
+Just a little longer… 
+Where’s TERRA!? 
+CELES: TERRA! 
+TERRA: Thank you,  SETZER! 
+SETZER: Didn’t I say it before?! This is the world’s fastest ship! 
+ EDGAR: CYAN! Think you can handle that switch?!   CYAN: Machines… I HATE machines! 
+CYAN: You just have to show technology who’s boss!! 
+SETZER: Wait! 
+SETZER: Let’s go that way!!   Sometimes in life you just have to FEEL your way through a situation! 
+ SETZER: Daryl…I’m starting to sound just like you! 
+ MOG: Heeeeelp! Save me! 
+ MOG: The hair!! Watch the hair!!! 
+ CELES: It won’t open! 
+ UMARO: U’ghaaaa! 
+EDGAR: Where’s SABIN when you need him…? 
+SABIN: I didn’t turn my back on the kingdom, big brother…  I knew you’d be a better king. I trained hard knowing I might have to help you one day…  Now I know why I have these stupid muscles! 
+ EDGAR: Ladies first! 
+GAU: GAU find short cut! 
+CELES: Both buttons have to be pressed simultaneously… 
+ SETZER: GOGO! Watch CELES and do exactly what she does! 
+ Come on! This floor’s about to break apart! 
+ CELES: LOCKE!! 
+ LOCKE: I will not let go… …I promise! 
+SETZER: Don’t fall! Remember, you promised me you’d do your “Maria” act again! 
+ You almost ate it trying to pick up that silly trinket! 
+ SETZER: What a woman! Your life is hanging by a bandana! 
+CELES: This is my good luck charm… When I found this, my life took a turn for the better… 
+CELES: LOCKE… Promise me someday you’ll look after me again?! 
+ TERRA: Father……? 
+MADUIN: TERRA…we must part now. We Espers will disappear from this world… forever. 
+MADUIN: But if the human part of you is very strongly attached to something or someone…   You will probably be able to remain in this world as a human being… 
+ RELM: Grandpa! Stop goofing around!! 
+STRAGO: Sorry, dear… RELM: If I hear even a peep out of you, I’m gonna draw your portrait! 
+ STRAGO: No! Anything but that! 
+RELM: …  …but you know… Just once I’d really like to do a portrait of you…on canvas, of course! 
+ STRAGO: RELM! How can you be thinking about pictures at a time like this?! 
+ SHADOW: Interceptor! Get going! 
+SHADOW: Baram! I’m going to stop running. I’m going to begin all over again… 
+ SHADOW: Stay well… 
+ STRAGO: No…NO!!!! A “kid” like me doesn’t know the meaning of defeat! 
+ STRAGO: Gotcha!! 
+ RELM: I won’t be done in by an older woman! 
+ RELM: Wait a minute, lover boy! 
+ RELM: You can’t just throw me aside! 
+ RELM: How about a nice portrait for you, hmm?! <Dummy: e…, hmm?! >

@@ -1,0 +1,383 @@
+
+---------------------------------------------------------------------------------------------------------
+
+
+				BATTLE SCRIPT TUTORIAL/MAP
+
+
+---------------------------------------------------------------------------------------------------------
+
+	Byte1	Function			Byte2		Byte3		Byte4
+	----------------------------------------------------------------------------------------
+	F0	Random attack			(Spell)		(Spell)		(Spell)
+
+	F1	Targeting			(Target)	-		-
+
+	F2	Call formation			-		(Value)		(80=Low/81=High)
+
+	F3	Small battle caption		(Caption)	00		-
+
+	F4	Random command			(Command)	(Command)	(Command)
+
+	F5	Add/Remove enemies...
+		Unhide (ID) w/ max HP		(Animation)	00		(Enemy ID[s])
+		Remove (ID) (preserves HP)	(Animation) 	01		(Enemy ID[s])
+		Unhide (ID) w/ current HP	(Animation)	02		(Enemy ID[s])
+		Hide (ID) (*)			(Animation)	03		(Enemy ID[s])
+		Hide (ID) (*)			(Animation)	04		(Enemy ID[s])
+		Kill (ID)			(Animation)	05		(Enemy ID[s])
+
+		(*These two are functionally identical despite their in-editor descriptions)
+
+	F6	Throw/Use item			(0=Use/1=Throw)	(Item)		(Item)
+
+	F7	Trigger event			(Event)		-		-
+
+	F8	Variable manipulation...
+		Set Variable to (Value)		(Variable)	(Value = 00-3F)	-
+		Add to Variable			(Variable)	81=1 ~ BF=63	-
+		Subtract from Variable		(Variable)	C1=1 ~ FF=63	-
+
+	F9	Variable manipulation...
+		Toggle Bit			00		(Variable)	(Bit 0-7)
+		Set Bit				01		(Variable)	(Bit 0-7)
+		Unset Bit			02		(Variable)	(Bit 0-7)
+
+	FA	Animation...
+		Enemy flashes red		00		??		??
+		Enemy takes 1 step back (slow)	01		??		??
+		Enemy takes 1 step ahead (slow)	02		??		??
+		Enemy takes 1 step back (fast)	03		??		??
+		Enemy takes 1 step ahead (fast)	04		??		??
+		Characters run to the right	05		??		??
+		Characters run to the left	06		??		??
+		Enemy takes 3 steps back	07		??		??
+		Enemy takes 3 steps ahead	08		??		??
+		Plays a sound	 		09		??		(Sound)
+		Kefka Head			0A		??		??
+		Enemy flashes yellow		0B		??		??
+		Enemy flashes yellow briefly	0C		??		??
+		Boss death animation(?)		0D		??		??
+
+	FB	Miscellaneous...
+		Resets battle timer		00		00		-
+		Target becomes invincible	01		(Target)	-
+		Ends battle			02		??		-
+		Adds Gau to party		03		??		-
+		Resets global battle timer	04		00		-
+		Target loses invincibility	05		(Target)	-
+		Target becomes targetable	06		(Target)	-
+		Target becomes untargetable	07		(Target)	-
+		Self gains status		0B		(Status)	-
+		Self loses status		0C		(Status)	-
+		"Piranha" death (see below)	0D		??		-
+
+	FC	"If" statement...
+		Hit By Command			01		(Command)	(Command)
+		Hit By Spell			02		(Spell)		(Spell)
+		Hit By Item			03		(Item)		(Item)
+		Hit By Element			04		(Element[s])	00
+		Hit At All (HP Lowered?)	05		00		00
+		Target's HP < (Value)		06		(Target)	(Value*128)
+		Target's MP < (Value)		07		(Target)	(Value)
+		Target has status		08		(Target)	(Status)
+		Target does not have status	09		(Target)	(Status)
+		Battle timer > (Value)		0B		(Value)		00
+		Variable < (Value)		0C		(Variable)	(Value)
+		Variable >= (Value)		0D		(Variable)	(Value)
+		Target's level < (Value)	0E		(Target)	(Value)
+		Target's level >= (Value)	0F		(Target)	(Value)
+		Only one enemy type alive	10		??		??
+		(ID) enemies are alive		11		(Enemy ID[s])	??
+		(ID) enemies are dead		12		(Enemy ID[s])	??
+		# of enemies alive <= (Value)	13		01 (00=Allies)	(Value)
+		Bits are set in variable	14		(Variable)	(Bit[s])
+		Bits are unset in variable	15		(Variable)	(Bit[s])
+		Global battle timer > (Value)	16		(Value)		00
+		Target is valid			17		(Target)	??
+		Gau isn't in party		18		??		??
+		Enemy is in position (ID)	19		(Enemy ID[s])	??
+		Target is weak to element	1A		(Target)	(Element[s])
+		Battle formation = (Value)	1B		(Value)		(00=Low/01=High)
+
+	FD	Wait until next turn, then continue
+
+	FE	EndIf
+
+	FF	End
+
+---------------------------------------------------------------------------------------------------------
+
+	HEX/ELEMENT(s)			    HEX/ENEMY ID(s)	   HEX/TARGET(s)
+	-----------------------------------------------------------------------------------------
+	00  -				    00  Self		   00  Terra
+	01  Fire			    01  1		   01  Locke
+	02  Ice				    02  2		   02  Cyan
+	03  Fire/Ice			    03  1,2		   03  Shadow
+	04  Bolt			    04  3		   04  Edgar
+	05  Fire/Bolt			    05  1,3		   05  Sabin
+	06  Ice/Bolt			    06  2,3		   06  Celes
+	07  Fire/Ice/Bolt		    07  1,2,3		   07  Strago
+	08  Poison			    08  4		   08  Setzer
+	09  Fire/Poison			    09  1,4		   09  Relm
+	0A  Ice/Poison			    0A  2,4		   0A  Mog
+	0B  Fire/Ice/Poison		    0B  1,2,4		   0B  Gau
+	0C  Bolt/Poison			    0C  3,4		   0C  Gogo
+	0D  Fire/Bolt/Poison		    0D  1,3,4		   0D  Umaro
+	0E  Ice/Bolt/Poison		    0E  2,3,4		   0E  Banon
+	0F  Fire/Ice/Bolt/Poison	    0F  1,2,3,4		   0F  Leo
+	10  Wind			    10  5		   30  Enemy #1
+	11  Fire/Wind			    11  1,5		   31  Enemy #2
+	12  Ice/Wind			    12  2,5		   32  Enemy #3
+	13  Fire/Ice/Wind		    13  1,2,5		   33  Enemy #4
+	14  Bolt/Wind			    14  3,5		   34  Enemy #5
+	15  Fire/Bolt/Wind		    15  1,3,5		   35  Enemy #6
+	16  Ice/Bolt/Wind		    16  2,3,5		   36  Self
+	17  Fire/Ice/Bolt/Wind		    17  1,2,3,5		   37  All enemies but self
+	18  Poison/Wind			    18  4,5		   38  All enemies
+	19  Fire/Poison/Wind		    19  1,4,5		   39  Random enemies but self
+	1A  Ice/Poison/Wind		    1A  2,4,5		   3A  Random enemies
+	1B  Fire/Ice/Poison/Wind	    1B  1,2,4,5		   43  All characters
+	1C  Bolt/Poison/Wind		    1C  3,4,5		   44  Random character
+	1D  Fire/Bolt/Poison/Wind	    1D  1,3,4,5		   45  Last char/enemy to act
+	1E  Ice/Bolt/Poison/Wind	    1E  2,3,4,5		   46  All
+	1F  Fire/Ice/Bolt/Poison/Wind	    1F  1,2,3,4,5	   47  Use normal targeting
+	20  Holy			    20  6		   48  Character #1
+	21  Fire/Holy			    21  1,6		   49  Character #2
+	22  Ice/Holy			    22  2,6		   4A  Character #3
+	23  Fire/Ice/Holy		    23  1,2,6		   4B  Character #4
+	24  Bolt/Holy			    24  3,6		   4C  All or one random target(?)
+	25  Fire/Bolt/Holy		    25  1,3,6
+	26  Ice/Bolt/Holy		    26  2,3,6		   HEX/COMMAND	   HEX/STATUS
+	27  Fire/Ice/Bolt/Holy		    27  1,2,3,6	   	   ------------------------------
+	28  Poison/Holy			    28  4,6		   00  Fight	   00  Dark
+	29  Fire/Poison/Holy		    29  1,4,6		   01  Item	   01  Zombie
+	2A  Ice/Poison/Holy		    2A  2,4,6		   02  Magic	   02  Poison
+	2B  Fire/Ice/Poison/Holy	    2B  1,2,4,6		   05  Steal	   04  Clear
+	2C  Bolt/Poison/Holy		    2C  3,4,6		   06  Mug	   05  Imp
+	2D  Fire/Bolt/Poison/Holy	    2D  1,3,4,6		   07  Bushido	   06  Petrify
+	2E  Ice/Bolt/Poison/Holy	    2E  2,3,4,6		   08  Throw	   07  Death
+	2F  Fire/Ice/Bolt/Poison/Holy	    2F  1,2,3,4,6	   09  Tools	   08  Condemned
+	30  Wind/Holy			    30  5,6		   0A  Blitz	   09  Near Fatal
+	31  Fire/Wind/Holy		    31  1,5,6		   0C  Lore	   0A  Image
+	32  Ice/Wind/Holy		    32  2,5,6		   0D  Sketch	   0B  Mute
+	33  Fire/Ice/Wind/Holy		    33  1,2,5,6		   0F  Slot	   0C  Bserk
+	34  Bolt/Wind/Holy		    34  3,5,6		   10  Rage	   0D  Muddle
+	35  Fire/Bolt/Wind/Holy		    35  1,3,5,6		   12  Mimic	   0E  Sap
+	36  Ice/Bolt/Wind/Holy		    36  2,3,5,6		   13  Dance	   0F  Sleep
+	37  Fire/Ice/Bolt/Wind/Holy	    37  1,2,3,5,6	   16  Jump	   10  Dance
+	38  Poison/Wind/Holy		    38  4,5,6		   17  X-Magic	   11  Regen
+	39  Fire/Poison/Wind/Holy	    39  1,4,5,6		   18  GP Rain	   12  Slow
+	3A  Ice/Poison/Wind/Holy	    3A  2,4,5,6		   19  Summon	   13  Haste
+	3B  Fire/Ice/Poison/Wind/Holy	    3B  1,2,4,5,6	   1A  Health	   14  Stop
+	3C  Bolt/Poison/Wind/Holy	    3C  3,4,5,6		   1B  Shock	   15  Shell
+	3D  Fire/Bolt/Poison/Wind/Holy	    3D  1,3,4,5,6	   1D  Magitek	   16  Safe
+	3E  Ice/Bolt/Poison/Wind/Holy	    3E  2,3,4,5,6			   17  Rflect
+	3F  Fire/Ice/Bolt/Poison/Wind/Holy  3F  1,2,3,4,5,6			   18  Rage
+										   19  Freeze
+	HEX/ELEMENT(s)				  HEX/ELEMENT(s)		   1A  Life 3
+	------------------------------------------------------------------------   1B  Morph
+	40  Earth				  A0  Holy/Water		   1E  Dog Block
+	41  Fire/Earth				  A1  Fire/Holy/Water		   1F  Float
+	42  Ice/Earth				  A2  Ice/Holy/Water
+	43  Fire/Ice/Earth			  A3  Fire/Ice/Holy/Water
+	44  Bolt/Earth				  A4  Bolt/Holy/Water
+	45  Fire/Bolt/Earth			  A5  Fire/Bolt/Holy/Water
+	46  Ice/Bolt/Earth			  A6  Ice/Bolt/Holy/Water
+	47  Fire/Ice/Bolt/Earth			  A7  Fire/Ice/Bolt/Holy/Water
+	48  Poison/Earth			  A8  Poison/Holy/Water
+	49  Fire/Poison/Earth			  A9  Fire/Poison/Holy/Water
+	4A  Ice/Poison/Earth			  AA  Ice/Poison/Holy/Water
+	4B  Fire/Ice/Poison/Earth		  AB  Fire/Ice/Poison/Holy/Water
+	4C  Bolt/Poison/Earth			  AC  Bolt/Poison/Holy/Water
+	4D  Fire/Bolt/Poison/Earth		  AD  Fire/Bolt/Poison/Holy/Water
+	4E  Ice/Bolt/Poison/Earth		  AE  Ice/Bolt/Poison/Holy/Water
+	4F  Fire/Ice/Bolt/Poison/Earth		  AF  Fire/Ice/Bolt/Poison/Holy/Water
+	50  Wind/Earth				  B0  Wind/Holy/Water
+	51  Fire/Wind/Earth			  B1  Fire/Wind/Holy/Water
+	52  Ice/Wind/Earth			  B2  Ice/Wind/Holy/Water
+	53  Fire/Ice/Wind/Earth			  B3  Fire/Ice/Wind/Holy/Water
+	54  Bolt/Wind/Earth			  B4  Bolt/Wind/Holy/Water
+	55  Fire/Bolt/Wind/Earth		  B5  Fire/Bolt/Wind/Holy/Water
+	56  Ice/Bolt/Wind/Earth			  B6  Ice/Bolt/Wind/Holy/Water
+	57  Fire/Ice/Bolt/Wind/Earth		  B7  Fire/Ice/Bolt/Wind/Holy/Water
+	58  Poison/Wind/Earth			  B8  Poison/Wind/Holy/Water
+	59  Fire/Poison/Wind/Earth		  B9  Fire/Poison/Wind/Holy/Water
+	5A  Ice/Poison/Wind/Earth		  BA  Ice/Poison/Wind/Holy/Water
+	5B  Fire/Ice/Poison/Wind/Earth		  BB  Fire/Ice/Poison/Wind/Holy/Water
+	5C  Bolt/Poison/Wind/Earth		  BC  Bolt/Poison/Wind/Holy/Water
+	5D  Fire/Bolt/Poison/Wind/Earth		  BD  Fire/Bolt/Poison/Wind/Holy/Water
+	5E  Ice/Bolt/Poison/Wind/Earth		  BE  Ice/Bolt/Poison/Wind/Holy/Water
+	5F  Fire/Ice/Bolt/Poison/Wind/Earth	  BF  Fire/Ice/Bolt/Poison/Wind/Holy/Water
+	60  Holy/Earth				  C0  Earth/Water
+	61  Fire/Holy/Earth			  C1  Fire/Earth/Water
+	62  Ice/Holy/Earth			  C2  Ice/Earth/Water
+	63  Fire/Ice/Holy/Earth			  C3  Fire/Ice/Earth/Water
+	64  Bolt/Holy/Earth			  C4  Bolt/Earth/Water
+	65  Fire/Bolt/Holy/Earth		  C5  Fire/Bolt/Earth/Water
+	66  Ice/Bolt/Holy/Earth			  C6  Ice/Bolt/Earth/Water
+	67  Fire/Ice/Bolt/Holy/Earth		  C7  Fire/Ice/Bolt/Earth/Water
+	68  Poison/Holy/Earth			  C8  Poison/Earth/Water
+	69  Fire/Poison/Holy/Earth		  C9  Fire/Poison/Earth/Water
+	6A  Ice/Poison/Holy/Earth		  CA  Ice/Poison/Earth/Water
+	6B  Fire/Ice/Poison/Holy/Earth		  CB  Fire/Ice/Poison/Earth/Water
+	6C  Bolt/Poison/Holy/Earth		  CC  Bolt/Poison/Earth/Water
+	6D  Fire/Bolt/Poison/Holy/Earth		  CD  Fire/Bolt/Poison/Earth/Water
+	6E  Ice/Bolt/Poison/Holy/Earth		  CE  Ice/Bolt/Poison/Earth/Water
+	6F  Fire/Ice/Bolt/Poison/Holy/Earth	  CF  Fire/Ice/Bolt/Poison/Earth/Water
+	70  Wind/Holy/Earth			  D0  Wind/Earth/Water
+	71  Fire/Wind/Holy/Earth		  D1  Fire/Wind/Earth/Water
+	72  Ice/Wind/Holy/Earth			  D2  Ice/Wind/Earth/Water
+	73  Fire/Ice/Wind/Holy/Earth		  D3  Fire/Ice/Wind/Earth/Water
+	74  Bolt/Wind/Holy/Earth		  D4  Bolt/Wind/Earth/Water
+	75  Fire/Bolt/Wind/Holy/Earth		  D5  Fire/Bolt/Wind/Earth/Water
+	76  Ice/Bolt/Wind/Holy/Earth		  D6  Ice/Bolt/Wind/Earth/Water
+	77  Fire/Ice/Bolt/Wind/Holy/Earth	  D7  Fire/Ice/Bolt/Wind/Earth/Water
+	78  Poison/Wind/Holy/Earth		  D8  Poison/Wind/Earth/Water
+	79  Fire/Poison/Wind/Holy/Earth		  D9  Fire/Poison/Wind/Earth/Water
+	7A  Ice/Poison/Wind/Holy/Earth		  DA  Ice/Poison/Wind/Earth/Water
+	7B  Fire/Ice/Poison/Wind/Holy/Earth	  DB  Fire/Ice/Poison/Wind/Earth/Water
+	7C  Bolt/Poison/Wind/Holy/Earth		  DC  Bolt/Poison/Wind/Earth/Water
+	7D  Fire/Bolt/Poison/Wind/Holy/Earth	  DD  Fire/Bolt/Poison/Wind/Earth/Water
+	7E  Ice/Bolt/Poison/Wind/Holy/Earth	  DE  Ice/Bolt/Poison/Wind/Earth/Water
+	7F  Fire/Ice/Bolt/Poison/Wind/Holy/Earth  DF  Fire/Ice/Bolt/Poison/Wind/Earth/Water
+	80  Water				  E0  Holy/Earth/Water
+	81  Fire/Water				  E1  Fire/Holy/Earth/Water
+	82  Ice/Water				  E2  Ice/Holy/Earth/Water
+	83  Fire/Ice/Water			  E3  Fire/Ice/Holy/Earth/Water
+	84  Bolt/Water				  E4  Bolt/Holy/Earth/Water
+	85  Fire/Bolt/Water			  E5  Fire/Bolt/Holy/Earth/Water
+	86  Ice/Bolt/Water			  E6  Ice/Bolt/Holy/Earth/Water
+	87  Fire/Ice/Bolt/Water			  E7  Fire/Ice/Bolt/Holy/Earth/Water
+	88  Poison/Water			  E8  Poison/Holy/Earth/Water
+	89  Fire/Poison/Water			  E9  Fire/Poison/Holy/Earth/Water
+	8A  Ice/Poison/Water			  EA  Ice/Poison/Holy/Earth/Water
+	8B  Fire/Ice/Poison/Water		  EB  Fire/Ice/Poison/Holy/Earth/Water
+	8C  Bolt/Poison/Water			  EC  Bolt/Poison/Holy/Earth/Water
+	8D  Fire/Bolt/Poison/Water		  ED  Fire/Bolt/Poison/Holy/Earth/Water
+	8E  Ice/Bolt/Poison/Water		  EE  Ice/Bolt/Poison/Holy/Earth/Water
+	8F  Fire/Ice/Bolt/Poison/Water		  EF  Fire/Ice/Bolt/Poison/Holy/Earth/Water
+	90  Wind/Water				  F0  Wind/Holy/Earth/Water
+	91  Fire/Wind/Water			  F1  Fire/Wind/Holy/Earth/Water
+	92  Ice/Wind/Water			  F2  Ice/Wind/Holy/Earth/Water
+	93  Fire/Ice/Wind/Water			  F3  Fire/Ice/Wind/Holy/Earth/Water
+	94  Bolt/Wind/Water			  F4  Bolt/Wind/Holy/Earth/Water
+	95  Fire/Bolt/Wind/Water		  F5  Fire/Bolt/Wind/Holy/Earth/Water
+	96  Ice/Bolt/Wind/Water			  F6  Ice/Bolt/Wind/Holy/Earth/Water
+	97  Fire/Ice/Bolt/Wind/Water		  F7  Fire/Ice/Bolt/Wind/Holy/Earth/Water
+	98  Poison/Wind/Water			  F8  Poison/Wind/Holy/Earth/Water
+	99  Fire/Poison/Wind/Water		  F9  Fire/Poison/Wind/Holy/Earth/Water
+	9A  Ice/Poison/Wind/Water		  FA  Ice/Poison/Wind/Holy/Earth/Water
+	9B  Fire/Ice/Poison/Wind/Water		  FB  Fire/Ice/Poison/Wind/Holy/Earth/Water
+	9C  Bolt/Poison/Wind/Water		  FC  Bolt/Poison/Wind/Holy/Earth/Water
+	9D  Fire/Bolt/Poison/Wind/Water		  FD  Fire/Bolt/Poison/Wind/Holy/Earth/Water
+	9E  Ice/Bolt/Poison/Wind/Water		  FE  Ice/Bolt/Poison/Wind/Holy/Earth/Water
+	9F  Fire/Ice/Bolt/Poison/Wind/Water	  FF  Fire/Ice/Bolt/Poison/Wind/Holy/Earth/Water
+
+---------------------------------------------------------------------------------------------------------
+
+Whenever an enemy's turn comes up, it starts reading from the top of the script down to the first "FF"
+break and will execute the first command that it finds - and each one thereafter without ending its turn
+until stopped by a FD, FE, or FF (if no command is found, it does nothing). This process will respect FD
+breaks if the action it lands on was used on the previous turn, but the FD function will be broken/reset
+if a conditional (FC) above it in the script is met or if the FD break lies inside of a conditional that
+is no longer met). When structuring scripts, beware that they WILL NEVER GO PAST THE FIRST CONDITIONAL
+THAT IS MET because they will loop back to the beginning after hitting a FE (or FF) break instead of FD.
+It is thus important that any "default" behavior (i.e. no conditions are met) goes at the bottom.
+
+Regarding FC statements, you may use as many as you'd like to open a conditional (so that more than one
+condition must be met). Only one FE is needed to end a conditional regardless of the number of opening
+statements; even if the first condition is met the game will skip ahead to the FE and keep reading on if
+any subsequent conditions are not met SO LONG AS THE FC STATEMENTS ARE NOT INTERRUPTED BY AN ACTION. It
+is thus recommended to avoid using "nested" conditionals unless you absolutely must and you know exactly
+what you're doing. Also note that FC statements with target bytes will also affect the targeting of any
+attacks that it contains. An enemy that checks itself for low HP, for example, will hit itself unless an
+F1 statement is used inside of it (I recommend F1 47, since this situation is exactly why it exists).
+
+Whenever an opponent is affected by anything that hits it, damaging or otherwise, it starts reading from
+the first FF break and will execute the first action that it finds in an identical manner to the above
+except that you shouldn't use FD breaks. Some things will bypass this check: counter-attacks from either
+your characters or other enemies (to prevent infinite loops), sap/poison ticks, desperation attacks, and
+anything using the 0x23 special effect byte (Cleave, X-Zone, etc.). If you're utilizing scripting tricks
+to bypass the 16-bit HP cap by giving enemies "lives", I would suggest hacking an unused flag to prevent
+death due to HP loss and then forcing death (FB 0B 07 or F5 XX 05 XX) inside a "if HP <= 0" conditional
+(FC 06 36 00). Note that "HP=0" will return true even for death by means of the "dies at 0 MP" flag.
+
+This is a good time to explain the difference between removing, killing, and hiding enemies through F5
+statements. Removing them is essentially the same thing as disabling them, such as in formations which
+contain enemies that don't appear by default. Killing them also applies the "death" status, which will
+qualify them as dead specifically for the purposes of GP/exp. gains and item drops; this is especially
+important with regards to the above paragraph since the standard "dies like a boss" opcode used in the
+original game is F5 0C 01 FF (i.e. "remove" instead of "kill"). Make it a point to change those unless
+you have some specific reason (I can't imagine why) not to.
+
+This leaves us with "hide", which is the tough one. Hiding enemies is similar to removing them, but with
+the important distinction that their scripts will continue running. Examples of this are Inferno's arms,
+which are scripted to only attack if "alive" (hidden counts as being dead in this case) and come back to
+life after a certain amount of time, and Ifrit/Shiva (among several others) which hides one of the two,
+brings the other out, and THEN removes the first. Removing the first before bringing the other out would
+end the battle since there would be nothing left alive, and the hidden enemy is then removed so that its
+script doesn't keep running while it's gone. To do this using the standard death animation, use the "FB
+0D" statement before bringing in the new enemy and instead of the hide and kill commands. Note that the
+"FB 0D" command does not actually kill the enemy; it needs to be inside a conditional that assumes the
+enemy is already dead (i.e. "0 monsters remain" or "HP is 0") or force the status with FB 0B 07.
+
+Do note that while hidden enemies can continue running their scripts, the fight will still end if there
+are no "live" enemies when the turn ends. Further, there is a well-known bug with the Ifrit/Shiva fight
+in vanilla wherein the player can run during the period where neither of them are technically "alive";
+this is likely due to the slow speed of the animation used since it doesn't work on Ultros @ the Opera.
+There is some confusion regarding the difference between F5 XX 03 and F5 XX 04 in this matter, but both
+exhibit the same behavior and don't appear to do anything different (with regards to the preservation of
+HP, this is dictated exclusively by whether you use F5 XX 00 or F5 XX 02 to re-activate the enemy).
+
+For reasons that are hopefully obvious by now, enemy reactive scripts should be structured to check for
+death (where applicable) at the beginning with any counter-attacks residing at the end. If you wish to
+exclude certain conditions from counter-attacks, such as not counter-attacking lethal damage, then place
+an empty conditional (an FC statement followed immediately by FE) before the counter-attack conditional.
+Note that I say counter-attack "conditional" because, unlike the first half of enemy scripts, it's not a
+good idea to put anything in the second half that isn't wrapped in an FC statement.
+
+As for writing a complex/interesting script, the basic building block for this is variables. Variable
+manipulation comes in two flavors, depending on your needs: F8 performs addition or subtraction for more
+general use (such as a boss who uses a powerful counter-attack after every X number of times you hit it)
+while F9 manipulates specific bits. Variables available for use are 0, 1, 2, 3 (global), and 36 (local).
+A "local" variable means that it's specific to the enemy slot calling it and each slot has its own while
+the global variables are called and manipulated by all enemy slots. Since each variable has 8 bits that
+can be set, one is likely all you should need for that purpose, leaving you four others to use with F8.
+
+(Protip: setting or unsetting a single bit on a variable is the same as sitting that variable to 1 or 0
+and uses one more byte of AI space to do so - ONLY use bit manipulation for "railroad switch" toggling
+where set/unset can't be specified or for more complex scripts that require multiple flags.)
+
+A VERY important thing to remember about checking variables is that event if you manipulate them before
+checking them, they will return their value as of the beginning of the turn. To give a very specific
+example of what I mean, let's look at the code that I use to break the 16-bit HP cap:
+
+	FC 06 36 00    ; If target self has less or equal than 0 HP
+	F5 00 00 01    ; Monsters #1 , if hidden/dead, brought in with their HP restored, suddenly
+	F8 24 81       ; 1 added to VAR036
+	FC 0D 24 01    ; If variable VAR036 is greater than or equal to 1
+	FB 0B 07       ; Monster gains hidden status: Death
+	F5 0C 01 FF    ; Monsters #1, #2, #3, #4, #5, #6 are killed, dies like a boss
+	FE             ; End If and reset targeting
+
+Off-hand, this code appears to revive the enemy and then immediately kill it. However, VAR036 returns 0
+after adding 1 to it because we haven't actually added 1 to it yet. It's thus important to remember to
+account for this when scripting "lives", or else your boss will end up with much more HP than intended.
+Similarly, a status added via FB 0B XX will return as false unless it was already present when the turn
+began, but a status that was toggled during the turn itself will return correctly (i.e. a Ninja checking
+itself for the clear status after having it removed by a magical attack will return false).
+
+The other general tool for script building is timers. As with variables, there is both a global timer as
+well as local timers specific to each enemy slot. Global timers are useful if, say, you have several of
+the same enemy in a formation and you only want one of them to use a particularly powerful attack at a
+time so that your player doesn't suffer death by RNG, whereas local timers are generally used for timed
+attacks on individual enemies. You can also use them together in a single script for different purposes,
+as can be seen in Brave New World's Kaiser script (which is a actually a pretty good example of a lot of
+the concepts that have been discussed here, to be honest).
+
+Beyond that, just be as creative as you can. That's all I've got to say, so good luck and good modding!
+
+---------------------------------------------------------------------------------------------------------
+
+	I'm afraid that's all we know, gentlemen.

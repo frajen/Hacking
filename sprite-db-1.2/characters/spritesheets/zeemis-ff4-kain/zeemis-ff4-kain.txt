@@ -1,0 +1,14 @@
+FFIV Kain
+---------
+Authors: Zeemis, FEOK
+Release date: 05/28/2011
+Forum thread: https://www.ff6hacking.com/forums/thread-999.html
+
+Notes
+-----
+-Share the same palette as the Golbez sprite by Zeemis.
+
+
+Use in personal or public projects allowed with proper credits 
+but do not claim as your own.
+

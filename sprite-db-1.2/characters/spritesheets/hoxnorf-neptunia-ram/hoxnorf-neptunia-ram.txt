@@ -1,0 +1,32 @@
+Author: 			HoxNorf
+Character: 			Ram
+Attire (Costume):		Normal
+Version (Updates):		1
+Origin: 			Hyperdimension Neptunia
+
+Purpose:			Playable Character
+
+Riding Sprites?:		Yes
+Battle KO Sprite?:		Yes
+Terra Sad Sprite?:		No
+
+Palette Notes:
+Index 0 (Transparency):		R 0	G 0	B 0
+Index 1 (Outline):		R 3	G 3	B 3
+Index 2 (Eye Color):		R 31	G 31	B 27
+Index 3 (Pupil Color):		R 5	G 6	B 9
+Index 4 (Lighter Hair):		R 26	G 20	B 12
+Index 5 (Darker Hair):		R 18	G 12	B 5
+Index 6 (Lighter Skin):		R 31	G 27	B 22
+Index 7 (Darker Skin):		R 25	G 18	B 10
+Index 8 (Lighter Clothes 1):	R 30	G 19	B 25
+Index 9 (Darker Clothes 1):	R 26	G 12	B 21
+Index 10 (Lighter Clothes 2):	R 18	G 22	B 30
+Index 11 (Darker Clothes 2):	R 4	G 16	B 31
+Index 12 (Unused Battle 1):	R 7	G 9	B 14
+Index 13 (Unused Battle 2):	R 14	G 14	B 31
+Index 14 (Unused Battle 3):	R 23	G 21	B 12
+Index 15 (Unused Battle 4):	R 31	G 31	B 24
+
+Palette Expansion Patch Needed?:No
+Vanilla Palette?(if so, which):	No

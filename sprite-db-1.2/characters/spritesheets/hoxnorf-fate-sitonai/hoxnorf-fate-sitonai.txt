@@ -1,0 +1,32 @@
+Author: 			HoxNorf
+Character: 			Sitonai
+Attire (Costume):		Normal
+Version (Updates):		1
+Origin: 			Fate/Grand Order
+
+Purpose:			Playable Character
+
+Riding Sprites?:		Yes
+Battle KO Sprite?:		Yes
+Terra Sad Sprite?:		Yes
+
+Palette Notes:
+Index 0 (Transparency):		R 0	G 0	B 14
+Index 1 (Outline):		R 3	G 3	B 3
+Index 2 (Eye Color):		R 31	G 31	B 27
+Index 3 (Pupil Color):		R 15	G 0	B 0
+Index 4 (Lighter Hair):		R 27	G 25	B 23
+Index 5 (Darker Hair):		R 22	G 15	B 9
+Index 6 (Lighter Skin):		R 31	G 28	B 22
+Index 7 (Darker Skin):		R 29	G 17	B 10
+Index 8 (Lighter Clothes 1):	R 27	G 12	B 27
+Index 9 (Darker Clothes 1):	R 21	G 2	B 21
+Index 10 (Lighter Clothes 2):	R 24	G 24	B 24
+Index 11 (Darker Clothes 2):	R 9	G 9	B 9
+Index 12 (Unused Battle 1):	R 20	G 5	B 4
+Index 13 (Unused Battle 2):	R 30	G 16	B 10
+Index 14 (Unused Battle 3):	R 14	G 7	B 0
+Index 15 (Unused Battle 4):	R 18	G 15	B 10
+
+Palette Expansion Patch Needed?:No
+Vanilla Palette?(if so, which):	No

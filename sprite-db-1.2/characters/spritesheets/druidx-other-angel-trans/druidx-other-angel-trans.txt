@@ -1,0 +1,14 @@
+Angel Transformation
+--------------------
+Authors: DruidX
+Release date: 10/16/2012
+Forum thread: https://www.ff6hacking.com/forums/thread-1851.html
+
+Notes
+-----
+-Include sprites 147 and 159.
+
+
+Use in personal or public projects allowed with proper credits 
+but do not claim as your own.
+

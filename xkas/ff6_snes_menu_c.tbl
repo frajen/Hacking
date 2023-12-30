@@ -1,0 +1,24 @@
+# ROM (header)  CPU address
+# 14C41-14C4B   C14A41-C14A4B  "MP  Needed" in Magic battle menu
+
+
+08=0
+09=1
+0A=2
+0B=3
+0C=4
+0D=5
+0E=6
+0F=7
+10=8
+11=9
+12=M
+13=H
+14=P
+15=/
+16=N
+17=e
+18=d
+19=M
+1A=P
+FF= 

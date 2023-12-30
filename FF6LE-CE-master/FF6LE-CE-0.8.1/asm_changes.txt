@@ -1,0 +1,311 @@
+;FF6LE Rogue CE 0.7.4 ASM Expansion changes
+;For reference only
+
+;Assuming Expanded Data Banks is $50
+;Assuming Expanded Tilemaps Data Starting Bank is $51
+
+;MAP DATA
+;--------
+org $C01CBF
+LDA $DA0000,X
+
+;EVENTS
+;------
+org $C0BCAE    
+LDA $C40002,X
+
+org $C0BCB4    
+LDA $C40000,X
+
+org $C0BCBD    
+LDA $C40000,X
+
+org $C0BCD3    
+LDA $C40002,X
+
+org $C0BCED    
+LDA $C40004,X
+
+;NPCS
+;----
+org $C052BC    
+LDA $500002,X  
+
+org $C052C2    
+LDA $500000,X  
+
+org $C052D4    
+LDA $500000,X
+
+org $C052DB    
+LDA $500001,X
+
+org $C052E2    
+LDA $500002,X
+
+org $C052EB    
+LDA $500002,X
+
+org $C052F8    
+LDA $500002,X
+
+org $C05305    
+LDA $500002,X
+
+org $C05321    
+LDA $500004,X
+
+org $C0532C    
+LDA $500004,X
+
+org $C0533A    
+LDA $500005,X
+
+org $C0535A    
+LDA $500005,X
+
+org $C05369    
+LDA $500006,X
+
+org $C05373    
+LDA $500007,X
+
+org $C0537F    
+LDA $500007,X
+
+org $C0538A    
+LDA $500007,X
+
+org $C05397    
+LDA $500008,X
+
+org $C053AD    
+LDA $500008,X
+
+org $C053BC    
+LDA $500008,X
+
+org $C053D0    
+LDA $500008,X
+
+org $C053E3    
+LDA $500008,X
+
+;TREASURES
+;---------
+org $C04C08    
+LDA $50E404,X
+
+org $C04C0E    
+LDA $50E402,X
+
+org $C04BDA    
+LDA $50E002,X
+
+org $C04BE0    
+LDA $50E000,X
+
+org $C04BEC    
+LDA $50E400,X
+
+org $C04BF4    
+LDA $50E401,X
+
+org $C015DD    
+LDA $50E002,X
+
+org $C015E3    
+LDA $50E000,X
+
+org $C015F1    
+LDA $50E400,X
+
+org $C015F7    
+LDA $50E401,X
+
+org $C015FE    
+LDA $50E402,X
+
+org $C01609    
+LDA $50E402,X
+
+;LONG ENTRANCES
+;--------------
+org $C018EA    
+LDA $50D002,X
+
+org $C018F0    
+LDA $50D000,X
+
+org $C01903    
+LDA $50D002,X
+
+org $C0190B    
+LDA $50D001,X
+
+org $C01916    
+SBC $50D000,X
+
+org $C0191E    
+LDA $50D000,X
+
+org $C0192F    
+LDA $50D000,X
+
+org $C0193A    
+SBC $50D001,X
+
+org $C01942    
+LDA $50D001,X
+
+org $C01963    
+LDA $50D003,X
+
+org $C0196F    
+LDA $50D003,X
+
+org $C0197B    
+LDA $50D003,X
+
+org $C0198A    
+LDA $50D005,X
+
+org $C0199F    
+LDA $50D005,X
+
+org $C019A9    
+LDA $50D004,X
+
+org $C019B6    
+LDA $50D004,X
+
+org $C019C4    
+LDA $50D004,X
+
+org $C019E5    
+LDA $50D003,X
+
+org $C01A14    
+LDA $50D004,X
+
+;SHORT ENTRANCES
+;---------------
+org $C01A7D    
+LDA $509002,X  
+
+org $C01A83    
+LDA $509000,X
+
+org $C01A8F    
+LDA $509000,X
+
+org $C01AAA    
+LDA $509002,X
+
+org $C01AB6    
+LDA $509002,X
+
+org $C01AC2    
+LDA $509002,X
+
+org $C01AD1    
+LDA $509004,X
+
+org $C01AE6    
+LDA $509004,X
+
+org $C01AF0    
+LDA $509003,X
+
+org $C01AFD    
+LDA $509003,X
+
+org $C01B0B    
+LDA $509003,X
+
+org $C01B2C    
+LDA $509002,X
+
+org $C01B5E    
+LDA $509003,X
+
+org $EE20E9
+LDA $509000,X
+STA $58        
+LDA $509002,X  
+
+org $EE20FE
+LDA $509000,X  
+
+org $EE2106
+LDA $509001,X
+
+org $EE2110
+LDA $509002,X
+
+org $EE213C
+LDA $509004,X
+
+;TILEMAPS
+;--------
+org $C02892
+LDA $D9CD90,X  
+CLC
+ADC #$0000
+
+org $C0289F
+LDA $D9CD92,X
+ADC #$51
+
+org $C028E6
+LDA $D9CD90,X  
+CLC
+ADC #$0000
+
+org $C028F3
+LDA $D9CD92,X
+ADC #$51
+
+org $C0293C
+LDA $D9CD90,X
+CLC
+ADC #$0000
+
+org $C02949
+LDA $D9CD92,X
+ADC #$51
+
+;MAP NAMES
+;---------
+org $C07FFD
+LDA #$DA
+
+org $C08008
+LDA $DA4200,X
+ADC #$4400
+
+;CHEST MEMORY
+;------------
+org $C0BB1A
+STZ $1E20,X 
+
+org $C0BB1E
+CPX #$0060
+
+org $C04C1A
+AND #$03FF
+
+org $C04C24
+LDA $1E20,Y   
+
+org $C04C2D
+LDA $1E20,Y    
+
+org $C04C34
+STA $1E20,Y
+
+org $C01602
+AND #$03FF
+
+org $C01614
+LDA $1E20,Y

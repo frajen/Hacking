@@ -1,0 +1,15 @@
+Mehime
+------
+Authors: Koreki
+Release date: ???
+Forum thread: none
+
+Notes
+-----
+-Missing dead and riding poses.
+-Bad FF3usME import, broken sprite.
+
+
+Use in personal or public projects allowed with proper credits 
+but do not claim as your own.
+

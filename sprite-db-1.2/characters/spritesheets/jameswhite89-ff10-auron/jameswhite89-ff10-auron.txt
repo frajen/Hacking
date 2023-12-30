@@ -1,0 +1,15 @@
+FFX Auron
+---------
+Authors: Jameswhite89
+Release date: ???
+Forum thread: none
+
+Notes
+-----
+-Missing dead and riding poses.
+-Broken FF3usME import.
+
+
+Use in personal or public projects allowed with proper credits 
+but do not claim as your own.
+

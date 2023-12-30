@@ -1,0 +1,8 @@
+* use bsnes-plus-05-x64 to look at game ROM in hex
+
+Tools->Debugger->Tools->Memory Editor
+
+* use snes9x-rr to run LUA scripts, or use RAM Watch Packs
+
+
+* https://www.ff6hacking.com/wiki/doku.php?id=ff3:ff3us:doc:game

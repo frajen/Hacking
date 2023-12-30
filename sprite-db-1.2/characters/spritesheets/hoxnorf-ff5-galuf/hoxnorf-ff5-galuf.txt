@@ -1,0 +1,32 @@
+Author: 			HoxNorf
+Character: 			Galuf Halm Baldesion
+Attire (Costume):		Freelancer
+Version (Updates):		1
+Origin: 			Final Fantasy 5
+
+Purpose:			Playable Character
+
+Riding Sprites?:		Yes
+Battle KO Sprite?:		Yes
+Terra Sad Sprite?:		No
+
+Palette Notes:
+Index 0 (Transparency):		R 9	G 9	B 11
+Index 1 (Outline):		R 3	G 3	B 3
+Index 2 (Eye Color):		R 31	G 31	B 27
+Index 3 (Pupil Color):		R 8	G 4	B 3
+Index 4 (Lighter Hair):		R 20	G 19	B 18
+Index 5 (Darker Hair):		R 11	G 11	B 8
+Index 6 (Lighter Skin):		R 31	G 27	B 17
+Index 7 (Darker Skin):		R 26	G 17	B 12
+Index 8 (Lighter Clothes 1):	R 0	G 26	B 20
+Index 9 (Darker Clothes 1):	R 0	G 17	B 15
+Index 10 (Lighter Clothes 2):	R 31	G 26	B 0
+Index 11 (Darker Clothes 2):	R 29	G 17	B 0
+Index 12 (Unused Battle 1):	R 17	G 10	B 25
+Index 13 (Unused Battle 2):	R 10	G 5	B 22
+Index 14 (Unused Battle 3):	R 25	G 21	B 0
+Index 15 (Unused Battle 4):	R 31	G 28	B 12
+
+Palette Expansion Patch Needed?:No
+Vanilla Palette?(if so, which):	No

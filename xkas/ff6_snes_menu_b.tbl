@@ -1,0 +1,135 @@
+# ROM (header)   CPU address
+# 0EFEB0-0F00DE  CEFCB0-CEFEDE  Rare item descriptions
+# 0F3B40-0F3DAC  CF3940-CF3BAC  Esper descriptions
+# 0FFE00-0FFEDF  CFFC00-CFFCDF  Blitz descriptions
+# 0FFF00-0FFF9F  CFFD00-CFFD9F  SwdTech descriptions
+# 18CBA0-18D051  D8C9A0-D8CE51  Magic descriptions
+# 2D6600-2D7986  ED6400-ED7786  Item descriptions
+# 2D79A0-2D7C60  ED77A0-ED7A60  Lore descriptions
+# 2E0000-2E01A6  EDFE00-EDFFA6  Esper bonus descriptions
+
+
+00=<end>
+01=<line>
+02=" 
+04=<em dash followed by a blank space>
+05=! 
+06=<dotted line followed by a blank space>
+07=? 
+08=/ 
+09=: 
+0A=” 
+0B=’ 
+0C=- 
+0D=. 
+0E=, 
+0F=… 
+10=; 
+11=# 
+12=+ 
+13=( 
+14=) 
+15=% 
+16=~ 
+17=* 
+18=@ 
+19=<musical note followed by a blank space>
+1A== 
+1F=× 
+80=A
+81=B
+82=C
+83=D
+84=E
+85=F
+86=G
+87=H
+88=I
+89=J
+8A=K
+8B=L
+8C=M
+8D=N
+8E=O
+8F=P
+90=Q
+91=R
+92=S
+93=T
+94=U
+95=V
+96=W
+97=X
+98=Y
+99=Z
+9A=a
+9B=b
+9C=c
+9D=d
+9E=e
+9F=f
+A0=g
+A1=h
+A2=i
+A3=j
+A4=k
+A5=l
+A6=m
+A7=n
+A8=o
+A9=p
+AA=q
+AB=r
+AC=s
+AD=t
+AE=u
+AF=v
+B0=w
+B1=x
+B2=y
+B3=z
+B4=0
+B5=1
+B6=2
+B7=3
+B8=4
+B9=5
+BA=6
+BB=7
+BC=8
+BD=9
+BE=!
+BF=?
+C0=/
+C1=:
+C2=”
+C3=’
+C4=-
+C5=.
+C6=,
+C7=…
+C8=;
+C9=#
+CA=+
+CB=(
+CC=)
+CD=%
+CE=~
+CF=*
+D0=@
+D1=<musical note>
+D2==
+D3=“
+D4=<glyph $D4>
+D5=<glyph $D5>
+D6=<Pearl>
+D7=×
+D8=<Lightning>
+D9=<Wind>
+DA=<Earth>
+DB=<Ice>
+DC=<Fire>
+DD=<Water>
+DE=<Poison>
+FE= 
+FF=<blank>

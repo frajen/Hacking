@@ -1,0 +1,13 @@
+Chocobo to Motorcycle
+---------------------
+Author: Jameswhite89
+Release date: 06/13/2013
+Forum thread: https://www.ff6hacking.com/forums/thread-2208.html
+
+Notes
+-----
+-no .bin or .pal file
+
+
+Use in personal or public projects allowed with proper credits
+but do not claim as your own

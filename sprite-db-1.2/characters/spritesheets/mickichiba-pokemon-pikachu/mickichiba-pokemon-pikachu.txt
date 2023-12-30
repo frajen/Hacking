@@ -1,0 +1,16 @@
+Pokemon Pikachu
+-----------------
+Authors: Micki Chiba
+Release date: 12/09/2009
+Forum thread: https://www.ff6hacking.com/forums/thread-326.html
+
+Notes
+-----
+-Death and riding poses missing
+-Broken FF3usME import
+
+
+Use in personal or public projects allowed with proper credits 
+but do not claim as your own.
+
+

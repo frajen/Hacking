@@ -1,0 +1,14 @@
+Bomberman
+---------
+Authors: Badass
+Release date: 01/08/2016
+Forum thread: https://www.ff6hacking.com/forums/thread-3088.html
+
+Notes
+-----
+- Bomberman 1 fit on 4 colors, Bombermand 2 use 12 colors
+
+
+Use in personal or public projects allowed with proper credits 
+but do not claim as your own.
+

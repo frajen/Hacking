@@ -1,0 +1,388 @@
+
+---------------------------------------------------------------------------------------------------------
+
+
+				SPELL FLAGS
+
+
+---------------------------------------------------------------------------------------------------------
+
+	Physical Damage			Check for physical damage (magical otherwise). This will cause
+					the attack to respect the blind status if you have the evasion
+					bugfix patch applied.
+
+	Spell Miss If Death Prot.	Use this flag instead of "Miss if Prot. From Ailments" for any
+					attack which sets the "death" status since the latter cannot
+					prevent instant-death attacks from missing.
+
+					NOTE: vanilla uses this flag for fractional damage attacks to
+					prevent them from hitting bosses; Brave New World repurposes the
+					"can't be suplexed" flag for this purpose instead.
+
+	Target Only Dead Allies		Self-explanatory; used by Life spells
+
+	Inv. Damage / Cure For Undead	Check to toggle "heal" flag (see below) on undead targets
+
+	Randomize Target		Only used with Warp (?)
+
+	Ignore Target's Defense		Attack will ignore damage reduction from (m)defense, safe/shell,
+					row, defend, and morph. Aside from the obvious, this should be
+					set for all curative as well as fixed-damage spells/abilities.
+
+					Fractional damage attacks do NOT need this flag
+
+					Note for ASM hackers: this flag does not play nicely with damage
+					multipliers. As an example, Umaro throwing Mog was intended to
+					auto-crit, but doesn't because throwing allies ignores defense.
+
+	No Split Damage			Check to do full damage/healing on more than one target (will be
+					halved otherwise). This setting will apply regardless of whether
+					or not the spell forcibly targets multiple allies/enemies.
+
+	Abort On Allies, Cost MP	Used for summon attacks, Flash/Bio Blaster, desperation attacks,
+					and Interceptor. No clue whether or not it actually works.
+
+	Heal				Self-explanatory. Remember to also set "ignores defense" flag;
+					these two flags in conjunction will cause the attack to ignore
+					"friendly fire" damage reduction (50%).
+
+	Redirection			This is the "absorb" flag. Absorbs HP by default, or MP with the
+					"concerns MP" flag set (for HP+MP, use the "Empowerer" special
+					effect discussed earlier). Note that you can't damage more HP/MP
+					than you're currently missing.
+
+	Lift Status			Causes all of checked status(es) to be removed instead of set.
+					Used (obviously) by Remedy, and Life spells must use this with
+					the "death" status.
+
+	Toggle Status			Self-explanatory; used by the Imp spell
+
+	Stam. Involved in Def.		Flags the attack to consider the target's stamina (Stam/128) as
+					an extra evasion check in addition to the normal success check.
+					Do NOT use this flag with "can't be dodged"; for an attack that
+					otherwise ignores evasion, set the accuracy to 255.
+
+					Brave New World changes this flag to run a stamina check ONLY to
+					determine if the flagged status(es) are set, whereas the damage
+					portion will just use the regular hitrate. If the attack's power
+					is 0 or if it's a fractional and/or redirectional (absorb HP/MP)
+					attack, then it will miss entirely if the stamina check	passes;
+					set the accuracy to 255 in this case for it to only check the
+					target's stamina and ignore evasion.
+
+	Can't Be Dodged			Makes attack unblockable. This flag overrides the hitrate, which
+					can be set to 0. This should be used with all curative spells.
+
+					Do not use with the stamina flag (above) or for any attack that
+					should respect the blind status. Note: vanilla's behavior with
+					the blind status is to cut the hitrate in half; Brave New World
+					sets the hitrate to a flat 50%, which is necessary to allow for
+					it to affect attacks the otherwise can't miss (accuracy = 255).
+
+	Hits Mult, if Success %		Stupid scrubby Lv."X" Spell flag
+
+					Brave New World repurposes this flag into an "abort on enemies"
+					flag for things that are problematic if made to target the enemy
+					(Mantra/Chakra,	Float, Palidor, Golem...)
+
+	Factor=Power			Fractional damage/healing; power should be 1-16 (out of 16)
+
+					Note that, unlike items, this flag concerns the target's CURRENT
+					HP rather than their maximum unless the target's current HP = 0
+					(i.e. Life spells). If you wish to make a "full heal" ability,
+					it's best to hack an unused special effect to do 9,999 damage.
+
+	Miss If Prot. From Ailments	Makes the attack miss if target has immunity to all statuses and
+					elements(?) flagged on the attack. Note: This flag ONLY prevents
+					the attack from dealing damage; it will still attempt to set any
+					statuses (which is why is doesn't work for death). For attacks
+					that deal no damage, the only function of this flag is to allow
+					them to miss on immune targets (thus informing the player of the
+					fact) rather than being invisibly ineffective.
+
+	If hits, text		 	Self-explanatory
+
+---------------------------------------------------------------------------------------------------------
+
+
+				TARGETING FLAGS
+
+
+---------------------------------------------------------------------------------------------------------
+
+	Cursor Movable			Check for single or free-targeting spells
+
+	One Side Only			Check for all multi-target spells, otherwise check only to stop
+					single or free-targeting spells from targeting the other team
+
+					(NOTE: check only this flag for a self-targeting spell)
+
+					(ALSO NOTE: this flag is likely the cause of the bug where Gau
+					won't target allies in a side attack with spells that use it)
+
+	Auto-Select Both Parties	Check for spells that target all allies/foes (NOT for "group"
+					targeting, which won't hit both sides of a pincer/side attack)
+
+					(NOTE: check only this flag for spells that target everyone)
+
+	Auto-Select One Party		Check for all multi-target spells (all allies/foes and "group")
+
+	Auto-Confirm			Used only by Blitzes and Bushidos (and is probably unnecessary)
+
+	Manual Party Select		Check for everything except single-target spells
+
+	Cursor Starts On Enemy		Check for spells that should target enemies by default (use in
+					conjunction with "One Side Only" flag to disallow targeting the
+					opposing team)
+
+	Randomize Selection		Do not use this flag
+
+	----------------------------------------------------------------------------------------
+
+	Note that targeting flags do NOT affect weapons except when they are used as items since
+	the targeting is inherited from the "Fight" command; it is recommended if you are using
+	the "Heal On Strike" weapon effect (0xC) that you also use Synchysi's hack to allow such
+	weapons to use their targeting to override that of the "Fight" command.
+
+---------------------------------------------------------------------------------------------------------
+
+
+				SPECIAL EFFECTS
+
+
+---------------------------------------------------------------------------------------------------------
+
+	HEX - LABEL		DESCRIPTION
+--------------------------------------------------------------------------------------------------------
+
+	00 - Normal		-
+
+	01 - Randomly Steal	Randomly (50%) steals from target
+
+	02 - Atma Weapon	Apply Atma Weapon damage formula
+
+	03 - Randomly Kill	Randomly (25%) X-kill; 100% odds on undead (will revive them)
+
+	04 - Anti-Human		2x damage if target has “human” flag
+
+	05 - Drain HP		Drains HP from target (behaves like the Drain spell)
+
+	06 - Drain MP		Drains MP from target (behaves like the Osmose spell)
+
+	07 - MP for Crits	Consumes [12~19] MP (if sufficient) to deal critical hits
+
+	08 - Randomly Throw	Randomly (50%) “throws” for 3x damage (vs. floating foes; else 1.5x)
+
+	09 - Dice		Uses “dice” GFX and formula; hitrate = dice thrown (can't miss)
+
+	0A - Strong at Low HP	Ignores defense & adds (user's max HP - current HP) to damage total
+
+	0B - Random Wind Slash	Randomly (50%) casts Wind Slash instead of doing damage
+
+	0C - Heal On Strike	Sets “heal” and “ignores defense” flags (use w/ "same damage back row")
+
+	0D - Randomly Slice	Randomly (25%) cleaves target
+
+	0E - Ogre Nix		Randomly (?) breaks when used
+
+	0F - ???		-
+
+	-----------------------------------------------------------------------------------------
+
+	10 - Scan		Displays target's HP/MP and elemental weaknesses
+
+	11 - Golem		Blocks physical damage (durability = caster's current HP; defense = 192)
+
+	12 - Ragnarok		Turns target into an item (checks "Morph" table)
+
+	13 - Palidor		Target attacks with “Jump” (very buggy)
+
+	15 - Mantra		Force-misses caster & applies special damage formula
+
+	16 - Spiraler		Removes caster from battle & fully heals rest of party
+
+	17 - Tapir		Fully heal HP/MP if target is asleep; miss otherwise
+
+	18 - Warp		Removes party (buggy if single-target) from battle or dungeon
+
+	19 - Exploder		Damage = caster's current HP + kills caster
+
+	1A - Blow Fish		Damage = 1,000
+
+	1B - Pearl Wind		Damage = caster's current HP
+
+	1C - Reflect???		Only works if target has Rflect status
+
+	1D - L? Pearl		Uses last digit of GP total for lv. “X” spell flag
+
+	1E - Step Mine		Damage = # of steps / spell power
+
+	1F - Discord		Halves target's level
+
+	20 - Pep Up		Kills caster (sets MP to 0) and fully heals rest of party
+
+	21 - Rippler		Exchange all flagged statuses with target
+
+	22 - Stone		8x damage if target's level = caster's level
+
+	23 - Cleave/X-Zone	Attack is uncounterable (i.e. does not check target's reaction script)
+
+	24 - Crusader		- (does literally nothing)
+
+	25 - Quake/Magnitude	Attack misses targets with the “Float” status
+
+	26 - Wallchange		Randomly sets weakness to an element, absorb opposite, null all else
+
+	27 - Escape		Seems to be responsible for fully removing the target from battle (?)
+
+	28 - Mind Blast		Combination of 0x32 (Quadra Slam) and 0x3B (Evil Toot)
+
+	29 - N. Cross		Adds a separate 1/2 evasion check for each target hit
+
+	2A - Flare Star		Damage = ((Target's lv. * spell power) / # of targets)
+
+	2B - R. Polarity	Changes target's row (doesn't work on enemies)
+
+	2C - Launcher		Hits 8 times randomly
+
+	2D - Love Token		Target will take physical hits for caster until target (or caster) dies
+
+	2E - Seize		Used by Tentacles; effect is hard-coded to set bit 7 on VAR036
+
+	2F - Targeting		Does nothing (?)
+
+	30 - Suplex		Misses on any opponent with "can't suplex" flagged
+
+	31 - Forcefield		Randomly nullifies one of the eight elements
+
+	32 - Quadra Slam	Hits 4 times randomly
+
+	33 - Bababreath		Seems to be responsible for removing target(s) from the active party
+
+	34 - Charm		Sets "Charm" status (like Muddle, but incurable)
+
+	35 - Doom		If target is undead, will be fully healed after attack
+
+	36 - Empowerer		Affects both HP & MP with "concern MP" flag set
+
+	37 - Overcast		If target's HP = 0, set “zombie” status instead of death
+
+	38 - Sneeze		Seems to be identical to 0x28 (?)
+
+	39 - Engulf		Warp to Gogo's Cave after fight if entire party is affected
+
+	3A - Zinger		Possesses target; caster reappears when target dies
+
+	3B - Evil Toot		Randomly sets one of the flagged statuses
+
+	3C - Retort		Sets "Retort" status on target (VERY buggy; see notes below)
+
+	3D - Revenge		Damage = (user's max HP - current HP)
+
+	3E - Phantasm		Sets incurable "Sap" status (can coexist with Sap/Regen)
+
+	3F - Stunner		Hit%(/256) = odds of status being set
+
+	40 - Fallen One		Sets HP to 1
+
+	43 - Quick		Sets "Quick" effect on target
+
+	44 - Discard		Used by Tentacles; effect is hard-coded to clear bit 7 on VAR036
+
+	45 - Clear (?)		???
+
+	4A - Super Ball		???
+
+	-----------------------------------------------------------------------------------------
+
+	The above is a full list of special effects available for spells and weapons; all of them
+	are available (albeit unlabeled and likely buggy) for use with spells, while weapons can
+	only use up to 0F without hacking. Note that weapons will lose any special effect present
+	when attacking with a command other than "Fight" (i.e. "Jump", "Mug", or "Throw").
+
+	Further notes on bugs with (or my personal commentary on) individual effects...
+
+	...Anti-Human (0x04) does not work with the "ignores defense" flag if used on a spell.
+
+	...Randomly Throw (0x08) only calls the "throw" animation when the effect procs against a
+	floating enemy; it will do extra damage to grounded enemies, but will look the same as if
+	the effect hadn't occurred (this is arguably not a bug, but I think it's weird).
+
+	...Retort (0x3C) is hard-coded to spell index #86, so the effect will persist even if
+	you attempt to unset it. Would recommend hacking it out, since it's a very buggy effect.
+
+	...Suplex (0x30) does NOT halve damage as the FF3usME description says. The targeting of
+	Suplex itself designates it as a multi-target attack (leaving the "no split damage" flag
+	unchecked) while both the attack animation AND the special effect force single targeting.
+
+	...Quake/Magnitude (0x25) will cause attacks to remove the "clear" status from floating
+	targets, even though the attack itself will otherwise still miss.
+
+	...Engulf (0x39) requires ALL characters to be hit in order to go to Gogo's Cave after
+	the fight instead of back to the world map. This is an issue if any characters are dead
+	(note that Brave New World makes you fight Zone Eater) since they can't be targeted.
+
+	...Overcast (0x37) does not respect immunity to the "zombie" status.
+
+	...Mind Blast (0x28) does not behave exactly like Quadra Slam for targeting. Rather, it
+	runs a normal hit check first and THEN makes four hits at random in the pool of whatever
+	failed the evasion check. The result is, statistically speaking, a less even distribution
+	of effects than if each hit were to check evasion individually, but a guarantee that all
+	four hits will land unless every target passes their evasion check. Bearing in mind the
+	latter, this approach somewhat diminishes the value of evasion to mitigate problems.
+
+	...N.Cross (0x29) is an attempt by the developers to prevent your entire party from being
+	frozen, except bad luck means that it can still happen and good luck means that nobody
+	gets hit at all. This is a case where the "Mind Blast" approach would have worked better
+	(using 2 or 3 hits instead of 4) to guarantee at least someone got it, but not everyone.
+	It could still miss entirely if everyone passes their evasion check; otherwise, evasion
+	will raise the likelihood of fewer characters being frozen due to having a smaller pool.
+
+		(NOTE: all of the above-mentioned bugs/issues are fixed in Brave New World)
+
+---------------------------------------------------------------------------------------------------------
+
+
+				FORMATION FLAGS
+
+
+---------------------------------------------------------------------------------------------------------
+
+	No Normal Attacks	Disallows standard encounters for the formation. This will override the
+				Back Guard effect and is typically used alongside two of the other flags
+				to force a specific setup for a scripted encounter (i.e. the Cranes).
+
+	No Back Attacks		Self-explanitory/see above
+
+	No Side Attacks		Self-explanitory/see above
+
+	No Pincer Attacks	Self-explanitory/see above
+
+	No Winning Stand	Set this flag and uncheck "play music" to allow the map's BGM to persist
+				throughout the battle. This flag prevents the end-battle "victory dance"
+				and subsequent music transitions, so checking it without unsetting "play
+				music" will just result in silence after the fight ends.
+
+	Hide Start Messages	Disallows pre-emtive attacks (...or just hides the message?)
+
+	Can't Leap		Unused and unnecessary; use "Won't Appear On Veldt" flag instead
+
+	Prevents Joker Doom	This will hard-prevent Slots from spinning 7-7-7, but NOT 7-7-Bar (which
+				can be made to target opponents through confusion). This flag will cease
+				to be effective if the symbols on Slots are rearranged and/or they are
+				hacked to no longer be rigged.
+
+	Won't Appear On Veldt	Formation will not appear on the Veldt if flagged. All formations up to
+				511 are eligible to appear, but starting at 255 (presumably - 362 is the
+				earliest confirmed instance) formations with no eligible monsters (index
+				255 and below) will not appear even without this flag checked.
+
+				To clarify, formations below 255 that appear on the Veldt can be leapt
+				onto even if they contain ineligible enemies - they simply won't add any
+				rages to his list; ProtoArmor and Allo Ver are examples of this.
+
+	Can't Run w/ L+R	Do not use this flag
+
+---------------------------------------------------------------------------------------------------------
+
+	I'm afraid that's all we know, gentlemen.

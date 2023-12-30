@@ -1,0 +1,15 @@
+Breath of Fire Ryu
+------------------
+Authors: Micki Chiba
+Release date: ???
+Forum thread: none
+
+Notes
+-----
+-Missing dead and riding poses.
+-Broken sprite.
+
+
+Use in personal or public projects allowed with proper credits 
+but do not claim as your own.
+

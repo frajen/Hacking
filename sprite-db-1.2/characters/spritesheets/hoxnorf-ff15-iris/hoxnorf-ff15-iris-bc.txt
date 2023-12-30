@@ -1,0 +1,32 @@
+Author: 			HoxNorf
+Character: 			Iris Amicitia
+Attire (Costume):		BC Tileset
+Version (Updates):		1
+Origin: 			Final Fantasy 15
+
+Purpose:			Playable Character for BC Randomizer
+
+Riding Sprites?:		Yes
+Battle KO Sprite?:		Yes
+Terra Sad Sprite?:		No
+
+Palette Notes:
+Index 0 (Transparency):		R 31	G 5	B 0
+Index 1 (Outline):		R 3	G 3	B 3
+Index 2 (Eye Color):		R 31	G 31	B 27
+Index 3 (Pupil Color):		R 8	G 5	B 4
+Index 4 (Lighter Hair):		R 20	G 14	B 10
+Index 5 (Darker Hair):		R 13	G 8	B 5
+Index 6 (Lighter Skin):		R 31	G 27	B 21
+Index 7 (Darker Skin):		R 29	G 16	B 8
+Index 8 (Lighter Clothes 1):	R 10	G 9	B 9
+Index 9 (Darker Clothes 1):	R 5	G 5	B 4
+Index 10 (Lighter Clothes 2):	R 17	G 5	B 5
+Index 11 (Darker Clothes 2):	R 12	G 4	B 4
+Index 12 (Unused Battle 1):	R 6	G 14	B 6
+Index 13 (Unused Battle 2):	R 19	G 26	B 9
+Index 14 (Unused Battle 3):	R 14	G 9	B 7
+Index 15 (Unused Battle 4):	R 22	G 20	B 14
+
+Palette Expansion Patch Needed?:No
+Vanilla Palette?(if so, which):	No

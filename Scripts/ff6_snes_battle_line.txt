@@ -1,0 +1,87 @@
+Failed!!
+Doesn’t have anything!
+Couldn’t steal!!
+Stole <Item> × 1 !
+Can’t control!!
+ Can’t dive!!
+Stumbled!!
+Mugu mugu?
+No money!!
+Can’t run away!!
+Can’t escape!!
+Now weak against fire!
+Now weak against ice!
+Now weak against thunder!
+Now weak against poison!
+Now weak against wind!
+Now weak against pearl power!
+Now weak against earth power!
+Now weak against water!
+Move, and you’re dust!
+Can’t possess!!
+Weak against fire
+Weak against ice
+Weak against lightning
+Weak against poison
+Weak against wind
+Weak against pearl
+Weak against earth
+Weak against water
+Better off <Item>!
+<Item> was crushed!
+Can’t sketch!!
+Got <Item> × 1
+Got <Item> × <VAR2>
+Preemptive attack
+Back attack
+Side attack
+Pincer attack
+Got <VAR2> GP
+Got <VAR1> Exp. point(s)
+Need MP
+Annihilated
+Dispelled curse on shield
+Level was halved!!
+Can’t probe target!
+Learned <Skill>
+<Actor> gained a level
+No weakness
+HP <VAR1>/<VAR2>
+MP <VAR1>/<VAR2>
+<Actor> learned <Skill>
+Devised a new Blitz!
+Level <VAR1>
+Got <VAR1> Magic Point(s)
+Banon fell…
+Fire-element ineffectual
+Ice-element ineffectual
+Lightning-element ineffectual
+Poison-element ineffectual
+Wind-element ineffectual
+Pearl-element ineffectual
+Earth-element ineffectual
+Water-element ineffectual
+<VAR2> GP was stolen!!
+Mastered a new dance!
+Can’t throw!!
+Mastered a new technique!
+Incorrect Blitz input!
+Ogre Nix was broken!
+Casts “Doom” on LV5, 10,…person
+Casts “Flare” on LV4, 8,…person
+Casts “Muddle” on LV3, 6,…person
+???? on wall-protected person
+Pearl attack on level ? enemy
+Level is halved
+Status exchange
+Be confused!
+Imp…ppp…IMP!!
+Revived as a zombie
+You’d best be frozen!
+Protect me!
+Hit your friends ’till they drop!
+You’d best be frozen!
+Mmmm…munch, munch!
+This curse’ll follow you forever!
+Casts away your energy ’till……
+You’d best be a zombie!
